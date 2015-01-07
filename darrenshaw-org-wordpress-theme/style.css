@@ -1,0 +1,396 @@
+/*
+Theme Name: darrenshaw.org Theme
+Theme URI: https://github.com/shawdm/darrenshaw-org-wordpress-theme
+Author: Darren Shaw
+Author URI: http://darrenshaw.org
+Description: Default theme for darrenshaw.org
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: darrenshaw
+*/
+
+
+
+
+/* BOOTSTRAP PAGE OVERRIDES */
+body { 
+    font-family: 'Source Sans Pro', Arial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+a{
+    color: #000;  
+}
+
+a:HOVER{
+    color: #000;   
+}
+
+h1{
+    font-size: 1em;
+    font-weight: 700;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    text-transform: uppercase
+}
+
+h3{
+    font-size: 1.2em;
+    margin-top: 0em;
+    margin-bottom: 0;
+}
+
+p{
+	line-height: 1.6em;
+}
+
+p.subtext{
+    line-height: 1.2em;
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+p.subtext a{
+    text-decoration: underline;
+}
+
+span.first-word{
+    font-weight: 700;
+     font-size: 3em;
+}
+
+.container{
+    width:1395px;
+}
+
+
+.center{
+    text-align: center;   
+}
+
+/* HEADER */
+.header{
+    height: 80px;
+}
+
+.header div{
+    padding-top: 5px;   
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 80px;
+    width:200px;
+}
+
+a.logo:HOVER{
+ text-decoration: none;
+}
+
+a.logo h1{
+    color: #000;
+}
+
+.menu{
+    height: 80px;
+    text-align: right;
+}
+
+.menu ul{
+    padding-top:5px   
+}
+
+.menu ul li a{
+    color: #000;
+}
+
+.menu ul li a:HOVER{
+ text-decoration: none;
+}
+
+.menu ul li.current_page_item{
+    background-color: #000;   
+}
+
+.menu ul li.current_page_item a{
+    color: #fff;
+}
+
+
+.full-bleed-image{
+    background-image: url(images/IMG_0010.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+/* /HEADER */
+
+
+
+/* PROFILE & ABOUT TEXT */
+.col-profile-image{
+    text-align: right;
+    
+}
+
+.profile-image{
+    max-width: 400px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.profile-row{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/* / PROFILE & ABOUT TEXT */
+
+
+/* SHOOT LIST */
+.shoot-thumbnail{
+    width: 100%;
+}
+
+.shoots-row{
+    height: 100%;
+    margin-bottom: 2em;
+}
+
+.shoots-col-picture{
+    height: 100%;
+}
+
+.shoots-col-picture img{
+    width:100%;
+}
+
+.shoots-col-text{
+    border-color: #ccc;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 0.1em;
+}
+/* /SHOOT LIST */
+
+
+
+/* SHOOT DETAIL */
+.shoots-detail-row{
+    /*margin-bottom: 1em;*/
+}
+
+.shoots-detail-col{
+  padding-bottom: 10px;
+}
+
+.shoots-detail-col-left{
+   padding-right: 5px;
+}
+
+.shoots-detail-col-right{
+    padding-left: 5px;
+}
+
+.shoots-detail-col-empty{
+    
+}
+
+.shoots-detail-col-w{
+}
+
+
+.shoots-detail-col img{
+    width:100%;
+}
+
+.shoots-detail-col p.subtext{
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+
+
+.vertical-block{
+    margin-bottom: 15px;   
+}
+
+.vertical-block p{
+    text-align: right;
+}
+
+.vertical-block img{
+    width : 100%;  
+}
+/* /SHOOT DETAIL */
+
+
+/* PORTFOLO */
+.col-masonry{
+    /* only need 10px (not 15px) as 5px comes from masonry image padding */
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+.masonry-block{
+    margin-bottom: 0px; 
+    cursor: pointer;
+    width:25%;
+}
+
+.masonry-block img{
+    width: 100%;
+    padding: 5px;
+}
+
+.grid-sizer{
+    width:25%;
+}
+
+.masonry-wrapper{
+  margin: 0 auto;   
+}
+
+.image-meta{
+    color: #000;
+    position: absolute;
+    bottom: 5px;
+    background-color: #fff;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.image-meta p{
+    margin: 10px;
+}
+/* /PORTFOLO */
+
+
+
+@media (max-width: 1425px){
+    .container{
+        width:1170px;   
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        width:750px;   
+    }
+	
+	.image-meta p{
+        margin:10px;
+    }
+	
+}
+
+
+@media (max-width: 767px) {
+    .container{
+        width:100%;
+    }
+	
+    
+    /* HEADER */
+    .header{
+        height: 90px;
+        margin-bottom: 10px
+    }
+
+    .header div{
+        margin: 0 auto;
+        margin-bottom: 0px;
+    }
+
+    .logo{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        height: 40px;
+        width:200px;
+    }
+
+    .menu{
+        height: 40px;
+        text-align: center; 
+    }
+
+    .menu ul{
+        padding-top:5px   
+    }
+
+    .full-bleed-image{
+        background-image: url(images/IMG_0010_small.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    /* /HEADER */
+    
+    
+    /* PROFILE & ABOUT TEXT */
+    .col-profile-image{
+        text-align: center;
+    }
+
+    .profile-image{
+        max-width: 400px;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .profile-row{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    /* /PROFILE & ABOUT TEXT */
+    
+    
+    /* PORTFOLIO */
+    .masonry-block{
+   
+        width:50%;
+    }
+    .grid-sizer{
+        width:50%;
+    }
+
+    .image-meta{
+     bottom:2px;   
+    }
+    
+    .image-meta p{
+        margin:5px;
+    }
+	
+    .masonry-block img{
+        padding: 2px;   
+    }
+    /* /PORTFOLIO */
+    
+    
+    /* SHOOT LIST */ 
+    .shoots-detail-col-left{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .shoots-detail-col-right{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    
+    .shoots-detail-col-empty{
+     display: none;
+    }
+    
+}
+    /* / SHOOT LIST */
+}
