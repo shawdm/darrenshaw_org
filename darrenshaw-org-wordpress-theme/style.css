@@ -133,6 +133,18 @@ a.logo h1{
 /* /HEADER */
 
 
+/* PAGINATION */
+.pagination-row a{
+    font-size: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* /PAGINATION */
+
 
 /* PROFILE & ABOUT TEXT */
 .col-profile-image{

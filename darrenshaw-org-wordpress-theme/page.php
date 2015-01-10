@@ -12,7 +12,7 @@
     <div class="row profile-row">
         <div class="col-sm-8">
             <p class="subtext">
-                <span class="first-word">Hello!</span> I'm Darren Shaw, a fashion and portrait photographer living and working around Southampton in Hampshire.  I mainly shoot beauty and editorial work. As well as digital, I enjoy working with older film cameras and love soft, naturally lit black and white images. I’m always looking to meet new models, makeup artists and stylists. So if you’re interested in working together, get in touch.
+                <span class="first-word">HELLO!</span> I'm Darren Shaw, a fashion and portrait photographer living and working around Southampton in Hampshire.  I mainly shoot beauty and editorial work. As well as digital, I enjoy working with older film cameras and love soft, naturally lit black and white images. I’m always looking to meet new models, makeup artists and stylists. So if you’re interested in working together, get in touch.
             </p>
             <p class="subtext">
                 - Darren
