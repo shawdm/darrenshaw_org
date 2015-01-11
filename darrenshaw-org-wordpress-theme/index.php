@@ -49,7 +49,7 @@
             
     <?php 
     } 
-    wp_reset_query(); 
+    //wp_reset_query(); 
     ?>
         
     <div class="row pagination-row">
