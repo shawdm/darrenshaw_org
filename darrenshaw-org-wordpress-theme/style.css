@@ -189,6 +189,12 @@ a.logo h1{
     border-top-width: 1px;
     padding-top: 0.1em;
 }
+
+.shoots-col-text p{
+    line-height: 1.2em;
+    font-size: 0.6em;
+    font-weight: 300;
+}
 /* /SHOOT LIST */
 
 
@@ -221,6 +227,8 @@ a.logo h1{
 .shoots-detail-col img{
     width:100%;
 }
+
+
 
 .shoots-detail-col p.subtext{
     text-align: right;

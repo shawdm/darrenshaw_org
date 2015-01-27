@@ -14,7 +14,7 @@
                     <div class="col-sm-12">
                         <div class="shoots-col-text">
                             <h3><?php the_title(); ?></h3>
-                            <p class="subtext"><?php echo get_the_content()?></p>        
+                            <?php echo get_the_content()?>
                         </div>
                     </div>
                 </div>
