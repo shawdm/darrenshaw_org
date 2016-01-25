@@ -9,7 +9,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet" type="text/css">
             
     <!-- Bootstrap -->
     <link href="<?php echo get_template_directory_uri();?>/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
