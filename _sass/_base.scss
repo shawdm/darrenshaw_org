@@ -100,17 +100,16 @@ p{
 .page-content{
   background-color: green;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 article.post{
   width: 100%;
   max-width: $content-width;
-  text-align: justify;
-  background-color: green;
+  max-height: 100vh;
+  background-color: blue;
 }
 
 
