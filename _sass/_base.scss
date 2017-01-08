@@ -98,20 +98,21 @@ p{
  * Main content styling
  */
 .page-content{
-  background-color: green;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  max-width: $content-width;
 }
 
 article.post{
-  width: 100%;
-  max-width: $content-width;
-  max-height: 100vh;
   background-color: blue;
 }
 
+article.post img{
+    width: 133vh; /* assume 4/3 ratio */
+}
 
 p.meta{
   text-align: right;
