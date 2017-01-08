@@ -4,8 +4,6 @@ layout: default
 
 {% for post in site.posts %}
 <article class="post">
-  <div class="post-content">
-    {{ post.content }}
-  </div>
+  <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
 </article>
 {% endfor %}

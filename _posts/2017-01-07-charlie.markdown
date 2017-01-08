@@ -6,5 +6,6 @@ date_written:   2017-01-07 08:00:00 +0000
 location: West Wittering, UK
 categories: front
 excerpt: Charlie L with Pamela Moss Hair and Makeup.
+image: /images/potential-front/IMG_0010_59887.jpg
 ---
 <img src="/images/potential-front/IMG_0010_59887.jpg"/>

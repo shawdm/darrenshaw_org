@@ -98,18 +98,19 @@ p{
  * Main content styling
  */
 .page-content{
-
-}
-
-.page-content iframe{
-  text-align: center;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 article.post{
   width: 100%;
   max-width: $content-width;
-  margin: auto;
   text-align: justify;
+  background-color: green;
 }
 
 
