@@ -107,11 +107,12 @@ p{
 }
 
 article.post{
-  background-color: blue;
+
 }
 
 article.post img{
-    width: 133vh; /* assume 4/3 ratio */
+  width: 133vh; /* assume 4/3 ratio */
+  margin-bottom: -5px; /* I don't understand this, needed to stop extra margin */
 }
 
 p.meta{
