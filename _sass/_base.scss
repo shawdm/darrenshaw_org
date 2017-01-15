@@ -137,12 +137,13 @@ article.about a{
   color: $white-color;
 }
 
-p.meta{
-  text-align: right;
+p.images{
+  text-align: center;
+  height: 80px;
 }
 
-p.meta span{
-  display: block;
+p.images img{
+  height: 100%;
 }
 
 
