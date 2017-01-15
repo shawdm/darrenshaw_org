@@ -127,7 +127,7 @@ article.post img{
 article.about{
   margin: auto;
   width: $content-width;
-  max-width: 100%;
+  max-width: $content-max-width;
   text-align: justify;
 }
 
@@ -181,4 +181,11 @@ p.image img{
 
 p.image-wide{
   width: 100%;
+}
+
+
+@media (max-width: $content-max-width) {
+  article.about{
+    max-width: 100%;
+  }
 }
