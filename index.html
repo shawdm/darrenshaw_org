@@ -2,8 +2,20 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-<article class="post">
-  <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
-</article>
+<div class="page-content">
+{% for post in site.posts limit:1 %}
+  <article class="post">
+    <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+  </article>
 {% endfor %}
+</div>
+
+{% include about.html %}
+
+<div class="page-content">
+{% for post in site.posts offset:1 %}
+  <article class="post">
+    <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+  </article>
+{% endfor %}
+</div>
