@@ -61,7 +61,7 @@ h2{
 }
 
 a{
-  color: $black-color;
+  color: $white-color;
 }
 
 
@@ -103,16 +103,32 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  max-width: $content-width;
+  max-width: $content-max-width;
 }
+
+.page-accent{
+    margin: auto;
+    background-color: $accent-color;
+    color: $white-color;
+    padding-top: $base-line-height;
+    padding-bottom: $base-line-height;
+}
+
 
 article.post{
 
 }
 
 article.post img{
-  width: 133vh; /* assume 4/3 ratio */
+  width: $content-width;
   margin-bottom: -5px; /* I don't understand this, needed to stop extra margin */
+}
+
+article.about{
+  margin: auto;
+  width: $content-width;
+  max-width: 100%;
+  text-align: justify;
 }
 
 p.meta{
@@ -123,49 +139,13 @@ p.meta span{
   display: block;
 }
 
-/**
- * Contents styling
- */
-.page-accent{
-    background-color: $accent-color;
-    color: $white-color;
-    padding-top: $base-line-height;
-    padding-bottom: $base-line-height;
-}
-
-nav.contents{
-  width: 100%;
-  max-width: $content-width;
-  margin: auto;
-  text-align: justify;
-}
-
-nav.contents ul{
-  list-style-type:none;
-}
-
-nav.contents ul li a{
-  color: $white-color;
-  text-decoration: none;
-}
-
-nav.contents ul li p{
-  font-style: italic;
-}
-
-nav.contents ul li span.post-title{
-  font-weight: $heavy-font-weight;
-  font-style: normal;
-}
-
-
 
 /**
  * Footer styling
  */
 footer{
     width: 100%;
-    max-width: $content-width;
+    max-width: $content-max-width;
     margin: auto;
     text-align: justify;
 }
@@ -201,18 +181,4 @@ p.image img{
 
 p.image-wide{
   width: 100%;
-}
-
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
 }
