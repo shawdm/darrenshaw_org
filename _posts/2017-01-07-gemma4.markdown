@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Eric 4"
+title:  "Gemma"
 date:   2017-01-07 08:00:00 +0000
 date_written:   2017-01-07 08:00:00 +0000
 location: Whiteley, UK
 categories: front
 excerpt: Beth with Rachael Kent hair and makeup.
-image: /images/potential-front/DSC0377.jpg
+image: /images/front/gemma_4.jpg
 ---
-<img src="/images/potential-front/DSC5031.jpg"/>
+<img src="/images/front/gemma_4.jpg"/>

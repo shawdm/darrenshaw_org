@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Charlie S"
-date:   2017-01-07 08:00:00 +0000
+title:  "Gemma"
+date:   2017-01-07 08:27:00 +0000
 date_written:   2017-01-07 08:00:00 +0000
 location: Whiteley, UK
 categories: front
 excerpt: Beth with Rachael Kent hair and makeup.
-image: /images/front/charlie_s.jpg
+image: /images/front/jess_2.jpg
 ---
-<img src="/images/front/charlie_s.jpg"/>
+<img src="/images/front/jess_2.jpg"/>
