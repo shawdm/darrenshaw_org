@@ -8,4 +8,4 @@ categories: front
 excerpt: Jess with Pamela Moss hair and makeup.
 image: /images/front/jess_6.jpg
 ---
-<img src="/images/front/jess_6.jpg"/>
+Jess with Pamela Moss hair and makeup.

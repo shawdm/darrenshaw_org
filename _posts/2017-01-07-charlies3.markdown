@@ -8,4 +8,4 @@ categories: front
 excerpt: Charlie.
 image: /images/front/charlie_s_3.jpg
 ---
-<img src="/images/front/charlie_s_3.jpg"/>
+Charlie.

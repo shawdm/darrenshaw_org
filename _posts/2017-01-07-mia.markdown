@@ -8,4 +8,4 @@ categories: front
 excerpt: Mia with Rachael Kent hair and makeup.
 image: /images/front/mia.jpg
 ---
-<img src="/images/front/mia.jpg"/>
+Mia with Rachael Kent hair and makeup.
