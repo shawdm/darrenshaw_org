@@ -78,7 +78,6 @@ img{
 }
 
 
-
 /**
  * Header styling
  */
@@ -100,11 +99,12 @@ header.site{
   flex-direction: row;
 }
 
-
 header.site .banner{
   width: $content-left-width;
+  min-width: $content-left-width;
   padding-right: 20px;
   text-align: right;
+  background-color: orange;
 }
 
 header.site .about{
@@ -144,6 +144,9 @@ section{
 
 section header{
   width: $content-left-width;
+  min-width: $content-left-width;
+  padding-left: 20px;
+  background-color: green;
 }
 section header p{
   text-align: right;
@@ -155,41 +158,6 @@ section article{
   max-width: $content-right-width;
 }
 
-.page-accent{
-    margin: auto;
-    background-color: $accent-color;
-    color: $white-color;
-    padding-top: $base-line-height;
-    padding-bottom: $base-line-height;
-}
-
-article.post{
-
-}
-
-article.post img{
-
-  margin-bottom: -5px; /* I don't understand this, needed to stop extra margin */
-}
-
-article.about{
-  margin: auto;
-  max-width: $content-max-width;
-  text-align: justify;
-}
-
-article.about a{
-  color: $white-color;
-}
-
-p.images{
-  text-align: center;
-  height: 80px;
-}
-
-p.images img{
-  height: 100%;
-}
 
 
 
@@ -213,8 +181,7 @@ footer p{
 
 @media (max-width: $content-max-width){
   p{
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
+
   }
 
   article.about{
