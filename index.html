@@ -3,13 +3,11 @@ layout: default
 ---
 
 <div class="page-content">
-{% for post in site.posts%}
   <section>
-    <header>{{post.content}}</header>
+    {% for post in site.posts%}
     <article class="post">
       <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
     </article>
+    {% endfor %}
   </section>
-
-{% endfor %}
 </div>

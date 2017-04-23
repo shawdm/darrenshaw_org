@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure{
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, img{
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,8 @@ body{
   font-kerning: normal;
 
   min-width: $content-min-width;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
 }
 
 
@@ -81,16 +83,6 @@ img{
 /**
  * Header styling
  */
-header.hero{
-  padding-bottom: $spacing-unit-section;
-  padding-top: $spacing-unit-section;
-  background-color: blue;
-  width: 100%;
-  height: 385px;
-  text-align: center;
-  margin-bottom: $spacing-unit;
-}
-
 header.site{
   max-width: $content-max-width;
   margin-left: auto;
@@ -129,37 +121,28 @@ header a, header a:visited, header a:hover{
  * Main content styling
  */
 .page-content{
+  width: 100%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  max-width: $content-max-width;
+  background-color: red;
 }
 
 section{
-  display: flex;
-  flex-direction: row;
+  column-count: 4;
+  column-gap:$padding-unit;
 }
 
-section header{
-  width: $content-left-width;
-  min-width: $content-left-width;
-  padding-left: 20px;
-  background-color: green;
-}
-section header p{
-  text-align: right;
-  padding-right: $spacing-unit;
-}
-
-section article{
-  flex-grow: 1;
-  max-width: $content-right-width;
+article{
+  break-inside: avoid;
+  padding-bottom: 0px;
+  background-color: yellow;
 }
 
 
+img{
+  margin-bottom: -4px;
+  padding-bottom: $padding-unit;
 
+}
 
 /**
  * Footer styling
@@ -180,8 +163,8 @@ footer p{
 
 
 @media (max-width: $content-max-width){
-  p{
-
+  section{
+    column-count: 2;
   }
 
   article.about{
