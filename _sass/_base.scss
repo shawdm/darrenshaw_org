@@ -84,28 +84,24 @@ img{
  * Header styling
  */
 header.site{
-  max-width: $content-max-width;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: row;
+  padding-top: $padding-unit;
 }
 
 header.site .banner{
-  width: $content-left-width;
-  min-width: $content-left-width;
-  padding-right: 20px;
+  padding-right: $padding-unit;
   text-align: right;
-  background-color: orange;
 }
 
 header.site .about{
   flex-grow: 1;
-  max-width: $content-right-width;
 }
 
 header h1{
-  text-align: right;
   font-size: 2em;
   font-weight: $base-font-weight;
 }
@@ -123,18 +119,16 @@ header a, header a:visited, header a:hover{
 .page-content{
   width: 100%;
   margin: auto;
-  background-color: red;
 }
 
 section{
   column-count: 4;
-  column-gap:$padding-unit;
+  column-gap: $padding-unit;
 }
 
 article{
   break-inside: avoid;
   padding-bottom: 0px;
-  background-color: yellow;
 }
 
 
@@ -163,6 +157,14 @@ footer p{
 
 
 @media (max-width: $content-max-width){
+  header.site{
+    flex-direction: column;
+  }
+
+  header.site .banner{
+    text-align: center;
+  }
+
   section{
     column-count: 2;
   }
