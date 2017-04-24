@@ -8,4 +8,5 @@ categories: front
 excerpt: Eric with Rachael Kent hair and makeup.
 image: /images/front/eric.jpg
 ---
+![Eric](/images/front/eric.jpg)
 Eric with Rachael Kent hair and makeup.

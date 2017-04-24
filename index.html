@@ -5,9 +5,11 @@ layout: default
 <div class="page-content">
   <section>
     {% for post in site.posts%}
-    <article class="post">
-      <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
-    </article>
+    <a href="{{ post.url }}">
+      <article class="post">
+        <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+      </article>
+    </a>
     {% endfor %}
   </section>
 </div>

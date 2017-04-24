@@ -25,13 +25,13 @@ $yellow-color: #fffd38;
 
 
 // Layout Settings
-$content-max-width: 900px;
-$content-min-width: 400px;
-$content-left-width: 300px;
-$content-right-width: 600px;
 $spacing-unit-section: 70px;
 $spacing-unit: 20px;
 $padding-unit: 5px;
+
+// Widths for responsive switch points
+$content-full-width-min: 900px;
+$content-medium-width-min: 414px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
