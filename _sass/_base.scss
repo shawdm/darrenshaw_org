@@ -52,7 +52,7 @@ h1{
 }
 
 h1 span.date{
-  font-weight: $base-font-weight
+  font-weight: $base-font-weight;
 }
 
 h2{
@@ -100,7 +100,7 @@ header.site .about{
   flex-grow: 1;
 }
 
-header h1{
+header.site h1{
   font-size: 2em;
   font-weight: $base-font-weight;
 }
@@ -111,15 +111,18 @@ header a, header a:visited, header a:hover{
 }
 
 
-
 /**
- * Main content styling
+ * Site content styling
  */
 .page-content{
   width: 100%;
   margin: auto;
 }
 
+
+/**
+ * Home page content styling
+ */
 section{
   column-count: 4;
   -webkit-column-count: 4;
@@ -138,8 +141,16 @@ article{
 img{
   margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
   padding-bottom: $padding-unit;
-
 }
+
+/**
+ * Individual post content styling
+ */
+ article.post{
+  max-width: $content-full-width-min;
+  margin-left: auto;
+  margin-right: auto;
+ }
 
 /**
  * Footer styling

@@ -4,12 +4,13 @@ layout: default
 
 <div class="page-content">
   <section>
-    {% for post in site.posts%}
-    <a href="{{ post.url }}">
-      <article class="post">
-        <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
-      </article>
-    </a>
+    {% comment %}Get all posts with the front catgeory set.{% endcomment %}
+    {% for post in site.categories.front%}
+      <a href="{{ post.url }}">
+        <article class="post">
+          <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+        </article>
+      </a>
     {% endfor %}
   </section>
 </div>

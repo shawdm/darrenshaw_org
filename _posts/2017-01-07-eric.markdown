@@ -10,3 +10,6 @@ image: /images/front/eric.jpg
 ---
 ![Eric](/images/front/eric.jpg)
 Eric with Rachael Kent hair and makeup.
+
+![Eric 2](/images/front/eric_3.jpg)
+More of Eric with Rachael Kent hair and makeup.
