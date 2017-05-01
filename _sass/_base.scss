@@ -32,8 +32,12 @@ body{
   font-feature-settings: "kern" 1;
   font-kerning: normal;
 
+  max-width: $content-max-width;
+  width: 100%;
   padding-left: $padding-unit;
   padding-right: $padding-unit;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -82,11 +86,11 @@ img{
 /**
  * Header styling
  */
-header.site{
+header{
   width: 100%;
-  max-width: $content-max-width;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+header.site{
   display: flex;
   flex-direction: row;
   padding-top: $padding-unit;
@@ -106,6 +110,23 @@ header.site h1{
   font-weight: $base-font-weight;
 }
 
+header.hero{
+  height: 800px;
+  background-image: url(../images/hero/charlie-2800-800.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: $padding-unit;
+  margin-bottom: $padding-unit;
+}
+
+header.mini-hero{
+  height: 100px;
+  background-image: url(../images/hero/charlie-2800-100.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: $padding-unit;
+}
+
 header a, header a:visited, header a:hover{
   text-decoration: none;
   color: $black-color;
@@ -117,8 +138,6 @@ header a, header a:visited, header a:hover{
  */
 .page-content{
   width: 100%;
-  max-width: $content-max-width;
-  margin: auto;
 }
 
 
@@ -170,8 +189,42 @@ footer p{
 }
 
 
+@media (max-width: $break-max-width-min){
+  header.hero{
+    height: 571px;
+    background-image: url(../images/hero/charlie-2000-571.jpg);
+  }
 
-@media (max-width: $break-full-width-min){
+  header.mini-hero{
+    height: 100px;
+    background-image: url(../images/hero/charlie-2000-100.jpg);
+  }
+}
+
+
+@media (max-width: $break-large-width-min){
+  header.hero{
+    height: 500px;
+    background-image: url(../images/hero/charlie-1400-500.jpg);
+  }
+
+  header.mini-hero{
+    height: 100px;
+    background-image: url(../images/hero/charlie-1400-100.jpg);
+  }
+}
+
+@media (max-width: $break-medium-width-min){
+  header.hero{
+    height: 400px;
+    background-image: url(../images/hero/charlie-1000-400.jpg);
+  }
+
+  header.mini-hero{
+    height: 100px;
+    background-image: url(../images/hero/charlie-1000-100.jpg);
+  }
+
   header.site{
     flex-direction: column;
   }
@@ -188,7 +241,17 @@ footer p{
 }
 
 
-@media (max-width: $break-medium-width-min){
+@media (max-width: $break-small-width-min){
+  header.hero{
+    height: 300px;
+    background-image: url(../images/hero/charlie-414-300.jpg);
+  }
+
+  header.mini-hero{
+    height: 100px;
+    background-image: url(../images/hero/charlie-414-100.jpg);
+  }
+
   section{
     column-count: 1;
     -webkit-column-count: 1;
