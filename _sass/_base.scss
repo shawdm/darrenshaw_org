@@ -49,8 +49,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
+  text-align: left;
   font-size: 1.4rem;
-  line-height: 1.4rem;
+  line-height: 2.8rem;
   font-weight: $heavy-font-weight;
   margin-bottom: 0.425rem;
 }
@@ -94,6 +95,9 @@ header.site{
   display: flex;
   flex-direction: row;
   padding-top: $padding-unit;
+  max-width: $break-large-width-min;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header.site .banner{
@@ -125,6 +129,7 @@ header.mini-hero{
   background-size: cover;
   background-position: center;
   margin-top: $padding-unit;
+  margin-bottom: $padding-unit;
 }
 
 header a, header a:visited, header a:hover{
@@ -168,9 +173,25 @@ img{
  * Individual post content styling
  */
  article.post{
-  max-width: $image-max-width;
-  margin-left: auto;
-  margin-right: auto;
+   max-width: $break-large-width-min;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ article.post section{
+   column-count: 2;
+   -webkit-column-count: 2;
+   -moz-column-count: 2;
+
+   column-gap: $padding-unit;
+   -webkit-column-gap: $padding-unit;
+   -moz-column-gap: $padding-unit;
+
+ }
+
+
+ p.meta{
+   text-align: right;
  }
 
 /**
@@ -238,6 +259,12 @@ footer p{
     -webkit-column-count: 2;
     -moz-column-count: 2;
   }
+
+   article.post section{
+     column-count: 1;
+     -webkit-column-count: 1;
+     -moz-column-count: 1;
+   }
 }
 
 
