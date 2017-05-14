@@ -4,8 +4,7 @@ title:  "Beth"
 date:   2017-04-24 08:28:00 +0000
 date_written:   2017-04-24 08:28:00 +0000
 location: Whiteley, UK
-categories: tech
+categories: blog
 excerpt: This is a tech post
-image: /images/front/beth.jpg
 ---
 This is a tech post and shouldn't appear in the portfolio section.

@@ -1,7 +1,6 @@
 ---
 layout: hero
 ---
-
 <div class="page-content">
   <section>
     {% comment %}Get all posts with the front catgeory set.{% endcomment %}
@@ -9,6 +8,19 @@ layout: hero
       <a href="{{ post.url }}">
         <article class="post">
           <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+        </article>
+      </a>
+    {% endfor %}
+  </section>
+</div>
+
+<div class="page-content">
+  <section>
+    {% comment %}Get all posts with the blog catgeory set.{% endcomment %}
+    {% for post in site.categories.blog%}
+      <a href="{{ post.url }}">
+        <article class="post">
+        {{post.content}}
         </article>
       </a>
     {% endfor %}
