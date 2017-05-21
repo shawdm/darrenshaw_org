@@ -137,6 +137,10 @@ header a, header a:visited, header a:hover{
   color: $black-color;
 }
 
+header p a{
+  text-decoration: underline;
+}
+
 
 /**
  * Site content styling

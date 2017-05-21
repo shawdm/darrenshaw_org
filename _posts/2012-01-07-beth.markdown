@@ -6,6 +6,6 @@ date_written: 2012-01-07 08:01:00 +0000
 location: Fareham, UK
 categories: front
 excerpt: Beth with Rachael Kent hair and makeup.
-image: /images/2012/beth/20120907-2.jpg
+image: /images/2012/beth/20120907-1.jpg
 ---
 Beth with Rachael Kent hair and makeup.

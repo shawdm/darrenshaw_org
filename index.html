@@ -5,11 +5,9 @@ layout: hero
   <section>
     {% comment %}Get all posts with the front catgeory set.{% endcomment %}
     {% for post in site.categories.front%}
-      <a href="{{ post.url }}">
-        <article class="post">
-          <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
-        </article>
-      </a>
+      <article class="post">
+        <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+      </article>
     {% endfor %}
   </section>
 </div>
