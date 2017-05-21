@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Charlie"
+date:   2016-01-07 08:01:00 +0000
+date_written: 2016-01-07 08:01:00 +0000
+location: Fareham, UK
+categories: front
+excerpt: Charlie with Pamela Moss hair and makeup.
+image: /images/2016/charlie/20160904-3.jpg
+---
+Charlie with Pamela Moss hair and makeup.

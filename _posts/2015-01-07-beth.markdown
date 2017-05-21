@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Beth"
-date:   2017-01-07 08:27:00 +0000
-date_written:   2017-01-07 08:00:00 +0000
-location: Whiteley, UK
+date:   2015-01-07 08:01:00 +0000
+date_written: 2015-01-07 08:01:00 +0000
+location: Fareham, UK
 categories: front
 excerpt: Beth with Rachael Kent hair and makeup.
-image: /images/2017/beth/20170501-8.jpg
+image: /images/2015/beth/20150919-1.jpg
 ---
 Beth with Rachael Kent hair and makeup.

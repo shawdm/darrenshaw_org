@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Beth"
+date:   2012-01-07 08:01:00 +0000
+date_written: 2012-01-07 08:01:00 +0000
+location: Fareham, UK
+categories: front
+excerpt: Julie with Rachael Kent hair and makeup.
+image: /images/2012/julie/20120810-1.jpg
+---
+Julie with Rachael Kent hair and makeup.

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Julia"
+date:   2016-01-07 08:01:00 +0000
+date_written: 2016-01-07 08:01:00 +0000
+location: Fareham, UK
+categories: front
+excerpt: Julia with Pamela Moss hair and makeup.
+image: /images/2016/julia/20160210-1.jpg
+---
+Julia with Pamela Moss hair and makeup.

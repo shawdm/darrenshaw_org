@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Mia"
+date:   2012-01-07 08:01:00 +0000
+date_written: 2012-01-07 08:01:00 +0000
+location: Fareham, UK
+categories: front
+excerpt: Mia with Rachael Kent hair and makeup.
+image: /images/2012/mia/20120114-3.jpg
+---
+Mia with Rachael Kent hair and makeup.

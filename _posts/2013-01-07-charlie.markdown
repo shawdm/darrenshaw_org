@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Charlie"
+date:   2013-01-07 08:01:00 +0000
+date_written: 2013-01-07 08:01:00 +0000
+location: West Wittering, UK
+categories: front
+excerpt: Charlie with Pamela Moss hair and makeup.
+image: /images/2013/charlie/20130726-6.jpg
+---
+Charlie with Pamela Moss hair and makeup.

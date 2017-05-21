@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Julie"
+date:   2014-01-07 08:01:00 +0000
+date_written: 2014-01-07 08:01:00 +0000
+location: Ropley, UK
+categories: front
+excerpt: Julie with Pamela Moss hair and makeup.
+image: /images/2014/julie/20140718-2.jpg
+---
+Julie with Pamela Moss hair and makeup.
