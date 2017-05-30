@@ -8,4 +8,5 @@ categories: front
 excerpt: Brigita with Rachael Kent hair and makeup.
 image: /images/2012/brigita/20121102-1.jpg
 ---
+<img src='/images/2012/brigita/20121102-1.jpg'/>
 Brigita with Rachael Kent hair and makeup.

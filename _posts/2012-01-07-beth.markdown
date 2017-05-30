@@ -8,4 +8,5 @@ categories: front
 excerpt: Beth with Rachael Kent hair and makeup.
 image: /images/2012/beth/20120907-1.jpg
 ---
+<img src='/images/2012/beth/20120907-1.jpg'/>
 Beth with Rachael Kent hair and makeup.

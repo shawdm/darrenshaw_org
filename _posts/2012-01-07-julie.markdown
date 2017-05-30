@@ -8,4 +8,5 @@ categories: front
 excerpt: Julie with Rachael Kent hair and makeup.
 image: /images/2012/julie/20120810-1.jpg
 ---
+<img src='/images/2012/julie/20120810-1.jpg'/>
 Julie with Rachael Kent hair and makeup.

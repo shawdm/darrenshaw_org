@@ -8,4 +8,5 @@ categories: front
 excerpt: Eric.
 image: /images/2015/eric/20150124-1.jpg
 ---
-Eric.
+<img src='/images/2015/eric/20150124-1.jpg'/>
+Eric. 

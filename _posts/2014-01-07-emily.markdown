@@ -8,4 +8,5 @@ categories: front
 excerpt: Emily.
 image: /images/2014/emily/20140524-1.jpg
 ---
+<img src='/images/2014/emily/20140524-1.jpg'/>
 Emily.

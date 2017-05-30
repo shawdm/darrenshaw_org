@@ -8,4 +8,5 @@ categories: front
 excerpt: Charlie S
 image: /images/2014/charlie-s/20140906-2.jpg
 ---
+<img src='/images/2014/charlie-s/20140906-2.jpg'/>
 Charlie S.

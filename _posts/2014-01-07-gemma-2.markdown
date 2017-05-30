@@ -8,4 +8,5 @@ categories: front
 excerpt: Gemma with Rachael Kent hair and makeup.
 image: /images/2014/gemma-2/20141215-6.jpg
 ---
+<img src='/images/2014/gemma-2/20141215-6.jpg'/>
 Gemma with Rachael Kent hair and makeup.

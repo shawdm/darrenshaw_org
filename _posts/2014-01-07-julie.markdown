@@ -8,4 +8,5 @@ categories: front
 excerpt: Julie with Pamela Moss hair and makeup.
 image: /images/2014/julie/20140718-2.jpg
 ---
+<img src='/images/2014/julie/20140718-2.jpg'/>
 Julie with Pamela Moss hair and makeup.

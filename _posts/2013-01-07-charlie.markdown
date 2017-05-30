@@ -8,4 +8,5 @@ categories: front
 excerpt: Charlie with Pamela Moss hair and makeup.
 image: /images/2013/charlie/20130726-6.jpg
 ---
+<img src='/images/2013/charlie/20130726-6.jpg'/>
 Charlie with Pamela Moss hair and makeup.

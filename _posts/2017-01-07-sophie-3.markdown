@@ -8,4 +8,5 @@ categories: front
 excerpt: Sophie with Pamela Moss hair and makeup.
 image: /images/2017/sophie/20170225-1.jpg
 ---
+<img src='/images/2017/sophie/20170225-1.jpg'/>
 Sophie with Pamela Moss hair and makeup.
