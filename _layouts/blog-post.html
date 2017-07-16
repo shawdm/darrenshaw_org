@@ -4,11 +4,13 @@
     {% include head-core.html %}
   </head>
 
-  <body>
-
+  <body class='blog-post'>
     {% include header.html %}
-
-    {{ content }}
+    <article>
+      <section>
+        {{ content }}
+      </section>
+    </article>
 
     {% include footer.html %}
 

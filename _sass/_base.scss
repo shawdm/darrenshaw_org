@@ -34,8 +34,6 @@ body{
 
   max-width: $content-max-width;
   width: 100%;
-  padding-left: $padding-unit;
-  padding-right: $padding-unit;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
   text-align: left;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 2.8rem;
   font-weight: $heavy-font-weight;
   margin-bottom: 0.425rem;
@@ -61,11 +59,11 @@ h1 span.date{
 }
 
 h2{
-  font-size: 1.25rem;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2.8rem;
   font-weight: $heavy-font-weight;
-  line-height: 1.25rem;
-  margin-top: 0.825rem;
-  margin-bottom: 0.425rem;
+  padding-top: 0.425rem;
 }
 
 a{
@@ -79,22 +77,33 @@ p{
   line-height: $base-line-height
 }
 
+p.subtext{
+  font-size: $small-font-size;
+  line-height: $small-line-height;
+  max-width: 400px;
+}
+
 img{
   max-width: 100%;
+  margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
+  padding-bottom: $padding-unit;
 }
+
 
 
 /**
  * Header styling
  */
 header{
-  width: 100%;
+
 }
 
 header.site{
   display: flex;
   flex-direction: row;
   padding-top: $padding-unit;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
   max-width: $break-large-width-min;
   margin-left: auto;
   margin-right: auto;
@@ -110,7 +119,6 @@ header.site .about{
 }
 
 header.site h1{
-  font-size: 2em;
   font-weight: $base-font-weight;
 }
 
@@ -147,6 +155,14 @@ header p a{
  */
 .page-content{
   width: 100%;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
+}
+
+
+.tech-content{
+  background-color: $dark-color;
+  color: $white-color;
 }
 
 
@@ -168,10 +184,31 @@ article{
   padding-bottom: 0px;
 }
 
-img{
-  margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
-  padding-bottom: $padding-unit;
+
+section.blog{
+
 }
+
+section.blog h3{
+  color: $white-color;
+  text-align: left;
+}
+
+section.blog a{
+  text-decoration: none;
+  color: $white-color;
+}
+
+section.blog a:HOVER{
+  text-decoration: underline;
+  color: $white-color;
+}
+
+section.blog a:visited{
+  text-decoration: none;
+  color: $white-color;
+}
+
 
 /**
  * Individual post content styling
@@ -212,6 +249,25 @@ footer p{
   text-align: center;
   line-height: $base-line-height
 }
+
+
+
+/**
+ * Blog Post styling
+ */
+body.blog-post article{
+  max-width: $break-medium-width-min;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
+}
+
+ body.blog-post article section{
+   column-count: 1;
+   -webkit-column-count: 1;
+   -moz-column-count: 1;
+ }
 
 
 @media (max-width: $break-max-width-min){
