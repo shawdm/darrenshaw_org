@@ -163,6 +163,7 @@ header p a{
 .tech-content{
   background-color: $dark-color;
   color: $white-color;
+  padding-top: $spacing-unit;
 }
 
 
@@ -185,8 +186,41 @@ article{
 }
 
 
-section.blog{
+section.intro{
+  column-count: 1;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
 
+section.intro h3{
+  text-align: right;
+  max-width: $caption-max-width;
+}
+
+section.intro p{
+  text-align: right;
+  max-width: $caption-max-width;
+}
+
+
+.tech-content section.intro{
+  align-items: flex-start;
+}
+
+.tech-content section.intro h3{
+  text-align: left;
+}
+
+.tech-content section.intro p{
+  text-align: left;
+}
+
+
+section.blog{
+  padding-top: $spacing-unit;
 }
 
 section.blog h3{
