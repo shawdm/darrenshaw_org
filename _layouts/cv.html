@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head-core.html %}
+  </head>
+
+  <body class='blog-post'>
+
+    {% include header-cv.html %}
+
+    <article>
+      <section>
+        <h1>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h1>
+        {{ content }}
+      </section>
+    </article>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

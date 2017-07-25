@@ -172,16 +172,6 @@ header.hero{
   margin-bottom: $padding-unit;
 }
 
-/*
-header.mini-hero{
-  height: 100px;
-  background-image: url(../images/hero/charlie-2800-100.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: $padding-unit;
-  margin-bottom: $padding-unit;
-}
-*/
 
 header a, header a:visited, header a:hover{
   text-decoration: none;
@@ -192,6 +182,15 @@ header p a{
   text-decoration: underline;
 }
 
+
+img.cv{
+  width: 129px;
+  height: 127px;
+  position: absolute;
+  top: $padding-unit;
+  right: $padding-unit;
+  z-index: 100;
+}
 
 /**
  * Site content styling
