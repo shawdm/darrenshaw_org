@@ -3,6 +3,7 @@ layout: hero
 ---
 <div class="page-content">
   <section class="intro">
+    <a name="photography">
     <h3>PHOTOGRAPHY</h3>
     <p class="subtext">
       Hello! Darren Shaw here, a portrait photographer living and working around Southampton in Hampshire. I mainly shoot beauty and editorial work. As well as digital, I enjoy working with old film cameras and love soft, naturally lit black and white images. I’m always looking to meet new models, makeup artists and stylists. So if you’re interested in working together, <a href="mailto:shawdm@gmail.com">get in touch</a> or find me on <a href="https://twitter.com/shawdm">Twitter</a> or <a href="https://instagram.com/shawdm">Instagram</a>.
@@ -24,16 +25,18 @@ layout: hero
     <h3>!PHOTOGRAPHY</h3>
     </a>
     <p class="subtext">
-      Hello! Darren Shaw here again. I’m a technical lead in IBM’s Emerging Technology group. I’m learning to take portrait and beauty pictures. I'm rubbish at writing bios, but better at replying to <a href="mailto:shawdm@gmail.com">emails</a> and <a href="https://twitter.com/shawdm">Twitter</a>.
+      Hello! Darren Shaw here again. I’m a technical lead in IBM’s Emerging Technology group. I’m learning to take portrait and beauty pictures <a href='#photography'>&uarr;</a>. I'm rubbish at writing bios, but better at replying to <a href="mailto:shawdm@gmail.com">emails</a> and <a href="https://twitter.com/shawdm">Twitter</a>.
     </p>
   </section>
   <section class='blog'>
     {% comment %}Get all posts with the blog catgeory set.{% endcomment %}
     {% for post in site.categories.blog%}
-      <article class="post">
-        <a href="{{ post.url }}"><h3>{{post.title}}</h3></a>
-        <p class='subtext'>{{post.excerpt}}</p>
-      </article>
+      <a href="{{ post.url }}">
+        <article class="post">
+          <h3>{{post.title}} <span class="date">{{post.date_written | date: "%B %Y" }}</span></h3>
+          <p class='subtext'>{{post.excerpt}}...</p>
+        </article>
+      </a>
     {% endfor %}
   </section>
 </div>

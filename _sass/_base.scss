@@ -54,7 +54,7 @@ h1{
   margin-bottom: 0.425rem;
 }
 
-h1 span.date{
+h1 span.date, h3 span.date{
   font-weight: $base-font-weight;
 }
 
@@ -66,6 +66,12 @@ h2{
   padding-top: 0.425rem;
 }
 
+h3{
+  font-size: $medium-font-size;
+  line-height:$base-line-height;
+  font-weight:$heavy-font-weight;
+}
+
 a{
   color: $black-color;
 }
@@ -74,7 +80,7 @@ p{
   padding-left: 0;
   padding-right: 0;
   padding-bottom: $base-line-height;
-  line-height: $base-line-height
+  line-height: $base-line-height;
 }
 
 p.subtext{
@@ -194,6 +200,7 @@ header p a{
   width: 100%;
   padding-left: $padding-unit;
   padding-right: $padding-unit;
+  margin-bottom: $spacing-unit;
 }
 
 
@@ -233,6 +240,8 @@ section.intro{
    display: flex;
    flex-direction: column;
    align-items: flex-end;
+
+
 }
 
 section.intro h3{
@@ -245,9 +254,11 @@ section.intro p{
   max-width: $caption-max-width;
 }
 
-
 .tech-content section.intro{
   align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-color: $grey-color-dark;
+  border-bottom-width: 1px;
 }
 
 .tech-content section.intro h3{
@@ -261,11 +272,19 @@ section.intro p{
 
 section.blog{
   padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
 }
+
+
 
 section.blog h3{
   color: $white-color;
   text-align: left;
+  display: inline;
+}
+
+section.blog a{
+  text-decoration: none;
 }
 
 
@@ -301,6 +320,7 @@ footer{
     margin: auto;
     text-align: justify;
     padding-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
 }
 
 footer p{
