@@ -35,8 +35,6 @@ body {
   font-kerning: normal;
   max-width: 2820px;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -243,10 +241,11 @@ section.sparklines.expanded .open-close:nth-child(2){
  * Main content styling
  */
 section {
-  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 article {

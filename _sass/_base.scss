@@ -94,10 +94,6 @@ img{
 /**
  * Header styling
  */
-header{
-
-}
-
 header.site{
   display: flex;
   flex-direction: row;
@@ -122,6 +118,37 @@ header.site h1{
   font-weight: $base-font-weight;
 }
 
+header.page{
+  display: flex;
+  flex-direction: row;
+  padding-top: $padding-unit;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
+  margin-bottom: $padding-unit;
+  max-width: $break-large-width-min;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-color: $grey-color-dark;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+header.page .banner{
+  padding-right: $padding-unit;
+  text-align: right;
+}
+
+header.page .about{
+  flex-grow: 1;
+}
+
+header.page h1{
+  font-weight: $base-font-weight;
+  font-size: $small-font-size;
+  line-height: $small-font-size;
+  margin-bottom: 0.425rem;
+}
+
 header.hero{
   height: 800px;
   background-image: url(../images/hero/charlie-2800-800.jpg);
@@ -131,6 +158,7 @@ header.hero{
   margin-bottom: $padding-unit;
 }
 
+/*
 header.mini-hero{
   height: 100px;
   background-image: url(../images/hero/charlie-2800-100.jpg);
@@ -139,6 +167,7 @@ header.mini-hero{
   margin-top: $padding-unit;
   margin-bottom: $padding-unit;
 }
+*/
 
 header a, header a:visited, header a:hover{
   text-decoration: none;
@@ -166,6 +195,9 @@ header p a{
   padding-top: $spacing-unit;
 }
 
+.tech-content a{
+  color: $white-color;
+}
 
 /**
  * Home page content styling
@@ -228,21 +260,6 @@ section.blog h3{
   text-align: left;
 }
 
-section.blog a{
-  text-decoration: none;
-  color: $white-color;
-}
-
-section.blog a:HOVER{
-  text-decoration: underline;
-  color: $white-color;
-}
-
-section.blog a:visited{
-  text-decoration: none;
-  color: $white-color;
-}
-
 
 /**
  * Individual post content styling
@@ -261,13 +278,12 @@ section.blog a:visited{
    column-gap: $padding-unit;
    -webkit-column-gap: $padding-unit;
    -moz-column-gap: $padding-unit;
-
  }
-
 
  p.meta{
    text-align: right;
  }
+
 
 /**
  * Footer styling
@@ -283,7 +299,6 @@ footer p{
   text-align: center;
   line-height: $base-line-height
 }
-
 
 
 /**

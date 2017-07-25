@@ -6,6 +6,8 @@ location: Winchester, UK
 categories: blog
 excerpt: I work in a part of IBM called Emerging Technology. One of the group's responsibilities is to help clients with innovation. We do this by explaining technology, running workshops and helping prototype new ideas. We're often asked how to be innovative. I don't think we have an answer to this, but we do have lots of experience of what has worked and hasn't worked for us.
 ---
+# Experiences of Innovation in Emerging Technology
+
 The last thing anyone wants to read is another "10 tips on how to be innovative". People or groups that genuinely are creative, inspiring or innovative rarely make that claim of themselves. They don't need to. That being said, I'm part of a team in IBM called [Emerging Technology](https://ets.mybluemix.net) and we do run innovation workshops with colleagues, partners and clients. I draw the line at brainstorming and I've only ever uttered the word "ideation" sarcastically. So this is hard for me, but I'm going to write about innovation and explain the little things that have worked for us. I don't think there's a magic formula, but this is our experience. Please don't throw up.
 
 ## Breakfast, Lunch and Tea
