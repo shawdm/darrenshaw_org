@@ -7,6 +7,8 @@ date:   2017-01-04 09:00:00 +0000
 date_written:   2017-01-04 09:00:00 +0000
 excerpt: Over the last three years I've been responsible for helping the US Masters, Roland Garros and primarily Wimbledon understand how people are engaging with the events on social media. Their requirements have led to a messy combination of stream processing, batch processing and static indexing. I've started to look at how a Kappa architecture might help us produce a cleaner solution.
 ---
+# Kappa Architecture on Bluemix
+
 *Over the last three years I've been responsible for helping the US Masters, Roland Garros and primarily Wimbledon understand how people are engaging with the events on social media. Their requirements have led to a messy combination of stream processing, batch processing and static indexing. I've started to look at how a [Kappa architecture](http://milinda.pathirage.org/kappa-architecture.com/) might help us produce a cleaner solution.*
 
 All three sports events are transient in the level of interest they attract, a high volume of activity over a short period of time (1-2 weeks), before receding to a low background level. It is important to each event that the analysis of social media be done in realtime – giving their media teams the opportunity to react to what is being said. They also need to be able to access historical analysis in order to put what is happening now in context.

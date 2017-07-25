@@ -7,7 +7,8 @@ location: Winchester, UK
 categories: blog
 excerpt: Predominant colours of most popular user generated Bobbi Brown videos on YouTube.
 ---
+# Colour of YouTube
 The most popular user generated YouTube videos about Bobbi Brown makeup, analsyed for predominant colour and rendered in order.
 <p class='image-wide'>
-  <img src='/images/work/bobbi-brown.png'/>
+  <img src='/images/blog/bobbi-brown.png'/>
 </p>
