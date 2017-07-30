@@ -2,6 +2,7 @@
 <html>
   <head>
     {% include head-core.html %}
+    <link rel='stylesheet' href='{{"/interactive/cv/css/style.css" | prepend:site.baseurl}}'/>
   </head>
 
   <body class='blog-post'>
@@ -16,7 +17,7 @@
     </article>
 
     {% include footer.html %}
-
+    <script src='{{"/interactive/cv/js/site.js" | prepend:site.baseurl}}'></script>
   </body>
 
 </html>
