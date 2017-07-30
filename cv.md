@@ -1,5 +1,6 @@
 ---
 layout: cv
+permalink: /cv/
 ---
 # Darren Shaw
 *Technical Lead and Full Stack Developer*
