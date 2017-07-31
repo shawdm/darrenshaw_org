@@ -8,17 +8,16 @@ darrenshaw.org / shawdm@gmail.com / @shawdm  / 07740 345674
 
 
 ## Profile
-I'm a technical lead and developer in IBM's Emerging Technology group. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
+I'm a technical lead and developer in IBM's Emerging Technology group. I have 16 years experience in taking ideas and research projects through to proof of concept and production systems. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
 
-I have 16 years experience working on emerging technology, taking ideas and research projects through to proof of concept and production systems for IBM clients. I've gained a reputation for making things work on difficult projects in pressure situations, leading many of IBM's sports event innovation projects since 2013. An (unexpectedly) enjoyable part of this work has been the opportunity to mentor colleagues though these high profile projects.
-
-I believe that a successful innovation project is dependent on identifying the key problems that needs to be solved, being open to other peoples ideas, tackling the difficult parts early and finding a way to communicate what has been achieved.
+I've gained a reputation for making things work on difficult projects in pressure situations, leading many of IBM's sports event innovation projects since 2013. An unexpectedly enjoyable part of this work has been the opportunity to mentor colleagues though these projects.
 
 
 ## Skills
 The technical skills required on emerging technology projects have changed dramatically (**Javascript**, **NodeJS**, **Java**, **PHP**, **CSS**, **DB2**, **MySQL**, **Postgres**, **IBM Watson Machine Learning**, **Apache Spark**), but I've developed the ability to learn new technology quickly, particularly at a stage where it is unreliable and with little or no documentation.
 
 The ability to work both with a customer (presenting project pitches, running design thinking workshops, writing bids) and the development team (design, code and project management) across the full scope of a project is something I enjoy.
+
 
 ## 2001-2017 IBM Emerging Technology
 ### Wimbledon 2017
@@ -29,8 +28,8 @@ Technology Used: Watson Discovery Service, Watson Personality Insights, DB2, Nod
 Lead developer for the chat bot UI, allowing the integration of bot and human customer assistance. The interesting challenge in this project was to not make the integration seamless. Transferring a customer from a bot to a human should not be jarring, but it needed to be clear to the customer who they were talking to.
 Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript.
 
-### US Masters, Roland Garros, Wimbledon 2016
-Technical lead and developer for Machine Leaning based social media analytics.
+### US Masters, Roland Garros, ABM Amro, Wimbledon 2016
+Technical lead and developer for Machine Leaning based social media analytics system.  Machine learning based classifier used to identify content on social media relavant to each tournament.
 Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java
 
 ### Shop Direct
@@ -38,8 +37,11 @@ Technical lead and mentor for an Extreme Blue project to implement a fantasy fas
 Technology Used: PHP, MySQL
 
 ### Homebase
+Technical lead and mentor
 
 ### Wimbledon 2015
+Technical lead and developer for Watson AI based chat bot.  The bot was capable of answering both stats based questions that could be answered from a relational database ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do they keep the pigeons away?"). Machine Learning (Watson Enagagment Advisor) used to train bot to answer unstructured data queries, combined wit Controlled English to answer structrued data queries.
+Technology Used: Watson Engagement Advisor, DB2, NodeJS
 
 ### Wimbledon 2013-2014
 
@@ -48,6 +50,10 @@ Lead developer on a project to construct scale free social networks from unstruc
 Technology Used: Java, DB2, Intelligent Miner for DB2
 
 ### UK Home Office / Police
+
+
+### Design Thinking
+I've run Design Thinking workshops for: Instrumental, Unilever, Shroders, KPMG, Carphone Warehouse, Wimbledon, EDF, British Gas, Stop the Traffik
 
 
 
@@ -121,29 +127,26 @@ Design, Development and Management skills.
 Javascript, Java, Cloud
 
 ## Awards and Publications
-xx patents
-Scale free network analysis patents
-High value patent for
+23 Patents Issued
 
-Wimbledon Awards
-RBS award.
+### IBM High Value Patent Award
+For *Cooperative non-repudiated message exchange in a network environment* a verifiable shared chat transcription log.
 
 
-At the 2016 Sports Technology Awards, IBM and Wimbledon won the “Best Fan Engagement” category against strong competition from the Rugby World Cup and European Golf Tour.  
+### Best Fan Engagement - 2016 Sports Technology Awards
+IBM and Wimbledon won against strong competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development on was referenced in the reasons for the award.
 
+### Hermes Creative Award 2017 - Best Use of User Generated Content
+Watson Poet - I was the lead developer for an AI based system that wrote poems out of social media messages written about 6 Nations rugby matches.
 
-https://enter.hermesawards.com/entry/a-tweet-to-england/
-Hermes Creative Aways - Other -- Best Use of User Generated Content 2017
+### Alsbridge Innvoation Award
+Very on Trend won
 
+### Best use of Social Media - 2015 BT Sports Industry Awards
+Wimbledon 2015 won
 
-* Very on Trend won Alsbridge innovation award
-
-Wimbledon 2015 won Sports Technology Awards - “Best Fan Engagement - Tournament"
-
-
-* Wimbledon 2015 won “Best use of Social Media”, BT Sports Industry Awards https://www.sportindustry.biz/events/awards/2016/winners
-
-"Building a 'living database' for human-machine intelligence analysis" paper presented at Fusion 2015 conference.
+### Building a 'living database' for human-machine intelligence analysis
+I'm a joint author on a paper presented at Fusion 2015 conference.
 
 ## Qualifications
 Computer Science BSc hons (1st class), University of Portsmouth
@@ -152,3 +155,7 @@ A-Levels: Maths, Physics, Computer Science, Electronics (AS)
 
 ## One more thing
 Fashion and portrait photographer, published in fashion, hair and beauty magazines, Guardian, BBC. Shot the cover of ....
+
+
+## Opinions
+I believe that a successful innovation project is dependent on identifying the key problems that needs to be solved, being open to other peoples ideas, tackling the difficult parts early and finding a way to communicate what has been achieved.
