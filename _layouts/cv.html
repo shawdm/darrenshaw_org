@@ -3,6 +3,7 @@
   <head>
     {% include head-core.html %}
     <link rel='stylesheet' href='{{"/interactive/cv/css/style.css" | prepend:site.baseurl}}'/>
+    <link rel='stylesheet' href='{{"/interactive/cv/css/print.css" | prepend:site.baseurl}}' media="print"/>
   </head>
 
   <body class='blog-post'>
@@ -10,6 +11,9 @@
     {% include header-cv.html %}
 
     <article>
+      <section class='headline'>
+        <img src='{{"/images/site/darren_shaw_circle.png" | prepend:site.baseurl}}' class='profile'/>
+      </section>
       <section>
         <h1>{{page.title}} <span class='date'>Technical Lead and Full Stack Developer</span></h1>
         {{ content }}

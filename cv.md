@@ -3,7 +3,8 @@ layout: cv
 permalink: /cv/
 title: Darren Shaw
 ---
-darrenshaw.org / shawdm@gmail.com / @shawdm  / 07740 345674
+
+#### [darrenshaw.org](https://darrenshaw.org "Darren Shaw") / [shawdm@gmail.com](mailto:shawdm@gmail.com "Email Darren Shaw") / [@shawdm](https://twitter.com/shawdm "Darren Shaw on Twitter")  / 07740 345674
 
 ## Profile
 I'm a technical lead and developer in IBM's Emerging Technology group. I have 16 years experience in taking ideas and research projects through to proof of concept and production systems. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
