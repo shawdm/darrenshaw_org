@@ -14,6 +14,7 @@ I have a reputation for making things work on difficult projects in pressure sit
 
 
 ## 2001-2017 IBM Emerging Technology
+
 ### Wimbledon (2017)
 Technical lead and developer for *WhatMakesGreat*, a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
 Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundary/Bluemix
@@ -51,6 +52,7 @@ The ability to work both with a customer (presenting project pitches, running de
 
 
 ## Awards and Publications
+
 ### 23 Patents Issued
 Including IBM's High Value Patent Award for "*Cooperative non-repudiated message exchange in a network environment*" a verifiable, shared chat transcription log.
 
