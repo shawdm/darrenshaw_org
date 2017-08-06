@@ -12,9 +12,17 @@ $base-font-size:   16px;
 $base-line-height: 1.25rem; /* 20px - everything needs to fit in multiples of this to maintain vertical rhythm */
 $double-line-height: 2.5rem;
 
+$medium-font-size: 1.25rem;
+
+
+$small-font-size: 0.625rem; /* 10px */
+$small-line-height: 0.9375rem; /* 15px */
+
+$caption-max-width: 200px;
 
 // Colour Settings
 $black-color: #111;
+$dark-color: #404040;
 $white-color: #fff;
 $accent-color: #cad0db;
 

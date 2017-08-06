@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+}
+
+h4{
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+section.headline{
+  text-align: center;
+}
+
+section.headline img{
+  width: 100px;
+  height: 100px;
+}
