@@ -3,7 +3,6 @@ layout: cv
 permalink: /cv/
 title: Darren Shaw
 ---
-
 #### [darrenshaw.org](https://darrenshaw.org "Darren Shaw") / [shawdm@gmail.com](mailto:shawdm@gmail.com "Email Darren Shaw") / [@shawdm](https://twitter.com/shawdm "Darren Shaw on Twitter")  / 07740 345673
 
 
@@ -24,27 +23,26 @@ Lead developer for the chat user interface. The interesting challenge was to avo
 Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix
 
 ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
-Technical lead and developer for a machine leaning based real time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament. Keywords as a means for selecting  content had proved unsatisfactory because of the almost random topics that are discussed in the context of a sports event. At peak, the system analysed 400 messages per second. It was used by Wimbledon to direct their social media content.
+Technical lead and developer for a machine leaning based real time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament. Keywords as a means for selecting  content had proved unsatisfactory because of the almost random topics that are discussed in the context of a sports event. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media content.
 Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix
 
 ### Wimbledon (2015)
-Technical lead and developer for an AI based chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning was used to train the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
+Technical lead and developer for an AI based chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
 Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix
 
 ### Design Thinking (2014-2017)
-I've lead Design Thinking workshops and projects since 2014. I piloted the technique in the Emerging Technology  group in 2014. I adapted the process and led the first Design Thinking workshops with UK IBM clients. I've run workshops for: Instrumental, Unilever, KPMG, Carphone Warehouse, Wimbledon, EDF, British Gas and Stop the Traffik.
+I've led Design Thinking workshops and projects since 2014. I piloted the technique in the Emerging Technology  group in 2014. I adapted the process and led the first Design Thinking workshops with UK IBM clients. I've run workshops for: Instrumental, Unilever, KPMG, Carphone Warehouse, Wimbledon, EDF, British Gas and Stop the Traffik.
 
 ### Homebase (2014)
-Technical lead and mentor for an Extreme Blue project to prototype click and collect ordering using Homebase's existing store infrastructure. The developed mobile app provided a better customer experience and a simpler process for employees. The design decisions Homebase to maximise the value of their staff to customers, something online retailers could not compete with.
+Technical lead and mentor for an Extreme Blue project to prototype click and collect ordering using Homebase's existing store infrastructure. The mobile app provided a better customer experience and a simpler process for employees. The design decisions allowed Homebase to maximise the value of their in-store staff, something online retailers could not compete with.
 Technology Used: NodeJS, Javascript, Ionic
 
 ### Shop Direct Fantasy Fashion (2013)
-Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct with their *Very* brand. The project allowed customers to predict fashion trends, increasing their time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
+Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's *Very* brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
 Technology Used: PHP, MySQL
 
-
 ### Meedan (2009)
-Development lead on a Arabic-English social network, Meedan. Meedan's mission was to improve cross cultural dialogue and understanding. I lead the development of their social network using statistical machine translation to facilitate debate between native English and Arabic speakers. This was an early social network and the first to make use of machine translation. It allowed users to correct machine translations, improving the site and the underlying machine learning algorithms, pre-dating the same approach Google made.
+Meedan's mission was to improve cross cultural dialogue and understanding. I led the development of their social network, using statistical machine translation to facilitate debate between native English and Arabic speakers. This was an early social network and the first to make use of machine translation. It allowed users to correct machine translations, improving the site and the underlying machine learning algorithms, pre-dating the same approach Google used.
 Technology Used: PHP, MySQL, IBM Research Machine Translation
 
 ## Skills
@@ -64,7 +62,7 @@ Including IBM's High Value Patent Award for "*Cooperative non-repudiated message
 I was the lead developer for *Watson Poet*, an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign winning the Hermes award.
 
 ### Best Fan Engagement - 2016 Sports Technology Awards
-IBM and Wimbledon won against strong competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
+IBM and Wimbledon won against competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
 
 ### Best use of Social Media - 2015 BT Sports Industry Awards
 IBM and Wimbledon won the award for best use of social media in sports events. I was the technical lead on Wimbledon's social media analytics tools, referenced in the award.
