@@ -43,6 +43,10 @@ Technical lead and mentor for an Extreme Blue project to prototype a fantasy fas
 Technology Used: PHP, MySQL
 
 
+### Meedan (2009)
+Development lead on a Arabic-English social network, Meedan. Meedan's mission was to improve cross cultural dialogue and understanding. I lead the development of their social network using statistical machine translation to facilitate debate between native English and Arabic speakers. This was an early social network and the first to make use of machine translation. It allowed users to correct machine translations, improving the site and the underlying machine learning algorithms, pre-dating the same approach Google made.
+Technology Used: PHP, MySQL, IBM Research Machine Translation
+
 ## Skills
 Javascript, NodeJS, Java, PHP, CSS, DB2, MySQL, Postgres, IBM Watson Machine Learning, Apache Spark, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
 
