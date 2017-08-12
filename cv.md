@@ -7,7 +7,7 @@ title: CV
 
 
 ## Profile
-I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking ideas from research through to proof of concept and production systems. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
+I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking ideas from research through to proof of concept and production systems. I've been responsible for the successful delivery of projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
 
 I have a reputation for making things work on difficult projects in pressure situations, leading many of IBM's sports event innovation projects since 2013.
 
@@ -15,9 +15,9 @@ I have a reputation for making things work on difficult projects in pressure sit
 ## Skills
 Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
 
-I am able to learn new technology quickly, particularly at a stage where it is unreliable and with little documentation. The ability to work both with a customer (presenting project pitches, running design thinking workshops, writing bids) and the development team (design, code, project management and mentoring) across the full scope of a project is something I enjoy.
+I am able to learn new technology quickly, particularly at a stage where it is unreliable and with little documentation. The ability to work both with a customer (presenting project pitches, running Design Thinking workshops, writing bids and requirements documents) and the development team (design, code, project management and mentoring) across the full scope of a project is something I enjoy.
 
-Initially a weakness, mentoring is a skill I've developed in recent years and is now something that I take satisfaction from and am known for.
+Initially a weakness, mentoring is a skill I've developed in recent years and is now something that I take satisfaction from and have a reputation for.
 
 
 ## 2001-2017 IBM Emerging Technology
@@ -33,12 +33,12 @@ Lead developer for the chat user interface. The interesting challenge was to avo
 Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix.
 
 ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
-Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the content. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
+Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the text. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
 
 Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix.
 
 ### Wimbledon (2015)
-Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
+Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
 
 Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix.
 
@@ -51,7 +51,7 @@ Technical lead and mentor for an Extreme Blue project to prototype click and col
 Technology Used: NodeJS, Javascript, Ionic.
 
 ### Shop Direct Fantasy Fashion (2013)
-Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's *Very* brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
+Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
 
 Technology Used: PHP, MySQL.
 
@@ -67,7 +67,7 @@ Technology Used: PHP, MySQL, IBM Research Machine Translation.
 Including IBM's High Value Patent Award for "Cooperative non-repudiated message exchange in a network environment" a verifiable, shared chat transcription log.
 
 ### Hermes Creative Award 2017 - Best Use of User Generated Content
-I was the lead developer for "Watson Poet", an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign winning the Hermes award.
+I was the lead developer for "Watson Poet", an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign, winning the Hermes award.
 
 ### Best Fan Engagement - 2016 Sports Technology Awards
 IBM and Wimbledon won against competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
@@ -83,7 +83,7 @@ Joint author on a paper presented at Fusion 2015. The paper proposed a new way f
 
 
 ## Education
-Computer Science BSc hons (1st class), University of Portsmouth, sponsored by IBM.
+Computer Science BSc (Hons), 1st class, University of Portsmouth, sponsored by IBM.
 
 
 ## Also...
