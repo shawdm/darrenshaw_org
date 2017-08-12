@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Darren Shaw
+title: CV
 ---
 #### [darrenshaw.org](https://darrenshaw.org "Darren Shaw") / [shawdm@gmail.com](mailto:shawdm@gmail.com "Email Darren Shaw") / [@shawdm](https://twitter.com/shawdm "Darren Shaw on Twitter")  / 07740 345673
 
