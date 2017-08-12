@@ -51,7 +51,7 @@ h1{
   font-size: 2rem;
   line-height: 2.8rem;
   font-weight: $heavy-font-weight;
-  margin-bottom: 0.425rem;
+  /*margin-bottom: 0.425rem;*/
 }
 
 h1 span.date, h3 span.date{
@@ -124,9 +124,6 @@ header.site .banner{
   text-align: right;
 }
 
-header.site .about{
-  flex-grow: 1;
-}
 
 header.site h1{
   font-weight: $base-font-weight;
@@ -138,7 +135,7 @@ header.page{
   padding-top: $padding-unit;
   padding-left: 0;
   padding-right: 0;
-  margin-bottom: $spacing-unit;
+  margin-bottom: $double-spacing-unit;
   max-width: $break-large-width-min;
   margin-left: $padding-unit;
   margin-right: $padding-unit;
@@ -150,10 +147,6 @@ header.page{
 header.page .banner{
   padding-right: $padding-unit;
   text-align: right;
-}
-
-header.page .about{
-  flex-grow: 1;
 }
 
 header.page h1{
@@ -187,8 +180,8 @@ img.cv{
   width: 94px;
   height: 94px;
   position: absolute;
-  top: $padding-unit;
-  right: $padding-unit;
+  top: $sub-padding-unit;
+  right: $sub-padding-unit;
   z-index: 100;
 }
 
@@ -239,8 +232,6 @@ section.intro{
    display: flex;
    flex-direction: column;
    align-items: flex-end;
-
-
 }
 
 section.intro h3{
@@ -372,6 +363,11 @@ body.blog-post article{
 }
 
 @media (max-width: $break-medium-width-min){
+
+  h1{
+    text-align: center;
+  }
+
   header.hero{
     height: 400px;
     background-image: url(../images/hero/charlie-1000-400.jpg);
@@ -388,6 +384,11 @@ body.blog-post article{
 
   header.site .banner{
     text-align: center;
+  }
+
+  img.cv{
+    width: 70px;
+    height: 70px;
   }
 
   section{
