@@ -7,9 +7,17 @@ title: CV
 
 
 ## Profile
-I'm a technical lead and developer in IBM's Emerging Technology group, with 16 years' experience of taking ideas and research projects through to proof of concept and production systems. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
+I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking ideas from research through to proof of concept and production systems. I've been responsible for the successful delivery of innovation projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
 
-I have a reputation for making things work on difficult projects in pressure situations, leading many of IBM's sports event projects since 2013. An unexpectedly enjoyable part of this work has been the opportunity to mentor colleagues though the projects.
+I have a reputation for making things work on difficult projects in pressure situations, leading many of IBM's sports event innovation projects since 2013.
+
+
+## Skills
+Javascript, NodeJS, Java, PHP, CSS, DB2, MySQL, Postgres, IBM Watson Machine Learning, Apache Spark, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
+
+I am able to learn new technology quickly, particularly at a stage where it is unreliable and with little or no documentation. The ability to work both with a customer (presenting project pitches, running design thinking workshops, writing bids) and the development team (design, code, project management and mentoring) across the full scope of a project is something I enjoy.
+
+Initially a weakness, mentoring is a skill I've developed in recent years and is now something that I take satisfaction from and am known for.
 
 
 ## 2001-2017 IBM Emerging Technology
@@ -42,24 +50,18 @@ Technical lead and mentor for an Extreme Blue project to prototype a fantasy fas
 Technology Used: PHP, MySQL
 
 ### Meedan (2009)
-Meedan's mission was to improve cross cultural dialogue and understanding. I led the development of their social network, using statistical machine translation to facilitate debate between native English and Arabic speakers. This was an early social network and the first to make use of machine translation. It allowed users to correct machine translations, improving the site and the underlying machine learning algorithms, pre-dating the same approach Google used.
+Technical lead for Meedan's social network, using statistical machine translation to facilitate debate between native English and Arabic speakers. This was an early social network and the first to make use of machine translation. It allowed users to correct machine translations, improving both the site and the underlying machine translation algorithms, pre-dating the same approach Google used.
 Technology Used: PHP, MySQL, IBM Research Machine Translation
 
-## Skills
-Javascript, NodeJS, Java, PHP, CSS, DB2, MySQL, Postgres, IBM Watson Machine Learning, Apache Spark, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
-
-I have the capacity to learn new technology quickly, particularly at a stage where it is unreliable and with little or no documentation.
-
-The ability to work both with a customer (presenting project pitches, running design thinking workshops, writing bids) and the development team (design, code and project management) across the full scope of a project is something I enjoy.
 
 
 ## Awards and Publications
 
 ### 23 Patents Issued
-Including IBM's High Value Patent Award for "*Cooperative non-repudiated message exchange in a network environment*" a verifiable, shared chat transcription log.
+Including IBM's High Value Patent Award for "Cooperative non-repudiated message exchange in a network environment" a verifiable, shared chat transcription log.
 
 ### Hermes Creative Award 2017 - Best Use of User Generated Content
-I was the lead developer for *Watson Poet*, an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign winning the Hermes award.
+I was the lead developer for "Watson Poet", an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign winning the Hermes award.
 
 ### Best Fan Engagement - 2016 Sports Technology Awards
 IBM and Wimbledon won against competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
@@ -80,4 +82,4 @@ Sponsored by IBM
 
 
 ## Also...
-I'm a (still learning) <a href='/'>fashion and portrait photographer</a>. I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly and I've shot a cover of HairNow.
+I'm a (still learning) <a href='/'>fashion and portrait photographer</a>. I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly and I shot a cover of HairNow.

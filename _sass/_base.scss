@@ -426,6 +426,11 @@ body.blog-post article{
     -moz-column-count: 1;
   }
 
+  section.intro p{
+    max-width: 100%;
+    text-align: left;
+  }
+
   p.embed iframe {
       height: 240px;
   }
