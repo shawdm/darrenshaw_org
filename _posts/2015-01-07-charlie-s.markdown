@@ -6,7 +6,7 @@ date_written: 2015-01-07 08:01:00 +0000
 location: Fareham, UK
 categories: front
 excerpt: Charlie S.
-image: /images/2015/charlie-s/20150128-2.jpg
+image: images/2015/charlie-s/20150128-2.jpg
 ---
 <img src='/images/2015/charlie-s/20150128-2.jpg'/>
 Charlie S.

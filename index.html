@@ -13,7 +13,11 @@ layout: hero
     {% comment %}Get all posts with the front catgeory set.{% endcomment %}
     {% for post in site.categories.front%}
       <article class="post">
-        <img src="{{ post.image }}" title="{{ post.excerpt }}" alt="Image of {{ post.title }}"/>
+        {% responsive_image_block %}
+          path: {{ post.image }}
+          alt: Image of {{ post.title }}
+          title: {{ post.excerpt }}
+        {% endresponsive_image_block %}
       </article>
     {% endfor %}
   </section>

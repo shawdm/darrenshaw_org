@@ -6,7 +6,7 @@ date_written: 2014-01-07 08:01:00 +0000
 location: Fareham, UK
 categories: front
 excerpt: Emily.
-image: /images/2014/emily/20140524-1.jpg
+image: images/2014/emily/20140524-1.jpg
 ---
 <img src='/images/2014/emily/20140524-1.jpg'/>
 Emily.

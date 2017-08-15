@@ -6,7 +6,7 @@ date_written:   2017-01-07 08:00:00 +0000
 location: Ropley, UK
 categories: front
 excerpt: Sophie with Pamela Moss hair and makeup.
-image: /images/2017/sophie/20170225-7.jpg
+image: images/2017/sophie/20170225-7.jpg
 ---
 <img src='/images/2017/sophie/20170225-7.jpg'/>
 Sophie with Pamela Moss hair and makeup.

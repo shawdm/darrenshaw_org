@@ -6,7 +6,7 @@ date_written: 2016-01-07 08:01:00 +0000
 location: Hayling Island, UK
 categories: front
 excerpt: Jess with Pamela Moss hair and makeup.
-image: /images/2016/jess/20160826-6.jpg
+image: images/2016/jess/20160826-6.jpg
 ---
 <img src='/images/2016/jess/20160826-6.jpg'/>
 Jess with Pamela Moss hair and makeup.

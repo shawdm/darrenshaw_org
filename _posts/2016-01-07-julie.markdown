@@ -6,7 +6,7 @@ date_written: 2016-01-07 08:01:00 +0000
 location: Fareham, UK
 categories: front
 excerpt: Julie.
-image: /images/2016/julie/20160723-6.jpg
+image: images/2016/julie/20160723-6.jpg
 ---
 <img src='/images/2016/julie/20160723-6.jpg'/>
 Julie.
