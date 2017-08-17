@@ -33,7 +33,7 @@ $yellow-color: #fffd38;
 
 
 // max sizes
-$content-max-width: 2820px; //2800 + padding
+$content-max-width: 2530px; //7 images at 350px plus padding
 
 // Layout Settings
 $spacing-unit-section: 70px;
@@ -42,11 +42,13 @@ $double-spacing-unit: 40px;
 $padding-unit: 10px;
 $sub-padding-unit: 5px;
 
+
 // Widths for responsive switch points
-$break-max-width-min: 2000px;
-$break-large-width-min: 1400px;
-$break-medium-width-min: 900px;
-$break-small-width-min: 414px;
+$break-xl-width-min: 2000px;
+$break-l-width-min: 1600px;
+$break-m-width-min: 1400px;
+$break-s-width-min: 900px;
+$break-xs-width-min: 414px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

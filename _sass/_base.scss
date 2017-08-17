@@ -114,7 +114,7 @@ header.site{
   padding-top: $padding-unit;
   padding-left: $padding-unit;
   padding-right: $padding-unit;
-  max-width: $break-large-width-min;
+  max-width: $break-m-width-min;
   margin-left: auto;
   margin-right: auto;
 }
@@ -136,7 +136,7 @@ header.page{
   padding-left: 0;
   padding-right: 0;
   margin-bottom: $double-spacing-unit;
-  max-width: $break-large-width-min;
+  max-width: $break-m-width-min;
   margin-left: $padding-unit;
   margin-right: $padding-unit;
   border-bottom-color: $grey-color;
@@ -210,9 +210,11 @@ img.cv{
  * Home page content styling
  */
 section{
-  column-count: 4;
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
+
+  column-count: 7;
+  -webkit-column-count: 7;
+  -moz-column-count: 7;
+
 
   column-gap: $padding-unit;
   -webkit-column-gap: $padding-unit;
@@ -282,7 +284,7 @@ section.blog a{
  * Individual post content styling
  */
  article.post{
-   max-width: $break-large-width-min;
+   max-width: $break-m-width-min;
    margin-left: auto;
    margin-right: auto;
  }
@@ -323,7 +325,7 @@ footer p{
  * Blog Post styling
  */
 body.blog-post article{
-  max-width: $break-medium-width-min;
+  max-width: $break-s-width-min;
   margin-left: auto;
   margin-right: auto;
   padding-left: $padding-unit;
@@ -337,7 +339,14 @@ body.blog-post article{
  }
 
 
-@media (max-width: $break-max-width-min){
+@media (max-width: $break-xl-width-min){
+
+  section{
+    column-count: 6;
+    -webkit-column-count: 6;
+    -moz-column-count: 6;
+  }
+
   header.hero{
     height: 571px;
     background-image: url(../images/hero/charlie-2000-571.jpg);
@@ -349,8 +358,23 @@ body.blog-post article{
   }
 }
 
+@media (max-width: $break-l-width-min){
+  section{
+    column-count: 5;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+  }
 
-@media (max-width: $break-large-width-min){
+}
+
+
+@media (max-width: $break-m-width-min){
+  section{
+    column-count: 4;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+  }
+
   header.hero{
     height: 500px;
     background-image: url(../images/hero/charlie-1400-500.jpg);
@@ -362,7 +386,7 @@ body.blog-post article{
   }
 }
 
-@media (max-width: $break-medium-width-min){
+@media (max-width: $break-s-width-min){
 
   h1{
     text-align: center;
@@ -409,7 +433,7 @@ body.blog-post article{
 }
 
 
-@media (max-width: $break-small-width-min){
+@media (max-width: $break-xs-width-min){
   header.hero{
     height: 300px;
     background-image: url(../images/hero/charlie-414-300.jpg);
