@@ -8,7 +8,8 @@ http://localhost:4000
 # Deployment
 
 # Images
-Max width: 700px
+Images should be exported with width of 1350px (twice the most common required size of 675px)
+
 
 # Todo
 * Base starting point around 1400px width, add more columns after then.
