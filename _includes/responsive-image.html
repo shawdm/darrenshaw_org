@@ -4,4 +4,4 @@
   {% endfor %}
 {% endcapture %}
 
-<img src="/{{path}}" alt="{{alt}}" srcset="{{srcset | strip_newlines}}">
+<img src="/{{path}}" alt="{{alt}}" sizes="(max-width: 414px) 100vw, (max-width: 900px) 50vw, (max-width: 1400px) 25vw, (max-width: 1600px) 20vw, 880px" srcset="{{srcset | strip_newlines}}">
