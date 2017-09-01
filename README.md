@@ -11,8 +11,8 @@ Requires Jekyl Responsive Image plugin:
 
 ## Dreamhost
 ### Installing ImageMagick
-From https://help.dreamhost.com/hc/en-us/articles/217253537-Installing-ImageMagick-and-imagick-PHP-module-on-Shared-hosting
-Once you have created the /build and /local directories, proceed with the following commands. This example uses version 6.0.2-0.
+From: https://help.dreamhost.com/hc/en-us/articles/217253537-Installing-ImageMagick-and-imagick-PHP-module-on-Shared-hosting
+Create ````$HOME/build```` and ````$HOME/local``` directories, proceed with the following commands. T
 
 ````
 $ cd build
@@ -25,7 +25,7 @@ $ make install
 ````
 If everything runs smoothly, up-to-date ImageMagick binaries, libs collection, documentation and so on are available in your "local" directory (and sub-directory).
 
-Edit $HOME/.bash_profile and add the following:
+Edit ````$HOME/.bash_profile```` and add the following:
 
 ````
 export PATH=$HOME/local/bin:$PATH
