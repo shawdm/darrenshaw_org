@@ -14,6 +14,7 @@ Requires Jekyl Responsive Image plugin:
 From: https://help.dreamhost.com/hc/en-us/articles/217253537-Installing-ImageMagick-and-imagick-PHP-module-on-Shared-hosting
 Create ````$HOME/build```` and ````$HOME/local``` directories, proceed with the following commands. T
 
+
 ````
 $ cd build
 $ wget "http://www.imagemagick.org/download/ImageMagick-6.9.2-0.tar.gz"
