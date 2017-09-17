@@ -12,7 +12,7 @@ Requires Jekyl Responsive Image plugin:
 ## Dreamhost
 ### Installing ImageMagick
 From: https://help.dreamhost.com/hc/en-us/articles/217253537-Installing-ImageMagick-and-imagick-PHP-module-on-Shared-hosting
-Create ````$HOME/build```` and ````$HOME/local``` directories, proceed with the following commands. T
+Create ````$HOME/build```` and ````$HOME/local```` directories, proceed with the following commands.
 
 ````
 $ cd build
@@ -34,14 +34,8 @@ LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+$LD_LIBRARY_PATH:}$MAGICK_HOME/lib"
 export LD_LIBRARY_PATH
 ````
 
-
 # Images
 Images should be exported with width of 1350px (twice the most common required size of 675px)
 
-
 # Todo
-* Base starting point around 1400px width, add more columns after then.
-* Scale images based on above
-* Add responsive attributes for retina screens
-* CV badge to be relative to header
 * Add a favicon
