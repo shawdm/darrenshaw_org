@@ -15,7 +15,7 @@ I have a reputation for making things work on difficult projects in high pressur
 ## Skills
 Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
 
-I am able to pick up new technology quickly, particularly at an early stage where it is still unreliable and with little documentation. The ability to work both with a customer (presenting project pitches, running Design Thinking workshops, writing bids and requirements documents) and the development team (design, code, project management and mentoring) across the full scope of a project is something I enjoy.
+I am able to pick up new technology quickly, particularly at an early stage where the technology is still maturing. The ability to work both with a customer (presenting project pitches, running Design Thinking workshops, writing bids and requirements documents) and the development team (design, code, project management and mentoring) across the full scope of a project is something I enjoy.
 
 
 ## 2001-2017 IBM Emerging Technology
