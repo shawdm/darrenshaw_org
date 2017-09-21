@@ -1,3 +1,4 @@
+var DISPATCH;
 var FACT_LIBRARY = [
   {
     id:0,
@@ -28,7 +29,26 @@ var FACT_LIBRARY = [
 
 document.addEventListener('DOMContentLoaded', function(e) {
   //initFacts();
+
+  init();
+
 });
+
+
+function init(){
+  DISPATCH = d3.dispatch('pulldown','pullup');
+
+  DISPATCH.on('pulldown', function(){
+    var pulldown = d3.select(this.parentNode.parentNode);
+    pulldown.transition().duration(400).style('top','40px');
+  });
+
+  d3.select('article.pulldown section.handle a').on('click', function(){
+    DISPATCH.call('pulldown', this);
+  });
+
+  console.log('init');
+}
 
 
 function initFacts(){

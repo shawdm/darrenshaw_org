@@ -12,6 +12,39 @@ h4{
   margin-bottom: 1rem;
 }
 
+
+header.page{
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  z-index: 100;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+
+article.pulldown{
+  height: 600px;
+  position: absolute;
+  bottom: calc(100% - 60px);
+  left:0;
+  right: 0;
+  z-index: 50;
+  background-color: red;
+}
+
+article.pulldown section.handle{
+  position: absolute;
+  bottom: 0;
+}
+
+article.main{
+}
+
 section.headline{
   text-align: center;
 }
