@@ -12,7 +12,6 @@ h4{
   margin-bottom: 1rem;
 }
 
-
 header.page{
   position: absolute;
   left:0;
@@ -27,13 +26,33 @@ header.page{
   background-color: #fff;
 }
 
-article.pulldown{
-  height: 600px;
+body.cv article.pulldown{
+  width: 100%;
+  max-width: 100%;
   position: absolute;
-  bottom: calc(100% - 40px);
-  left:0;
-  right: 0;
+  bottom: calc(100% - 55px);
+  padding-left: 0;
+  padding-right: 0;
   z-index: 50;
+}
+
+
+
+article.pulldown section.content{
+  position: relative;
+  padding-top: 96px;
+  background-color: #fff;
+  background-image: url(../../../images/hero/charlie-2800-800.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+article.pulldown section.handle{
+  padding-left: 0px;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
   background-color: #fff;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -41,17 +60,13 @@ article.pulldown{
   box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
 }
 
-article.pulldown section.content{
-  position: absolute;
-  top: 70px;
+
+body.cv article.main{
+  margin-top: 80px;
 }
 
-article.pulldown section.handle{
-  position: absolute;
-  bottom: 0;
-}
+article.main section{
 
-article.main{
 }
 
 section.headline{

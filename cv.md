@@ -3,13 +3,29 @@ layout: cv-dynamic
 permalink: /cv/
 title: CV
 fun_section: |
-  This is the fun section
+  1. Phrase most used to describe Darren:
+  Safe pair of hands.
 
-  1. Rule 1
-  1. Rule 2
-  1. Rule 3
+  1. Project you're most proud of working on.
+  Meedan
 
-  ## this is a title
+  1. Luxury Item
+  Glossy magazines
+
+  1. What has technology industry got right
+  Music
+
+  1. What has technology industry got wrong
+  Glossy magazines
+
+  1. Guilty Pleasures
+  The OC, Trashy holidays on the beach.
+
+  1. Karioke Standard
+  Fresh Prince - Summertime
+
+  1. Missing Talent
+  Peter Lindbergh's eye.
 ---
 #### [darrenshaw.org](https://darrenshaw.org "Darren Shaw") / [shawdm@gmail.com](mailto:shawdm@gmail.com "Email Darren Shaw") / [@shawdm](https://twitter.com/shawdm "Darren Shaw on Twitter")  / 07740 345673
 
@@ -22,33 +38,6 @@ As an early adopter of IBM's version of the Design Thinking process I ran the fi
 I contribute most when I'm part of the full scope of a project: from problem, through ideas generation, development and to delivery. I'm as happy giving pitches, working with the business, generating ideas or being heads down in code.
 
 DO I NEED SOMETHING ABOUT HACKDAYS?
-
-DO I NEED TO INCLUDE SOME FUN STUFF? YES!
-1. Phrase most used to describe Darren:
-  Safe pair of hands.
-
-1. Project you're most proud of working on.
-Meedan
-
-1. Luxury Item
-Glossy magazines
-
-1. What has technology industry got right
-Music
-
-1. What has technology industry got wrong
-Glossy magazines
-
-1. Guilty Pleasures
-  The OC.
-  Trashy holidays on the beach.
-
-1. Karioke Standard
-Fresh Prince - Summertime
-
-1. Missing Talent
- Peter Lindbergh's eye.
-
 
 ## Technology
 Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.

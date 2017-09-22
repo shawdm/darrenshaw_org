@@ -2,7 +2,7 @@ var DISPATCH;
 
 var PULLDOWN_ATTENTION_TIMEOUT;
 var PULLDOWN_HOME_TOP;
-var PULLDOWN_EXTENDED_TOP = -40;
+var PULLDOWN_EXTENDED_TOP = -50;
 
 var FACT_LIBRARY = [
   {
@@ -69,8 +69,8 @@ function init(){
   PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){
       var pulldown = d3.select('article.pulldown');
       var currentTop = parseFloat(pulldown.style('top'),10);
-      var newTop = currentTop + 30;
-      pulldown.transition().ease(d3.easeBounceOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(4000).style('top',currentTop+'px');
+      var newTop = currentTop + 50;
+      pulldown.transition().ease(d3.easeBackOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(10000).style('top',currentTop+'px');
     },
     4000
   );
