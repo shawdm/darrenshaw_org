@@ -30,11 +30,20 @@ header.page{
 article.pulldown{
   height: 600px;
   position: absolute;
-  bottom: calc(100% - 60px);
+  bottom: calc(100% - 40px);
   left:0;
   right: 0;
   z-index: 50;
-  background-color: red;
+  background-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+article.pulldown section.content{
+  position: absolute;
+  top: 70px;
 }
 
 article.pulldown section.handle{

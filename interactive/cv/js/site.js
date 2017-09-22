@@ -1,4 +1,9 @@
 var DISPATCH;
+
+var PULLDOWN_ATTENTION_TIMEOUT;
+var PULLDOWN_HOME_TOP;
+var PULLDOWN_EXTENDED_TOP = -40;
+
 var FACT_LIBRARY = [
   {
     id:0,
@@ -28,26 +33,48 @@ var FACT_LIBRARY = [
 
 
 document.addEventListener('DOMContentLoaded', function(e) {
-  //initFacts();
-
   init();
-
 });
 
 
 function init(){
+  PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
+
   DISPATCH = d3.dispatch('pulldown','pullup');
 
   DISPATCH.on('pulldown', function(){
+    clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
+
     var pulldown = d3.select(this.parentNode.parentNode);
-    pulldown.transition().duration(400).style('top','40px');
+    if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
+      // needs to go down
+      pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
+    }
+    else{
+      // needs to go up
+      pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+    }
   });
 
   d3.select('article.pulldown section.handle a').on('click', function(){
     DISPATCH.call('pulldown', this);
   });
 
-  console.log('init');
+  d3.select('article.pulldown section.handle a').on('hover', function(){
+    console.log('hover!');
+  });
+
+
+
+  PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){
+      var pulldown = d3.select('article.pulldown');
+      var currentTop = parseFloat(pulldown.style('top'),10);
+      var newTop = currentTop + 30;
+      pulldown.transition().ease(d3.easeBounceOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(4000).style('top',currentTop+'px');
+    },
+    4000
+  );
+
 }
 
 

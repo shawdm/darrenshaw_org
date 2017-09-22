@@ -10,11 +10,12 @@
     {% include header-cv.html %}
 
     <article class='pulldown'>
-      <section>
-        Content is here
+      <section class='content'>
+        {{page.fun_section | markdownify}}
+        This is the text
       </section>
       <section class='handle'>
-        <a href='#'>Pull Down</a>
+        <a>Pull Down</a>
       </section>
     </article>
 

@@ -2,6 +2,14 @@
 layout: cv-dynamic
 permalink: /cv/
 title: CV
+fun_section: |
+  This is the fun section
+
+  1. Rule 1
+  1. Rule 2
+  1. Rule 3
+
+  ## this is a title
 ---
 #### [darrenshaw.org](https://darrenshaw.org "Darren Shaw") / [shawdm@gmail.com](mailto:shawdm@gmail.com "Email Darren Shaw") / [@shawdm](https://twitter.com/shawdm "Darren Shaw on Twitter")  / 07740 345673
 
