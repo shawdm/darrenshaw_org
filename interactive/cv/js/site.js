@@ -38,9 +38,13 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 
 function init(){
+  // only show if we've got d3 loaded (so not used in no js)
+  d3.select('body.cv article.pulldown').style('display','block');
+
+
   PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
 
-  DISPATCH = d3.dispatch('pulldown','pullup');
+  DISPATCH = d3.dispatch('pulldown','pullup', 'peakdown', 'peakup', 'peakattention');
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
@@ -56,21 +60,45 @@ function init(){
     }
   });
 
-  d3.select('article.pulldown section.handle a').on('click', function(){
+  DISPATCH.on('peakattention', function(){
+    var pulldown = d3.select('article.pulldown');
+    var currentTop = parseFloat(pulldown.style('top'),10);
+    var newTop = Math.min(currentTop + 30, PULLDOWN_HOME_TOP+30);
+    pulldown.transition().ease(d3.easeBackOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(10000).style('top',currentTop+'px');
+  });
+
+
+  DISPATCH.on('peakdown', function(){
+    var pulldown = d3.select('article.pulldown');
+    var currentTop = parseFloat(pulldown.style('top'),10);
+    var newTop = Math.min(currentTop + 30, PULLDOWN_HOME_TOP+30);
+    if(currentTop <= PULLDOWN_HOME_TOP+30){ // stops peakdown when fully extended
+      pulldown.transition().ease(d3.easeQuad).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000);
+    }
+  });
+
+  DISPATCH.on('peakup', function(){
+    var pulldown = d3.select('article.pulldown');
+    var currentTop = parseFloat(pulldown.style('top'),10);
+    if(currentTop <= PULLDOWN_HOME_TOP+30){ // stops peakup when fully extended
+      pulldown.transition().ease(d3.easeQuad).duration(500).style('top',PULLDOWN_HOME_TOP+'px');
+    }
+  });
+
+  d3.select('article.pulldown .handle').on('click', function(){
     DISPATCH.call('pulldown', this);
   });
 
-  d3.select('article.pulldown section.handle a').on('hover', function(){
-    console.log('hover!');
+  d3.select('article.pulldown').on('mouseover', function(){
+    DISPATCH.call('peakdown', this);
   });
 
-
+  d3.select('article.pulldown').on('mouseout', function(){
+    DISPATCH.call('peakup', this);
+  });
 
   PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){
-      var pulldown = d3.select('article.pulldown');
-      var currentTop = parseFloat(pulldown.style('top'),10);
-      var newTop = currentTop + 50;
-      pulldown.transition().ease(d3.easeBackOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(10000).style('top',currentTop+'px');
+      DISPATCH.call('peakattention', this);
     },
     4000
   );
