@@ -41,15 +41,14 @@ function init(){
   // only show if we've got d3 loaded (so not used in no js)
   d3.select('body.cv article.pulldown').style('display','block');
 
-
   PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
 
-  DISPATCH = d3.dispatch('pulldown','pullup', 'peakdown', 'peakup', 'peakattention');
+  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset');
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
 
-    var pulldown = d3.select(this.parentNode.parentNode);
+    var pulldown = d3.select('article.pulldown');
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
       // needs to go down
       pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
@@ -60,13 +59,17 @@ function init(){
     }
   });
 
+  DISPATCH.on('reset', function(){
+    var pulldown = d3.select('article.pulldown');
+    pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+  });
+
   DISPATCH.on('peakattention', function(){
     var pulldown = d3.select('article.pulldown');
     var currentTop = parseFloat(pulldown.style('top'),10);
     var newTop = Math.min(currentTop + 30, PULLDOWN_HOME_TOP+30);
     pulldown.transition().ease(d3.easeBackOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(10000).style('top',currentTop+'px');
   });
-
 
   DISPATCH.on('peakdown', function(){
     var pulldown = d3.select('article.pulldown');
@@ -89,12 +92,20 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
+  d3.select('article.pulldown').on('click', function(){
+    DISPATCH.call('pulldown', this);
+  });
+
   d3.select('article.pulldown').on('mouseover', function(){
     DISPATCH.call('peakdown', this);
   });
 
   d3.select('article.pulldown').on('mouseout', function(){
     DISPATCH.call('peakup', this);
+  });
+
+  d3.select('article.main').on('click', function(){
+    DISPATCH.call('reset', this);
   });
 
   PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){

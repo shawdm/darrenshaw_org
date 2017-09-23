@@ -1,3 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 h1{
   text-align: center;
 }
@@ -37,27 +41,44 @@ body.cv article.pulldown{
   display: none;
 }
 
-article.pulldown section.content{
+body.cv article.pulldown section.content{
   position: relative;
   padding-top: 96px;
   background-color: #fff;
-  background-image: url(../../../images/hero/charlie-2800-800.jpg);
+  /*background-image: url(../../../images/hero/charlie-2800-800.jpg);*/
   background-size: cover;
   background-position: center;
 }
 
-article.pulldown section.content .handle{
+
+body.cv article.pulldown section.content .text{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.cv article.pulldown section.content .text h4{
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+body.cv article.pulldown section.content .text p{
+  margin-top: 0;
+}
+
+body.cv article.pulldown section.content .handle{
   background-color: rgba(255,255,255,0.8);
   border-bottom-width: 1px;
   border-bottom-color: rgba(0,0,0,0.2);
   box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
 }
 
-article.pulldown section.content .handle:HOVER{
+body.cv article.pulldown section.content .handle:HOVER{
   cursor: pointer;
 }
 
-article.pulldown section.handle{
+body.cv article.pulldown section.handle{
   padding-left: 0px;
   position: relative;
   max-width: 100%;
@@ -75,15 +96,27 @@ body.cv article.main{
   margin-top: 80px;
 }
 
-article.main section{
+body.cv article.main section{
 
 }
 
-section.headline{
+
+body.cv article.projects{
+  background-color: red;
+  max-width: 100%;
+}
+
+body.cv article.projects section{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.cv section.headline{
   text-align: center;
 }
 
-section.headline img{
+body.cv section.headline img{
   width: 100px;
   height: 100px;
 }
