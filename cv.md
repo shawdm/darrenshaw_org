@@ -23,38 +23,43 @@ project_sections:
   - |
     ## Projects
   - |
-    ![alt text](/interactive/cv/images/projects-wimbledon-2017.jpg)
-    
+    ![Wimbledon WhatMakesGreat](/interactive/cv/images/projects-wimbledon-2017.jpg "Wimbledon WhatMakesGreat")
+
     ### Wimbledon (2017)
     Technical lead and developer for "WhatMakesGreat", a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
 
     Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundry/Bluemix.
   - |
-    ![alt text](/interactive/cv/images/projects-rbs.jpg "Logo Title Text 1")
+    ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
+
     ### RBS Hybrid Chat Bot Prototype (2016)
     Lead developer for the chat user interface. The interesting challenge was to avoid the transition between bot and human being seamless, but still remain smooth. Research indicated that users want to know if they are talking to a human or machine.
 
     Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix.
   - |
-    ![alt text](/interactive/cv/images/projects-masters-rg-2016.jpg "Logo Title Text 1")
+    ![US Masters, Roland Garros, ABM Amro, Wimbledon Social Media Analytics](/interactive/cv/images/projects-masters-rg-2016.jpg "US Masters, Roland Garros, ABM Amro, Wimbledon Social Media Analytics")
+
     ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
     Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the text. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
 
     Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix.
   - |
-    ![alt text](/interactive/cv/images/projects-wimbledon-2015.jpg "Logo Title Text 1")
+    ![Wimbledon Chat Bot](/interactive/cv/images/projects-wimbledon-2015.jpg "Wimbledon Chat Bot")
+
     ### Wimbledon (2015)
     Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
 
     Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix.
   - |
-    ![alt text](/interactive/cv/images/projects-very.jpg "Logo Title Text 1")
+    ![Shop Direct Fantasy Fashion](/interactive/cv/images/projects-very.jpg "Shop Direct Fantasy Fashion")
+
     ### Shop Direct Fantasy Fashion (2013)
     Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
 
     Technology Used: PHP, MySQL.
   - |
-    ![alt text](/interactive/cv/images/projects-meedan-beta.jpg "Logo Title Text 1")
+    ![Meedan](/interactive/cv/images/projects-meedan-beta.jpg "Meedan")
+
     ### Meedan (2009)
     Technical lead for Meedan's social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was an early social network and the first to make use of machine translation. It allowed users to correct translations, improving both the site and the underlying machine translation algorithms, pre-dating the same approach Google use.
 
