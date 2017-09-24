@@ -43,7 +43,7 @@ function init(){
 
   PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
 
-  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset');
+  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
@@ -89,6 +89,23 @@ function init(){
     if(currentTop <= PULLDOWN_HOME_TOP+30){ // stops peakup when fully extended
       pulldown.transition().ease(d3.easeQuad).duration(500).style('top',PULLDOWN_HOME_TOP+'px');
     }
+  });
+
+
+  DISPATCH.on('altimage', function(){
+    d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle_alt.png");
+  });
+
+  DISPATCH.on('image', function(){
+    d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle.png");
+  });
+
+  d3.select('section.headline img').on('mouseover', function(){
+    DISPATCH.call('altimage', this);
+  });
+
+  d3.select('section.headline img').on('mouseout', function(){
+    DISPATCH.call('image', this);
   });
 
   d3.select('article.pulldown .handle').on('click', function(){

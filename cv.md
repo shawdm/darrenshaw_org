@@ -15,8 +15,8 @@ fun_section: |
   * ##### Glossy magazines.
   * #### Guilty Pleasure
   * ##### The OC, Trashy holidays on the beach.
-  * #### Karioke Standard
-  * ##### Fresh Prince - Summertime.
+  * #### Karaoke Standard
+  * ##### DJ Jazzy Jeff & The Fresh Prince - Summertime.
   * ####  Missing Talent
   * ##### Peter Lindbergh's eye.
 project_sections:
@@ -59,7 +59,6 @@ project_sections:
 
     Technology Used: PHP, MySQL, IBM Research Machine Translation.
 ---
-
 I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking research through to proof of concept and production systems. I've been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
 
 I have a reputation for being pragmatic and making things work on difficult projects in high pressure situations, leading many of IBM's sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects.
@@ -68,7 +67,6 @@ As an early adopter of IBM's version of the Design Thinking process I ran the fi
 
 I contribute most when I'm part of the full scope of a project: from problem, through ideas generation, development and to delivery. I'm as happy giving pitches, working with the business, generating ideas or being heads down in code.
 
-DO I NEED SOMETHING ABOUT HACKDAYS?
 
 ## Technology
 Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
@@ -82,7 +80,6 @@ I'm a (still learning) <a href='/'>fashion and portrait photographer</a>. I've b
 
 ## Awards and Publications
 23 patents issued, 4 industry awards, 1 published academic paper, 1 published Redbook.
-
 
 ### 23 Patents Issued
 Including IBM's High Value Patent Award for "Cooperative non-repudiated message exchange in a network environment" a verifiable, shared chat transcription log.
