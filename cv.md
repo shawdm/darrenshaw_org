@@ -23,8 +23,8 @@ project_sections:
   - |
     ## Projects
   - |
-    ![alt text](/interactive/cv/images/projects-wimbledon-2017.jpg)
     ### Wimbledon (2017)
+    ![alt text](/interactive/cv/images/projects-wimbledon-2017.jpg)
     Technical lead and developer for "WhatMakesGreat", a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
 
     Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundry/Bluemix.
