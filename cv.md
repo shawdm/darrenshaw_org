@@ -3,66 +3,61 @@ layout: cv-dynamic
 permalink: /cv/
 title: CV
 fun_section: |
-  #### Phrase most used to describe you
-  Safe pair of hands.
+  * #### Phrase most used to describe you
+  * ##### "Safe pair of hands".
+  * #### Project you're most proud of working on
+  * ##### [Meedan](https://meedan.com/en/).
+  * #### Luxury Item
+  * ##### Glossy magazines.
+  * #### Technology that industry got right
+  * ##### Music.
+  * #### Technology that industry got wrong
+  * ##### Glossy magazines.
+  * #### Guilty Pleasure
+  * ##### The OC, Trashy holidays on the beach.
+  * #### Karioke Standard
+  * ##### Fresh Prince - Summertime.
+  * ####  Missing Talent
+  * ##### Peter Lindbergh's eye.
+project_sections:
+  - |
+    ## Projects
+  - |
+    ![alt text](/interactive/cv/images/projects-wimbledon-2017.jpg "Logo Title Text 1")
+    ### Wimbledon (2017)
+    Technical lead and developer for "WhatMakesGreat", a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
 
-  #### Project you're most proud of working on
-  [Meedan](https://meedan.com/en/).
+    Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundry/Bluemix.
+  - |
+    ![alt text](/interactive/cv/images/projects-rbs.jpg "Logo Title Text 1")
+    ### RBS Hybrid Chat Bot Prototype (2016)
+    Lead developer for the chat user interface. The interesting challenge was to avoid the transition between bot and human being seamless, but still remain smooth. Research indicated that users want to know if they are talking to a human or machine.
 
-  #### Luxury Item
-  Glossy magazines.
+    Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix.
+  - |
+    ![alt text](/interactive/cv/images/projects-masters-rg-2016.jpg "Logo Title Text 1")
+    ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
+    Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the text. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
 
-  #### Technology that industry got right
-  Music.
+    Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix.
+  - |
+    ![alt text](/interactive/cv/images/projects-wimbledon-2015.jpg "Logo Title Text 1")
+    ### Wimbledon (2015)
+    Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
 
-  #### Technology that industry got wrong
-  Glossy magazines.
+    Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix.
+  - |
+    ![alt text](/interactive/cv/images/projects-very.jpg "Logo Title Text 1")
+    ### Shop Direct Fantasy Fashion (2013)
+    Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
 
-  #### Guilty Pleasure
-  The OC, Trashy holidays on the beach.
+    Technology Used: PHP, MySQL.
+  - |
+    ![alt text](/interactive/cv/images/projects-meedan-beta.jpg "Logo Title Text 1")
+    ### Meedan (2009)
+    Technical lead for Meedan's social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was an early social network and the first to make use of machine translation. It allowed users to correct translations, improving both the site and the underlying machine translation algorithms, pre-dating the same approach Google use.
 
-  #### Karioke Standard
-  Fresh Prince - Summertime.
-
-  ####  Missing Talent
-  Peter Lindbergh's eye.
-projects_section: |
-  ## Projects
-  ### Wimbledon (2017)
-  Technical lead and developer for "WhatMakesGreat", a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
-
-  Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundry/Bluemix.
-
-  ### RBS Hybrid Chat Bot Prototype (2016)
-  Lead developer for the chat user interface. The interesting challenge was to avoid the transition between bot and human being seamless, but still remain smooth. Research indicated that users want to know if they are talking to a human or machine.
-
-  Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix.
-
-  ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
-  Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the text. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
-
-  Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix.
-
-  ### Wimbledon (2015)
-  Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
-
-  Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix.
-
-  ### Homebase (2014)
-  Technical lead and mentor for an Extreme Blue project to prototype click and collect ordering using Homebase's existing store infrastructure. The mobile app provided a better customer experience and a simpler process for employees. The design decisions allowed Homebase to maximise the value of their in-store staff, something online retailers could not compete with.
-
-  Technology Used: NodeJS, Javascript, Ionic.
-
-  ### Shop Direct Fantasy Fashion (2013)
-  Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
-
-  Technology Used: PHP, MySQL.
-
-  ### Meedan (2009)
-  Technical lead for Meedan's social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was an early social network and the first to make use of machine translation. It allowed users to correct translations, improving both the site and the underlying machine translation algorithms, pre-dating the same approach Google use.
-
-  Technology Used: PHP, MySQL, IBM Research Machine Translation.
-
+    Technology Used: PHP, MySQL, IBM Research Machine Translation.
 ---
 
 I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking research through to proof of concept and production systems. I've been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
@@ -86,9 +81,8 @@ I'm a (still learning) <a href='/'>fashion and portrait photographer</a>. I've b
 
 
 ## Awards and Publications
-23 patents issued, 4 industry awards, 1 academic paper published, 1 Redbook published.
+23 patents issued, 4 industry awards, 1 published academic paper, 1 published Redbook.
 
-NEED TO SEE IF I CAN DOWNLOAD SAMETIME REDBOOK AND INCLUDE
 
 ### 23 Patents Issued
 Including IBM's High Value Patent Award for "Cooperative non-repudiated message exchange in a network environment" a verifiable, shared chat transcription log.
@@ -110,4 +104,4 @@ Joint author on a paper presented at Fusion 2015. The paper proposed a new way f
 
 
 ## Education
-Computer Science BSc (Hons), 1st class, University of Portsmouth, sponsored by IBM.
+Computer Science BSc (Hons), 1st class, University of Portsmouth.

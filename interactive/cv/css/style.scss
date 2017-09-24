@@ -47,7 +47,7 @@ body.cv article.pulldown section.content{
   padding-top: 96px;
   color: #fff;
   background-color: #fff;
-  background-image: url(../../../images/cv/madrid-mirror-500.jpg);
+  background-image: url(../images/madrid-mirror-500.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -57,54 +57,64 @@ body.cv article.pulldown section.content .text{
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: right;
+}
+
+body.cv article.pulldown section.content .text ul{
+    list-style: none;
+}
+
+body.cv article.pulldown section.content .text ul li:nth-child(even){
+  margin-bottom: 1rem;
 }
 
 body.cv article.pulldown section.content .text h4{
+  text-align: right;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 0;
-  text-shadow: 0 0 3px #252525;
+  background-color: #fff;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #252525;
+  display: inline-block;
 }
 
-body.cv article.pulldown section.content .text p{
-  margin-top: 0;
-  text-shadow: 0 0 3px #252525;
-}
-
-body.cv article.pulldown section.content a{
-  color: #fff;
+body.cv article.pulldown section.content .text h5{
+  text-align: right;
+  font-weight: 300;
+  margin-bottom: 0;
+  background-color: #fff;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #252525;
+  display: inline-block;
 }
 
 body.cv article.pulldown section.content .handle{
   color: #fff;
-  text-shadow: 0 0 3px #252525;
-  border-bottom-width: 1px;
-  border-bottom-color: rgba(0,0,0,0.2);
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 5px rgba(37,37,37,0.2);
+  text-align: center;
+}
+
+body.cv article.pulldown section.content .handle h4{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+  background-color: #fff;
+  color:#252525;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
 }
 
 
 
-body.cv article.pulldown section.content .handle:HOVER{
+body.cv article.pulldown section.content:HOVER{
   cursor: pointer;
 }
-
-
-/*
-body.cv article.pulldown section.handle{
-  padding-left: 0px;
-  position: relative;
-  max-width: 100%;
-  width: 100%;
-  text-align: center;
-  background-color: #fff;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgba(0,0,0,0.2);
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
-}
-*/
 
 
 body.cv article.main{
@@ -119,13 +129,45 @@ body.cv article.main section{
 body.cv article.projects{
   background-color: #252525;
   max-width: 100%;
-  color: #e0e0e0;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 body.cv article.projects section{
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom-style: solid;
+  border-bottom-color: #353535;
+  border-bottom-width: 1px;
+  margin-bottom: 1rem;
+}
+
+body.cv article.projects section:nth-child(1){
+  border-bottom-style: none;
+}
+
+body.cv article.projects section p:first-child{
+  padding-bottom: 0;
+}
+
+body.cv article.projects section p img{
+  width: 250px;
+  padding: 0;
+  margin-right: 20px;
+  margin-left: 0;
+  margin-top: 0.125rem;
+  float: left;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 3px;
+}
+
+body.cv article.projects section:nth-child(odd) p img{
+  margin-right: 0;
+  margin-left: 20px;
+  padding-bottom: 0;
+  float: right;
 }
 
 body.cv section.headline{

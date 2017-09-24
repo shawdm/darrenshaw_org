@@ -48,6 +48,9 @@ function init(){
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
 
+    var doNotPush = d3.select('article.pulldown section.content .handle h4');
+    doNotPush.transition().ease(d3.easeQuad).duration(1000).style('opacity',0);
+
     var pulldown = d3.select('article.pulldown');
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
       // needs to go down
@@ -108,11 +111,13 @@ function init(){
     DISPATCH.call('reset', this);
   });
 
+  /*
   PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){
       DISPATCH.call('peakattention', this);
     },
     4000
   );
+  */
 
 }
 

@@ -14,7 +14,7 @@
         <div class='text'>
           {{page.fun_section | markdownify}}
         </div>
-        <div class='handle'><h1>...</h1></div>
+        <div class='handle'><h4>Do Not Press!</h4></div>
       </section>
     </article>
 
@@ -29,11 +29,10 @@
     </article>
 
     <article class='projects'>
-      <section>
-        {{page.projects_section | markdownify}}
-      </section>
+      {% for section in page.project_sections %}
+        <section>{{ section | markdownify }}</section>
+      {% endfor %}
     </article>
-
 
 
     {% include footer.html %}
