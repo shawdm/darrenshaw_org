@@ -75,7 +75,7 @@ I am able to pick up new technology quickly, particularly when it is at an immat
 
 
 ## What Else?
-I'm a (still learning) <a href='/'>fashion and portrait photographer</a>. I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly and I shot a cover of HairNow. I <a href='https://medium.com/why-i-love-this-picture'>write</a> about photographs I love.
+I'm a (still learning) [fashion and portrait photographer](https://www.darrenshaw.org). I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly and I shot a cover of HairNow. I   [write](https://medium.com/why-i-love-this-picture) about photographs I love.
 
 
 ## Awards and Publications
