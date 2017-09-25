@@ -105,6 +105,7 @@ function init(){
     d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle.png");
   });
 
+  /*
   d3.select('section.headline img').on('mouseover', function(){
     DISPATCH.call('altimage', this);
   });
@@ -112,6 +113,7 @@ function init(){
   d3.select('section.headline img').on('mouseout', function(){
     DISPATCH.call('image', this);
   });
+  */
 
   //d3.select('article.pulldown .handle').on('click', function(){
   //  DISPATCH.call('pulldown', this);
