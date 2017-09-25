@@ -36,10 +36,10 @@ body.cv article.pulldown{
   max-width: 100%;
   position: absolute;
   bottom: 100%;
+  display: none;
   padding-left: 0;
   padding-right: 0;
   z-index: 50;
-  display: none;
 }
 
 body.cv article.pulldown section.content{

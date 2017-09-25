@@ -38,11 +38,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 
 function init(){
-  var pulldown = d3.select('article.pulldown');
-  pulldown.style('display','block');   // make visible if running js
-
-  PULLDOWN_HOME_TOP = -parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
-
   DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
 
   DISPATCH.on('pulldown', function(){
@@ -62,7 +57,9 @@ function init(){
 
   DISPATCH.on('reset', function(){
     var pulldown = d3.select('article.pulldown');
-    pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+    pulldown.style('display','block');   // make visible if running js
+    PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
+    pulldown.transition().ease(d3.easeBackOut).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
   });
 
   DISPATCH.on('peakattention', function(){
