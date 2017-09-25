@@ -50,8 +50,8 @@ function init(){
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
 
-    var doNotPush = d3.select('article.pulldown section.content .handle h4');
-    doNotPush.transition().ease(d3.easeQuad).duration(1000).style('opacity',0);
+    //var doNotPush = d3.select('article.pulldown section.content .handle h4');
+    //doNotPush.transition().ease(d3.easeQuad).duration(1000).style('opacity',0);
 
     var pulldown = d3.select('article.pulldown');
     //pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
@@ -113,9 +113,9 @@ function init(){
     DISPATCH.call('image', this);
   });
 
-  d3.select('article.pulldown .handle').on('click', function(){
-    DISPATCH.call('pulldown', this);
-  });
+  //d3.select('article.pulldown .handle').on('click', function(){
+  //  DISPATCH.call('pulldown', this);
+  //});
 
   d3.select('article.pulldown').on('click', function(){
     DISPATCH.call('pulldown', this);
