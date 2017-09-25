@@ -123,6 +123,10 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
+  d3.select('article.pulldown').on('touchend', function(){
+    DISPATCH.call('pulldown', this);
+  });
+
 
   /*
   d3.select('article.pulldown').on('mouseover', function(){
