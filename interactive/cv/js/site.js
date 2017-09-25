@@ -121,13 +121,16 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
+
+  /*
   d3.select('article.pulldown').on('mouseover', function(){
-    //DISPATCH.call('peakdown', this);
+    DISPATCH.call('peakdown', this);
   });
 
   d3.select('article.pulldown').on('mouseout', function(){
-    //DISPATCH.call('peakup', this);
+    DISPATCH.call('peakup', this);
   });
+  */
 
   d3.select('article.main').on('click', function(){
     DISPATCH.call('reset', this);
