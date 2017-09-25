@@ -46,6 +46,7 @@ function init(){
   PULLDOWN_HOME_TOP = -522;
 
   DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
+  DISPATCH.call('reset');
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
