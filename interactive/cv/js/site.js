@@ -38,8 +38,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 
 function init(){
-  // only show if we've got d3 loaded (so not used in no js)
-  d3.select('body.cv article.pulldown').style('display','block');
+
 
   //PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
   //console.log(PULLDOWN_HOME_TOP);
@@ -70,7 +69,9 @@ function init(){
 
   DISPATCH.on('reset', function(){
     console.log('done reset');
+    // only show if we've got d3 loaded (so not used in no js)
     var pulldown = d3.select('article.pulldown');
+    pulldown.style('display','block');
     pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
   });
 
