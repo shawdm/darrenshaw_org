@@ -32,17 +32,18 @@ var FACT_LIBRARY = [
 ];
 
 
-document.addEventListener('DOMContentLoaded', function(e) {
+window.addEventListener('load', function(e) {
   init();
 });
 
 
 function init(){
+  console.log('init');
   var pulldown = d3.select('article.pulldown');
   PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
   pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
   pulldown.style('visibility', 'visible');
-  
+
   DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'init', 'image', 'altimage');
 
   DISPATCH.on('init', function(){
