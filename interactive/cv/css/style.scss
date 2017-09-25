@@ -33,12 +33,15 @@ header.page{
 
 body.cv article.pulldown{
   position: absolute;
-  bottom: 100%;
+  /*bottom: 100%;*/
   width: 100%;
+  top:100%;
+  min-height: 100px;
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
   z-index: 50;
+  visibility: hidden;
 }
 
 body.cv article.pulldown section.content{
