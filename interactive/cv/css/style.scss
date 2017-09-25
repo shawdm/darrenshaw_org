@@ -52,6 +52,13 @@ body.cv article.pulldown section.content{
   background-image: url(../images/madrid-mirror-500.jpg);
   background-size: cover;
   background-position: center;
+
+
+}
+
+body.cv article.pulldown.grey section.content{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 
@@ -102,8 +109,8 @@ body.cv article.pulldown section.content .handle h4{
   display: inline-block;
   font-size: 0.625rem;
   line-height: 0.625rem;
-  background-color: #fff;
-  color:#252525;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.80);
   margin-bottom: 3px;
   padding-bottom: 5px;
   padding-left: 5px;

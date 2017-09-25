@@ -1,34 +1,6 @@
 var DISPATCH;
-
 var PULLDOWN_HOME_TOP;
 var PULLDOWN_EXTENDED_TOP = -54;
-
-var FACT_LIBRARY = [
-  {
-    id:0,
-    question:'A two mile swim or a six mile run?',
-    choice_a:'Swim',
-    choice_b:'Run',
-    answer_a:'Yes. I run and swim, but always prefer swimming.',
-    answer_b:'Almost. I do both, but I\'m a better swimmer than runner',
-  },
-  {
-    id:1,
-    question:'Britney or Beyonce?',
-    choice_a:'Hit Me One More Time',
-    choice_b:'Lemonade',
-    answer_a:'Asking me the impossible',
-    answer_b:'Trick question',
-  },
-  {
-    id:2,
-    question:'Summer Roberts or Marissa Cooper?',
-    choice_a:'Ewww',
-    choice_b:'Drink',
-    answer_a:'Duh. Always Summer Roberts',
-    answer_b:'No, Summer Roberts every time',
-  }
-];
 
 
 window.addEventListener('load', function(e) {
@@ -48,7 +20,8 @@ function init(){
 
   DISPATCH.on('reset', function(){
     var pulldown = d3.select('article.pulldown');
-    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
+    pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+    pulldown.classed('grey', true);
   });
 
   DISPATCH.on('pulldown', function(){
@@ -57,10 +30,12 @@ function init(){
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
       // needs to go down
       pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
+      pulldown.classed('grey', false);
     }
     else{
       // needs to go up
       pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+      pulldown.classed('grey', true);
     }
   });
 
@@ -69,14 +44,17 @@ function init(){
     var currentTop = parseFloat(pulldown.style('top'),10);
     var newTop = Math.min(currentTop + 30, PULLDOWN_HOME_TOP+30);
     if(currentTop <= PULLDOWN_HOME_TOP+30){ // stops peakdown when fully extended
+      pulldown.classed('grey', false);
       pulldown.transition().ease(d3.easeQuad).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000);
     }
+
   });
 
   DISPATCH.on('peakup', function(){
     var pulldown = d3.select('article.pulldown');
     var currentTop = parseFloat(pulldown.style('top'),10);
     if(currentTop <= PULLDOWN_HOME_TOP+30){ // stops peakup when fully extended
+      pulldown.classed('grey', true);
       pulldown.transition().ease(d3.easeQuad).duration(500).style('top',PULLDOWN_HOME_TOP+'px');
     }
   });
@@ -122,36 +100,4 @@ function init(){
   });
 
   DISPATCH.call('init');
-}
-
-
-function initFacts(){
-  FACT_LIBRARY = shuffle(FACT_LIBRARY);
-  var facts = document.getElementsByClassName('fact');
-  for(var i=0; i < facts.length; i++){
-    facts[i].innerHTML = FACT_LIBRARY[i].question;
-  };
-}
-
-
-/*
- * From: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
- */
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
 }
