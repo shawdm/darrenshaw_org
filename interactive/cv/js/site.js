@@ -1,6 +1,5 @@
 var DISPATCH;
 
-var PULLDOWN_ATTENTION_TIMEOUT;
 var PULLDOWN_HOME_TOP;
 var PULLDOWN_EXTENDED_TOP = -54;
 
@@ -38,21 +37,21 @@ window.addEventListener('load', function(e) {
 
 
 function init(){
-  console.log('init');
-  var pulldown = d3.select('article.pulldown');
-  PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
-  pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
-  pulldown.style('visibility', 'visible');
-
-  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'init', 'image', 'altimage');
+  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'reset', 'init', 'image', 'altimage');
 
   DISPATCH.on('init', function(){
+    var pulldown = d3.select('article.pulldown');
+    PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
+    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
+    pulldown.style('visibility', 'visible');
+  });
 
+  DISPATCH.on('reset', function(){
+    var pulldown = d3.select('article.pulldown');
+    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
   });
 
   DISPATCH.on('pulldown', function(){
-    clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
-
     var pulldown = d3.select('article.pulldown');
 
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
@@ -63,17 +62,6 @@ function init(){
       // needs to go up
       pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
     }
-  });
-
-  DISPATCH.on('reset', function(){
-    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
-  });
-
-  DISPATCH.on('peakattention', function(){
-    var pulldown = d3.select('article.pulldown');
-    var currentTop = parseFloat(pulldown.style('top'),10);
-    var newTop = Math.min(currentTop + 30, PULLDOWN_HOME_TOP+30);
-    pulldown.transition().ease(d3.easeBackOut).duration(500).style('top', newTop + 'px').transition().ease(d3.easeBackIn).duration(1000).delay(10000).style('top',currentTop+'px');
   });
 
   DISPATCH.on('peakdown', function(){
@@ -93,7 +81,6 @@ function init(){
     }
   });
 
-
   DISPATCH.on('altimage', function(){
     d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle_alt.png");
   });
@@ -101,7 +88,6 @@ function init(){
   DISPATCH.on('image', function(){
     d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle.png");
   });
-
 
   d3.select('section.headline img').on('mouseover', function(){
     DISPATCH.call('altimage', this);
@@ -119,7 +105,6 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
-  /*
   d3.select('article.pulldown').on('mouseover', function(){
     DISPATCH.call('peakdown', this);
   });
@@ -127,7 +112,6 @@ function init(){
   d3.select('article.pulldown').on('mouseout', function(){
     DISPATCH.call('peakup', this);
   });
-  */
 
   d3.select('article.main').on('click', function(){
     DISPATCH.call('reset', this);
@@ -137,17 +121,7 @@ function init(){
     DISPATCH.call('reset', this);
   });
 
-  /*
-  PULLDOWN_ATTENTION_TIMEOUT = setTimeout(function(){
-      DISPATCH.call('peakattention', this);
-    },
-    4000
-  );
-  */
-
-
   DISPATCH.call('init');
-
 }
 
 
