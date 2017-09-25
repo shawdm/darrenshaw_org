@@ -46,7 +46,7 @@ function init(){
   PULLDOWN_HOME_TOP = -522;
 
   DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
-  DISPATCH.call('reset');
+
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
@@ -69,6 +69,7 @@ function init(){
   });
 
   DISPATCH.on('reset', function(){
+    console.log('done reset');
     var pulldown = d3.select('article.pulldown');
     pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
   });
@@ -150,6 +151,9 @@ function init(){
     4000
   );
   */
+
+
+    DISPATCH.call('reset');
 
 }
 
