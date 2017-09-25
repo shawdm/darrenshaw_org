@@ -2,7 +2,7 @@ var DISPATCH;
 
 var PULLDOWN_ATTENTION_TIMEOUT;
 var PULLDOWN_HOME_TOP;
-var PULLDOWN_EXTENDED_TOP = -50;
+var PULLDOWN_EXTENDED_TOP = -54;
 
 var FACT_LIBRARY = [
   {
@@ -38,23 +38,17 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 
 function init(){
+  var pulldown = d3.select('article.pulldown');
+  pulldown.style('display','block');   // make visible if running js
 
-
-  //PULLDOWN_HOME_TOP = parseFloat(d3.select('article.pulldown').style('top'),10);
-  //console.log(PULLDOWN_HOME_TOP);
-  PULLDOWN_HOME_TOP = -522;
+  PULLDOWN_HOME_TOP = -parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
 
   DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
-
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
 
-    //var doNotPush = d3.select('article.pulldown section.content .handle h4');
-    //doNotPush.transition().ease(d3.easeQuad).duration(1000).style('opacity',0);
-
     var pulldown = d3.select('article.pulldown');
-    //pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
 
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
       // needs to go down
@@ -64,14 +58,10 @@ function init(){
       // needs to go up
       pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
     }
-
   });
 
   DISPATCH.on('reset', function(){
-    console.log('done reset');
-    // only show if we've got d3 loaded (so not used in no js)
     var pulldown = d3.select('article.pulldown');
-    pulldown.style('display','block');
     pulldown.transition().ease(d3.easeBackIn).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
   });
 
@@ -108,7 +98,7 @@ function init(){
     d3.select('section.headline img').attr("src", "/images/site/darren_shaw_circle.png");
   });
 
-  /*
+
   d3.select('section.headline img').on('mouseover', function(){
     DISPATCH.call('altimage', this);
   });
@@ -116,11 +106,6 @@ function init(){
   d3.select('section.headline img').on('mouseout', function(){
     DISPATCH.call('image', this);
   });
-  */
-
-  //d3.select('article.pulldown .handle').on('click', function(){
-  //  DISPATCH.call('pulldown', this);
-  //});
 
   d3.select('article.pulldown').on('click', function(){
     DISPATCH.call('pulldown', this);
@@ -130,8 +115,6 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
-
-  /*
   d3.select('article.pulldown').on('mouseover', function(){
     DISPATCH.call('peakdown', this);
   });
@@ -139,9 +122,12 @@ function init(){
   d3.select('article.pulldown').on('mouseout', function(){
     DISPATCH.call('peakup', this);
   });
-  */
 
   d3.select('article.main').on('click', function(){
+    DISPATCH.call('reset', this);
+  });
+
+  d3.select('article.main').on('touchend', function(){
     DISPATCH.call('reset', this);
   });
 
