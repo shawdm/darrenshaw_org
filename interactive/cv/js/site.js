@@ -38,7 +38,13 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 
 function init(){
-  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'image', 'altimage');
+  DISPATCH = d3.dispatch('pulldown', 'pullup', 'peakdown', 'peakup', 'peakattention', 'reset', 'init', 'image', 'altimage');
+
+  DISPATCH.on('init', function(){
+    var pulldown = d3.select('article.pulldown');
+    PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
+    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
+  });
 
   DISPATCH.on('pulldown', function(){
     clearTimeout(PULLDOWN_ATTENTION_TIMEOUT);
@@ -56,10 +62,7 @@ function init(){
   });
 
   DISPATCH.on('reset', function(){
-    var pulldown = d3.select('article.pulldown');
-    pulldown.style('display','block');   // make visible if running js
-    PULLDOWN_HOME_TOP = - parseFloat(pulldown.style('height'),10) - PULLDOWN_EXTENDED_TOP;
-    pulldown.transition().ease(d3.easeBackOut).duration(600).style('top', PULLDOWN_HOME_TOP + 'px');
+    pulldown.style('top', PULLDOWN_HOME_TOP + 'px');
   });
 
   DISPATCH.on('peakattention', function(){
@@ -112,6 +115,7 @@ function init(){
     DISPATCH.call('pulldown', this);
   });
 
+  /*
   d3.select('article.pulldown').on('mouseover', function(){
     DISPATCH.call('peakdown', this);
   });
@@ -119,6 +123,7 @@ function init(){
   d3.select('article.pulldown').on('mouseout', function(){
     DISPATCH.call('peakup', this);
   });
+  */
 
   d3.select('article.main').on('click', function(){
     DISPATCH.call('reset', this);
@@ -137,7 +142,7 @@ function init(){
   */
 
 
-    DISPATCH.call('reset');
+  DISPATCH.call('init');
 
 }
 
