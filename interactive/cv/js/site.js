@@ -29,7 +29,7 @@ function init(){
     if(parseFloat(pulldown.style('top'),10) < PULLDOWN_EXTENDED_TOP){
       // needs to go down
       pulldown.transition().ease(d3.easeBackOut).duration(600).style('top',PULLDOWN_EXTENDED_TOP+'px');
-      d3.select('article.pulldown .handle').style('visibility','hidden');
+      d3.select('article.pulldown .handle h4').style('visibility','hidden');
     }
     else{
       // needs to go up
