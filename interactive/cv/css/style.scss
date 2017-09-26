@@ -52,15 +52,7 @@ body.cv article.pulldown section.content{
   background-image: url(../images/madrid-mirror-500.jpg);
   background-size: cover;
   background-position: center;
-
-
 }
-
-body.cv article.pulldown.grey section.content{
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
 
 body.cv article.pulldown section.content .text{
   max-width: 900px;
