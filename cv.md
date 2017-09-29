@@ -26,26 +26,37 @@ project_sections:
     ![Wimbledon WhatMakesGreat](/interactive/cv/images/projects-wimbledon-2017.jpg "Wimbledon WhatMakesGreat")
 
     ### Wimbledon - WhatMakes "Great" (2017)
+
     I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to develop the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign.
   - |
     ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
+
     ### RBS - Hybrid Chat Bot Prototype (2016)
+
     I led the front-end development of a hybrid human-machine chat bot that used AI to answer customer queries, handing them over to human staff if appropriate. I was responsible for the specification, design and development of the prototype, working with Watson Conversation developers, RBS management and their human call centre staff and systems. The interesting challenge was not to make the machine to human transition seamless, but to make it frictionless (research indicated that users want to know if they are talking to a human or machine). The prototype is currently being taken in to production for RBS staff and customers.
   - |
     ![US Masters, Roland Garros, Wimbledon Social Media Analytics](/interactive/cv/images/projects-masters-rg-2016.jpg "US Masters, Roland Garros, Wimbledon Social Command Centre")
+
     ### US Masters Golf - Social Command Centre (2016)
+
     I was the technical lead for the development of a real-time social media analytics system to enable a small US Masters media team to respond to activity about the event. A machine learning classifier was used to identify content relevant to the tournament and natural language processing to understand the text. An Apache Spark cluster was used to handle the volume of traffic, at peak, 400 messages per second. I went on to lead the implementation of the solution for Roland Garros and Wimbledon.
   - |
     ![Wimbledon Chat Bot](/interactive/cv/images/projects-wimbledon-2015.jpg "Wimbledon Chat Bot")
+
     ### Wimbledon - Chat Bot Prototype (2015)
+
     I was the technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
   - |
     ![Shop Direct Fantasy Fashion](/interactive/cv/images/projects-very.jpg "Shop Direct Fantasy Fashion")
+
     ### Shop Direct - Fantasy Fashion (2013)
+
     I was the technical lead and mentor for an [Extreme Blue](https://www-01.ibm.com/employment/us/extremeblue/) project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales. The project was presented to Shop Direct's board and won the Alsbridge 2014 Innovation Award.
   - |
     ![Meedan](/interactive/cv/images/projects-meedan-beta.jpg "Meedan")
+
     ### Meedan (2009)
+
     I was the lead developer for a bilingual social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was the first social network to make use of machine translation and the first to allow user generated corrections.
 ---
 I’m a technical lead and developer in IBM’s Emerging Technology group. I have 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**.
