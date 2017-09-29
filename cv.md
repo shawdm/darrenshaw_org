@@ -27,7 +27,7 @@ project_sections:
 
     ### Wimbledon - WhatMakes "Great" (2017)
 
-    I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to develop the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign.
+    I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to create the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign.
   - |
     ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
 
@@ -86,7 +86,7 @@ Including IBM's High Value Patent Award for "Cooperative non-repudiated message 
 I was the lead developer for "Watson Poet", an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign, winning the Hermes award.
 
 ### Best Fan Engagement - 2016 Sports Technology Awards
-IBM and Wimbledon won against competition from the Rugby World Cup and European Golf Tour. The Cognitive Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
+IBM and Wimbledon won against competition from the Rugby World Cup and European Golf Tour. The Social Command Centre I led the development of was referenced in the reasons for IBM and Wimbledon winning the award.
 
 ### Best use of Social Media - 2015 BT Sports Industry Awards
 IBM and Wimbledon won the award for best use of social media in sports events. I was the technical lead on Wimbledon's social media analytics tools, referenced in the award.
