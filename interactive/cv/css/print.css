@@ -6,8 +6,27 @@ footer.site{
   display: none;
 }
 
+article.pulldown{
+  visibility: hidden;
+  display: none;
+}
+
 section.headline{
   margin-top: 20px;
+}
+
+body.cv article.main{
+  margin-top: 0px;
+}
+
+body.cv article.projects{
+  background-color: #FFF;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+body.cv article.projects a{
+  color: #000;
 }
 
 a{

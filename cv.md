@@ -21,67 +21,48 @@ fun_section: |
   * ##### Peter Lindbergh's eye.
 project_sections:
   - |
-    ## Projects
+    ## Project Examples
   - |
     ![Wimbledon WhatMakesGreat](/interactive/cv/images/projects-wimbledon-2017.jpg "Wimbledon WhatMakesGreat")
 
-    ### Wimbledon (2017)
-    Technical lead and developer for "WhatMakesGreat", a project using machine learning with structured and unstructured data to understand what makes a great Wimbledon champion. The output of this project was used in articles for The Telegraph, Wimbledon's Facebook page, digital advertising at Heathrow airport, print newspapers and IBM's marketing campaign.
-
-    Technology Used: Watson Discovery Service, Watson Personality Insights, NodeJS, DB2, Cloud Foundry/Bluemix.
+    ### Wimbledon - WhatMakes "Great" (2017)
+    I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to develop the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign.
   - |
     ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
-
-    ### RBS Hybrid Chat Bot Prototype (2016)
-    Lead developer for the chat user interface. The interesting challenge was to avoid the transition between bot and human being seamless, but still remain smooth. Research indicated that users want to know if they are talking to a human or machine.
-
-    Technology Used: Watson Conversation, LiveChat, NodeJS, Javascript, Cloud Foundry/Bluemix.
+    ### RBS - Hybrid Chat Bot Prototype (2016)
+    I led the front-end development of a hybrid human-machine chat bot that used AI to answer customer queries, handing them over to human staff if appropriate. I was responsible for the specification, design and development of the prototype, working with Watson Conversation developers, RBS management and their human call centre staff and systems. The interesting challenge was not to make the machine to human transition seamless, but to make it frictionless (research indicated that users want to know if they are talking to a human or machine). The prototype is currently being taken in to production for RBS staff and customers.
   - |
-    ![US Masters, Roland Garros, ABM Amro, Wimbledon Social Media Analytics](/interactive/cv/images/projects-masters-rg-2016.jpg "US Masters, Roland Garros, ABM Amro, Wimbledon Social Media Analytics")
-
-    ### US Masters, Roland Garros, ABM Amro, Wimbledon (2016)
-    Technical lead and developer for a real-time social media analytics system. A machine learning classifier was used to identify content relevant to each tournament and natural language processing to understand the text. At peak, the system analysed 400 messages per second. It was used by the four tournaments to direct their social media output.
-
-    Technology Used: Watson Natural Language Classifier, Alchemy Language API, Apache Spark, NodeJS, Java, Cloud Foundry/Bluemix.
+    ![US Masters, Roland Garros, Wimbledon Social Media Analytics](/interactive/cv/images/projects-masters-rg-2016.jpg "US Masters, Roland Garros, Wimbledon Social Command Centre")
+    ### US Masters Golf - Social Command Centre (2016)
+    I was the technical lead for the development of a real-time social media analytics system to enable a small US Masters media team to respond to activity about the event. A machine learning classifier was used to identify content relevant to the tournament and natural language processing to understand the text. An Apache Spark cluster was used to handle the volume of traffic, at peak, 400 messages per second. I went on to lead the implementation of the solution for Roland Garros and Wimbledon.
   - |
     ![Wimbledon Chat Bot](/interactive/cv/images/projects-wimbledon-2015.jpg "Wimbledon Chat Bot")
-
-    ### Wimbledon (2015)
-    Technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
-
-    Technology Used: Watson Engagement Advisor, Controlled English, NodeJS, DB2, Cloud Foundry/Bluemix.
+    ### Wimbledon - Chat Bot Prototype (2015)
+    I was the technical lead and developer for an AI chat bot. The bot was capable of answering both statistical questions ("how many French players made the second round in 1999?") and questions that needed to be answered from unstructured data ("how do Wimbledon keep the pigeons away?"). Machine learning allowed the bot to answer unstructured data queries, combined with research technology (Controlled English) to answer structured data queries.
   - |
     ![Shop Direct Fantasy Fashion](/interactive/cv/images/projects-very.jpg "Shop Direct Fantasy Fashion")
-
-    ### Shop Direct Fantasy Fashion (2013)
-    Technical lead and mentor for an Extreme Blue project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales.
-
-    Technology Used: PHP, MySQL.
+    ### Shop Direct - Fantasy Fashion (2013)
+    I was the technical lead and mentor for an [Extreme Blue](https://www-01.ibm.com/employment/us/extremeblue/) project to prototype a fantasy fashion game for Shop Direct's "Very" brand. The project allowed customers to predict fashion trends, increasing time spent browsing Very's catalogue, promoting social sharing and providing Shop Direct with data that could be used to predict future sales. The project was presented to Shop Direct's board and won the Alsbridge 2014 Innovation Award.
   - |
     ![Meedan](/interactive/cv/images/projects-meedan-beta.jpg "Meedan")
-
     ### Meedan (2009)
-    Technical lead for Meedan's social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was an early social network and the first to make use of machine translation. It allowed users to correct translations, improving both the site and the underlying machine translation algorithms, pre-dating the same approach Google use.
-
-    Technology Used: PHP, MySQL, IBM Research Machine Translation.
+    I was the lead developer for a bilingual social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was the first social network to make use of machine translation and the first to allow user generated corrections.
 ---
-I'm a technical lead and developer in IBM's Emerging Technology group with 16 years' experience of taking research through to proof of concept and production systems. I've been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Open**, **RBS**, **Shop Direct** and **Homebase**.
+I’m a technical lead and developer in IBM’s Emerging Technology group. I have 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**.
 
-I have a reputation for being pragmatic and making things work on difficult projects in high pressure situations, leading many of IBM's sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects.
+I have a reputation for pragmatism and making things work in high pressure situations, leading many of IBM’s sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects. I contribute most when I’m part of the full scope of a project: from problem, through ideas generation, development and delivery. I’m as happy giving presentations, working with the business to understand the problem, generating ideas or being heads down in code.
 
-As an early adopter of IBM's version of the Design Thinking process I ran the first prototype workshops with UK clients. I've since run workshops for: **Universal Music**, **Unilever**, **KPMG**, **Carphone Warehouse**, **Wimbledon**, **EDF**, **British Gas** and **Stop the Traffik**.
-
-I contribute most when I'm part of the full scope of a project: from problem, through ideas generation, development and to delivery. I'm as happy giving pitches, working with the business, generating ideas or being heads down in code.
+As an early adopter of IBM’s version of the Design Thinking process I ran the first trial workshops with UK clients. I’ve since run workshops for: **Universal Music**, **The Natural History Museum**, **Unilever**, **KPMG**, **Carphone Warehouse**, **Wimbledon**, **EDF**, **British Gas**, **BBC** and **Stop the Traffik**.
 
 
 ## Technology
-Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB/Cloudant, Cloud Foundry, Bluemix, Photoshop, Sketch.
+Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB/Cloudant, Cloud Foundry, Bluemix.
 
 I am able to pick up new technology quickly, particularly when it is at an immature stage.
 
 
 ## What Else?
-I'm a (still learning) [fashion and portrait photographer](https://www.darrenshaw.org). I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly and I shot a cover of HairNow. I   [write](https://medium.com/why-i-love-this-picture) about photographs I love.
+I'm a (still learning) [fashion and portrait photographer](https://www.darrenshaw.org). I've been published in The Guardian, BBC Online, Hampshire Life, Guys+Girls, HairstylesOnly. I shot a cover of HairNow. I   [write](https://medium.com/why-i-love-this-picture) about photographs I love.
 
 
 ## Awards and Publications

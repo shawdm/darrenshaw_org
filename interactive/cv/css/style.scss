@@ -33,7 +33,6 @@ header.page{
 
 body.cv article.pulldown{
   position: absolute;
-  /*bottom: 100%;*/
   width: 100%;
   top:100%;
   min-height: 100px;
@@ -97,20 +96,10 @@ body.cv article.pulldown section.content .handle{
   text-align: center;
 }
 
-body.cv article.pulldown section.content .handle h4{
+body.cv article.pulldown section.content .handle h1{
   display: inline-block;
-  font-size: 0.625rem;
-  line-height: 0.625rem;
-  color: #fff;
-  background-color: rgba(37,37,37,0.8);
-  margin-bottom: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
+  text-shadow: 0px 0px 1px rgba(37,37,37,1);
 }
-
-
 
 body.cv article.pulldown section.content:HOVER{
   cursor: pointer;
@@ -131,6 +120,10 @@ body.cv article.projects{
   max-width: 100%;
   color: #fff;
   margin-bottom: 20px;
+}
+
+body.cv article.projects a{
+  color: #fff;
 }
 
 body.cv article.projects section{
@@ -157,6 +150,7 @@ body.cv article.projects section p img{
   margin-right: 20px;
   margin-left: 0;
   margin-top: 0.125rem;
+  margin-bottom: 1rem;
   float: left;
   border-style: solid;
   border-color: #fff;
@@ -177,4 +171,19 @@ body.cv section.headline{
 body.cv section.headline img{
   width: 100px;
   height: 100px;
+}
+
+
+@media (max-width: 414px){
+
+  body.cv article.projects section p img{
+    float: none;
+    margin-top: 0;
+    margin-bottom:0;
+  }
+
+  body.cv article.projects section:nth-child(odd) p img{
+    float: none;
+    margin-left: 0px;
+  }
 }
