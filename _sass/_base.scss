@@ -336,6 +336,12 @@ body.blog-post article{
    -moz-column-count: 1;
  }
 
+ body.blog-post img{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+
 
 @media (max-width: $break-xl-width-min){
 
