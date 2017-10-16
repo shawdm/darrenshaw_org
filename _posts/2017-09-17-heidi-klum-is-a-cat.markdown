@@ -6,11 +6,11 @@ location: Winchester, UK
 categories: blog
 excerpt: Why I love this Rankin series of Heidi Klum pictures that made me want to learn to take portraits.
 ---
-## Why I Love These Pictures
 This Rankin series of Heidi Klum pictures made me want to learn to take portraits — I’ve got two frames from the set on my wall. Everyone smiles when they look at them.
 
 ![Photographer: Rankin, Model: Heidi Klum.](/images/blog/why-i-love-this-picture/heidi-rankin-1.jpg "Photographer: Rankin, Model: Heidi Klum.")
 
+## Why I Love These Pictures
 I see the sequence and it feels like I was on set. As good a model as Heidi Klum is, there is no way that smile isn’t genuine. I can hear the giggling between frames and the back and forth between Rankin and Heidi. The pictures make me feel part of what happened that day.
 
 Heidi is hugely versatile. I see different people in each frame. In pictures 1, 7 and 16 there is a young Gwyneth Paltrow, but it’s Jessica Simpson in 9 and Katherine Heigl in 11. Rankin himself finds his way in to picture 13.
