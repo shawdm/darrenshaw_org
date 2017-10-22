@@ -59,7 +59,7 @@ project_sections:
 
     I was the lead developer for a bilingual social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was the first social network to make use of machine translation and the first to allow user generated corrections.
 ---
-I’m a technical lead and developer in IBM’s Emerging Technology group. I have 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**.
+I’m a technical lead and developer in IBM’s Emerging Technology group. I have 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**. Depending on the client and the nature of project, I've led using Waterfall, Lean and Agile methodologies.
 
 I have a reputation for pragmatism and making things work in high pressure situations, leading many of IBM’s sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects. I contribute most when I’m part of the full scope of a project: from problem, through ideas generation, development and delivery. I’m as happy giving presentations, working with the business to understand the problem, generating ideas or being heads down in code.
 
@@ -77,10 +77,13 @@ I'm a (still learning) [fashion and portrait photographer](https://www.darrensha
 
 
 ## Awards and Publications
-23 patents issued, 4 industry awards, 1 published academic paper, 1 published Redbook.
+23 patents issued, 5 industry awards, 1 published academic paper, 1 published Redbook.
 
 ### 23 Patents Issued
 Including IBM's High Value Patent Award for "Cooperative non-repudiated message exchange in a network environment" a verifiable, shared chat transcription log.
+
+### The Drum Awards for the Digital Industries 2017 - Best use of AI/Machine Learning
+I was the technical lead for the Wimbledon "WhatMakesGreat" campaign that won the award.
 
 ### Hermes Creative Award 2017 - Best Use of User Generated Content
 I was the lead developer for "Watson Poet", an AI based system that generated poems from social media messages. The system was used in an IBM marketing campaign, winning the Hermes award.
