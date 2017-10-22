@@ -27,7 +27,7 @@ project_sections:
 
     ### Wimbledon - WhatMakes "Great" (2017)
 
-    I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to create the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign.
+    I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to create the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign. The project won “Best use of AI/Machine Learning” at the Drum Awards for the Digital Industries 2017.
   - |
     ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
 
