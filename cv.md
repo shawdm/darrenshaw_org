@@ -29,12 +29,6 @@ project_sections:
 
     I was the technical lead for a machine learning project with the goal of understanding what makes a great Wimbledon champion. I worked with sports journalists, tennis players, coaches and statisticians to create the analysis and led the development team through production. I was responsible for helping journalists and marketing creatives understand and make use of the new analysis, while balancing direction from IBM executives. The work was published in The Telegraph, Wimbledon’s Facebook page, digital advertising at Heathrow airport and was the focal point for IBM’s Wimbledon 2017 marketing campaign. The project won “Best use of AI/Machine Learning” at the Drum Awards for the Digital Industries 2017.
   - |
-    ![RBS Hybrid Chat Bot Prototype](/interactive/cv/images/projects-rbs.jpg "RBS Hybrid Chat Bot Prototype")
-
-    ### RBS - Hybrid Chat Bot Prototype (2016)
-
-    I led the front-end development of a hybrid human-machine chat bot that used AI to answer customer queries, handing them over to human staff if appropriate. I was responsible for the specification, design and development of the prototype, working with Watson Conversation developers, RBS management and their human call centre staff and systems. The interesting challenge was not to make the machine to human transition seamless, but to make it frictionless (research indicated that users want to know if they are talking to a human or machine). The prototype is currently being taken in to production for RBS staff and customers.
-  - |
     ![US Masters, Roland Garros, Wimbledon Social Media Analytics](/interactive/cv/images/projects-masters-rg-2016.jpg "US Masters, Roland Garros, Wimbledon Social Command Centre")
 
     ### US Masters Golf - Social Command Centre (2016)
