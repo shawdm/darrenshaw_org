@@ -13,7 +13,7 @@ This is the second Boo George shoot with Alessandra Ambrosio that I’ve written
 ## Why I Love This Picture
 I think this might be the most beautiful fashion picture that’s ever been taken. I found it difficult to stop looking at it long enough to explain why I love it.
 
-Androgyny is one of fashion photography’s most frequently used patterns. It doesn’t always work. It’s used so regularly that it can easily become cliche or tacky. When it’s genuinely ambiguous, however, like this Boo George and Alessandra Ambrosio shoot, you’re not quite sure what you’re looking at. It draws you in to the picture and leaves you with more questions than answers.
+Androgyny is one of fashion photography’s most frequently used patterns. It doesn’t always work. It’s used so regularly that it can easily become cliche or tacky. When it’s genuinely ambiguous like in this Boo George and Alessandra Ambrosio shoot, you’re not quite sure what you’re looking at. It draws you in to the picture and leaves you with more questions than answers.
 
 There’s a second layer of ambiguity in this image — what is she thinking? People talk about seeing a story in someone’s eyes, but take a moment with this picture and you’ll see different things. Alessandra has strong angular features and she has an aggressive stance. This is such a fierce pose. It is confident, but there’s vulnerability too. Are her hands in her pocket defensively? Or is she popping her elbows out assertively? Is her face strong and steely or is it pensive and longing. This picture is like an optical illusion, flitting back and forth the more you look at it. The layers of ambiguity entice you to study the image more closely, asking yet more questions of it. It’s why you can’t take your eyes off it. It’s brilliant.
 
