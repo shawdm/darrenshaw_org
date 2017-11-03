@@ -133,12 +133,11 @@ header.page{
   display: flex;
   flex-direction: row;
   padding-top: $padding-unit;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: $padding-unit;
+  padding-right: $padding-unit;
   margin-bottom: $double-spacing-unit;
-  max-width: $break-m-width-min;
-  margin-left: $padding-unit;
-  margin-right: $padding-unit;
+  margin-left: 0;
+  margin-right: 0;
   border-bottom-color: $grey-color;
   border-bottom-style: solid;
   border-bottom-width: 1px;
