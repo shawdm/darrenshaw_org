@@ -27,7 +27,6 @@ Everything in this picture is right, the background, the tones, the clothes and 
 
 I love this picture.
 
-
 ## \*Photography Nerd Notes
 I think this was shot digitally, there’s grain in the picture but it was added in post. There’s a narrow depth of field, but Alessandra and the background are compressed, so it would have been a relatively long focal length, it might have been an 85mm lens at f2.
 
