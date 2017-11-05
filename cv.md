@@ -53,17 +53,16 @@ project_sections:
 
     I was the lead developer for a bilingual social network, using statistical machine translation to facilitate discussion between native English and Arabic speakers. Meedan was the first social network to make use of machine translation and the first to allow user generated corrections.
 ---
-I’m a technical lead and developer in IBM’s Emerging Technology group. I have 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the agile delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**.
+I’m a technical lead and developer in IBM’s Emerging Technology group with 16 years experience of taking research technology through to proof of concept and production systems. I’ve been responsible for the agile delivery of projects for **Wimbledon**, **Roland Garros**, **The US Masters**, **The British Library**, **RBS**, **Shop Direct** and **Homebase**.
 
-I have a reputation for pragmatism and making things work in high pressure situations, leading many of IBM’s sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects. I contribute most when I’m part of the full scope of a project: from problem, through ideas generation, development and delivery. I’m as happy giving presentations, working with the business to understand the problem, generating ideas or being heads down in code.
+I have a reputation for pragmatism and making things work in high pressure situations, leading many of IBM’s sports event innovation projects since 2013. I enjoy mentoring colleagues through these projects.
 
 As an early adopter of IBM’s version of the Design Thinking process I ran the first trial workshops with UK clients. I’ve since run workshops for: **Universal Music**, **The Natural History Museum**, **Unilever**, **KPMG**, **Carphone Warehouse**, **Wimbledon**, **EDF**, **British Gas**, **BBC** and **Stop the Traffik**.
 
 
 ## Technology
-Javascript, NodeJS, Java, PHP, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB/Cloudant, Cloud Foundry, Bluemix.
+Javascript, NodeJS, Java, PHP, R, CSS, Apache Spark, Elasticsearch, DB2, MySQL, Postgres, IBM Watson Machine Learning, IBM Discovery, IBM Conversation, CouchDB, Cloud Foundry, Bluemix, IBM Cloud, AWS.
 
-I am able to pick up new technology quickly, particularly when it is at an immature stage.
 
 
 ## What Else?
