@@ -169,11 +169,14 @@ header p a{
 }
 
 /* PORTFOLIO IMAGE */
+section.portfolio article{
+    padding-bottom: $padding-unit;
+}
+
 div.preview{
   background-color: $dark-color;
   height:0;
   position:relative;
-  margin-bottom: $padding-unit;
 }
 
 img.responsive{
