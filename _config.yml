@@ -35,7 +35,7 @@ responsive_image:
 
   # [Optional, Default: 85]
   # Quality to use when resizing images.
-  default_quality: 90
+  default_quality: 85
 
   # [Optional, Default: []]
   # An array of resize configuration objects. Each object must contain at least

@@ -4,4 +4,13 @@
   {% endfor %}
 {% endcapture %}
 
-<img src="/{{path}}" alt="{{alt}}" sizes="(max-width: 414px) 100vw, (max-width: 900px) 50vw, (max-width: 1400px) 25vw, (max-width: 1600px) 20vw, 880px" srcset="{{srcset | strip_newlines}}">
+{% capture ratio %}
+  {% assign i = resized[0] %}
+  {% assign image_width = i.width | times: 1.0 %}
+  {% assign image_height = i.height | times: 1.0 %}
+  {{ image_height | divided_by: image_width | times:100.0 }}
+{% endcapture %}
+
+<div class="preview "style="padding-bottom:{{ratio | strip_newlines}}%">
+  <img class="responsive" style="" src="/{{path}}" alt="{{alt}}" sizes="(max-width: 414px) 100vw, (max-width: 900px) 50vw, (max-width: 1400px) 25vw, (max-width: 1600px) 20vw, 880px" srcset="{{srcset | strip_newlines}}">
+</div>

@@ -95,7 +95,6 @@ img{
   padding-bottom: $padding-unit;
 }
 
-
 p.embed iframe {
     height: 480px;
     max-width: 100%;
@@ -156,14 +155,9 @@ header.page h1{
 }
 
 header.hero{
-  height: 800px;
-  background-image: url(../images/hero/charlie-2800-800.jpg);
-  background-size: cover;
-  background-position: center;
   margin-top: $padding-unit;
   margin-bottom: $padding-unit;
 }
-
 
 header a, header a:visited, header a:hover{
   text-decoration: none;
@@ -174,7 +168,26 @@ header p a{
   text-decoration: underline;
 }
 
+/* PORTFOLIO IMAGE */
+div.preview{
+  background-color: $dark-color;
+  height:0;
+  position:relative;
+  margin-bottom: $padding-unit;
+}
 
+img.responsive{
+  /* styling to allow for right sized preview while loading */
+  max-width: 100%;
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
+}
+/* END PORTFOLIO IMAGE */
+
+/* CV IMAGE */
 img.cv{
   width: 94px;
   height: 94px;
@@ -183,6 +196,7 @@ img.cv{
   right: $sub-padding-unit;
   z-index: 100;
 }
+/* END CV IMAGE */
 
 /**
  * Site content styling
@@ -350,15 +364,6 @@ body.blog-post article{
     -moz-column-count: 6;
   }
 
-  header.hero{
-    height: 571px;
-    background-image: url(../images/hero/charlie-2000-571.jpg);
-  }
-
-  header.mini-hero{
-    height: 100px;
-    background-image: url(../images/hero/charlie-2000-100.jpg);
-  }
 }
 
 @media (max-width: $break-l-width-min){
@@ -378,31 +383,12 @@ body.blog-post article{
     -moz-column-count: 4;
   }
 
-  header.hero{
-    height: 500px;
-    background-image: url(../images/hero/charlie-1400-500.jpg);
-  }
-
-  header.mini-hero{
-    height: 100px;
-    background-image: url(../images/hero/charlie-1400-100.jpg);
-  }
 }
 
 @media (max-width: $break-s-width-min){
 
   h1{
     text-align: center;
-  }
-
-  header.hero{
-    height: 400px;
-    background-image: url(../images/hero/charlie-1000-400.jpg);
-  }
-
-  header.mini-hero{
-    height: 100px;
-    background-image: url(../images/hero/charlie-1000-100.jpg);
   }
 
   header.site{
@@ -437,15 +423,6 @@ body.blog-post article{
 
 
 @media (max-width: $break-xs-width-min){
-  header.hero{
-    height: 300px;
-    background-image: url(../images/hero/charlie-414-300.jpg);
-  }
-
-  header.mini-hero{
-    height: 100px;
-    background-image: url(../images/hero/charlie-414-100.jpg);
-  }
 
   section{
     column-count: 1;
