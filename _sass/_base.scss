@@ -336,7 +336,7 @@ footer p{
  * Blog Post styling
  */
 body.blog-post article{
-  max-width: $break-s-width-min;
+  max-width: $max-article-width;
   margin-left: auto;
   margin-right: auto;
   padding-left: $padding-unit;

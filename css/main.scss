@@ -50,6 +50,8 @@ $break-m-width-min: 1400px;
 $break-s-width-min: 900px;
 $break-xs-width-min: 414px;
 
+$max-article-width: 80ch;
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
