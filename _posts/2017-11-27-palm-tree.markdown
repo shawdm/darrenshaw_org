@@ -6,7 +6,7 @@ location: Winchester, UK
 categories: blog
 excerpt: Jake Michaels is a serious photographer with high profile clients and a beautiful portfolio. As a sideline he also goes under the name Joke Michaels, sharing many of his street pictures and changing my mind about humour in photography.
 ---
-Jake Michaels is a serious photographer with high profile clients and a beautiful portfolio. As a sideline he also goes under the name Joke Michaels, sharing many of his street pictures and changing my mind about humour in photography.
+Jake Michaels is a serious photographer with high profile clients and a beautiful [portfolio](https://jakemichaels.com). As a sideline he also goes under the name [Joke Michaels](https://www.instagram.com/jokemichaels/), sharing many of his street pictures and changing my mind about humour in photography.
 
 ![Photographer: Jake Micahels.](/images/blog/why-i-love-this-picture/michaels-palm-tree.jpg "Photographer: Jake Micahels.")
 
