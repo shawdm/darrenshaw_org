@@ -11,6 +11,10 @@ Requires Jekyl Responsive Image plugin:
 ````gem install jekyll-responsive-image````
 
 ## OSX
+Run these as user, not as root.
+````
+brew install pkg-config
+````
 ````
 brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/6f014f2b7f1f9e618fd5c0ae9c93befea671f8be/Formula/imagemagick.rb
 ````
