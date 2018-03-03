@@ -8,7 +8,7 @@ excerpt: When I play fantasy fashion photographer my model shortlist is Emma Wat
 ---
 When I play fantasy fashion photographer my model shortlist is Emma Watson, Keira Knightly and Carey Mulligan.
 
-![Photographer: David Slijper, Model: Carey Mulligan.](/images/blog/why-i-love-this-picture/zoe.jpg "Photographer: David Slijper, Model: Carey Mulligan.")
+![Photographer: David Slijper, Model: Carey Mulligan.](/images/blog/why-i-love-this-picture/carey-mulligan.jpg "Photographer: David Slijper, Model: Carey Mulligan.")
 
 ## Why I Love This Picture
 I love David Slijper's 2011 cover of Carey Mulligan for its warmth. It encapsulates everything I imagine Carey to be. I adore her under played Mona Lisa smile, a genuine moment in the midst of an artificial photo shoot.
