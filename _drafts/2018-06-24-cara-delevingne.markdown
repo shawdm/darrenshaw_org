@@ -4,26 +4,26 @@ title:  "Cara Delevingne"
 date_written: 2018-06-24 17:00:00 +0000
 location: Winchester, UK
 categories: blog
-excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne. Her hard to read emotion, the simplicity of the lighting, pared back makeup and styling make it timeless.
+excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne. Her hard to read emotion, the simplicity of the lighting playing with her pared back makeup and styling make it timeless.
 ---
-I get butterflies looking at Peter Lindbergh's picture of Cara Delevingne. It was always going to be a beautiful portrait of a beautiful women, but Cara’s hard to read emotion, the simplicity of the lighting, pared back makeup and styling make it timeless.
+I get butterflies looking at Peter Lindbergh's picture of Cara Delevingne. It was always going to be a beautiful portrait of a beautiful women, but Cara’s hard to read emotion, the simplicity of the lighting playing with her pared back makeup and styling make it timeless.
 
 ![Photographer: Peter Lindbergh, Model: Cara Delevingne.](/images/blog/why-i-love-this-picture/cara-delevingne.jpg "Photographer: Peter Lindbergh, Model: Cara Delevingne.")
 
 ## Why I Love This Picture
-I love this picture because of Cara's face. There’s so much going on with her expression. The picture reveals more emotion the longer you spend with it. Initially she looks fierce, but as your eyes move across her face you notice the raised eyebrow and twinkle in Cara's eyes. Look again and she seems vulnerable, on the edge of tears, but then she’s back, via bored, to fierce and then as if she might smile, or perhaps burst in to tears. It’s relentless.
+I love this picture because of Cara's face - there’s so much going on with her expression. The picture rewards you with more emotions the longer you spend with it. Initially she's fierce, but then you notice the raised eyebrow and twinkle in Cara's eyes. Look again and she seems vulnerable, on the edge of tears, but then she’s back, via bored, to fierce and then as if she might smile, or perhaps burst in to tears. It’s relentless.
 
-Cara Delevingne may be single-handedly responsible for changing brows. Five years ago if you saw a picture of her it was all boyish good looks and huge eyebrows. Everyone has Cara brows now - you don’t even notice them, but the originals are still the best.
+Cara Delevingne may single-handedly be responsible for changing brows. Five years ago if you saw a picture of her it was all boyish good looks and huge eyebrows. Everyone has Cara brows now - you don’t even notice them, but the originals are still the best.
 
-Cara's versatility means she has done it all, from high concept Vogue editorials, to commercial billboards. For me, her best pictures are the ones where she’s able to bring out her personality and playfulness. There’s no other model who does this so consistently. Whether it's in TAG Heuer’s “Don’t Crack Under Pressure” campaign or the selfie shot for Vogue, with Cara, it's believable. You get the sense that Cara really doesn't care how she looks, she's just having fun. I don't think the Tag Heuer or Vogue pictures were planned exactly like they came out. If she was bothered about looking pretty they wouldn't have got such awesome pictures.
+Cara's versatility means she can (and has) done it all, runway, high concept editorials, commercial billboards. She even had a spell as a Victoria's Secret angel. Her best pictures are the ones where she’s able to bring out her personality and playfulness. There’s no other model who does this so consistently. Whether it's in TAG Heuer’s “Don’t Crack Under Pressure” campaign or the selfie shot for Vogue, with Cara, it's believable. You get the sense that she really doesn't care how she looks, she's just having fun. I don't think the Tag Heuer or Vogue pictures were planned, they were in the moment gems and if she was bothered about looking pretty, they would never have come. There are stacks of memorable editorial shoots, but it says a lot for Cara that her commercial ones are just as good.
 
 ![Cara Delevingne for Tag Heuer.](/images/blog/why-i-love-this-picture/cara-delevingne-tag.jpg "Photographer: Peter Lindbergh, Model: Cara Delevingne.")
 
 ![Cara Delevingne for Vogue.](/images/blog/why-i-love-this-picture/cara-delevingne-vogue.jpg "Cara Delevingne for Vogue")
 
-Peter Lindbergh’s pictures are some of fashions most identifiable. He’s known for telling stories through single cinematic frames (a lot of people credit him with being the first fashion photographer to do this).
+Peter Lindbergh’s pictures are amongst fashion's most identifiable. He’s known for telling stories through single cinematic frames (a lot of people credit him with being the first fashion photographer to do this).
 
-Lindbergh took one of the fashion’s most well known pictures - the launch of supermodels\*.  His style has been pretty consistent since then, not taken in by fads or distractions. Black and white, stripped back and naturally lit, all of Lindbergh’s pictures follow a similar pattern. They’re real, without props or gimmicks, he doesn’t stray into anything experimental or “arty”. This picture is slightly unusual, Cara’s wings are something you’d normally find in a Paolo Roversi picture, rather than a Lindbergh one. Maybe it was a commercial decision by [the company who the picture was for]. Maybe he thought they added depth (they add a layer between foreground and background). Or Maybe Cara just thought they looked cool and there was no arguing. The picture would be just as good without them, but they don’t detract from it either.
+Lindbergh took one of Vogue's most well known covers - the launch of supermodels\*. His style has been consistent since then, never distracted by fads. Black and white, stripped back and naturally lit, all of Lindbergh’s pictures follow a similar pattern. They’re real, without props or gimmicks, he doesn’t stray into anything experimental or “arty”. This picture is slightly unusual, Cara’s wings are something you’d normally find in a Paolo Roversi picture, rather than a Lindbergh one. Maybe it was a commercial decision by [the company who the picture was for]. Maybe he thought they added depth (they add a layer between foreground and background). Or Maybe Cara just thought they looked cool and there was no arguing. The picture would be just as good without them, but they don’t detract from it either.
 
 ![Peter Lindbergh for Vogue.](/images/blog/why-i-love-this-picture/vogue-90-lindbergh.jpg "Peter Lindbergh for Vogue.")
 
