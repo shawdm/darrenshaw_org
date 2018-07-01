@@ -6,7 +6,7 @@ location: Winchester, UK
 categories: blog
 excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne. Cara's hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
 ---
-I get butterflies looking at Peter Lindbergh's picture of Cara Delevingne. It was always going to be a beautiful portrait of a beautiful women, but Cara’s hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
+I get butterflies looking at Peter Lindbergh's picture of Cara Delevingne for Douglas Cosmetics. It was always going to be a beautiful portrait of a beautiful women, but Cara’s hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
 
 ![Photographer: Peter Lindbergh, Model: Cara Delevingne.](/images/blog/why-i-love-this-picture/cara-delevingne.jpg "Photographer: Peter Lindbergh, Model: Cara Delevingne.")
 
@@ -21,7 +21,7 @@ Cara's versatility means she can (and has) done it all, runway, high concept edi
 
 ![Cara Delevingne for Vogue.](/images/blog/why-i-love-this-picture/cara-delevingne-vogue.jpg "Cara Delevingne for Vogue")
 
-Peter Lindbergh’s pictures, known for telling stories through single cinematic frames, are amongst fashion's most identifiable. He took one of Vogue's best known covers - credited with the launch of supermodels at the beginning of the 1990s\*. With consistent style, Lindbergh’s pictures follow a pattern, Black and white, stripped back and naturally lit. They’re real, without props or gimmicks, he doesn’t stray into anything experimental or “arty”. This picture is slightly unusual, Cara’s wings are something you might expect to find in a Paolo Roversi image. Maybe it was a commercial decision by [the company who the picture was for]. Maybe Lindbergh thought they provided depth (they add a layer between foreground and background). Or Maybe Cara just thought they looked cool and there was no arguing with her. The picture would be just as good without them, but they don’t detract from it.
+Peter Lindbergh’s pictures, known for telling stories through single cinematic frames, are amongst fashion's most identifiable. He took one of Vogue's best known covers - credited with the launch of supermodels at the beginning of the 1990s\*. With consistent style, Lindbergh’s pictures follow a pattern, Black and white, stripped back and naturally lit. They’re real, without props or gimmicks, he doesn’t stray into anything experimental or “arty”. This picture is slightly unusual, Cara’s wings are something you might expect to find in a Paolo Roversi image. Maybe it was a commercial decision by Douglas Cosmetics. Maybe Lindbergh thought they provided depth (they add a layer between foreground and background). Or Maybe Cara just thought they looked cool and there was no arguing with her. The picture would be just as good without them, but they don’t detract from it.
 
 ![Peter Lindbergh for Vogue.](/images/blog/why-i-love-this-picture/vogue-90-lindbergh.jpg "Peter Lindbergh for Vogue.")
 
@@ -38,4 +38,4 @@ Lindbergh shoots digitally, but by keeping the lighting simple and minimising th
 
 His pictures are shot in open shade, or a studio simulation of it. This is a forgiving lighting setup that makes everyone look good, never mind a super model. His pictures tend to minimise gender, they’re never particularly glamorous or sexy. His male and female subjects are often styled similarly. There’s no gimmicks in his pictures, but that gives him nowhere to hide. His pictures are about his relationship with the model and the story he can tell.
 
-Lindbergh’s shoots are lightly retouched, you get creases, eye bags, spots, freckles. They’re real and though this is very of the moment, his pictures have always been this way. Cara does have makeup in this picture but it's done with a light touch. A lot of his pictures the models have no or hardly any makeup. It can make a familiar face look different and exciting again.
+Lindbergh’s shoots are lightly retouched, you get creases, eye bags, spots, freckles. They’re real and though this is very of the moment, his pictures have always been this way. Cara does have makeup in this picture (it is for a cosmetics brand) but it's done with a light touch. A lot of his pictures the models have no or hardly any makeup. It can make a familiar face look different and exciting again.
