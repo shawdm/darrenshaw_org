@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Eric"
+date: 2018-10-27 09:00:00 +0000
+date_written: 2018-10-27 09:00:00 +0000
+location: Winchester, UK
+categories: front
+excerpt: Eric.
+image: images/2018/eric/20180922-2.jpg
+---
+<img src='/images/2018/eric/20180922-2.jpg'/>
+Eric.
