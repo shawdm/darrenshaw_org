@@ -20,7 +20,6 @@ deploy:
     secure: OS/NvyN2A838L0bmI2asym3F2+IE0+xYVVN2vdidCQabRePU9rTig2dLJIAOEx5brQsrjnMX62S2Yd/OzDcP1KHpfMH23sodKn38uYloMyYI3IE+w0l+ie5yDMyJVd6Nf4MqA+PIJwOVS5Va4N/8OwgiGh4Q9eTwT6jBz75FowTEgSOSN+c8jKcQCUG3SNqw1O8f+BNOfHBaKtp1DDEi1lAfBvM2xApjwd+dDG4tGhjkfPGjdgmcaR2r8v5beSH4W5kf6up8iOTLFCkrlxObQVROtv/40Q9yPQqK+LROastB7gArf01YvOtqnl+co7M+sqOL8qLtzhlCqEEVap2CdIXfzoGhnVnQTMYO8SWF78emwZElagagv0pe/a/fJ4OQus3DXIuxQUX259DUPFKaC7fuKACL0SWgUj25M+0T71+PBfv+2eZ7KhUN/GkZESgrl9pjdd2CQUvHI+2TVZan93cT6kkUh4Z/2i9+b9H2zcC1SQzq+yCKA1GZRA60YXrwLOtMvh2lefG1TdvMrncb70hgR6II85BBhO/GSlsCqZJCM+TGQ3eTet/rlszTxLRG3MU2GWBSujupC1dTJoa8rXzS8Rp5XS6OTmee9Rdue5X99cGDyMQyNgmklHd8oWZMzCc1E5WOJvwAqG48r3gfZ5+m3O4zfnC/nvratOcfvnw=
   bucket: darrenshaw.org
   local-dir: _site
-  acl: public_read
   on:
     repo: shawdm/darrenshaw_org
     branch: deployment/enable_travis_ci
