@@ -1,22 +1,20 @@
 language: ruby
 rvm:
- - 2.4.1
-
+- 2.4.1
 before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: ./script/cibuild
-
-
+- chmod +x ./script/cibuild
+script: "./script/cibuild"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 addons:
   apt:
     packages:
     - libcurl4-openssl-dev
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+sudo: false
+deploy:
+  provider: s3
+  access_key_id: AKIAJYEPIAQD4Q4RQD4A
+  secret_access_key:
+    secure: oIRyXAUor3QlbzlSqiFtoKa95gZJwXuhtHQS0TwHj0W03v+Uy5SCZ1So47E8WLqy8zqnAXOKS1DNT52CK+erY3mVyIYupgBxzr/Xe3mhXm0y+RxFJYvxk9+PmaBb+6T6fYPZPOFXQONxKWIWHqy9yarLj6IBIimzFLIb1L4/E1Z66zPmXWdVb+Fk4dSd+i6hJ+euSfVQ7ldVp2NapkJLbbVImgxJSCbsIv+SsNi+h7qXytgX1Dr/LWjgrgLmCDUo2n+MDsJnG4JVML1UAhzLrb6h9vTxO7b+gVH9ssBwcYbTpT60Q8xMbJm/peQa/t6eb7kgCVKr5aQFTBbtgf1hPnUQvgeKUN3CO3ehEorJ9yyrw4wX3EIKLoCV3QT2WNQ9CUIlIoVPKvibZk4yXcupic0xEHrOnV4Y9MBmRifjA7Tut/hwr0JUo3Kmw+egCdcBG3AGvhnFDKbjzheb8G8EReAOacXfl5nhLn1XdLYT+1in5EZRhHNwe0ZvAtXf8B7W+HgdA2A3OOHL3axXt2c18mC6lZX5UdME1SvUjv+TbDIF+dgkO+cEGs/A/Hri5e0YEbUur9mpT9FKcmMo5vCcQOy4eOU0nzs8X3/qcMnqJCQF2MDPh5xy2y24cZPmeuqaTqBs/w7qXFfCGvNT2FTFUM70Iy5oPoALTS9mAdclZZI=
+  bucket: darrenshaw.org
