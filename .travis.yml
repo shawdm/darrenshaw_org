@@ -13,6 +13,7 @@ addons:
     - libcurl4-openssl-dev
 sudo: false
 deploy:
+  skip_cleanup: true
   provider: s3
   access_key_id: AKIAJYEPIAQD4Q4RQD4A
   secret_access_key:
