@@ -16,7 +16,7 @@ deploy:
   skip_cleanup: true
   region: us-east-1
   provider: s3
-  access_key_id: AKIAJDLO5IUXAXOUYEDQ
+  access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: darrenshaw.org
   local-dir: _site
