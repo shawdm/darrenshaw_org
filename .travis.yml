@@ -22,4 +22,4 @@ deploy:
   local-dir: _site
   on:
     repo: shawdm/darrenshaw_org
-    branch: deployment/enable_travis_ci
+    branch: master
