@@ -17,8 +17,7 @@ deploy:
   region: us-east-1
   provider: s3
   access_key_id: AKIAJDLO5IUXAXOUYEDQ
-  secret_access_key:
-    secure: W66D8LHdGLvGHMhIpRvby+2KgJBKjaJM/2R+Q76HUtPat+aC9iZRhEewRleydC5XnqQ8cIc+IU/T7sLcj7cpXPf7viyG8F+NE9Z8l5qUdHR7zRXc2Ta0oZsgUvqD7GVJH7HY5afx9ZclOrEtVPiaEPHBA9KDYICX6KewzUcXlOH07coaq2KcJwm6weGnkXvO7pn5INOG+NOVnGJDs/P9WSSulnBPM1qo01NuJyy5UN4EgsuJVvkIH5FGWfpmka811FFLYQcH7hxhr7FLDS2qm14icguW2cEg7sam2OHs+wpSErhY+mIckpAeHNGkvJH8LW7wfjb+SPqsZypRiaAyJBjjgZ57WF463dXxQ15/+wXGqDQjBLzmOL6zr4fWrUvE6tPGCTNe2zl5mhz2IpyQ/QV9qA9jot19UOpfC6FGVmEtmx0MbPQPtCENxOV9sEmdC0/Z4NeC1XeNOmozaYAsD/+xQdq/5qJUJTUE3NiZ7NySiKriYgUsjX08MBiiP4TsPtTap0fxMNgozrjvvU1YMbpTq74HXz6Es01yHk6jUHWKKoqy8+FCBmUxOPWqExXown33PX7M8RYnRcUgIbiVLvGOc+CU/UCYlRcIEtn+jFY66QGhXE4LNTnXg3OflmOBOmQ9/tlYeFRmouFmQGf7EcRVrZbYBPkN9bzkdgSY62w=
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: darrenshaw.org
   local-dir: _site
   on:
