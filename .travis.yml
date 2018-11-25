@@ -13,13 +13,25 @@ addons:
     - libcurl4-openssl-dev
 sudo: false
 deploy:
-  skip_cleanup: true
-  region: us-east-1
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: www.darrenshaw.org
-  local-dir: _site
-  on:
-    repo: shawdm/darrenshaw_org
-    branch: master
+  - provider: s3
+    skip_cleanup: true
+    region: us-east-1
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: darrenshaw.org
+    local-dir: _site
+    on:
+      repo: shawdm/darrenshaw_org
+      branch: master
+  - provider: s3
+    skip_cleanup: true
+    region: us-east-1
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: dev.darrenshaw.org
+    local-dir: _site
+    on:
+      repo: shawdm/darrenshaw_org
+      branch: dev
