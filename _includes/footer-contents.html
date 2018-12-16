@@ -1,0 +1,9 @@
+<section class="content">
+  <h1>Contents.</h1>
+  {% for post in site.posts %}
+    <a href="{{ post.url }}">
+        <h3>{{post.title}}</h3>
+        <p class='subtext'>{{post.excerpt}}</p>
+    </a>
+  {% endfor %}
+</section>

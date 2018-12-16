@@ -19,7 +19,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.darrenshaw.org" # the base hostname & protocol for your site
 twitter_username: shawdm
 github_username:  shawdm
-paginate: 100
 
 # Build settings
 markdown: kramdown
@@ -41,12 +40,11 @@ responsive_image:
   # An array of resize configuration objects. Each object must contain at least
   # a `width` value.
   sizes:
-    - width: 880
-    - width: 788
-    - width: 700
-    - width: 675
-    - width: 616
-    - width: 435
+    - width: 2800
+    - width: 1400
+    - width: 1000
+    - width: 800
+    - width: 600
 
   # [Optional, Default: false]
   # Rotate resized images depending on their EXIF rotation attribute. Useful for

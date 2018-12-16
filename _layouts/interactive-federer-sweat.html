@@ -7,9 +7,12 @@
   </head>
 
   <body>
-    {% include header.html %}
 
-    <section>
+    <article class="header">
+      {% include header.html %}
+    </article>
+
+    <section class="federer-perspired">
       <article class='federer-perspired'>
         <h1>Has Roger Federer Perspired?</h1>
         <blockquote>
@@ -168,7 +171,6 @@
         <p>
           The analysis was mainly statistical, what the unstructured content did was force us to ask the right questions, to challenge the assumptions and bypass some of our own biases.
         </p>
-        <p>-<a href='https://twitter.com/shawdm'>Darren Shaw</a>, 14 July 2017</p>
       </article>
 
       <article>
@@ -182,7 +184,17 @@
       </article>
     </section>
 
-    {% include footer.html %}
+    <article class="about">
+        {% include footer-about.html %}
+    </article>
+
+    <article class="contents">
+      {% include footer-contents.html %}
+    </article>
+
+    <article class="footer">
+      {% include footer.html %}
+    </article>
 
     <script src='{{"/interactive/federer-sweat/js/moment.min.js" | prepend:site.baseurl}}'></script>
     <script src='{{"/interactive/federer-sweat/js/he.js" | prepend:site.baseurl}}'></script>

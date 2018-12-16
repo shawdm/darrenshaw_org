@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, img{
     margin: 0;
     padding: 0;
+    text-align: left;
 }
-
 
 /**
  * consistent box sizing
@@ -14,17 +14,18 @@ html, body, div{
   box-sizing: border-box;
 }
 
+html {
+  font-size: $font-size-base;
+}
 
 /**
  * Basic styling
  */
 body{
-  font-size: $base-font-size;
+  font-size: $font-size-base;
   font-family: $base-font-family;
   font-weight: $base-font-weight;
-  line-height: $base-line-height;
-  color: $black-color;
-  background-color: $white-color;
+  line-height: $line-height-base;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -32,413 +33,194 @@ body{
   font-feature-settings: "kern" 1;
   font-kerning: normal;
 
-  max-width: $content-max-width;
   width: 100%;
+  max-width: $content-max-width;
+  min-width: $content-min-width;
   margin-left: auto;
   margin-right: auto;
-}
 
+  color: $black-color;
+  background-color: $white-color;
+}
 
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6{
-  text-align: center;
-}
-
 h1{
   text-align: left;
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: $font-size-xlarge;
   font-weight: $heavy-font-weight;
-  /*margin-bottom: 0.425rem;*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-h1 span.date, h3 span.date{
+h1 span.date, h2 span.date, h3 span.date{
   font-weight: $base-font-weight;
 }
 
 h2{
   text-align: left;
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: $font-size-medium;
   font-weight: $heavy-font-weight;
-  padding-top: 0.425rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h3{
-  font-size: $medium-font-size;
-  line-height:$base-line-height;
+  font-size: $font-size-base;
   font-weight:$heavy-font-weight;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 a{
   color: $black-color;
+  text-decoration: none;
 }
 
 p{
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: $base-line-height;
-  line-height: $base-line-height;
+  padding-bottom: $base-height-spacing;
 }
 
-p.subtext{
-  font-size: $small-font-size;
-  line-height: $small-line-height;
-  max-width: 400px;
-}
-
-img{
-  max-width: 100%;
-  margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
-  padding-bottom: $padding-unit;
-}
-
-p.embed iframe {
-    height: 480px;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-
-/**
- * Header styling
- */
-header.site{
-  display: flex;
-  flex-direction: row;
-  padding-top: $padding-unit;
-  padding-left: $padding-unit;
-  padding-right: $padding-unit;
-  max-width: $break-m-width-min;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header.site .banner{
-  padding-right: $padding-unit;
-  text-align: right;
-}
-
-
-header.site h1{
-  font-weight: $base-font-weight;
-}
-
-header.page{
-  display: flex;
-  flex-direction: row;
-  padding-top: $padding-unit;
-  padding-left: $padding-unit;
-  padding-right: $padding-unit;
-  margin-bottom: $double-spacing-unit;
-  margin-left: 0;
-  margin-right: 0;
-  border-bottom-color: $grey-color;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
-
-header.page .banner{
-  padding-right: $padding-unit;
-  text-align: right;
-}
-
-header.page h1{
-  font-weight: $base-font-weight;
-  font-size: $small-font-size;
-  line-height: $small-font-size;
-  margin-bottom: 0.425rem;
-}
-
-header.hero{
-  margin-top: $padding-unit;
-  margin-bottom: $padding-unit;
-}
-
-header a, header a:visited, header a:hover{
-  text-decoration: none;
-  color: $black-color;
-}
-
-header p a{
-  text-decoration: underline;
-}
-
-/* PORTFOLIO IMAGE */
-section.portfolio article{
-    padding-bottom: $padding-unit;
-}
-
-div.preview{
-  background-color: $dark-color;
-  height:0;
-  position:relative;
-}
-
-img.responsive{
-  /* styling to allow for right sized preview while loading */
-  max-width: 100%;
-  width:100%;
-  height:100%;
-  display:block;
-  position:absolute;
-  margin-bottom: -4px; /* fix for excessive spacing - do not understand this */
-}
-/* END PORTFOLIO IMAGE */
-
-/* CV IMAGE */
-img.cv{
-  width: 94px;
-  height: 94px;
-  position: absolute;
-  top: $sub-padding-unit;
-  right: $sub-padding-unit;
-  z-index: 100;
-}
-/* END CV IMAGE */
-
-/**
- * Site content styling
- */
-.page-content{
-  width: 100%;
-  padding-left: $padding-unit;
-  padding-right: $padding-unit;
-  margin-bottom: $spacing-unit;
-}
-
-
-.tech-content{
-  background-color: $dark-color;
-  color: $white-color;
-  padding-top: $spacing-unit;
-}
-
-.tech-content a{
-  color: $white-color;
-}
-
-/**
- * Home page content styling
- */
-section{
-  column-count: 7;
-  -webkit-column-count: 7;
-  -moz-column-count: 7;
-
-  column-gap: $padding-unit;
-  -webkit-column-gap: $padding-unit;
-  -moz-column-gap: $padding-unit;
-}
-
-article{
-  break-inside: avoid;
-  padding-bottom: 0px;
-}
-
-
-section.intro{
-  column-count: 1;
-  -webkit-column-count: 1;
-  -moz-column-count: 1;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-}
-
-section.intro h3{
-  text-align: right;
-  max-width: $caption-max-width;
-}
-
-section.intro p{
-  text-align: right;
-  max-width: $caption-max-width;
-}
-
-.tech-content section.intro{
-  align-items: flex-start;
-  border-bottom-style: solid;
-  border-bottom-color: $grey-color-dark;
-  border-bottom-width: 1px;
-}
-
-.tech-content section.intro h3{
-  text-align: left;
-}
-
-.tech-content section.intro p{
-  text-align: left;
-}
-
-
-section.blog{
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
-}
-
-
-
-section.blog h3{
-  color: $white-color;
-  text-align: left;
-  display: inline;
-}
-
-section.blog a{
-  text-decoration: none;
-}
-
-
-/**
- * Individual post content styling
- */
- article.post{
-   max-width: $break-m-width-min;
-   margin-left: auto;
-   margin-right: auto;
- }
-
- article.post section{
-   column-count: 2;
-   -webkit-column-count: 2;
-   -moz-column-count: 2;
-
-   column-gap: $padding-unit;
-   -webkit-column-gap: $padding-unit;
-   -moz-column-gap: $padding-unit;
- }
-
- p.meta{
-   text-align: right;
- }
-
-
-/**
- * Footer styling
- */
-footer{
-    width: 100%;
-    margin: auto;
-    text-align: justify;
-    padding-top: $spacing-unit;
-    margin-bottom: $spacing-unit;
-}
-
-footer p{
+p.embed{
   text-align: center;
-  line-height: $base-line-height
 }
 
+.content{
+  max-width: $max-article-width;
+  margin: auto;
+}
 
-/**
- * Blog Post styling
+/*
+ * About, Contents, Footer sections
  */
-body.blog-post article{
+.about {
+  position: relative;
+  background-image: url(../images/hero/snow_1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .content{
+  padding-top: $large-height-spacing;
+  padding-bottom: $xlarge-height-spacing;
+  color: $white-color;
+}
+
+.about a{
+  color: $white-color;
+  font-weight: $heavy-font-weight;
+}
+
+.contents{
+  padding-top: $large-height-spacing;
+  padding-bottom: $large-height-spacing;
+  background-color: $grey-color;
+}
+
+.footer {
+  background-color: $black-color;
+}
+
+.footer .content{
+  padding-top: $large-height-spacing;
+  padding-bottom: $large-height-spacing;
+  color: $white-color;
+}
+
+.endbar{
+  height: $base-height-spacing;
+  background-color: $accent-color;
+}
+
+.footer .endbar{
+  height: $small-height-spacing;
+  background-color: $accent-color;
+}
+
+/*
+ * Main article sections
+ */
+ article {
+  max-width: 100%;
+  margin: auto;
+}
+
+.blog-post img{
+  max-width: $max-article-width;
+  width: 100%;
+}
+
+.photo-post img{
+  display: block;
+}
+
+.photo-post img.responsive {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-post img.square {
   max-width: $max-article-width;
   margin-left: auto;
   margin-right: auto;
-  padding-left: $padding-unit;
-  padding-right: $padding-unit;
+  margin-top: $large-height-spacing;
+  margin-bottom: $large-height-spacing;
 }
 
- body.blog-post article section{
-   column-count: 1;
-   -webkit-column-count: 1;
-   -moz-column-count: 1;
- }
-
- body.blog-post img{
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
- }
-
-
-@media (max-width: $break-xl-width-min){
-
-  section{
-    column-count: 6;
-    -webkit-column-count: 6;
-    -moz-column-count: 6;
-  }
-
+.photo-post .photo p{
+  padding: 0;
+  margin: 0;
 }
 
-@media (max-width: $break-l-width-min){
-  section{
-    column-count: 5;
-    -webkit-column-count: 5;
-    -moz-column-count: 5;
-  }
-
+.photo-post p.square-text-above {
+  max-width: $max-article-width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $large-height-spacing;
 }
 
-
-@media (max-width: $break-m-width-min){
-  section{
-    column-count: 4;
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-  }
-
+.photo-post p.square-text-below {
+  max-width: $max-article-width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $large-height-spacing;
 }
 
-@media (max-width: $break-s-width-min){
-
-  h1{
-    text-align: center;
+/*
+ * Responsive Small/Phone
+ */
+@media(max-width: $break-point-small){
+  section.content p, section.content h1, section.content h2, section.content h3 {
+    padding-left: $spacing-unit-small;
+    padding-right: $spacing-unit-small;
   }
 
-  header.site{
-    flex-direction: column;
+  p.square-text-above, p.square-text-below {
+    padding-left: $spacing-unit-small;
+    padding-right: $spacing-unit-small;
   }
 
-  header.site .banner{
-    text-align: center;
+  .photo-post img.square {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
-  img.cv{
-    width: 70px;
-    height: 70px;
+  .photo-post p.square-text-above {
+    padding-left: $spacing-unit-small;
+    padding-right: $spacing-unit-small;
+    margin-top: $medium-height-spacing;
+    margin-bottom: $medium-height-spacing;
   }
 
-  section{
-    column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-  }
-
-   article.post section{
-     column-count: 1;
-     -webkit-column-count: 1;
-     -moz-column-count: 1;
-   }
-
-   p.embed iframe {
-       height: 360px;
-   }
-}
-
-
-@media (max-width: $break-xs-width-min){
-
-  section{
-    column-count: 1;
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-  }
-
-  section.intro p{
-    max-width: 100%;
-    text-align: left;
-  }
-
-  p.embed iframe {
-      height: 240px;
+  .photo-post p.square-text-below {
+    padding-left: $spacing-unit-small;
+    padding-right: $spacing-unit-small;
+    margin-top: $medium-height-spacing;
+    margin-bottom: $medium-height-spacing;
   }
 }

@@ -3,55 +3,40 @@
 ---
 @charset "utf-8";
 
-
-// Text Settings
 $base-font-family: 'Lato', sans-serif;
 $base-font-weight: 300;
 $heavy-font-weight: 700;
-$base-font-size:   16px;
-$base-line-height: 1.25rem; /* 20px - everything needs to fit in multiples of this to maintain vertical rhythm */
-$double-line-height: 2.5rem;
-
-$medium-font-size: 1.25rem;
-
-
-$small-font-size: 0.625rem; /* 10px */
-$small-line-height: 0.9375rem; /* 15px */
-
-$caption-max-width: 200px;
+$font-size-base: 20px;
+$font-size-medium: 2rem;
+$font-size-large: 3rem;
+$font-size-xlarge: 4rem;
+$line-height-base: 1.6;
 
 // Colour Settings
 $black-color: #111;
 $dark-color: #404040;
-$white-color: #fff;
-$accent-color: #cad0db;
+$grey-color: #D8D8D8;
+$white-color: #FFF;
+$accent-color: #FA7268;
 
-$grey-color: #c4c3c3;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$yellow-color: #fffd38;
+// Extreme sizes
+$content-max-width: 1400px;
+$content-min-width: 375px;
+$max-article-width: 800px;
 
-
-// max sizes
-$content-max-width: 2530px; //7 images at 350px plus padding
 
 // Layout Settings
-$spacing-unit-section: 70px;
-$spacing-unit: 20px;
-$double-spacing-unit: 40px;
-$padding-unit: 10px;
-$sub-padding-unit: 5px;
+$spacing-unit-small: 20px;
+$spacing-unit-large: 100px;
 
+$small-height-spacing: $line-height-base * $font-size-base * 0.5;
+$base-height-spacing: $line-height-base * $font-size-base;
+$medium-height-spacing: $line-height-base * $font-size-base;
+$large-height-spacing: $line-height-base * $font-size-large;
+$xlarge-height-spacing: $line-height-base * $font-size-xlarge;
 
 // Widths for responsive switch points
-$break-xl-width-min: 2000px;
-$break-l-width-min: 1600px;
-$break-m-width-min: 1400px;
-$break-s-width-min: 900px;
-$break-xs-width-min: 414px;
-
-$max-article-width: 80ch;
-
+$break-point-small: $max-article-width + (2*$spacing-unit-small);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

@@ -11,6 +11,9 @@
   {{ image_height | divided_by: image_width | times:100.0 }}
 {% endcapture %}
 
-<div class="preview "style="padding-bottom:{{ratio | strip_newlines}}%">
-  <img class="responsive" style="" src="/{{path}}" alt="{{alt}}" sizes="(max-width: 414px) 100vw, (max-width: 900px) 50vw, (max-width: 1400px) 25vw, (max-width: 1600px) 20vw, 880px" srcset="{{srcset | strip_newlines}}">
-</div>
+<img
+  class="responsive {{class}}"
+  src="/{{path}}"
+  alt="{{alt}}"
+  srcset="{{srcset | strip_newlines}}"
+/>

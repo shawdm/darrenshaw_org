@@ -1,22 +1,35 @@
 <!DOCTYPE html>
+<!-- layout blog-post -->
 <html>
   {% include version.html %}
   <head>
     {% include head-core.html %}
   </head>
 
-  <body class='blog-post'>
+  <body class="blog-post">
 
-    {% include header.html %}
+    <article class="header">
+          {% include header.html %}
+    </article>
 
     <article>
-      <section>
-        <h1>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h1>
-        {{ content }}
+      <section class="content">
+        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h2>
+        {{ page.content }}
       </section>
     </article>
 
-    {% include footer.html %}
+    <article class="about">
+        {% include footer-about.html %}
+    </article>
+
+    <article class="contents">
+      {% include footer-contents.html %}
+    </article>
+
+    <article class="footer">
+      {% include footer.html %}
+    </article>
 
   </body>
 
