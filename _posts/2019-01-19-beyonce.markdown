@@ -1,0 +1,39 @@
+---
+layout: blog-post
+title:  "Beyoncé"
+date_written: 2019-01-19 18:00:00 +0000
+location: Winchester, UK
+categories: blog
+excerpt: It's our loss that Beyoncé doesn't do magazine photo shoots any more. In the early 2010s she graced some of the finest fashion stories. Out of all these, it's Alasdair McLellan's cover for The Gentlewoman that I love the most.
+---
+I love this Beyoncé picture by Alasdair McLellan. I love it almost as much as [Drake](https://www.elle.com/culture/music/a12186209/drake-has-a-huge-portrait-of-beyonce-on-his-wall/) does.
+
+{% responsive_image path: images/blog/why-i-love-this-picture/beyonce-1.jpg class: wide %}
+
+## Why I Love This Picture
+With the diminishing significance of album artwork and few artists given the luxury of billboard advertising, fashion stories are the last outlet for beautifully produced pictures of our pop icons. It's our loss that Beyoncé doesn't do magazine photo shoots any more. In the early 2010s she graced some of the finest fashion stories. Out of all these, it's McLellan's cover for [The Gentlewoman](https://thegentlewoman.co.uk/library/beyonce) that I love the most.
+
+The Spring/Summer issue of The Gentlewomen came in a run of elaborate Beyoncé fashion stories. Fancy clothes, fancy makeup and intricate sets. McLellan's portraits were, in contrast, a breath of fresh air. Showing a simpler, stripped back Beyoncé. It was the first time we glimpsed the more serious artist ahead. The cover was published in the Summer of 2013, prior to the release of, “Beyoncé” - the record that paralleled her transition from pop star to culturally significant figure. Whether McLellan or Beyoncé knew this was coming, I feel the change in this picture.
+
+Photographs have always been used to transform (or mark the transformation of) a pop star's public image. They're used in a cliche way for teen stars to move to a grown up audience. Standard practice is for a female singer with young fans to do a “sexy" photo shoot in an often clumsy attempt to appeal to an older, male audience. It usually falls a little flat because the pictures are rarely believable (Miley Cyrus is one exception). It's easier to see in retrospect, but McLellan's images mark Beyoncé moving to a more reflective and serious stage of her career.
+
+These pictures will be studied historically. Think of Frank Sinatra, Tina Turner or David Bowie and there is an image that comes to mind. In fifty years when people look back at Beyoncé's career and whatever affect she's judged to have had on racism, sexism or entertainment, these images will fill that role.
+
+We rarely see Beyoncé stripped back. She's incredibly beautiful. Not the fierce Beyoncé that we are more familiar with, this is a delicate but poised and confident women. I love that this isn't a deliberately sexy picture. Beyoncé is plenty sexy enough as is and McLellan produced a stronger picture for not playing on that.
+
+Model as off-duty ballerina is one of my favourite fashion story concepts - it's regularly done. I loved Natalie Portman's clothes in Black Swan. Beyonce's styling hints at the same ballerina aesthetic. The high pony tail<sup>\*\*</sup>, fitted top and tutu like skirt match the poise and dignity in her pose. Beyoncé's top forms a trapezium, taken directly from the proportions of a fashion croquis. It's perfectly lit, staying above total black, allowing the texture's sheen to show and subtly hinting at Beyoncé's curves.
+
+Beyoncé's makeup, fresh and glowy, is made to look as natural as possible. Despite being otherworldly she still seems in grasp of normal. Yes she's beautiful, talented, successful and has an influence outside of popular culture, but she's not so far removed from us. This is the Beyoncé that McLellan is showing.
+
+Tyra Banks is nodding her appreciation at this shoot - Beyoncé is not using her mouth, but smiling with her eyes. Master this and you can work as a model. I find the geometry in Beyoncé's face particularly pleasing. Her arched eyebrow, cheek bone and jaw line are all at 45 degrees, meeting her hand square on, with the line of her nose running vertically though them. Accidental or intentional, It's a beautiful composition.
+
+The standard of this shoot can be measured in the number of quality images it produced, my favourite three Beyoncé pictures all came from it. You'll often see a random picture of Beyoncé that came from this McLellan shoot. Remember the controversy when Drake [posted a picture](https://www.instagram.com/p/BYsKcZgjEbC/) of his studio - with the huge Beyoncé picture on the wall? That was one.
+
+Beyoncé ruled celebrity fashion shoots in the early 2010s. I could easily have picked pictures from Patrick Demarchelier, Mason Poole, Sharif Hamza, Robin Haper or Matt Jones.  All have stunning Beyoncé photographs in their archives, but I love McLellan's above any of them. It's the most beautiful picture.
+
+<sup>\*\*</sup>This shoot must have been on Ariana's [My Everything](https://en.wikipedia.org/wiki/My_Everything_(Ariana_Grande_album)) mood board.
+
+## \*Photography Nerd Notes
+The photograph is lit with a large soft box to Beyoncé's left. There's likely a ‘flag' on her right, dark material used to absorb light, preventing it from being reflected back into frame. This creates greater contrast to the lit side, avoiding a flat image.
+
+The designers at The Gentlewomen have given this image plenty of space. Magazines competing for newsstand attention usually aim to produce the most eye-catching design. This normally translates into a full bleed colour image, closely cropped, with any title text interwoven into the image. All options The Gentlewomen's style guide allow them to ignore. The subtle and respectful layout in this cover reflects Beyoncé's calmness and composure in the picture, showing it at its best.
