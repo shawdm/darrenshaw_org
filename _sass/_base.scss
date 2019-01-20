@@ -132,7 +132,7 @@ p.embed{
 }
 
 .endbar{
-  height: $base-height-spacing;
+  height: $xsmall-height-spacing;
   background-color: $accent-color;
 }
 
@@ -147,6 +147,10 @@ p.embed{
  article {
   max-width: 100%;
   margin: auto;
+}
+
+article.blog a{
+  color: $accent-color;
 }
 
 .blog-post img{
