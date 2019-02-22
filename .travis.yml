@@ -34,4 +34,4 @@ deploy:
     local-dir: _site
     on:
       repo: shawdm/darrenshaw_org
-      branch: dev
+      all_branches: true
