@@ -1,0 +1,32 @@
+---
+layout: photo-post
+title:  "Dimples, blur and grain with Eric"
+date:   2019-03-10 05:00:00 +0000
+date_written: 2019-03-10 05:00:00 +0000
+location: Winchester, UK
+categories: front
+excerpt: Another blurry, grainy shoot with Eric. Another chance for her to work those dimples.
+---
+{% responsive_image path: images/2019/eric-february/_DSC1791-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/_DSC1794-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/DarrenShaw_EricFeb-25.jpg class: square %}
+
+Another shoot with Eric. Another chance for her to work those dimples. Although different from many of Eric's pictures I love that they give a sense of what it's like to be around her. I also love Eric's plaid trousers.
+{: class="square-text-below"}
+
+{% responsive_image path: images/2019/eric-february/_DSF1916-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/_DSF1859-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/DarrenShaw_EricFeb-21.jpg class: square %}
+
+Even the highest-end fashion brands and magazines are subject to Instagram's influence. They've been drawn in to the  exaggerated, waxwork skin retouching common in filters. The more I see this trend, the more I love the grainy, blurry pictures that still make editorials. Photographers have done this for years but they stand out more today than ever. I don't often have the confidence to use this style but in this shoot they are by far my favourite pictures.
+{: class="square-text-below"}
+
+{% responsive_image path: images/2019/eric-february/_DSC1873-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/_DSC1904-Edit-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/eric-february/DarrenShaw_EricFeb-18.jpg class: wide %}
