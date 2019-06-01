@@ -1,0 +1,34 @@
+---
+layout: photo-post
+title:  "Simple and natural, stripped back Sophie"
+date:   2019-06-01 13:00:00 +0000
+date_written: 2019-06-01 13:00:00 +0000
+location: Winchester, UK
+categories: front
+excerpt: One of the hardest working models I know, Sophie and I have shot together many times. For this shoot we did something simple and relaxed, not worrying too much about slow shutter speeds and making the most of some gentle film grain.
+---
+{% responsive_image path: images/2019/sophie-may/_DSC2257-Edit-2-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/_DSC2229-Edit-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/_DSC2190-Edit-Edit.jpg class: wide %}
+
+[Sophie](https://www.instagram.com/sophiewaldron/) and I have shot together many times. She is one of the hardest working models I know. Sophie can look completely different from picture to picture, sometimes there's a glamorous 1980s Cindy Crawford, sometimes a 2000s Angelina Jolie pout and yet other times an athletic 2010s Doutzen Kroes.
+{: class="square-text-above"}
+
+{% responsive_image path: images/2019/sophie-may/Sophie-May-22.jpg class: square %}
+
+{% responsive_image path: images/2019/sophie-may/_DSF2199-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/_DSF2201-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/Sophie-May-1.jpg class: square %}
+
+My favourite pictures of Sophie are often the stripped back, real selfies she puts on [Instagram](https://www.instagram.com/sophiewaldron/). It’s what I had in mind for this shoot - simple and natural. I wasn't worried about slow shutter speeds, making the most of some blur and gentle film grain. As always, I love messy hair.
+{: class="square-text-below"}
+
+{% responsive_image path: images/2019/sophie-may/_DSC2313-Edit-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/_DSC2314-Edit-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2019/sophie-may/_DSC2308-Edit-Edit.jpg class: wide %}
