@@ -1,0 +1,24 @@
+---
+layout: photo-post
+title:  "Hello from the future"
+date:   2019-06-26 13:00:00 +0000
+date_written: 2019-06-26 13:00:00 +0000
+location: Valencia, Spain
+categories: blog
+excerpt: Hello from the future, Valencia, Spain. The City of Arts and Sciences, built at the end of what was once the river Turia.
+---
+{% responsive_image path: images/2019/valencia/_DSF3037.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3068.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3007.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3065.jpg class: square %}
+{% responsive_image path: images/2019/valencia/_DSF2996.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF2988.jpg class: square %}
+{% responsive_image path: images/2019/valencia/_DSF3048.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3051.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3035.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3034.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF2970.jpg class: square %}
+{% responsive_image path: images/2019/valencia/_DSF2968.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3056.jpg class: wide %}
+{% responsive_image path: images/2019/valencia/_DSF3052.jpg class: square %}
+{% responsive_image path: images/2019/valencia/_DSF3062.jpg class: wide %}
