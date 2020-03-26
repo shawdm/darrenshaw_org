@@ -195,6 +195,14 @@ article.blog a{
   margin-bottom: $large-height-spacing;
 }
 
+.photo-post p.rectangle-text {
+  max-width: $max-article-width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $large-height-spacing;
+  margin-bottom: $large-height-spacing;
+}
+
 /*
  * Responsive Small/Phone
  */

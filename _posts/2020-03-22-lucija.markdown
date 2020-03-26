@@ -1,0 +1,36 @@
+---
+layout: photo-post
+title:  "Liucija and Brigita"
+date:   2020-03-22 07:00:00 +0000
+date_written: 2020-03-22 7:00:00 +0000
+location: Winchester, UK
+categories: blog
+excerpt: Liucija is always putting some kind of plan in to action. Her latest project is launching range of swimsuits. Modelled here by Liucija herself with a little help from Brigita.
+---
+{% responsive_image path: images/2020/liucija/_DSC2802-Edit.jpg class: wide %}
+
+Liucija is always putting some kind of plan in to action. Her latest project is launching range of swimsuits. Modelled here by Liucija herself with a little help from Brigita.
+{: class="rectangle-text"}
+
+{% responsive_image path: images/2020/liucija/_DSC2806-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC2843-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC2867-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC2887-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC2895-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC2940-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC3028-Edit.jpg class: wide %}
+
+{% responsive_image path: images/2020/liucija/_DSC3158-Edit.jpg class: wide %}
+
+As well as makeup, styling, baking and generally looking after everyone, Brigita stepped in front of the camera for a few pictures. The whole day was shot nearly entirely digitally, apart from a few 6x6 Hasselblad film frames towards the end.
+{: class="square-text-above"}
+
+{% responsive_image path: images/2020/liucija/Darren-Shaw-4.jpg class: square %}
+
+{% responsive_image path: images/2020/liucija/_DSF3472-Edit.jpg class: wide %}
