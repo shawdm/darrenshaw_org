@@ -8,9 +8,7 @@
 
   <body>
 
-    <article class="header">
-      {% include header.html %}
-    </article>
+    {% include header.html %}
 
     <section class="federer-perspired">
       <article class='federer-perspired'>
@@ -184,17 +182,7 @@
       </article>
     </section>
 
-    <article class="about">
-        {% include footer-about.html %}
-    </article>
-
-    <article class="contents">
-      {% include footer-contents.html %}
-    </article>
-
-    <article class="footer">
-      {% include footer.html %}
-    </article>
+    {% include footer.html %}
 
     <script src='{{"/interactive/federer-sweat/js/moment.min.js" | prepend:site.baseurl}}'></script>
     <script src='{{"/interactive/federer-sweat/js/he.js" | prepend:site.baseurl}}'></script>

@@ -4,7 +4,7 @@ title:  "Gigi Hadid"
 date_written: 2019-12-23 13:00:00 +0000
 location: Winchester, UK
 categories: blog
-excerpt: Vogue Arabia's Gigi Hadid cover was one of Peter Lindbergh's final shoots. Black and white, stripped back, with a simple textured background and defiantly un-retouched, this is a typical, beautiful Lindbergh image.
+excerpt: Vogue Arabia's Gigi Hadid cover was one of Peter Lindbergh's final shoots. Black and white, stripped back, with a simple textured background and defiantly un-retouched, this is a typical, beautiful Lindbergh image. ogue Arabia's Gigi Hadid cover was one of Peter Lindbergh's final shoots. Black and white, stripped back, with a simple textured background and defiantly un-retouched, this is a typical, beautiful Lindbergh image. ogue Arabia's Gigi Hadid cover was one of Peter Lindbergh's final shoots. Black and white, stripped back, with a simple textured background and defiantly un-retouched, this is a typical, beautiful Lindbergh image.
 ---
 Peter Lindbergh died earlier this year. I’m not one to go Candle in the Wind about celebrity deaths, but my day was a little dimmer than it might have been.
 

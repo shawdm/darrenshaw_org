@@ -34,17 +34,16 @@ responsive_image:
 
   # [Optional, Default: 85]
   # Quality to use when resizing images.
-  default_quality: 85
+  default_quality: 70
 
   # [Optional, Default: []]
   # An array of resize configuration objects. Each object must contain at least
   # a `width` value.
   sizes:
     - width: 2800
-    - width: 1400
-    - width: 1000
+    - width: 1600
+    - width: 1200
     - width: 800
-    - width: 600
 
   # [Optional, Default: false]
   # Rotate resized images depending on their EXIF rotation attribute. Useful for
@@ -83,7 +82,4 @@ responsive_image:
   # By default, only images referenced by the responsive_image and responsive_image_block
   # tags are resized. Here you can set a list of paths or path globs to resize other
   # images. This is useful for resizing images which will be referenced from stylesheets.
-  extra_images:
-    - assets/foo/bar.png
-    - assets/bgs/*.png
-    - assets/avatars/*.{jpeg,jpg}
+  extra_images: []

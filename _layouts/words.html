@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- layout words -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+  </head>
+
+  <body class='words'>
+    
+    {% include header.html %}
+    
+    <div class='page'>
+      <ul class='contents'>
+      {% for post in site.categories['blog'] limit:100 -%}
+        <li>
+          <a href='{{ post.url }}'><h2>{{ post.title }}</h2></a>
+          <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>  
+        </li>
+      {% endfor -%}
+      </ul>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

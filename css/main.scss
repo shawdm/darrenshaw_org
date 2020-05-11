@@ -3,21 +3,25 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'Lato', sans-serif;
+$base-font-family: 'Titillium Web', sans-serif;
 $base-font-weight: 300;
-$heavy-font-weight: 700;
+$heavy-font-weight: 600;
 $font-size-base: 20px;
+$font-size-tiny: 0.5rem;
+$font-size-small: 0.8rem;
 $font-size-medium: 2rem;
 $font-size-large: 3rem;
-$font-size-xlarge: 4rem;
-$line-height-base: 1.6;
+$font-size-xlarge: 8rem;
+$line-height-base: 1.6rem;
+$line-height-medium: 2rem;
+$line-height-tiny: 0.5rem;
+$line-height-xlarge: 6rem;
+
 
 // Colour Settings
-$black-color: #111;
-$dark-color: #404040;
-$grey-color: #D8D8D8;
+$black-color: #1E1E1E;;
 $white-color: #FFF;
-$accent-color: #0F4C81;
+$accent-color: #00656E;
 
 // Extreme sizes
 $content-max-width: 1400px;
@@ -26,18 +30,23 @@ $max-article-width: 800px;
 
 
 // Layout Settings
+$spacing-unit-tiny: 5px;
 $spacing-unit-small: 20px;
-$spacing-unit-large: 100px;
+$spacing-unit-large: 80px;
 
-$xsmall-height-spacing: $line-height-base * $font-size-base * 0.25;
-$small-height-spacing: $line-height-base * $font-size-base * 0.5;
-$base-height-spacing: $line-height-base * $font-size-base;
-$medium-height-spacing: $line-height-base * $font-size-base;
-$large-height-spacing: $line-height-base * $font-size-large;
-$xlarge-height-spacing: $line-height-base * $font-size-xlarge;
+$caption-width: 100px;
+$gallery-padding: 2px;
+$gallery-padding-negative: -2px;
+
+// $xsmall-height-spacing: $line-height-base * $font-size-base * 0.25;
+// $small-height-spacing: $line-height-base * $font-size-base * 0.5;
+// $base-height-spacing: $line-height-base * $font-size-base;
+// $medium-height-spacing: $line-height-base * $font-size-base;
+// $large-height-spacing: $line-height-base * $font-size-large;
+// $xlarge-height-spacing: $line-height-base * $font-size-xlarge;
 
 // Widths for responsive switch points
-$break-point-small: $max-article-width + (2*$spacing-unit-small);
+// $break-point-small: $max-article-width + (2*$spacing-unit-small);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

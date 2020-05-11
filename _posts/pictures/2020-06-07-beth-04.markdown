@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Beth"
+date:   2020-06-07 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DSC5031-Edit.jpg
+order: 30
+---
+{% responsive_image path: images/gallery/_DSC5031-Edit.jpg class: wide %}

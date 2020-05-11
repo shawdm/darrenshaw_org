@@ -4,7 +4,7 @@ title:  "Simple and natural, stripped back Sophie"
 date:   2019-06-01 13:00:00 +0000
 date_written: 2019-06-01 13:00:00 +0000
 location: Winchester, UK
-categories: front
+categories: photo-blog
 excerpt: One of the hardest working models I know, Sophie and I have shot together many times. For this shoot we did something simple and relaxed, not worrying too much about slow shutter speeds and making the most of some gentle film grain.
 ---
 {% responsive_image path: images/2019/sophie-may/_DSC2257-Edit-2-Edit.jpg class: wide %}

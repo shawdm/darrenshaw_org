@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- layout pictures -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+  </head>
+
+  <body class='picture'>
+
+    {% assign picture_posts = site.categories['pictures'] | sort:"order" -%}
+
+    {% assign picture_pos_first = 0 -%}
+    {% assign picture_pos_last = picture_posts.size | minus: 1 -%}
+    {% for post in picture_posts limit:100 -%}
+      {% if post.url == page.url -%}
+        {% assign picture_post_pos_next = forloop.index -%}
+        {% assign picture_post_pos_prev = forloop.index | minus: 2 -%}
+      {% endif -%}
+    {% endfor -%}
+
+    {% capture next_url -%}
+      {% if picture_post_pos_next < picture_posts.size -%}
+        {{ picture_posts[picture_post_pos_next].url -}}
+      {% else %}
+        {{ picture_posts[picture_pos_first].url -}}
+      {% endif -%}
+    {% endcapture -%}
+
+    {% capture previous_url -%}
+      {% if picture_post_pos_prev < 0 -%}
+        {{ picture_posts[picture_pos_last].url -}}
+      {% else -%}
+          {{ picture_posts[picture_post_pos_prev].url -}}
+      {% endif -%}
+    {% endcapture -%}
+    
+    {% include header-picture.html -%}
+
+    <div class='page'>
+        <div class='frame'>
+          <a class='picture' href='{{next_url}}'>
+            {{ content | remove: '<p>' | remove: '</p>' }}
+          </a>
+          <span class='caption'>{{page.caption}}</span>
+        </div>
+    </div>
+
+  </body>
+
+</html>

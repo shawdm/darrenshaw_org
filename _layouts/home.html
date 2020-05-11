@@ -8,8 +8,21 @@
 
   <body class='home'>
 
-    {{ content }}
+    {% include header.html %}
 
+    <ul class='gallery'>
+      {% assign sorted_posts = site.categories['pictures'] | sort:"order" -%}
+      {% for post in sorted_posts limit:100 -%}
+        <li class='frame'>
+          <a href='{{ post.url }}'>
+            <img src="/assets/resized/1600/{{ post.thumbnail }}" title="{{ post.title }}" alt="{{ post.caption }}"/>
+          </a>
+        </li>
+      {% endfor -%}
+      </ul>
+  
+      {% include footer.html %}
+      
   </body>
 
 </html>
