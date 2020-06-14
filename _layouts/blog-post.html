@@ -8,29 +8,19 @@
 
   <body class="blog-post">
 
-    <article class="header">
-          {% include header.html %}
-    </article>
+    {% include header.html %}
 
     <article class="blog">
-      <section class="content">
+      <section class="title">
         <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h2>
+      </section>
+      <section class="content">
         {{ page.content }}
       </section>
     </article>
 
-    <article class="about">
-        {% include footer-about.html %}
-    </article>
-
-    <article class="contents">
-      {% include footer-contents.html %}
-    </article>
-
-    <article class="footer">
-      {% include footer.html %}
-    </article>
-
+    {% include footer.html %}
+    
   </body>
 
 </html>

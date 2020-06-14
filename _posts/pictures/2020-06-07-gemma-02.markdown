@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Gemma"
+date:   2020-06-07 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DSC3983.jpg
+order: 12
+---
+{% responsive_image path: images/gallery/_DSC3983.jpg class: wide %}

@@ -4,7 +4,7 @@ title:  "Studio and Gym with Gemma"
 date:   2019-11-01 07:00:00 +0000
 date_written: 2019-11-01 7:00:00 +0000
 location: Winchester, UK
-categories: front
+categories: photo-blog
 excerpt: It’s been a too long since Gemma and I shot together. We made up for it with a day long shoot in the studio and gym. Gemma can do it all, fitness, beauty, hard, soft, natural, serious, and silly. I want to work with her over and over again. Bar one Hasselblad frame, these are all strobe lit and digitally shot.
 ---
 {% responsive_image path: images/2019/gemma-september/_DSC2356-Edit-Edit.jpg class: wide %}

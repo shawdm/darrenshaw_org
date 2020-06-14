@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Jess"
+date:   2020-06-07 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DSC6929.jpg
+order: 40
+---
+{% responsive_image path: images/gallery/_DSC6929.jpg class: wide %}

@@ -4,16 +4,11 @@
   {% endfor %}
 {% endcapture %}
 
-{% capture ratio %}
-  {% assign i = resized[0] %}
-  {% assign image_width = i.width | times: 1.0 %}
-  {% assign image_height = i.height | times: 1.0 %}
-  {{ image_height | divided_by: image_width | times:100.0 }}
-{% endcapture %}
 
 <img
   class="responsive {{class}}"
   src="/{{path}}"
   alt="{{alt}}"
+  title="{{alt}}"
   srcset="{{srcset | strip_newlines}}"
 />

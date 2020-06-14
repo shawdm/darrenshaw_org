@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Sophie"
+date:   2020-06-07 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DSC8400-Edit-Edit.jpg
+order: 101
+---
+{% responsive_image path: images/gallery/_DSC8400-Edit-Edit.jpg class: wide %}
