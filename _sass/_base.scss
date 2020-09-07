@@ -92,6 +92,11 @@ nav .nav{
   padding-left: $spacing-unit-tiny;
 }
 
+nav .title{
+  font-weight: $heavy-font-weight;
+  flex-grow: 1;
+}
+
 nav a {
   text-decoration: none;
 }
