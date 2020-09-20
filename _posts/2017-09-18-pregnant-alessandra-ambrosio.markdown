@@ -5,6 +5,7 @@ date_written:   2017-09-18 08:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: Alessandra Ambrosio has done everything from the Next catalogue, through Victoria’s Secret shows, to high fashion. In this image, Boo George was able to do something different.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/ambrosia-george-1.jpg class: wide %}"
 ---
 Alessandra Ambrosio has done everything from the Next catalogue, through Victoria’s Secret shows, to high fashion — always glamorous and always perfectly styled. She’s probably one of the most recognisable non-celebrity models there is. Most people reading this will have a picture of her in their house somewhere. In this image, Boo George was able to do something different, making the most of her being very pregnant (she gave birth the following day) to show something new.
 

@@ -5,6 +5,7 @@ date_written: 2019-02-22 18:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: Anyone could take a beautiful picture of Jennifer Lopez. I love that Camilla Akrans and Harper's Bazaar didn't settle for that.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/jennifer-lopez.jpg class: wide %}"
 ---
 This picture is monumental. Anyone could take a beautiful picture of Jennifer Lopez. I love that Camilla Akrans and Harper's Bazaar didn't settle for that.
 

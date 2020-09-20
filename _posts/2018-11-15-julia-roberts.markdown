@@ -5,10 +5,11 @@ date_written: 2018-11-15 18:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: I hope Julia Roberts has this picture hanging on her wall. It’s such a joyful, "everything is going to be ok" moment captured by Alexi Lubomirski. Just looking at the image makes me happy.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/julia-roberts-1.jpg class: wide %}"
 ---
 I hope Julia Roberts has this picture hanging on her wall. It’s such a joyful, "everything is going to be ok" moment captured by Alexi Lubomirski. Just looking at the image makes me happy. There’s a warm connection between Roberts and Lubomirski, but it’s Elizabeth Stewart's styling that I love this picture for.
 
-![Photographer: Alexi Lubomirski, Model: Julia Roberts.](/images/blog/why-i-love-this-picture/julia-roberts-1.jpg "Photographer: Alexi Lubomirski, Model: Julia Roberts.")
+{% responsive_image path: images/blog/why-i-love-this-picture/julia-roberts-1.jpg class: wide %}
 
 ## Why I Love This Picture
 Known for beautiful pictures of A-list celebrities and royalty, Lubomirski is the go to photographer for Gwyneth Paltrow, Jennifer Lopez, Nicole Kidman and Jennifer Aniston. His images aren’t particularly challenging or edgy but they always show the subject in their best possible light. They are always upbeat and always beautiful.

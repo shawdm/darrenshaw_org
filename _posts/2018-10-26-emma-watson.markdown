@@ -5,6 +5,7 @@ date_written: 2018-10-26 21:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: The pictures I love are stripped back. The simpler the better. I don't like props, themes or elaborate production. All things that Tim Walker is master of. I shouldn't like his Vanity Fair portrait of Emma Watson and yet I love it.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/emma-watson-tim-walker-1.jpg class: wide %}"
 ---
 The pictures I love are stripped back. The simpler the better. I don't like props, themes or elaborate production. All things that Tim Walker is master of. I shouldn't like his Vanity Fair portrait of Emma Watson and yet I love it.
 
