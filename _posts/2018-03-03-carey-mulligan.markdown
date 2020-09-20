@@ -5,6 +5,7 @@ date_written: 2018-03-03 15:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: When I play fantasy fashion photographer my model shortlist is Emma Watson, Keira Knightly and Carey Mulligan.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/carey-mulligan.jpg class: wide %}"
 ---
 When I play fantasy fashion photographer my model shortlist is Emma Watson, Keira Knightly and Carey Mulligan.
 

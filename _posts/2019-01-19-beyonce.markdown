@@ -5,6 +5,7 @@ date_written: 2019-01-19 18:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: It's our loss that Beyoncé doesn't do magazine photo shoots any more. In the early 2010s she graced some of the finest fashion stories. Out of all these, it's Alasdair McLellan's cover for The Gentlewoman that I love the most.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/beyonce-1.jpg class: wide %}"
 ---
 I love this Beyoncé picture by Alasdair McLellan. I love it almost as much as [Drake](https://www.elle.com/culture/music/a12186209/drake-has-a-huge-portrait-of-beyonce-on-his-wall/) does.
 

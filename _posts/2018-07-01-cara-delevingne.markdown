@@ -5,6 +5,7 @@ date_written: 2018-07-01 08:00:00 +0000
 location: Winchester, UK
 categories: blog
 excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne. Cara's hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
+thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/cara-delevingne.jpg class: wide %}"
 ---
 I get butterflies looking at Peter Lindbergh's picture of Cara Delevingne for Douglas Cosmetics. It was always going to be a beautiful portrait of a beautiful women, but Cara’s hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
 

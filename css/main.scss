@@ -29,6 +29,11 @@ $content-min-width: 375px;
 $max-article-width: 800px;
 
 
+// Content Image Thumbnail Widths
+$thumbnail-large-width: 500px;
+$thumbnail-small-width: 300px;
+
+
 // Layout Settings
 $spacing-unit-tiny: 5px;
 $spacing-unit-small: 20px;
@@ -38,15 +43,6 @@ $caption-width: 100px;
 $gallery-padding: 2px;
 $gallery-padding-negative: -2px;
 
-// $xsmall-height-spacing: $line-height-base * $font-size-base * 0.25;
-// $small-height-spacing: $line-height-base * $font-size-base * 0.5;
-// $base-height-spacing: $line-height-base * $font-size-base;
-// $medium-height-spacing: $line-height-base * $font-size-base;
-// $large-height-spacing: $line-height-base * $font-size-large;
-// $xlarge-height-spacing: $line-height-base * $font-size-xlarge;
-
-// Widths for responsive switch points
-// $break-point-small: $max-article-width + (2*$spacing-unit-small);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
