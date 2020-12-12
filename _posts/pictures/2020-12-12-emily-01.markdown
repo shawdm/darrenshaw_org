@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Emily"
+date:   2020-12-12 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DMS2405-Edit-Edit.jpg
+order: 10
+---
+{% responsive_image path: images/gallery/_DMS2405-Edit-Edit.jpg class: wide %}
