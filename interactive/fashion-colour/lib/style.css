@@ -1,0 +1,28 @@
+article.fashion-colour {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+article.fashion-colour section.title {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+article.fashion-colour section.text-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article.fashion-colour section.full-width-content {
+  
+}
+
+.fashion-colour .clusters{
+    background-color: #222;
+    width: 100%;
+}
+
