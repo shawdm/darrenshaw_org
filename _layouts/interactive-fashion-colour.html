@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+    <link rel='stylesheet' href='{{"/interactive/fashion-colour/lib/style.css" | prepend:site.baseurl}}'/>
+  </head>
+
+  <body>
+
+    {% include header.html %}
+
+    
+      <article class='fashion-colour'>
+        <section class="title">
+          <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h2>
+        </section>
+        <section class="text-content">
+          <p>This is my content, this is why I love Emily.</p>
+        </section>
+        <section class='full-width-content'>
+          <div class='clusters' id="mrp"></div>
+        </section>
+      </article>
+    </section>
+
+    {% include footer.html %}
+    <script>
+      let url = '{{"/interactive/fashion-colour/data/mrp-intl-variant-attributes-2021-03-12T10-00-28.json" | prepend:site.baseurl}}'
+    </script>
+    <script src='{{"/interactive/fashion-colour/lib/p5/p5.min.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/interactive/fashion-colour/fashion-colour.js" | prepend:site.baseurl}}'></script>
+  </body>
+
+
+</html>
