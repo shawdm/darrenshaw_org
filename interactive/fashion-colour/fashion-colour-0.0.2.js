@@ -3,10 +3,9 @@ let FOREGROUND_COLOUR = "#fff";
 
 let WIDTH_HEIGHT_RATIO = 1.75
 let MENU_BAR_HEIGHT = 30;
-let CLUSTER_HEIGHT = 5;
-let CLUSTER_MARGIN = 1;
+let CLUSTER_HEIGHT = 0;
 let VARIANT_HEIGHT = 3;
-let VARIANT_MARGIN = 1;
+let VARIANT_BORDER = 1;
 
 let canvas;
 let clusterData;
@@ -61,7 +60,6 @@ function getDisplaySize(){
 }
   
 function setup() {
-    frameRate(10);
     let displaySize = getDisplaySize();
     canvas = createCanvas(displaySize.width, displaySize.height);
     canvas.parent(canvasId);
@@ -108,9 +106,7 @@ function draw(){
         clear();
 
         menu.draw();
-        
         for(let i=0; i < clusters.length; i++){
-            clusters[i].draw();
             let variants = clusters[i].variants;
             for(let j=0; j < variants.length; j++){
                 if(selectedDesignerId && variants[j].designerId != selectedDesignerId){
@@ -150,6 +146,7 @@ function initMenu(){
     menu = new Menu(0, 0, width, MENU_BAR_HEIGHT, brand);
 }
 
+
 function initShapes(){
     let maxVerticalShapes = Math.floor((height-MENU_BAR_HEIGHT)/(VARIANT_HEIGHT))
 
@@ -159,29 +156,36 @@ function initShapes(){
         totalColumns = totalColumns + clusterColumns;
     }
 
-    let clusterWidth = (width-((totalColumns-1)*CLUSTER_MARGIN))/totalColumns;  
+    let columnWidth = width/totalColumns;  
     let columnsDrawn = 0;
 
     for(let i=0; i < clusters.length; i++){
         let clusterColumns = Math.ceil(clusters[i].variants.length/maxVerticalShapes);
-        let xPos = columnsDrawn * (CLUSTER_MARGIN + clusterWidth);
-        let yPos = MENU_BAR_HEIGHT;
+        let xPos = columnsDrawn * columnWidth;
+        let yPos = MENU_BAR_HEIGHT + ((height - MENU_BAR_HEIGHT)/2) ;
         clusters[i].x = xPos;
         clusters[i].y = yPos;
-        clusters[i].width = (clusterWidth * clusterColumns) + ((clusterColumns-1) * CLUSTER_MARGIN);
-        clusters[i].height = CLUSTER_HEIGHT;
+        clusters[i].width = columnWidth * clusterColumns;
 
         let variants = clusters[i].variants;
         let variantsColumn = 0;
         let variantsRow = 0;
         for(let j=0; j < variants.length; j++){
-            variantYPos =  MENU_BAR_HEIGHT + CLUSTER_HEIGHT + VARIANT_MARGIN + (variantsRow*VARIANT_HEIGHT);
-            variants[j].x = xPos + (variantsColumn*clusterWidth) + (variantsColumn*CLUSTER_MARGIN);
-            variants[j].y = variantYPos;
-            variants[j].width = clusterWidth;
-            variants[j].height = VARIANT_HEIGHT;
+            let variantXPos = xPos + (variantsColumn*columnWidth);
+            let variantYPos;
+            if(j % 2 === 0){
+                variantYPos = yPos - ((variantsRow + 1) * VARIANT_HEIGHT)
+            }
+            else{
+                variantYPos = yPos + CLUSTER_HEIGHT + (variantsRow * VARIANT_HEIGHT)
+                variantsColumn++;
+            }
 
-            variantsColumn++;
+            variants[j].width = columnWidth;
+            variants[j].height = VARIANT_HEIGHT;
+            variants[j].x = variantXPos
+            variants[j].y = variantYPos;     
+
             if(variantsColumn == clusterColumns){
                 variantsColumn = 0;
                 variantsRow++;
@@ -202,6 +206,7 @@ class Menu{
     }
 
     draw(){
+        noStroke();
         fill(BACKGROUND_COLOUR);
         rect(this.x, this.y, this.width, this.height);    
         fill(FOREGROUND_COLOUR);
@@ -221,13 +226,6 @@ class Cluster {
         this.colour = colour;
         this.variants = variants;
     }
-
-    draw(){
-        noStroke();
-        fill(this.colour);
-        rect(this.x, this.y, this.width, this.height);
-    }
-
 }
 
 class Variant {
@@ -246,16 +244,18 @@ class Variant {
     }
 
     draw(){
-        noStroke();
+        stroke(BACKGROUND_COLOUR);
+        strokeWeight(VARIANT_BORDER);
 
         let displayColour = color(this.colour);
         if(this.fade){
-            displayColour.setAlpha(40);    
+            displayColour.setAlpha(70);    
         }
-        fill(displayColour);
-        rect(this.x, this.y, this.width, this.height- VARIANT_MARGIN);
+        else{
+            
+        }
     
-        fill(BACKGROUND_COLOUR);
-        rect(this.x, this.y+this.height- VARIANT_MARGIN, this.width, VARIANT_MARGIN);
+        fill(displayColour);
+        rect(this.x, this.y, this.width, this.height);
     }
 }
