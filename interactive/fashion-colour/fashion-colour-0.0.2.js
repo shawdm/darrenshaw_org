@@ -49,6 +49,7 @@ function windowResized() {
     resizeCanvas(displaySize.width, displaySize.height);
     initMenu();
     initShapes();
+    firstDraw = true;
 }
 
 function getDisplaySize(){
