@@ -11,7 +11,7 @@
     {% include header.html %}
 
     <ul class='gallery'>
-      {% assign sorted_posts = site.categories['pictures'] | sort:"order" -%}
+      {% assign sorted_posts = site.categories['pictures'] | sort: 'date' | reverse -%}
       {% for post in sorted_posts limit:100 -%}
         <li class='frame'>
           <a href='{{ post.url }}'>

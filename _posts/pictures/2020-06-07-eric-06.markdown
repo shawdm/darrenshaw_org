@@ -5,6 +5,6 @@ date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
 thumbnail: _DSF1353-Edit.jpg
-order: 32
+order: 12
 ---
 {% responsive_image path: images/gallery/_DSF1353-Edit.jpg class: wide %}
