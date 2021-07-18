@@ -1,0 +1,10 @@
+---
+layout: picture
+title:  "Eric"
+date:   2021-07-18 10:00:00 +0000
+categories: pictures
+caption: 
+thumbnail: _DMS3412-Edit.jpg
+order: 10
+---
+{% responsive_image path: images/gallery/_DMS3412-Edit.jpg class: wide %}

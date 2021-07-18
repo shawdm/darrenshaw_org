@@ -8,7 +8,7 @@
 
   <body class='picture'>
 
-    {% assign picture_posts = site.categories['pictures'] | sort:"order" -%}
+    {% assign picture_posts = site.categories['pictures'] | sort: 'date' | reverse -%}
 
     {% assign picture_pos_first = 0 -%}
     {% assign picture_pos_last = picture_posts.size | minus: 1 -%}
