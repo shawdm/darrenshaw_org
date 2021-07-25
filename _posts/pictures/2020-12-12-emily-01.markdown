@@ -5,6 +5,7 @@ date:   2020-12-12 10:00:00 +0000
 categories: pictures
 caption: 
 thumbnail: _DMS2405-Edit-Edit.jpg
+orientation: portrait
 order: 31
 ---
 {% responsive_image path: images/gallery/_DMS2405-Edit-Edit.jpg class: wide %}

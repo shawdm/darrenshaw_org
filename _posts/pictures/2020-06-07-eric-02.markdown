@@ -5,6 +5,7 @@ date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
 thumbnail: _DSC0284.jpg
+orientation: portrait
 order: 11
 ---
 {% responsive_image path: images/gallery/_DSC0284.jpg class: wide %}
