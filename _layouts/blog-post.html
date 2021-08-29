@@ -10,16 +10,18 @@
 
     {% include header.html %}
 
-    <article class="blog">
-      <section class="title">
-        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h2>
-      </section>
-      <section class="content">
-        {{ page.content }}
-      </section>
-    </article>
+    <div class='content'>
+      <article class="blog">
+        <section class="title">
+          <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B %Y" }}</span></h2>
+        </section>
+        <section class="content">
+          {{ page.content }}
+        </section>
+      </article>
 
     {% include footer.html %}
+    </div>
     
   </body>
 

@@ -15,9 +15,22 @@ html, body, div{
 }
 
 /**
+ * Prevents extra space below img
+ */
+img{
+  display: block;
+}
+
+img.square{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
  * Basic styling
  */
-body{
+body {
   font-size: $font-size-base;
   font-family: $base-font-family;
   font-weight: $base-font-weight;
@@ -29,23 +42,10 @@ body{
   font-feature-settings: "kern" 1;
   font-kerning: normal;
 
-  max-width: $content-max-width; 
-
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $spacing-unit-small;
-  padding-right: $spacing-unit-small;
+  border: 0;
 
   color: $black-color;
   background-color: $white-color;
-
-  border-top-style: solid;
-  border-top-width: $spacing-unit-tiny;
-  border-top-color: $accent-color;
-}
-
-body.picture{
-  border-top-style: none;
 }
 
 h1, h2, h3 {
@@ -70,26 +70,51 @@ a{
   text-decoration-style: dotted;
 }
 
+
 p{
   margin-top: 1rem;
 }
 
 /**
- * Headers
+ * Header
+ * Full width to draw black background bar.
+ */
+.header{
+  width: 100%;
+  height: $spacing-unit-large;
+  margin-bottom: $spacing-unit-small;
+  background-color: $black-color;
+}
+
+
+/**
+ * Limited width content div, used inside full width header or body.
+ */
+div.content{
+  max-width: $content-max-width; 
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
+}
+
+/**
+ * Navigation bar
  */
 nav {
   display: flex;
 
-  margin-top: $spacing-unit-tiny;
-  margin-bottom: $spacing-unit-tiny;
-
   font-size: $font-size-small;
   line-height: $line-height-base;
   justify-content: flex-end;
+
+  color: $white-color;
 }
 
-nav .nav{
+nav span.nav{
   padding-left: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
 }
 
 nav .title{
@@ -99,26 +124,9 @@ nav .title{
 
 nav a {
   text-decoration: none;
+  color: $white-color;
 }
 
-nav.picture {
-  margin: 0;
-
-  justify-content: center;
-  text-align: center;
-}
-
-nav.picture a {
-  flex-grow: 1;
-}
-
-nav.picture a:first-child{
-  text-align: left;
-}
-
-nav.picture a:last-child{
-  text-align: right;
-}
 
 /**
  * Footer
@@ -167,70 +175,55 @@ article.photo{
 }
 
 article.photo p {
-  margin: 0;
   padding: 0;
 }
 
 article.photo img {
   display: block;
-  margin: 0;
-  padding: 0;
 }
 
 /**
  * Full page picture
  */
-.picture .page{
-  position: absolute;
-  top: $spacing-unit-large;
-  bottom: $spacing-unit-large;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-.picture .frame{
+html.picture, html.picture body {
   height: 100%;
+  padding-top: $spacing-unit-tiny;
+  padding-bottom: $spacing-unit-tiny;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+figure.picture{
+  position: relative;
+  height: 100%;
+  text-align: center;
 }
 
 .picture img{
   height: 100%;
-}
-
-.picture .caption{
-  position: absolute;
-  bottom: 0;
-  width: $caption-width;
-
-  padding-left: $spacing-unit-tiny;
-
-  text-align: left;
-  font-size: $font-size-tiny;
-  line-height: $line-height-tiny;
+  display: inline;
 }
 
 /**
  * Pictures page gallery
  */
 ul.gallery {
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-  margin: $gallery-padding-negative;
+  column-count: 3;
+  column-gap: $spacing-unit-small;
+  padding-top: 0;
 }
 
 ul.gallery li{
-  height: 400px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: $gallery-padding;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: $spacing-unit-small;
+  break-inside: avoid;
 }
 
 ul.gallery li img{
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
+  width: 100%;
 }
 
 
@@ -239,20 +232,14 @@ ul.gallery li img{
  */
 ul.contents{
   list-style-type: none;
+  column-count: 3;
+  column-gap: $spacing-unit-medium;
 }
 
 ul.contents li{
-  display: flex;
-  flex-direction: row;
-  margin-top: $spacing-unit-large;
-}
-
-ul.contents li:first-child{
-  margin-top: $spacing-unit-small;
-}
-
-ul.contents li:nth-child(even){
-  flex-direction: row-reverse;
+  display: block;
+  break-inside: avoid;
+  margin-bottom: $spacing-unit-small;
 }
 
 ul.contents li .text h2 {
@@ -267,52 +254,31 @@ ul.contents li .text p {
 }
 
 ul.contents li .thumbnail img{
-  max-width: $thumbnail-large-width;
-  margin-left: $spacing-unit-small;
-}
-
-ul.contents li:nth-child(even) .thumbnail img{
-  margin-left: 0;
-  margin-right: $spacing-unit-small;
+  width: 100%;
 }
 
 
 @media (max-width: 900px) {
+
+  ul.gallery {
+    column-count: 1;
+  }
+
+  ul.contents{
+    column-count: 2;
+  }
+
   .picture .caption{
     display: none;
   }
-
-  ul.contents li .thumbnail img{
-    max-width: $thumbnail-small-width;
-  }
+  
 }
 
 
 @media (max-width: 600px) {
-  ul.gallery li{
-    height: 600px;
-  }
 
-  ul.gallery li img{
-    max-width: 100%;
-    height: 100%;
+  ul.contents{
+    column-count: 1;
   }
   
-  ul.contents li {
-    flex-direction: column;
-  }
-
-  ul.contents li:nth-child(even){
-    flex-direction: column;
-  }
-
-  ul.contents li .thumbnail img{
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: $spacing-unit-small;
-  }
-
-  
-
 }

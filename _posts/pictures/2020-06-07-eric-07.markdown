@@ -5,6 +5,7 @@ date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
 thumbnail: IMG_0029.jpg
+orientation: portrait
 order: 16
 ---
 {% responsive_image path: images/gallery/IMG_0029.jpg class: wide %}

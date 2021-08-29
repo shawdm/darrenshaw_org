@@ -5,6 +5,7 @@ date:   2021-07-18 10:00:00 +0000
 categories: pictures
 caption: 
 thumbnail: _DMS3549-Edit.jpg
+orientation: portrait
 order: 10
 ---
 {% responsive_image path: images/gallery/_DMS3549-Edit.jpg class: wide %}

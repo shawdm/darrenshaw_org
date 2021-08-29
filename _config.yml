@@ -9,12 +9,7 @@
 title: Darren Shaw
 email: shawdm@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello! Darren Shaw here, a portrait photographer living and working around
-  Southampton in Hampshire. I mainly shoot beauty and editorial work. As well
-  as digital, I enjoy working with older film cameras and love soft, naturally
-  lit black and white images. I’m always looking to meet new models, makeup
-  artists and stylists. So if you’re interested in working together, get in
-  touch.
+  This is Darren Shaw's site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.darrenshaw.org" # the base hostname & protocol for your site
 twitter_username: shawdm
@@ -40,8 +35,8 @@ responsive_image:
   # An array of resize configuration objects. Each object must contain at least
   # a `width` value.
   sizes:
-    - width: 2800
-    - width: 1600
+    - width: 2720
+    - width: 1740
     - width: 1200
     - width: 800
 
