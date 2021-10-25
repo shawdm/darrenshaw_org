@@ -6,27 +6,23 @@
     {% include head-core.html %}
   </head>
 
-  <body class='home'>
+  <body class="home">
+    
+    <div class='content-full-bleed'>
+      <article class="home">
+        <section class="title">
+          <h2>{{ page.title }}</span></h2>
+        </section>
+        <section class="content">
+          {{ content }}
+        </section>
+      </article>
 
-    {% include header.html %}
-
-    <div class='content'>
-      <ul class='gallery'>
-        {% assign sorted_posts = site.categories['pictures'] | sort: 'date' | reverse -%}
-        {% for post in sorted_posts limit:100 -%}
-          <li class='frame'>
-            <a name='{{ post.id }}'></a>
-            <a href='{{ post.url }}'>
-              <img src="/assets/resized/1740/{{ post.thumbnail }}" title="{{ post.title }}" alt="{{ post.caption }}" class="{{ post.orientation }}"/>
-            </a>
-          </li>
-        {% endfor -%}
-        </ul>
-
-        {% include footer.html %}
-
+      {% include footer.html %}
     </div>
-      
+    
   </body>
 
 </html>
+
+

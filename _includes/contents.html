@@ -1,0 +1,18 @@
+<div class='contents'>
+    <ul>
+        {% for post in site.categories['blog'] limit:100 -%}
+        <li>
+            <div class='date'>
+                <h2 title='{{post.date_written | date: "%d %B %Y"}}'>{{post.date_written | date: "%B" | slice: 0, 3}}</h2>
+                <h3>{{post.date_written | date: "%Y" }}</h3>
+            </div>
+            <div class='summary'>
+                <a href='{{ post.url }}'>
+                    <h2>{{ post.title }}</h2>
+                </a>
+                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+            </div>
+        </li>
+        {% endfor -%}
+    </ul>
+</div>
