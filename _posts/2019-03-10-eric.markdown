@@ -4,7 +4,7 @@ title:  "Dimples, blur and grain with Eric"
 date:   2019-03-10 05:00:00 +0000
 date_written: 2019-03-10 05:00:00 +0000
 location: Winchester, UK
-categories: photo-blog
+categories: [photo-blog]
 excerpt: Another blurry, grainy shoot with Eric. Another chance for her to work those dimples.
 ---
 {% responsive_image path: images/2019/eric-february/_DSC1791-Edit.jpg class: wide %}

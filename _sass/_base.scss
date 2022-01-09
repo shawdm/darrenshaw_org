@@ -27,6 +27,11 @@ img.square{
   margin-right: auto;
 }
 
+img.thumbnail{
+  width: 100%;
+  max-width: $thumbnail-small-width;
+}
+
 /**
  * Basic styling
  */
@@ -62,6 +67,14 @@ h2 {
   line-height: $line-height-medium;
 }
 
+h3 {
+  font-size: $font-size-small;
+  color: $grey-color;
+  line-height: $line-height-small;
+  font-weight: $heavy-font-weight;
+  text-transform: uppercase;
+}
+
 a{
   color: $black-color;
 
@@ -70,10 +83,10 @@ a{
   text-decoration-style: dotted;
 }
 
-
 p{
   margin-top: 1rem;
 }
+
 
 /**
  * Header
@@ -81,7 +94,7 @@ p{
  */
 .header{
   width: 100%;
-  height: $spacing-unit-large;
+  height: $spacing-unit-medium;
   margin-bottom: $spacing-unit-small;
   background-color: $black-color;
 }
@@ -90,7 +103,7 @@ p{
 /**
  * Limited width content div, used inside full width header or body.
  */
-div.content{
+div.content, div.contents{
   max-width: $content-max-width; 
 
   margin-left: auto;
@@ -99,16 +112,20 @@ div.content{
   padding-right: $spacing-unit-small;
 }
 
+.home div.content-full-bleed{
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /**
  * Navigation bar
  */
 nav {
   display: flex;
-
   font-size: $font-size-small;
-  line-height: $line-height-base;
+  line-height: $spacing-unit-medium;
   justify-content: flex-end;
-
   color: $white-color;
 }
 
@@ -127,12 +144,22 @@ nav a {
   color: $white-color;
 }
 
+/**
+ * Side bar
+ */
+div.sidebar{
+  margin-bottom: $spacing-unit-medium;
+}
+
+ ul.sidebar li{
+   margin-top: $spacing-unit-tiny;
+ }
 
 /**
  * Footer
  */
 section.footer{
-  margin-top: $spacing-unit-large;
+  margin-top: $spacing-unit-xlarge;
   margin-bottom: $spacing-unit-small;
 }
 
@@ -154,16 +181,16 @@ article p img{
   max-width: 100%;
 }
 
+article p img.full-spaced{
+  padding-top: $spacing-unit-tiny;
+}
+
 article section.title h2{
   font-weight: $heavy-font-weight;
 }
 
 article section.title h2 span{
   font-weight: $base-font-weight;
-}
-
-article section.content h2{
-  margin-top: $font-size-large;
 }
 
 /**
@@ -180,6 +207,59 @@ article.photo p {
 
 article.photo img {
   display: block;
+}
+
+/**
+ * home article
+ */
+article.home{
+  max-width: 100%;
+}
+
+article.home section.title{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+article.home section.title h2{
+  color: $white-color;
+  font-size: $font-size-xlarge;
+  line-height: $line-height-xlarge;
+  margin: $spacing-unit-small;
+}
+
+article.home section.content p.full-bleed{
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: $black-color;
+}
+
+article.home .grid{
+  max-width: $content-max-width;
+  display: grid;
+  grid-template-columns: $max-article-width 1fr;
+  margin-left: $spacing-unit-small;
+  margin-right: $spacing-unit-small;
+  margin-bottom: 1rem;
+}
+
+article.home .grid .right{
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article.home h3, article.home img.thumbnail{
+  margin-top: $spacing-unit-medium;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  font-size: $font-size-small;
+  color: $grey-color;
+  line-height: $line-height-small;
 }
 
 /**
@@ -205,21 +285,25 @@ figure.picture{
 }
 
 /**
- * Pictures page gallery
+ * Gallery
  */
 ul.gallery {
   list-style-type: none;
   column-count: 3;
-  column-gap: $spacing-unit-small;
+  column-gap: $spacing-unit-tiny;
   padding-top: 0;
+  background-color: $black-color;
+  padding-left: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
 }
 
 ul.gallery li{
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto;
-  margin-bottom: $spacing-unit-small;
+  margin-bottom: 0;
   break-inside: avoid;
+  padding-top: $spacing-unit-tiny;
 }
 
 ul.gallery li img{
@@ -228,40 +312,67 @@ ul.gallery li img{
 
 
 /**
- * Words page contents
+ * Contents
  */
-ul.contents{
-  list-style-type: none;
-  column-count: 3;
-  column-gap: $spacing-unit-medium;
+.contents ul li{
+  display: flex;
+  align-items: stretch;
+  margin-top: $spacing-unit-large;
+  max-width: $max-article-width;
 }
 
-ul.contents li{
+.contents ul li .date{
   display: block;
-  break-inside: avoid;
-  margin-bottom: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
+  min-width: $spacing-unit-xlarge;
+ }
+
+ .contents ul li .date h2,  .contents ul li .date h3{
+  text-align: right;
+  margin: 0;
+ }
+
+ .contents ul li .date h2{
+  line-height: $line-height-base;
+  font-weight: $heavy-font-weight;
+  text-transform: uppercase;
+ }
+
+ .contents ul li .summary{
+  display: block;
+  flex-grow: 1;
 }
 
-ul.contents li .text h2 {
-  display: inline;
-  text-decoration: underline;
-  text-decoration-color: $black-color;
-  text-decoration-style: dotted;
-}
-
-ul.contents li .text p {
-  display: inline;
-}
-
-ul.contents li .thumbnail img{
-  width: 100%;
+.contents ul li .summary h2{
+  line-height: $line-height-base;
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
+
+  article.home .grid .right{
+    display: none;
+  }
+
+  article.home section.title h2{
+    font-size: $font-size-large;
+    line-height: $line-height-large;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  article.home .grid{
+    max-width: 100%;
+    grid-template-columns: 100%;
+  }
 
   ul.gallery {
     column-count: 1;
+    column-gap: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   ul.contents{
@@ -274,11 +385,9 @@ ul.contents li .thumbnail img{
   
 }
 
-
-@media (max-width: 600px) {
-
-  ul.contents{
-    column-count: 1;
+@media (max-width: 500px) {
+  article.home section.title h2{
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
   }
-  
 }
