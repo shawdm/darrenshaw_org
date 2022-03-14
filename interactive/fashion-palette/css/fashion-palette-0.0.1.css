@@ -52,6 +52,15 @@ h4{
     display: inline;
 }
 
+#header a, #header span{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 #search{
     width: 100%;
 }
@@ -91,4 +100,38 @@ li.product{
 .palette .colours .colour{
     height: 100%;
     width: 20%;
+}
+
+
+.loading .colours .colour{
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  }
+
+#file{
+    display: none;
+    visibility: hidden;
+}
+
+.search-image-frame{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+#search-image{
+    cursor: pointer;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#search-image.loading{
+    width: 50px;
+    height: 50px;
+    margin-top: 175px;
 }
