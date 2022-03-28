@@ -3,23 +3,25 @@ const PLP_URL = "https://www.net-a-porter.com/api/nap/search/resources/store/nap
 
 const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 
-// const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
-const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
+const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
+// const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
 
-const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+// const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
 
 const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
 
+const MAX_IMAGE_UPLOAD_KB = 1024;
+
 var HB_TEMPLATE_PRODUCTS = Handlebars.compile(
     `<ul class='products'>
         {{#each products}}
-        <li class='product' data-variantid='{{partNumber}}'>
-            <a href='https://www.net-a-porter.com/en-gb/shop/product/{{partNumber}}'>
-                <img src='http://www.net-a-porter.com/variants/images/{{partNumber}}/{{imageView}}/w300.jpg'/>
-            </a>
-            {{>palette paletteState='{{../paletteState}}'}}
-            {{>productDetails}}
+            {{#if ../loadingProducts}}
+                {{>dummyProduct}}
+            {{else}}
+                {{>product loadingPalettes=../loadingPalettes}}
+            {{/if}}
         </li>
         {{/each}}
     </ul>
@@ -45,9 +47,36 @@ var HB_TEMPLATE_SEARCH_IMAGE = Handlebars.compile(
         <input id="file" type="file" accept=".jpg,.jpeg,.png" onchange="encodeImageFileAsURL(this);"/>
         <div class='search-image-frame'>
             <img id="search-image" src='img/image-placeholder.png' class='loading' title='Click to select image'>
+            <p id='search-image-help' class='visible'>Click to upload image (max 1024kB).</p>
         </div>
-        <div id='search-image-palette' class='palette'></div>
+        <div id='search-image-palette' class='palette loading hidden'>
+            <div class='colours'>
+                {{>colours}}
+            </div>
+        </div>
     </div>`
+)
+
+Handlebars.registerPartial(
+    "product", 
+    `<li class='product'>
+        <div class='image-container'>
+            <a href='https://www.net-a-porter.com/en-gb/shop/product/{{partNumber}}'>
+                <img src='http://www.net-a-porter.com/variants/images/{{partNumber}}/{{imageView}}/w300.jpg'/>
+            </a>
+        </div>
+        {{>palette loadingPalettes=loadingPalettes}}
+        {{>productDetails}}
+    </li>`
+)
+
+Handlebars.registerPartial(
+    "dummyProduct", 
+    `<li class='product'>
+        <div class='image-container'></div>
+        {{>dummyPalette}}
+        {{>dummyProductDetails}}
+    </li>`
 )
 
 Handlebars.registerPartial(
@@ -59,14 +88,31 @@ Handlebars.registerPartial(
 )
 
 Handlebars.registerPartial(
+    "dummyProductDetails", 
+    `<div class='product-details'>
+        <h4>DESIGNER</h4>
+        <h4>Product</h4>
+    </div>`
+)
+
+Handlebars.registerPartial(
     "palette",
     `<a href='?variantId={{partNumber}}'>
-        <div class='palette {{paletteState}}' id='palette-{{partNumber}}'>
+        <div class='palette {{#if loadingPalettes}}loading{{/if}}' id='palette-{{partNumber}}'>
             <div class='colours'>
                 {{>colours}}
             </div>
         </div>
     </a>`
+)
+
+Handlebars.registerPartial(
+    "dummyPalette",
+    `<div class='palette loading'>
+        <div class='colours'>
+            {{>colours}}
+        </div>
+    </div>`
 )
 
 Handlebars.registerPartial(
@@ -79,13 +125,19 @@ Handlebars.registerPartial(
 function fetchRetry(url, options, retries){
     return fetch(url, options)
         .then(response => {
-            if(response.status == 504){
+            if(response.status != 200){
                 if(retries > 0){
                     retries = retries - 1;
                     return fetchRetry(url, options, retries);
                 }
             }
             return response;
+        })
+        .catch(error => {
+            console.log('error', error);
+            console.log('retries',retries)
+            retries = retries - 1;
+            return fetchRetry(url, options, retries);
         });
 }
 
@@ -100,12 +152,14 @@ function plpLoad(){
         redirect: 'follow'
     };
 
+    renderPlaceholderProducts();
     fetch(PLP_URL, requestOptions)
         .then(response => response.json())
         .then(plpToProducts)
-        .then(products => renderProducts(products, "loading"))
+        .then(products => renderProducts(products, false, true))
         .then(plpLoadPalettes)
         .catch(error => console.log('error', error));
+    
 }
 
 function plpToProducts(plpResponse){
@@ -138,6 +192,8 @@ function plpLoadPalettes(products){
 
 // EMBEDDING FUNCTIONS
 function embeddingGetNeighboursVariant(variantId){
+    renderPlaceholderProducts();
+
     var searchVariantEmbeddingUrl = EMBEDDING_URL + "/self?embedding_id="+variantId+"&index=colour-palette";
     embeddingSearchSelf(searchVariantEmbeddingUrl);
 
@@ -184,7 +240,7 @@ function embeddingSearchNeighbours(neighboursUrl){
     fetchRetry(neighboursUrl, requestOptions, 2)
         .then(manageResponse)
         .then(addProductData)
-        .then(products => renderProducts(products, 'loaded'))
+        .then(products => renderProducts(products, false, false))
         .catch(error => console.log('Error in embeddingSearchNeighbours:', error));
 }
 
@@ -227,6 +283,9 @@ function neighbourToColours(neighbour){
     return neighbour.attributes.palette.split('-');
 }
 
+function base64ImageSizeKb(base64Image){
+    return Math.ceil(3*(base64Image.length/4))/1024;
+}
 
 function encodeImageFileAsURL(element) {
     var file = element.files[0];
@@ -237,10 +296,23 @@ function encodeImageFileAsURL(element) {
 
 function searchImage(event){
     let base64Image = event.target.result;
+
+    if(base64ImageSizeKb(base64Image) > MAX_IMAGE_UPLOAD_KB){
+        renderImageError({statusText: 'Image is too large, must be less than '+MAX_IMAGE_UPLOAD_KB+'kB.'});
+        return;
+    }
+    
     renderImage(base64Image);
+    renderPlaceholderProducts();
     annotateImage(base64Image)
         .then(renderImageEmbedding)
         .then(embeddingGetNeighboursEmbeddings)
+        .catch(manageAnnotateImageError);
+}
+
+function manageAnnotateImageError(error){
+    console.log(error);
+    renderImageError(error);
 }
 
 function annotateImage(base64Image){
@@ -252,26 +324,47 @@ function annotateImage(base64Image){
 
     return fetchRetry(ANNOTATE_URL, requestOptions, 2)
         .then(manageResponse)
-        .catch(error => console.log('error', error));
 }
 
 
 // RENDER FUNCTIONS
 function renderImagePage(){
-    let searchContent = HB_TEMPLATE_SEARCH_IMAGE();
+    let data = {colours:['#fff','#fff','#fff','#fff','#fff']}
+    let searchContent = HB_TEMPLATE_SEARCH_IMAGE(data);
     document.getElementById("search").innerHTML = searchContent;
     document.getElementById("search-image").onclick = function(event){
+        document.getElementById("file").click();
+    }
+    document.getElementById("search-image-help").onclick = function(event){
         document.getElementById("file").click();
     }
 }
 
 function renderImage(base64Image){
     document.getElementById("search-image").classList.remove('loading');
+    document.getElementById("search-image-help").classList.remove('visible');
+    document.getElementById("search-image-palette").classList.remove('hidden');
     document.getElementById("search-image").setAttribute('src',base64Image);
 }
 
-function renderProducts(products, paletteState){
-    let productsContent = HB_TEMPLATE_PRODUCTS({products: products, paletteState: paletteState});
+function renderImageError(error){
+    document.getElementById("search-image").classList.add('loading');
+    document.getElementById("search-image-help").classList.add('visible');
+    document.getElementById("search-image-help").innerHTML = error.statusText
+    document.getElementById("search-image").setAttribute('src','img/image-placeholder.png');
+}
+
+function renderPlaceholderProducts(){
+    let products = [];
+    for(let i=0; i < 60; i++){
+        //TODO stand default colour list
+        products.push({colours:['#fff','#fff','#fff','#fff','#fff']});
+    }
+    return renderProducts(products, true, true)
+}
+
+function renderProducts(products, isLoadingProducts, isLoadingPalettes){
+    let productsContent = HB_TEMPLATE_PRODUCTS({products: products, loadingProducts:isLoadingProducts, loadingPalettes: isLoadingPalettes});
     document.getElementById("results").innerHTML = productsContent; 
     return products;
 }
@@ -280,6 +373,7 @@ function renderImageEmbedding(embedding){
     let hexColours = embedding.palette.colours.map(colour => colour.hex);
     let paletteHtml = HB_TEMPLATE_PALETTE({colours:hexColours})
     document.getElementById("search-image-palette").innerHTML = paletteHtml;
+    document.getElementById("search-image-palette").classList.remove('loading');
     return embedding;
 }
 
