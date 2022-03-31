@@ -1,19 +1,21 @@
-const PLP_URL = "https://www.net-a-porter.com/api/nap/search/resources/store/nap_gb/productview/byCategory?attrs=true&category=/clothing&locale=en_US&orderBy=5&pageNumber=1&pageSize=60";
-// const PLP_URL = "clothing-plp.json"
-
-const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
-
-const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
-// const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
-
-// const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
-const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-
+const PRODUCTS_SIZE = 60;
+const MAX_IMAGE_UPLOAD_KB = 1024;
+const DEFAULT_COLOURS = ['#fff','#fff','#fff','#fff','#fff'];
 const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
 
-const MAX_IMAGE_UPLOAD_KB = 1024;
+const PLP_URL = "https://www.net-a-porter.com/api/nap/search/resources/store/nap_gb/productview/byCategory?attrs=true&category=/clothing&locale=en_US&orderBy=5&pageNumber=1&pageSize="+PRODUCTS_SIZE;
 
+const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
+
+// const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
+const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
+
+// const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
+const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+
+
+// TEMPLATES
 var HB_TEMPLATE_PRODUCTS = Handlebars.compile(
     `<ul class='products'>
         {{#each products}}
@@ -28,7 +30,7 @@ var HB_TEMPLATE_PRODUCTS = Handlebars.compile(
     `
 );
 
-var HB_TEMPLATE_PALETTE = Handlebars.compile(
+var HB_TEMPLATE_COLOURS = Handlebars.compile(
     `<div class='colours'>
         {{>colours}}
     </div>`
@@ -44,7 +46,7 @@ var HB_TEMPLATE_SEARCH_PALETTE = Handlebars.compile(
 
 var HB_TEMPLATE_SEARCH_IMAGE = Handlebars.compile(
     `<div class='search-image'>
-        <input id="file" type="file" accept=".jpg,.jpeg,.png" onchange="encodeImageFileAsURL(this);"/>
+        <input id="file" type="file" accept=".jpg,.jpeg,.png" onchange="selectImageFile(this);"/>
         <div class='search-image-frame'>
             <img id="search-image" src='img/image-placeholder.png' class='loading' title='Click to select image'>
             <p id='search-image-help' class='visible'>Click to upload image (max 1024kB).</p>
@@ -121,7 +123,10 @@ Handlebars.registerPartial(
         <div class='colour' style='background-color:{{this}};'></div>
     {{/each}}`
 )
+// END TEMPLATES
 
+
+// COMMON FUNCTIONS
 function fetchRetry(url, options, retries){
     return fetch(url, options)
         .then(response => {
@@ -134,77 +139,11 @@ function fetchRetry(url, options, retries){
             return response;
         })
         .catch(error => {
-            console.log('error', error);
-            console.log('retries',retries)
+            console.log('Error:', error);
+            console.log('Retries:',retries)
             retries = retries - 1;
             return fetchRetry(url, options, retries);
         });
-}
-
-// PLP FUNCTIONS
-function plpLoad(){
-    var headers = new Headers();
-    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
-
-    var requestOptions = {
-        method: 'GET',
-        headers: headers,
-        redirect: 'follow'
-    };
-
-    renderPlaceholderProducts();
-    fetch(PLP_URL, requestOptions)
-        .then(response => response.json())
-        .then(plpToProducts)
-        .then(products => renderProducts(products, false, true))
-        .then(plpLoadPalettes)
-        .catch(error => console.log('error', error));
-    
-}
-
-function plpToProducts(plpResponse){
-    return plpResponse.products.map(product => {
-        return {
-            partNumber: product.productColours[0].partNumber,
-            designerName: product.designerName,
-            name: product.name,
-            imageView: product.productColours[0].imageViews[0],
-            colours: ['#f3f1ec', '#f4f2ec', '#f5f3ed', '#f6f4ed', '#f7f5ee']
-        }
-    });
-}
-
-function plpLoadPalettes(products){
-    let variantIds = products.map(product => product.partNumber)
-
-    var requestOptions = {
-        method: 'GET',
-        redirect: 'follow'
-    };
-
-    var embeddingsUrl = EMBEDDING_URL + "/self?embedding_id="+variantIds.join()+"&index=colour-palette";
-    fetch(embeddingsUrl, requestOptions)
-        .then(response => response.json())
-        .then(renderPalettes)
-        .catch(error => console.log('error', error));
-}
-
-
-// EMBEDDING FUNCTIONS
-function embeddingGetNeighboursVariant(variantId){
-    renderPlaceholderProducts();
-
-    var searchVariantEmbeddingUrl = EMBEDDING_URL + "/self?embedding_id="+variantId+"&index=colour-palette";
-    embeddingSearchSelf(searchVariantEmbeddingUrl);
-
-    var neighboursEmbeddingsUrl = EMBEDDING_URL + "/neighbours?embedding_id="+variantId+"&index=colour-palette";
-    embeddingSearchNeighbours(neighboursEmbeddingsUrl);
-}
-
-function embeddingGetNeighboursEmbeddings(embeddings){
-    let artPaletteEmbedding = embeddings.embeddings.filter(embedding => embedding.id == "art-palette")[0];
-    var neighboursEmbeddingUrl = EMBEDDING_URL + "/neighbours?embedding="+artPaletteEmbedding.value.join(',')+"&index=colour-palette";
-    embeddingSearchNeighbours(neighboursEmbeddingUrl);
 }
 
 function manageResponse(response){
@@ -216,6 +155,20 @@ function manageResponse(response){
         throw(responseError);
     }
     return response.json();
+}
+
+function neighbourToColours(neighbour){
+    return neighbour.attributes.palette.split('-');
+}
+
+function base64ImageSizeKb(base64Image){
+    return Math.ceil(3*(base64Image.length/4))/1024;
+}
+
+function embeddingGetNeighboursEmbeddings(embeddings){
+    let artPaletteEmbedding = embeddings.embeddings.filter(embedding => embedding.id == "art-palette")[0];
+    var neighboursEmbeddingUrl = EMBEDDING_URL + "/neighbours?embedding="+artPaletteEmbedding.value.join(',')+"&index=colour-palette";
+    embeddingSearchNeighbours(neighboursEmbeddingUrl);
 }
 
 function embeddingSearchSelf(searchVariantEmbeddingUrl){
@@ -260,11 +213,12 @@ function addProductData(neighbours){
 
     return fetch(productsummaryUrl, requestOptions)
         .then(response => response.json())
-        .then(response => {return mergeNeighbourProductData(neighbours,response.products)})
+        .then(response => {return mergeNeighbourProductData(neighbours,response.products)}) //TODO remove return
         .catch(error => console.log('error', error));
 }
 
 function mergeNeighbourProductData(neighbours, products){
+    // TODO simplify
     return neighbours
         .map(neighbour => {
             let productData = products.filter(product => product.partNumber == neighbour.id)[0];
@@ -278,16 +232,89 @@ function mergeNeighbourProductData(neighbours, products){
         })
         .filter(product => product.imageView);
 }
+// END COMMON FUNCTIONS
 
-function neighbourToColours(neighbour){
-    return neighbour.attributes.palette.split('-');
+
+// PLP PAGE
+function initPlpPage(){
+    renderPlaceholderProducts();
+
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
+
+    var requestOptions = {
+        method: 'GET',
+        headers: headers,
+        redirect: 'follow'
+    };
+
+    // TODO convert to fetchRetry?
+    fetch(PLP_URL, requestOptions)
+        .then(response => response.json())
+        .then(plpResponseToProducts)
+        .then(products => renderProducts(products, false, true))
+        .then(plpLoadPalettes)
+        .catch(error => console.log('error', error));
+    
 }
 
-function base64ImageSizeKb(base64Image){
-    return Math.ceil(3*(base64Image.length/4))/1024;
+function plpResponseToProducts(plpResponse){
+    return plpResponse.products.map(product => {
+        return {
+            partNumber: product.productColours[0].partNumber,
+            designerName: product.designerName,
+            name: product.name,
+            imageView: product.productColours[0].imageViews[0],
+            colours: DEFAULT_COLOURS
+        }
+    });
 }
 
-function encodeImageFileAsURL(element) {
+function plpLoadPalettes(products){
+    let variantIds = products.map(product => product.partNumber)
+
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
+
+    var embeddingsUrl = EMBEDDING_URL + "/self?embedding_id="+variantIds.join()+"&index=colour-palette";
+    // TODO convert to fetchRetry?
+    fetch(embeddingsUrl, requestOptions)
+        .then(response => response.json())
+        .then(renderPalettes)
+        .catch(error => console.log('error', error));
+}
+// END PLP PAGE
+
+
+// VARIANT PAGE
+function initVariantPage(variantId){
+    renderPlaceholderProducts();
+
+    var searchVariantEmbeddingUrl = EMBEDDING_URL + "/self?embedding_id="+variantId+"&index=colour-palette";
+    embeddingSearchSelf(searchVariantEmbeddingUrl);
+
+    var neighboursEmbeddingsUrl = EMBEDDING_URL + "/neighbours?embedding_id="+variantId+"&index=colour-palette";
+    embeddingSearchNeighbours(neighboursEmbeddingsUrl);
+}
+// END VARIANT PAGE
+
+
+// IMAGE PAGE
+function initImagePage(){
+    let data = {colours:DEFAULT_COLOURS}
+    let searchContent = HB_TEMPLATE_SEARCH_IMAGE(data);
+    document.getElementById("search").innerHTML = searchContent;
+    document.getElementById("search-image").onclick = function(event){
+        document.getElementById("file").click();
+    }
+    document.getElementById("search-image-help").onclick = function(event){
+        document.getElementById("file").click();
+    }
+}
+
+function selectImageFile(element) {
     var file = element.files[0];
     var reader = new FileReader();
     reader.onloadend = searchImage;
@@ -325,19 +352,37 @@ function annotateImage(base64Image){
     return fetchRetry(ANNOTATE_URL, requestOptions, 2)
         .then(manageResponse)
 }
+// END IMAGE PAGE
 
 
 // RENDER FUNCTIONS
-function renderImagePage(){
-    let data = {colours:['#fff','#fff','#fff','#fff','#fff']}
-    let searchContent = HB_TEMPLATE_SEARCH_IMAGE(data);
-    document.getElementById("search").innerHTML = searchContent;
-    document.getElementById("search-image").onclick = function(event){
-        document.getElementById("file").click();
+function renderPlaceholderProducts(){
+    let products = [];
+    for(let i=0; i < PRODUCTS_SIZE; i++){
+        products.push({colours:DEFAULT_COLOURS});
     }
-    document.getElementById("search-image-help").onclick = function(event){
-        document.getElementById("file").click();
-    }
+    return renderProducts(products, true, true)
+}
+
+function renderProducts(products, isLoadingProducts, isLoadingPalettes){
+    let productsContent = HB_TEMPLATE_PRODUCTS({products: products, loadingProducts:isLoadingProducts, loadingPalettes: isLoadingPalettes});
+    document.getElementById("results").innerHTML = productsContent; 
+    return products;
+}
+
+function renderPalettes(neighbours){
+    neighbours.forEach(neighbour => {
+        let resultHtml = HB_TEMPLATE_COLOURS({colours: neighbourToColours(neighbour)});
+        document.getElementById("palette-"+neighbour.id).innerHTML = resultHtml;
+        document.getElementById("palette-"+neighbour.id).classList.remove('loading');
+    });
+    return neighbours;
+}
+
+function renderSearchPalette(neighbour){
+    let searchPalette = HB_TEMPLATE_SEARCH_PALETTE({colours: neighbourToColours(neighbour)});
+    document.getElementById("search").innerHTML = searchPalette;
+    return neighbour;
 }
 
 function renderImage(base64Image){
@@ -354,43 +399,14 @@ function renderImageError(error){
     document.getElementById("search-image").setAttribute('src','img/image-placeholder.png');
 }
 
-function renderPlaceholderProducts(){
-    let products = [];
-    for(let i=0; i < 60; i++){
-        //TODO stand default colour list
-        products.push({colours:['#fff','#fff','#fff','#fff','#fff']});
-    }
-    return renderProducts(products, true, true)
-}
-
-function renderProducts(products, isLoadingProducts, isLoadingPalettes){
-    let productsContent = HB_TEMPLATE_PRODUCTS({products: products, loadingProducts:isLoadingProducts, loadingPalettes: isLoadingPalettes});
-    document.getElementById("results").innerHTML = productsContent; 
-    return products;
-}
-
 function renderImageEmbedding(embedding){
     let hexColours = embedding.palette.colours.map(colour => colour.hex);
-    let paletteHtml = HB_TEMPLATE_PALETTE({colours:hexColours})
+    let paletteHtml = HB_TEMPLATE_COLOURS({colours:hexColours})
     document.getElementById("search-image-palette").innerHTML = paletteHtml;
     document.getElementById("search-image-palette").classList.remove('loading');
     return embedding;
 }
-
-function renderSearchPalette(neighbour){
-    let searchPalette = HB_TEMPLATE_SEARCH_PALETTE({colours: neighbourToColours(neighbour)});
-    document.getElementById("search").innerHTML = searchPalette;
-    return neighbour;
-}
-
-function renderPalettes(neighbours){
-    neighbours.forEach(neighbour => {
-        let resultHtml = HB_TEMPLATE_PALETTE({colours: neighbourToColours(neighbour)});
-        document.getElementById("palette-"+neighbour.id).innerHTML = resultHtml;
-        document.getElementById("palette-"+neighbour.id).classList.remove('loading');
-    });
-    return neighbours;
-}
+// END RENDER FUNCTIONS
 
 
 // PAGE INIT
@@ -402,14 +418,14 @@ function getParams(location) {
     };
 }
 
-
 const params = getParams(window.location);
 if(params.variantId){
-    embeddingGetNeighboursVariant(params.variantId);
+    initVariantPage(params.variantId);
 }
 else if(params.page && params.page == 'image'){
-    renderImagePage();
+    initImagePage();
 }
 else{
-    plpLoad();
+    initPlpPage();
 }
+// END PAGE INIT

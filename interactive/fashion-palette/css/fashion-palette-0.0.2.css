@@ -32,10 +32,9 @@ h4{
     margin-top: 2px;
     margin-bottom: 2px;
     height: 16px;
-
 }
 
-#header .search{
+#header .menu{
     height: 16px;
     margin: 0;
     padding: 0;
@@ -79,7 +78,6 @@ ul.products{
     margin: 0; 
     margin-top: 10px;
 }
-
 
 li.product{
     width: 300px;
@@ -179,7 +177,7 @@ li.product img{
     }
 }
 
-
+/* TODO control by adding hidden class */
 #file{
     display: none;
     visibility: hidden;
@@ -198,6 +196,7 @@ li.product img{
     object-fit: cover;
 }
 
+/* TODO control by adding hidden class */
 #search-image-help{
     cursor: pointer;
     display: none;
@@ -205,6 +204,7 @@ li.product img{
     margin-top: 0;
 }
 
+/* TODO control by adding hidden class */
 #search-image-help.visible{
     display: block;
     visibility: visible;
