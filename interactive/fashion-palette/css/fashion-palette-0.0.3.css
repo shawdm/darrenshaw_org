@@ -19,7 +19,7 @@ h4{
     margin: 0;
 }
 
-#header{
+.header{
     height: 20px;
     padding-left: 5px;
     padding-right: 5px;
@@ -28,14 +28,17 @@ h4{
     justify-content: space-between;
 }
 
+.ton .header{
+    background-color: rgb(255, 255, 255);
+}
+
 #header .logo{
     margin-top: 2px;
     margin-bottom: 2px;
     height: 16px;
-
 }
 
-#header .search{
+#header .menu{
     height: 16px;
     margin: 0;
     padding: 0;
@@ -52,13 +55,17 @@ h4{
     display: inline;
 }
 
-#header a, #header span{
+.header a, .header span{
     color: #fff;
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.ton .header a, .header span{
+    color: #2b2b2b;
 }
 
 #search{
@@ -80,7 +87,6 @@ ul.products{
     margin-top: 10px;
 }
 
-
 li.product{
     width: 300px;
     display: inline;
@@ -93,9 +99,20 @@ li.product .image-container{
     background-image: url("../img/image-dress.png");
 }
 
+.ton li.product .image-container{
+    background-color: #fff;
+}
+
+
 li.product img{
     width: 100%;
 }
+
+.ton li.product img{
+    width: 280px;
+    margin: 10px;
+}
+
 
 .palette{
     height: 10px;
@@ -179,7 +196,7 @@ li.product img{
     }
 }
 
-
+/* TODO control by adding hidden class */
 #file{
     display: none;
     visibility: hidden;
@@ -198,6 +215,7 @@ li.product img{
     object-fit: cover;
 }
 
+/* TODO control by adding hidden class */
 #search-image-help{
     cursor: pointer;
     display: none;
@@ -205,6 +223,7 @@ li.product img{
     margin-top: 0;
 }
 
+/* TODO control by adding hidden class */
 #search-image-help.visible{
     display: block;
     visibility: visible;
