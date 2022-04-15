@@ -5,6 +5,7 @@ const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
 
 const PLP_URL = "https://www.net-a-porter.com/api/nap/search/resources/store/nap_gb/productview/byCategory?attrs=true&category=/clothing&locale=en_US&orderBy=5&pageNumber=1&pageSize="+PRODUCTS_SIZE;
+// const PLP_URL = "plp.json";
 
 const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 
