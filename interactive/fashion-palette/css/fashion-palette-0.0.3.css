@@ -19,13 +19,17 @@ h4{
     margin: 0;
 }
 
-#header{
+.header{
     height: 20px;
     padding-left: 5px;
     padding-right: 5px;
     background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: space-between;
+}
+
+.ton .header{
+    background-color: rgb(255, 255, 255);
 }
 
 #header .logo{
@@ -51,13 +55,17 @@ h4{
     display: inline;
 }
 
-#header a, #header span{
+.header a, .header span{
     color: #fff;
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.ton .header a, .header span{
+    color: #2b2b2b;
 }
 
 #search{
@@ -91,9 +99,20 @@ li.product .image-container{
     background-image: url("../img/image-dress.png");
 }
 
+.ton li.product .image-container{
+    background-color: #fff;
+}
+
+
 li.product img{
     width: 100%;
 }
+
+.ton li.product img{
+    width: 280px;
+    margin: 10px;
+}
+
 
 .palette{
     height: 10px;
