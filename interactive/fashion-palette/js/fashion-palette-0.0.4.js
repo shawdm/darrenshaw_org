@@ -7,6 +7,8 @@ const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/de
 const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
 // const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
 
+let renderedProductIds = [];
+
 
 // TEMPLATES
 var HB_TEMPLATE_PRODUCTS = Handlebars.compile(
@@ -354,6 +356,10 @@ function renderPlaceholderProducts(){
 }
 
 function renderProducts(products, isLoadingProducts, isLoadingPalettes){
+    renderedProductIds = products
+        .filter(product => product.partNumber)
+        .map(product => product.partNumber);
+
     let productsContent = HB_TEMPLATE_PRODUCTS({products: products, loadingProducts:isLoadingProducts, loadingPalettes: isLoadingPalettes});
     document.getElementById("results").innerHTML = productsContent; 
     return products;
@@ -396,6 +402,10 @@ function renderImageEmbedding(embedding){
     return embedding;
 }
 // END RENDER FUNCTIONS
+
+function copyIdsToClipboard(){
+    navigator.clipboard.writeText(renderedProductIds.join(','));
+}
 
 
 // PAGE INIT
