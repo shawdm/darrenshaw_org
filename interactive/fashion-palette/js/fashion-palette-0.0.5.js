@@ -1,11 +1,18 @@
 const MAX_IMAGE_UPLOAD_KB = 1024;
 const DEFAULT_COLOURS = ['#fff','#fff','#fff','#fff','#fff'];
 
-const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
-// const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
+// PRD
+const EMBEDDING_URL = "https://g8wipomwxb.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
+const ANNOTATE_URL = "https://g8wipomwxb.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
 
-const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-// const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+// DEV
+// const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
+// const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
+
+// LOCAL
+//const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
+//const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+
 
 let renderedProductIds = [];
 
