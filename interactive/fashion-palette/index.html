@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Colour Palette Search - NET-A-PORTER</title>
-        <link rel="stylesheet" type="text/css" href="css/fashion-palette-0.0.4.css"/>
+        <link rel="stylesheet" type="text/css" href="css/fashion-palette-0.0.6.css"/>
         <link rel="icon" href="favicon.ico">
     </head>
     <body class="nap">
@@ -29,6 +29,20 @@
             const PLP_URL = `https://www.net-a-porter.com/api/nap/search/resources/store/nap_gb/productview/byCategory?attrs=true&category=/clothing&locale=en_US&orderBy=5&pageNumber=1&pageSize=${PRODUCTS_SIZE}`
             const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 
+
+            // PRD
+            const EMBEDDING_URL = "https://7oyibreih4.execute-api.eu-west-1.amazonaws.com/dev_stage/nap/embedding";
+            const ANNOTATE_URL = "https://7oyibreih4.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
+
+            // DEV
+            // const EMBEDDING_URL = "https://tpu4mpngvk.execute-api.eu-west-1.amazonaws.com/dev_stage/nap/embedding";
+            // const ANNOTATE_URL = "https://tpu4mpngvk.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
+
+            // LOCAL
+            //const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
+            //const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
+
+
             Handlebars.registerPartial(
                 "productImage", 
                 `<div class='image-container'>
@@ -38,6 +52,6 @@
                 </div>`
             )
         </script>
-        <script src="js/fashion-palette-0.0.5.js"></script>
+        <script src="js/fashion-palette-0.0.6.js"></script>
     </body>
 </html>
