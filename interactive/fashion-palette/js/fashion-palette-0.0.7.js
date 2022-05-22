@@ -1,19 +1,6 @@
 const MAX_IMAGE_UPLOAD_KB = 1024;
 const DEFAULT_COLOURS = ['#fff','#fff','#fff','#fff','#fff'];
 
-// PRD
-// const EMBEDDING_URL = "https://g8wipomwxb.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
-// const ANNOTATE_URL = "https://g8wipomwxb.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-
-// DEV
-// const EMBEDDING_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/embedding";
-// const ANNOTATE_URL = "https://7k67tyke1c.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-
-// LOCAL
-// const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
-// const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
-
-
 let renderedProductIds = [];
 
 
@@ -165,7 +152,7 @@ function base64ImageSizeKb(base64Image){
 
 function embeddingGetNeighboursEmbeddings(embeddings){
     let artPaletteEmbedding = embeddings.embeddings.filter(embedding => embedding.id == "art-palette")[0];
-    var neighboursEmbeddingUrl = EMBEDDING_URL + "/neighbours?embedding="+artPaletteEmbedding.value.join(',')+"&index="+INDEX_ID;
+    var neighboursEmbeddingUrl = EMBEDDING_URL + "/neighbours?embedding="+artPaletteEmbedding.value.join(',');
     embeddingSearchNeighbours(neighboursEmbeddingUrl);
 }
 
@@ -276,7 +263,7 @@ function plpLoadPalettes(products){
         redirect: 'follow'
     };
 
-    var embeddingsUrl = EMBEDDING_URL + "/self?embedding_id="+variantIds.join()+"&index="+INDEX_ID;
+    var embeddingsUrl = EMBEDDING_URL + "/self?embedding_id="+variantIds.join();
     // TODO convert to fetchRetry?
     fetch(embeddingsUrl, requestOptions)
         .then(response => response.json())
@@ -290,10 +277,10 @@ function plpLoadPalettes(products){
 function initVariantPage(variantId){
     renderPlaceholderProducts();
 
-    var searchVariantEmbeddingUrl = EMBEDDING_URL + "/self?embedding_id="+variantId+"&index="+INDEX_ID;
+    var searchVariantEmbeddingUrl = EMBEDDING_URL + "/self?embedding_id="+variantId;
     embeddingSearchSelf(searchVariantEmbeddingUrl);
 
-    var neighboursEmbeddingsUrl = EMBEDDING_URL + "/neighbours?embedding_id="+variantId+"&index="+INDEX_ID;
+    var neighboursEmbeddingsUrl = EMBEDDING_URL + "/neighbours?embedding_id="+variantId;
     embeddingSearchNeighbours(neighboursEmbeddingsUrl);
 }
 // END VARIANT PAGE
