@@ -5,6 +5,7 @@ date:   2016-01-27 08:00:00 +0000
 date_written:   2011-01-27 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [tech]
 excerpt: As an experiment in using the Physical Web I wanted to create a voting system for physical meetings.  A meeting would have a current question and attendees could vote with one click.  There would be no entering URLs, downloading apps, or scanning QR codes.
 ---
 We’ve had QR codes in our lab for years, though I don’t think they’ve ever been the significant part of a real project (feel free to shout me down ETS colleagues). The technology behind them is solid, but their usability problems are well documented, or the butt of a joke.  Despite being derided they do have industrial applications, are looked upon more fondly in China and Japan, and even Western consumers use them more than they think.  It tends to be in generating the codes rather than scanning them (paying with the Starbucks app, printing airline boarding passes). Nonetheless there is still an awkwardness in using them and their ugliness ruins many slickly designed posters.

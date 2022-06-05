@@ -1,18 +1,42 @@
-<div class='contents'>
-    <ul>
-        {% for post in site.categories['blog'] limit:100 -%}
+<section class='contents'>
+    <ul class="photo">
+        <li class='title'><h2>Photo Shoots</h2></li>
+        {% assign photo_shoot_posts = site.posts | where_exp: "item", "item.tags contains 'photo'" %}
+        {% for photo_shoot_post in photo_shoot_posts limit:100 -%}
         <li>
-            <div class='date'>
-                <h2 title='{{post.date_written | date: "%d %B %Y"}}'>{{post.date_written | date: "%B" | slice: 0, 3}}</h2>
-                <h3>{{post.date_written | date: "%Y" }}</h3>
-            </div>
             <div class='summary'>
-                <a href='{{ post.url }}'>
-                    <h2>{{ post.title }}</h2>
+                <a href='{{ photo_shoot_post.url }}' title='{{photo_shoot_post.date_written | date: "%d %B %Y"}}'>
+                    <h3>{{ photo_shoot_post.title }}</h3>
                 </a>
-                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+                <p>{{ photo_shoot_post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+            </div>
+        </li>
+        {% endfor -%}
+        <li class='title'><h2>Photo Words</h2></li>
+        {% assign photo_word_posts = site.posts | where_exp: "item", "item.tags contains 'photo-words'" %}
+        {% for photo_word_post in photo_word_posts limit:100 -%}
+        <li>
+            <div class='summary'>
+                <a href='{{ photo_word_post.url }}' title='{{photo_word_post.date_written | date: "%d %B %Y"}}'>
+                    <h3>{{ photo_word_post.title }}</h3>
+                </a>
+                <p>{{ photo_word_post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
             </div>
         </li>
         {% endfor -%}
     </ul>
-</div>
+    <ul class="words">
+        <li class='title'><h2>Tech & Work</h2></li>
+        {% assign tech_posts = site.posts | where_exp: "item", "item.tags contains 'tech'" %}
+        {% for tech_post in tech_posts limit:100 -%}
+        <li>
+            <div class='summary'>
+                <a href='{{ tech_post.url }}' title='{{tech_post.date_written | date: "%d %B %Y"}}'>
+                    <h3>{{ tech_post.title }}</h3>
+                </a>
+                <p>{{ tech_post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+            </div>
+        </li>
+        {% endfor -%}
+    </ul>
+</section>

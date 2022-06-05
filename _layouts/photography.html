@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- layout blog-post -->
+<!-- layout photography -->
 <html>
   {% include version.html %}
   <head>
@@ -7,15 +7,12 @@
   </head>
 
   <body>
-
+    
     {% include header.html %}
 
-    <article class="blog">
-      <section class="title">
-        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B" | slice: 0, 3}} {{page.date_written | date: "%Y" }}</span></h2>
-      </section>
+    <article class="photography">
       <section class="content">
-        {{ page.content }}
+        {{ content }}
       </section>
     </article>
 
@@ -28,3 +25,5 @@
   </body>
 
 </html>
+
+

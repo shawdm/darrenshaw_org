@@ -1,10 +1,11 @@
 ---
-layout: photo-post
+layout: blog-photo-post
 title:  "Hello from the future"
 date:   2019-06-26 13:00:00 +0000
 date_written: 2019-06-26 13:00:00 +0000
 location: Valencia, Spain
-categories: [blog, sidebar]
+categories: [photo]
+tags: [photo]
 excerpt: Hello from the future, Valencia, Spain. The City of Arts and Sciences, built at the end of what was once the river Turia.
 thumbnail: "{% responsive_image path: images/2019/valencia/_DSF3037.jpg class: wide %}"
 ---

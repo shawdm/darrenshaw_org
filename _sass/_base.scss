@@ -65,67 +65,42 @@ h1{
 h2 {
   font-size: $font-size-medium;
   line-height: $line-height-medium;
+  padding-top: 1rem;
 }
 
 h3 {
-  font-size: $font-size-small;
-  color: $grey-color;
-  line-height: $line-height-small;
-  font-weight: $heavy-font-weight;
-  text-transform: uppercase;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
 }
 
 a{
-  color: $black-color;
-
-  text-decoration: underline;
-  text-decoration-color: $black-color;
-  text-decoration-style: dotted;
+  text-decoration: none;
+  color: $white-color;
+  background-color: $black-color;
+  padding-left: $spacing-unit-blockout;
+  padding-right: $spacing-unit-blockout;
+  border-radius: $spacing-unit-blockout;
 }
 
 p{
-  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-
 /**
- * Header
- * Full width to draw black background bar.
+ * Header and Navigation bar
  */
-.header{
+ .header{
   width: 100%;
   height: $spacing-unit-medium;
-  margin-bottom: $spacing-unit-small;
   background-color: $black-color;
 }
 
-
-/**
- * Limited width content div, used inside full width header or body.
- */
-div.content, div.contents{
-  max-width: $content-max-width; 
-
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $spacing-unit-small;
-  padding-right: $spacing-unit-small;
-}
-
-.home div.content-full-bleed{
-  max-width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/**
- * Navigation bar
- */
 nav {
   display: flex;
   font-size: $font-size-small;
   line-height: $spacing-unit-medium;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   color: $white-color;
 }
 
@@ -136,40 +111,146 @@ nav span.nav{
 
 nav .title{
   font-weight: $heavy-font-weight;
-  flex-grow: 1;
 }
 
 nav a {
   text-decoration: none;
+  background-color: $black-color;
   color: $white-color;
+  border: 0;
+  padding: 0;
 }
 
 /**
- * Side bar
- */
-div.sidebar{
-  margin-bottom: $spacing-unit-medium;
+* About
+*/
+section.about{
+ width: 100%;
+ max-width: 100%;
+ margin-top: $spacing-unit-large;
+ background-color: $accent-color;
+ color: $white-color;
 }
 
- ul.sidebar li{
-   margin-top: $spacing-unit-tiny;
- }
+section.about .profile-images{
+ width: 100%;
+ max-width: $max-article-width;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: $spacing-unit-large;
+ padding-bottom: $spacing-unit-large;
+ display: flex;
+ justify-content: center;
+ gap: $spacing-unit-large;
+}
+
+section.about .profile-images img{
+ width: $thumbnail-xsmall-width;
+ border: $image-border-width;
+ border-style: solid;
+ border-color: $true-black-color;
+
+}
+
+section.about h1{
+ text-align: center;
+ padding-top: $spacing-unit-large;
+ padding-left: $spacing-unit-small;
+ padding-right: $spacing-unit-small;
+}
+
+section.about a{
+ background-color: $white-color; 
+ border-color: $white-color;
+ color: $accent-color;
+}
+
+section.about p{
+ max-width: $max-article-width;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: $spacing-unit-small;
+ padding-right: $spacing-unit-small;
+}
+
+section.about p span.large{
+ display: inline;
+ font-size: $font-size-large;
+}
+
+section.about p:last-child{
+ padding-bottom: $spacing-unit-large;
+}
 
 /**
- * Footer
- */
+* Contents
+*/
+.contents{
+ display: flex;
+ flex-wrap: nowrap;
+ gap: $spacing-unit-large;
+ max-width: $max-article-width;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: $spacing-unit-medium;
+ padding-left: $spacing-unit-small;
+ padding-right: $spacing-unit-small;
+}
+
+.contents ul {
+ flex-grow: 1;
+ width: 100%;
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+.contents ul li{
+ margin-top: 0;
+ margin-bottom: $spacing-unit-large;
+}
+
+.contents ul li.title{
+ margin-top: $spacing-unit-large;
+ margin-bottom: $spacing-unit-small;
+}
+
+.contents ul li a{
+ margin-left: -$spacing-unit-blockout;
+}
+
+.contents h2{
+ border-color: $black-color;
+ border-style: solid;
+ border-width: 0;
+ border-top-width: $overline-width;
+}
+
+.contents ul li a h3{
+ display: inline;
+}
+
+/**
+* Footer
+*/
 section.footer{
-  margin-top: $spacing-unit-xlarge;
-  margin-bottom: $spacing-unit-small;
+ margin-top: $spacing-unit-xlarge;
+ margin-bottom: $spacing-unit-small;
 }
 
 section.footer p{
-  font-size: $font-size-small;
-  text-align: center;
+ font-size: $font-size-small;
+ text-align: center;
+}
+
+section.footer a{
+  background-color: $white-color;
+  color: $black-color;
+  border: 0;
 }
 
 /**
- * Blog/text article
+ * Default (blog-post) article
  */
 article {
   max-width: $max-article-width;
@@ -193,95 +274,56 @@ article section.title h2 span{
   font-weight: $base-font-weight;
 }
 
+article.blog section{
+  padding-left: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
+}
+
 /**
- * Picture article
+ * blog-photo article
  */
-article.photo{
-  max-width: 100%;
+article.blog-photo{
+  max-width: $content-max-width;
   margin-top: 0;
 }
 
-article.photo p {
-  padding: 0;
-}
-
-article.photo img {
+article.blog-photo img {
   display: block;
 }
 
+article.blog-photo p {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+article.blog-photo p.square-text-above{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+article.blog-photo p.square-text-below{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /**
- * home article
+ * photography article
  */
-article.home{
+article.photography{
   max-width: 100%;
 }
 
-article.home section.title{
-  position: absolute;
-  top:0;
-  left:0;
+article.photography p{
+  padding-bottom: 0;
 }
 
-article.home section.title h2{
-  color: $white-color;
-  font-size: $font-size-xlarge;
-  line-height: $line-height-xlarge;
-  margin: $spacing-unit-small;
-}
-
-article.home section.content p.full-bleed{
+article.photography p.full-bleed{
   width: 100%;
   max-width: 100%;
   margin: 0;
   background-color: $black-color;
-}
-
-article.home .grid{
-  max-width: $content-max-width;
-  display: grid;
-  grid-template-columns: $max-article-width 1fr;
-  margin-left: $spacing-unit-small;
-  margin-right: $spacing-unit-small;
-  margin-bottom: 1rem;
-}
-
-article.home .grid .right{
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-article.home h3, article.home img.thumbnail{
-  margin-top: $spacing-unit-medium;
-}
-
-.sidebar ul {
-  list-style-type: none;
-  font-size: $font-size-small;
-  color: $grey-color;
-  line-height: $line-height-small;
-}
-
-/**
- * Full page picture
- */
-html.picture, html.picture body {
-  height: 100%;
-  padding-top: $spacing-unit-tiny;
-  padding-bottom: $spacing-unit-tiny;
-  margin-left: auto;
-  margin-right: auto;
-}
- 
-figure.picture{
-  position: relative;
-  height: 100%;
-  text-align: center;
-}
-
-.picture img{
-  height: 100%;
-  display: inline;
 }
 
 /**
@@ -311,62 +353,12 @@ ul.gallery li img{
 }
 
 
-/**
- * Contents
- */
-.contents ul li{
-  display: flex;
-  align-items: stretch;
-  margin-top: $spacing-unit-large;
-  max-width: $max-article-width;
-}
-
-.contents ul li .date{
-  display: block;
-  padding-right: $spacing-unit-small;
-  min-width: $spacing-unit-xlarge;
- }
-
- .contents ul li .date h2,  .contents ul li .date h3{
-  text-align: right;
-  margin: 0;
- }
-
- .contents ul li .date h2{
-  line-height: $line-height-base;
-  font-weight: $heavy-font-weight;
-  text-transform: uppercase;
- }
-
- .contents ul li .summary{
-  display: block;
-  flex-grow: 1;
-}
-
-.contents ul li .summary h2{
-  line-height: $line-height-base;
-}
-
-
 @media (max-width: 1100px) {
 
-  article.home .grid .right{
-    display: none;
-  }
-
-  article.home section.title h2{
-    font-size: $font-size-large;
-    line-height: $line-height-large;
-  }
 
 }
 
 @media (max-width: 800px) {
-
-  article.home .grid{
-    max-width: 100%;
-    grid-template-columns: 100%;
-  }
 
   ul.gallery {
     column-count: 1;
@@ -374,20 +366,9 @@ ul.gallery li img{
     padding-left: 0px;
     padding-right: 0px;
   }
-
-  ul.contents{
-    column-count: 2;
-  }
-
-  .picture .caption{
-    display: none;
-  }
   
 }
 
 @media (max-width: 500px) {
-  article.home section.title h2{
-    font-size: $font-size-medium;
-    line-height: $line-height-medium;
-  }
+  
 }

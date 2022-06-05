@@ -1,0 +1,29 @@
+<html>
+<!-- layout interactive-fashion-palette -->
+{% include version.html %}
+
+<head>
+  {% include head-core.html %}
+  <link rel='stylesheet' href='{{"/interactive/fashion-palette/css/site/style.css" | prepend:site.baseurl}}' />
+</head>
+
+<body>
+
+  <article class='fashion-palette'>
+    <section class='text-content-colourblock black'>
+      <p>The most popular colour at Net-A-Porter is black. The second most popular colour is white.</p>
+    </section>
+    <section class='full-width-content'>
+      <div class='clusters' id="nap"></div>
+    </section>
+  </article>
+
+  {% include about.html %}
+
+  {% include contents.html %}
+
+  {% include footer.html %}
+ 
+</body>
+
+</html>

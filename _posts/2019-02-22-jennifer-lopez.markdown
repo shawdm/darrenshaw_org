@@ -4,6 +4,7 @@ title:  "Jennifer Lopez"
 date_written: 2019-02-22 18:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: Anyone could take a beautiful picture of Jennifer Lopez. I love that Camilla Akrans and Harper's Bazaar didn't settle for that.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/jennifer-lopez.jpg class: wide %}"
 ---

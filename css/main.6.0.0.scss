@@ -22,9 +22,10 @@ $line-height-xlarge: 6rem;
 
 
 // Colour Settings
+$true-black-color: #151515;
 $black-color: #1E1E1E;
 $grey-color: #8d8d8d;
-$white-color: #FFF;
+$white-color: #fcfcfc;
 $accent-color: #00656E;
 
 // Extreme sizes
@@ -36,9 +37,11 @@ $max-article-width: 800px;
 // Content Image Thumbnail Widths
 $thumbnail-large-width: 500px;
 $thumbnail-small-width: 300px;
+$thumbnail-xsmall-width: 150px;
 
 
 // Layout Settings
+$spacing-unit-blockout: 2px;
 $spacing-unit-tiny: 5px;
 $spacing-unit-small: 15px;
 $spacing-unit-medium: 25px;
@@ -49,7 +52,8 @@ $caption-width: 100px;
 $gallery-padding: 10px;
 $gallery-padding-negative: -10px;
 
-
+$image-border-width: 2px;
+$overline-width: 1px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

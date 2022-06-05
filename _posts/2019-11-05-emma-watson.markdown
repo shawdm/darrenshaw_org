@@ -4,6 +4,7 @@ title:  "Emma Watson"
 date_written: 2019-11-05 13:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: There’s really only one thing you need to do with an Emma Watson photo - leave her freckles alone. Which is, of course, exactly what Alasdair McLellan and Lynsey Alexander did in this Vogue UK picture.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/Emma-Watson-Vogue-UK-Cover-Photoshoot02.jpg class: wide %}"
 ---

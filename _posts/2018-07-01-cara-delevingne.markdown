@@ -4,6 +4,7 @@ title:  "Cara Delevingne"
 date_written: 2018-07-01 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne. Cara's hard to read emotion and the simplicity of the lighting against her pared back makeup make it timeless.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/cara-delevingne.jpg class: wide %}"
 ---
