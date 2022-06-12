@@ -127,8 +127,8 @@ nav a {
 section.about{
  width: 100%;
  max-width: 100%;
- margin-top: $spacing-unit-large;
- background-color: $accent-color;
+ margin-top: $spacing-unit-xlarge;
+ background-color: $black-color;
  color: $white-color;
 }
 
@@ -148,8 +148,7 @@ section.about .profile-images img{
  width: $thumbnail-xsmall-width;
  border: $image-border-width;
  border-style: solid;
- border-color: $true-black-color;
-
+ border-color: $white-color;
 }
 
 section.about h1{
@@ -162,7 +161,7 @@ section.about h1{
 section.about a{
  background-color: $white-color; 
  border-color: $white-color;
- color: $accent-color;
+ color: $black-color;
 }
 
 section.about p{
@@ -260,6 +259,10 @@ article {
 
 article p img{
   max-width: 100%;
+}
+
+article ol.references{
+  font-size: $font-size-small;
 }
 
 article p img.full-spaced{
