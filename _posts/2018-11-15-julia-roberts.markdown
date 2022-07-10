@@ -4,6 +4,7 @@ title:  "Julia Roberts"
 date_written: 2018-11-15 18:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: I hope Julia Roberts has this picture hanging on her wall. It’s such a joyful, "everything is going to be ok" moment captured by Alexi Lubomirski. Just looking at the image makes me happy.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/julia-roberts-1.jpg class: wide %}"
 ---

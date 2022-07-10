@@ -1,10 +1,11 @@
 ---
-layout: photo-post
+layout: blog-photo-post
 title:  "Fierce and Freckles with Gemma"
 date:   2018-12-22 05:00:00 +0000
 date_written: 2018-12-22 05:00:00 +0000
 location: Winchester, UK
-categories: photo-blog
+categories: photo
+tags: [photo]
 excerpt: Gemma is one of the easiest people to shoot with, her natural swagger always comes across in the pictures, but she’s also funny and doesn’t take herself too seriously. This shoot was from 2014 with Rachael Kent doing a perfect job of keeping the makeup low key and letting Gemma (and freckles) shine.
 ---
 {% responsive_image path: images/2019/gemma/DSC4194_86963.jpg class: wide %}

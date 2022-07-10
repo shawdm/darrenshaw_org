@@ -21,6 +21,8 @@ markdown: kramdown
 plugins:
   - jekyll-responsive-image
 
+exclude: 
+  - script/
 
 responsive_image:
   # [Required]

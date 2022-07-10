@@ -4,6 +4,7 @@ title:  "Heidi Klum is a Cat"
 date_written:   2017-09-17 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: Why I love this Rankin series of Heidi Klum pictures that made me want to learn to take portraits.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/heidi-rankin-1.jpg class: wide %}"
 ---

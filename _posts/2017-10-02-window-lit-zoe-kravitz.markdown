@@ -4,6 +4,7 @@ title:  "Window Lit Zoë Kravitz"
 date_written:   2017-10-02 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: Zoë Kravitz is having a bit of a moment, she is in every photo shoot. This Stas Komarovski photograph of her is a picture I’ve tried (and failed) to take many times.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/zoe.jpg class: wide %}"
 ---

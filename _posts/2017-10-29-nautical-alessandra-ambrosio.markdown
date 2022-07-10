@@ -4,6 +4,7 @@ title:  "Nautical Alessandra Ambrosio"
 date_written:   2017-10-29 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: This is the second Boo George shoot with Alessandra Ambrosio that I’ve written about. If I had to pick the perfect fashion picture this would be it.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/alessandra-navy-3.jpg class: wide %}"
 ---

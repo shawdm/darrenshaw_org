@@ -4,6 +4,7 @@ title:  "Pregnant Alessandra Ambrosio"
 date_written:   2017-09-18 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: Alessandra Ambrosio has done everything from the Next catalogue, through Victoria’s Secret shows, to high fashion. In this image, Boo George was able to do something different.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/ambrosia-george-1.jpg class: wide %}"
 ---

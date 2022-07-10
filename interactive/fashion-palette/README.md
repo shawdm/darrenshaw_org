@@ -1,4 +1,4 @@
-## Running Locally
+## Running Locally Standalone
 Run via a python http server
 ```
 python3 -m http.server

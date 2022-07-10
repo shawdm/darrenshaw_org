@@ -4,6 +4,7 @@ title:  "Make Love Not War"
 date_written:   2017-10-16 08:00:00 +0000
 location: Winchester, UK
 categories: blog
+tags: [photo-words]
 excerpt: Steven Meisel has been responsible for many of Vogue Italia's most controversial shoots. His 2007 Make Love Not War shoot was described by the Guardian as "the most nauseatingly tasteless fashion pictures ever”. Controversial and difficult, but ten years on they still stand out.
 thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/make-love-not-war.jpg class: wide %}"
 ---

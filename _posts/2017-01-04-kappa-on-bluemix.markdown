@@ -3,6 +3,7 @@ layout: blog-post
 title:  "Kappa Architecture on Bluemix"
 location: Winchester, UK
 categories: blog
+tags: [tech]
 date:   2017-01-04 09:00:00 +0000
 date_written:   2017-01-04 09:00:00 +0000
 excerpt: Over the last three years I've been responsible for helping the US Masters, Roland Garros and primarily Wimbledon understand how people are engaging with the events on social media. Their requirements have led to a messy combination of stream processing, batch processing and static indexing. I've started to look at how a Kappa architecture might help us produce a cleaner solution.

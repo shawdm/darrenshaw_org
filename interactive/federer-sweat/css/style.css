@@ -1,11 +1,24 @@
 /**
+ * Reset
+ */
+section.federer-perspired a {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-style: none;
+  background-color: #fff;
+}
+
+
+/**
  * Headings
  */
 section.federer-perspired h1, section.federer-perspired h2, section.federer-perspired h3, section.federer-perspired h4, section.federer-perspired h5, section.federer-perspired h6 {
   text-align: center;
 }
 
-.federer-perspired h1 a{
+.federer-perspired h1 a {
   text-decoration: none;
 }
 
