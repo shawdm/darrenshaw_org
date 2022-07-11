@@ -8,7 +8,7 @@ categories: blog
 tags: [front, tech]
 excerpt: Net-A-Porter's Spring Summer 2022 marketing campaign, "Go for Bold", centred around a collection of colourful products. Marketing wanted to add a technology element and one idea was to use palettes as a route to finding products. Ultimately this was binned, but I built it anyway.
 ---
-[![Black Net-A-Porter Palette](images/blog/colour-of-net-a-porter/palette-black.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
+[![Black Net-A-Porter Palette](/images/blog/colour-of-net-a-porter/palette-black.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
 
 [Net-A-Porter](https://www.net-a-porter.com/en-gb/)'s Spring Summer 2022 marketing campaign, "Go for Bold", centred around a collection of colourful products. The campaign photography (which I love) used dramatic angles, shadows and vivid palettes. Marketing wanted to add a technology element to the project and one idea was to use palettes as a route to finding products.
 
@@ -28,7 +28,7 @@ The final step was to create an index of palette embeddings for all products in 
 
 What makes this fun is that with an index of embeddings and a means of converting a palette to an embedding it's possible to search for products that are the nearest neighbour to any palette. There's no reason a palette needs to come from a product image. 
 
-[![Starry Night Net-A-Porter Palette](images/blog/colour-of-net-a-porter/palette-starrynight.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
+[![Starry Night Net-A-Porter Palette](/images/blog/colour-of-net-a-porter/palette-starrynight.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
 
 References:
 1. Google's [Art Palette](https://artsexperiments.withgoogle.com/artpalette/) and [source code](https://github.com/googleartsculture/art-palette).
