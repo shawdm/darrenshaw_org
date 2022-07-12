@@ -16,6 +16,7 @@ article.fashion-palette section p{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    /* TODO MOVE ELSEWHERE*/
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15px;
@@ -30,17 +31,17 @@ article.fashion-palette section ol{
     padding-right: 15px;
 }
 
-article.fashion-palette section h2 {
+article.fashion-palette section h2{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 article.fashion-palette section.text-content p{
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 
 article.fashion-palette section.text-content ol{
@@ -104,6 +105,9 @@ article.fashion-palette section.text-content {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
 }
 
 article.fashion-palette section.text-content a{
@@ -111,8 +115,6 @@ article.fashion-palette section.text-content a{
     padding-right: 2px;
     border-radius: 2px;
 }
-
-
 
 
 /* DYNAMIC SECTION */
@@ -256,4 +258,16 @@ div.products.small li.product .image-container{
 .hidden{
     visibility: hidden;
     display: none;
+}
+
+
+@media (max-width: 400px) {
+    article.fashion-palette section.text-content-colourblock{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    ul.products{
+        justify-content: space-evenly;
+    }
 }
