@@ -1,4 +1,4 @@
-const LIVE_DATA = true;
+const LIVE_DATA = false;
 
 const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
@@ -85,15 +85,24 @@ Handlebars.registerPartial(
     </div>`
 )
 
+// Handlebars.registerPartial(
+//     "palette",
+//     `<a href='javascript:updateEmbedding({{json points}},{{json colours}});'>
+//         <div class='palette {{#if loadingPalettes}}loading{{/if}}' id='palette-{{partNumber}}'>
+//             <div class='colours'>
+//                 {{>colours}}
+//             </div>
+//         </div>
+//     </a>`
+// )
+
 Handlebars.registerPartial(
     "palette",
-    `<a href='javascript:updateEmbedding({{json points}},{{json colours}});'>
-        <div class='palette {{#if loadingPalettes}}loading{{/if}}' id='palette-{{partNumber}}'>
-            <div class='colours'>
-                {{>colours}}
-            </div>
+    `<div class='palette {{#if loadingPalettes}}loading{{/if}}' id='palette-{{partNumber}}'>
+        <div class='colours'>
+            {{>colours}}
         </div>
-    </a>`
+    </div>`
 )
 
 Handlebars.registerPartial(
@@ -117,7 +126,7 @@ function loadBlackProducts(delay){
     renderPlaceholderProducts('nap-products-black', 20)
     setTimeout(() => {
         getNearestProducts(EMBEDDING_BLACK, 20)
-            .then(products => renderProducts('nap-products-black', products, false, false));
+            .then(products => renderClusters('nap-products-black', products, false, false));
     }, delay);
    
 }
@@ -126,7 +135,7 @@ function loadRedProducts(delay){
     renderPlaceholderProducts('nap-products-red', 20);
     setTimeout(() => {
     getNearestProducts(EMBEDDING_RED,20)
-        .then(products => renderProducts('nap-products-red',products, false, false));
+        .then(products => renderClusters('nap-products-red',products, false, false));
     }, delay);
 }
 
@@ -134,7 +143,7 @@ function loadMulticolour(delay){
     renderPlaceholderProducts('nap-products-multicolour', 20)
     setTimeout(() => {
         getNearestProducts(EMBEDDING_MULTICOLOUR,20)
-            .then(products => renderProducts('nap-products-multicolour',products, false, false));
+            .then(products => renderClusters('nap-products-multicolour',products, false, false));
     }, delay);
 }
 
@@ -142,7 +151,7 @@ function loadStarrynightProducts(delay){
     renderPlaceholderProducts('nap-products-starrynight', 20);
     setTimeout(() => {
         getNearestProducts(EMBEDDING_STARRY_NIGHT,20)
-            .then(products => renderProducts('nap-products-starrynight',products, false, false));
+            .then(products => renderClusters('nap-products-starrynight',products, false, false));
     }, delay);
 }
 
@@ -152,7 +161,7 @@ function updateEmbedding(embedding, colours){
     getColourDescriptions(colours)
         .then(colourNames => renderPaletteDescription('custom-palette', colours, colourNames));
     getNearestProducts(embedding,20)
-        .then(products => renderProducts('nap-products-custom', products, false, false));
+        .then(products => renderClusters('nap-products-custom', products, false, false));
     window.location = '#custom-palette';
 }
 
@@ -210,7 +219,7 @@ function renderPlaceholderProducts(elementId, size){
     for(let i=0; i < size; i++){
         products.push({colours:DEFAULT_COLOURS});
     }
-    return renderProducts(elementId, products, true, true)
+    return renderClusters(elementId, products, true, true)
 }
 
 function renderPlaceholderPaletteDescription(elementId, colours){
@@ -222,7 +231,7 @@ function renderPlaceholderPaletteDescription(elementId, colours){
     document.getElementById(elementId).innerHTML = descriptionHtml;
 }
 
-function renderProducts(elementId, products, isLoadingProducts, isLoadingPalettes){
+function renderClusters(elementId, products, isLoadingProducts, isLoadingPalettes){
     renderedProductIds = products
         .filter(product => product.partNumber)
         .map(product => product.partNumber);
@@ -246,25 +255,25 @@ function renderPaletteDescription(elementId, colours, colourNames){
 function loadBlackProductsOffline(){
     renderPlaceholderProducts('nap-products-black', 20)
     getNearestProductsOffline('black',20)
-        .then(products => renderProducts('nap-products-black',products, false, false));
+        .then(products => renderClusters('nap-products-black',products, false, false));
 }
 
 function loadRedProductsOffline(){
     renderPlaceholderProducts('nap-products-red', 20);
     getNearestProductsOffline('red',20)
-        .then(products => renderProducts('nap-products-red',products, false, false));
+        .then(products => renderClusters('nap-products-red',products, false, false));
 }
 
 function loadMulticolourOffline(){
     renderPlaceholderProducts('nap-products-multicolour', 20)
     getNearestProductsOffline('missoni',20)
-        .then(products => renderProducts('nap-products-multicolour',products, false, false));
+        .then(products => renderClusters('nap-products-multicolour',products, false, false));
 }
 
 function loadStarrynightOffline(){
     renderPlaceholderProducts('nap-products-starrynight', 20)
     getNearestProductsOffline('starrynight',20)
-        .then(products => renderProducts('nap-products-starrynight',products, false, false));
+        .then(products => renderClusters('nap-products-starrynight',products, false, false));
 }
 
 

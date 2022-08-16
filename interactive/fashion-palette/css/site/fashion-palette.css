@@ -171,7 +171,7 @@ div.products.small li.product .image-container{
 .palette{
     height: 10px;
     width: 100%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .text-content-colourblock .palette{
