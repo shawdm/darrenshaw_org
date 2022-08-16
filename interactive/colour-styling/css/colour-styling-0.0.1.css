@@ -1,0 +1,37 @@
+article.fashion-palette{
+    width: 100%;
+    max-width: 100%;
+}
+
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none; 
+    padding: 0; 
+    padding-top: 5px;
+    margin: 0; 
+    margin-top: 0;
+}
+
+li.product{
+    width: 150px;
+    display: inline;
+}
+
+li.product .image-container{
+    width: 150px;
+    height: 225px;
+    background-color: #eeeded;
+    background-image: url("./image-dress.png");
+    background-size: contain;
+}
+
+li.product a{
+    padding: 0;
+}
+
+li.product img{
+    width: 100%;
+}
