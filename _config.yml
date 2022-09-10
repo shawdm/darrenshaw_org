@@ -23,6 +23,8 @@ plugins:
 
 exclude: 
   - script/
+  - Makefile
+  - README.md
 
 responsive_image:
   # [Required]
