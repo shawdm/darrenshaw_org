@@ -10,7 +10,7 @@ buildSite:
 deploy:
 	@if [ $(BRANCH) = "master" ]; \
 	then\
-		aws s3 cp _site s3://www.darrenshaw.org/ --recursive; \
+		aws s3 cp _site s3://www.darrenshaw.org/ --recursive --profile shawdm-darrenshaw-org; \
 	else \
 		echo "Cannot depoloy from branch: $(BRANCH)"; \
 	fi
