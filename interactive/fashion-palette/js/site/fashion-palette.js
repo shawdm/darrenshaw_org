@@ -1,7 +1,9 @@
 const LIVE_DATA = true;
 
-const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
+const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
+const PARAM_NAME_X_API_CLIENT_ID = "x-api-key";
+const PARAM_VALUE_X_API_CLIENT_ID = "4jr30M2Yh94DIq4QV3hDj9C0VsqwAYTR3yB64KpA";
 const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 const COLOUR_SEARCH_URL = "https://nu8k1onnk8.execute-api.us-east-1.amazonaws.com/api/nap/coloursearch";
 const OFFLINE_DATA_URL = "/interactive/fashion-palette/offline";
@@ -167,8 +169,12 @@ function updateEmbedding(embedding, colours){
 function getNearestProducts(embedding, size){
     let neighboursUrl = COLOUR_SEARCH_URL + "/neighbours?embedding="+embedding+"&resultsSize="+size;
 
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_API_CLIENT_ID, PARAM_VALUE_X_API_CLIENT_ID);
+
     var requestOptions = {
         method: 'GET',
+        headers: headers,
         redirect: 'follow'
     };
 
@@ -183,8 +189,12 @@ function getColourDescriptions(colours, size){
     let colourNameParams = colours.map(hex => 'hex='+encodeURIComponent(hex));
     let colourNamesUrl = COLOUR_SEARCH_URL + "/name?" + colourNameParams.join("&");
     
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_API_CLIENT_ID, PARAM_VALUE_X_API_CLIENT_ID);
+
     var requestOptions = {
         method: 'GET',
+        headers: headers,
         redirect: 'follow'
     };
 
