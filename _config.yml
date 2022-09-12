@@ -20,6 +20,8 @@ github_username:  shawdm
 markdown: kramdown
 
 exclude: 
+  - script/
+  - design/
   - Makefile
   - README.md
   - images/original
