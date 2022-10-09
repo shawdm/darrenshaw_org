@@ -6,11 +6,11 @@ location: Winchester, UK
 categories: blog
 tags: [photo-words]
 excerpt: This is the second Boo George shoot with Alessandra Ambrosio that I’ve written about. If I had to pick the perfect fashion picture this would be it.
-thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/alessandra-navy-3.jpg class: wide %}"
+thumbnail: "{% include image.html path='blog/why-i-love-this-picture/alessandra-navy-3.jpg' class='thumbnail' title='Photographer: Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}"
 ---
 This is the second Boo George shoot with Alessandra Ambrosio that I’ve written about. If I had to pick the perfect fashion picture this would be it.
 
-![Photographer: Boo George, Model: Alessandra Ambrosio.](/images/blog/why-i-love-this-picture/alessandra-navy-3.jpg "Photographer: Boo George, Model: Alessandra Ambrosio.")
+{% include image.html path='blog/why-i-love-this-picture/alessandra-navy-3.jpg' class='wide' title='Photographer: Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}
 
 ## Why I Love This Picture
 I think this might be the most beautiful fashion picture that’s ever been taken. I found it difficult to stop looking at it long enough to explain why I love it.

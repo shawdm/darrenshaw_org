@@ -4,8 +4,8 @@ title:  "Eric"
 date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
-thumbnail: _DSC1794-Edit.jpg
+thumbnail: DSC1794-Edit.jpg
 orientation: portrait
 order: 14
 ---
-{% responsive_image path: images/gallery/_DSC1794-Edit.jpg class: wide %}
+{% include image.html path='gallery/DSC1794-Edit.jpg' %}

@@ -6,11 +6,11 @@ location: Winchester, UK
 categories: blog
 tags: [photo-words]
 excerpt: Alessandra Ambrosio has done everything from the Next catalogue, through Victoria’s Secret shows, to high fashion. In this image, Boo George was able to do something different.
-thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/ambrosia-george-1.jpg class: wide %}"
+thumbnail: "{% include image.html path='blog/why-i-love-this-picture/ambrosia-george-1.jpg' class='thumbnail' title='Photographer: Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}"
 ---
 Alessandra Ambrosio has done everything from the Next catalogue, through Victoria’s Secret shows, to high fashion — always glamorous and always perfectly styled. She’s probably one of the most recognisable non-celebrity models there is. Most people reading this will have a picture of her in their house somewhere. In this image, Boo George was able to do something different, making the most of her being very pregnant (she gave birth the following day) to show something new.
 
-![Photographer: Boo George, Model: Alessandra Ambrosio.](/images/blog/why-i-love-this-picture/ambrosia-george-1.jpg "Photographer: Boo George, Model: Alessandra Ambrosio.")
+{% include image.html path='blog/why-i-love-this-picture/ambrosia-george-1.jpg' class='wide' title='Photographer: Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}
 
 ## Why I Love This Picture
 The majority of the photos I love are black and white. I tend to prefer pictures being as stripped back and simple as possible — taking away the colour is a way of removing even more. But when it is a colour picture, I love what Boo George does. He shoots very soft, dreamy images with muted, desaturated colours from a restricted palette.
@@ -25,7 +25,7 @@ In the apple picture she’s giving it the full blue steel stare, but the direct
 The colours have been desaturated, but the picture also uses very few tones. Those that are used play off against each other. The red in her cheeks match the apple; the whites of the wood, her top. Then you have the same browns in her eyes, eyebrows and hair. Even the flash of blonde hair matches Alessandra’s skin tone. All the colours are so closely in tune that the picture feels very compact and complete — making it look a simpler and more stripped back picture than it really is. I think this is why I like Boo George’s colour images — he’s able to tie the colours together in the same way grey tones naturally blend in a black and white photograph.
 What I love in this picture is that it shows Alessandra Ambrosio in a new way. It feels like you’ve finally seen who she really is. The attention to detail that’s gone in to the picture has made it look natural and effortless.
 
-![Photographer: Boo George, Model: Alessandra Ambrosio.](/images/blog/why-i-love-this-picture/ambrosia-george-2.jpg "Photographer: Boo George, Model: Alessandra Ambrosio.")
+{% include image.html path='blog/why-i-love-this-picture/ambrosia-george-2.jpg' class='wide' title='Photographer: Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}
 
 The eyes closed picture shows what you can do in a fashion magazine with a set of pictures making up a story. It would be difficult to use this image in isolation.
 I think it was probably a lucky moment rather than a planned shot (if it had been planned I think he would have focussed on her other eye). Boo George’s skill in this picture is in recognising what he’s got. It would have been easy to discard it immediately. I wonder if he knew right away that it was a keeper or if it was once he got it back on his computer? Like the apple photo, all the tones match, switching in a grey t-shirt to blend with the grey-blue background.

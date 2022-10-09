@@ -10,7 +10,7 @@ thumbnail: "{% responsive_image path: images/blog/why-i-love-this-picture/beyonc
 ---
 I love this Beyoncé picture by Alasdair McLellan. I love it almost as much as [Drake](https://www.elle.com/culture/music/a12186209/drake-has-a-huge-portrait-of-beyonce-on-his-wall/) does.
 
-{% responsive_image path: images/blog/why-i-love-this-picture/beyonce-1.jpg class: wide %}
+{% include image.html path='blog/why-i-love-this-picture/beyonce-1.jpg' class='wide' %}
 
 ## Why I Love This Picture
 With the diminishing significance of album artwork and few artists given the luxury of billboard advertising, fashion stories are the last outlet for beautifully produced pictures of our pop icons. It's our loss that Beyoncé doesn't do magazine photo shoots any more. In the early 2010s she graced some of the finest fashion stories. Out of all these, it's McLellan's cover for [The Gentlewoman](https://thegentlewoman.co.uk/library/beyonce) that I love the most.

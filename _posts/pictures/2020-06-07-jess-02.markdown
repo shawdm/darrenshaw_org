@@ -4,8 +4,8 @@ title:  "Jess"
 date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
-thumbnail: _DSC6986-Edit.jpg
+thumbnail: DSC6986-Edit.jpg
 orientation: portrait
 order: 51
 ---
-{% responsive_image path: images/gallery/_DSC6986-Edit.jpg class: wide %}
+{% include image.html path='gallery/DSC6986-Edit.jpg' %}

@@ -4,8 +4,8 @@ title:  "Charlie L"
 date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
-thumbnail: _DSC4508.jpg
+thumbnail: DSC4508.jpg
 orientation: portrait
 order: 71
 ---
-{% responsive_image path: images/gallery/_DSC4508.jpg class: wide %}
+{% include image.html path='gallery/DSC4508.jpg' %}

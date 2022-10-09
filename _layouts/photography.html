@@ -12,7 +12,13 @@
 
     <article class="photography">
       <section class="content">
-        {{ content }}
+        {% include image.html path='site/DMS3477-Edit.jpg' class='full-spaced full-width' %}
+        {% include image.html path='site/DMS2405-Edit-Edit.jpg' class='full-spaced full-width' %}
+        {% include image.html path='site/DSC0383.jpg' class='full-spaced full-width' %}
+        {% include gallery.html offset=0 limit=9 %}
+        {% include image.html path='site/DSC7893.jpg' class='full-spaced full-width' %}
+        {% include gallery.html offset=9 limit=100 %}
+        {% include image.html path='site/IMG_0010_59887.jpg' class='full-spaced full-width' %}
       </section>
     </article>
 

@@ -8,17 +8,17 @@ categories: photo
 tags: [photo]
 excerpt: Gemma is one of the easiest people to shoot with, her natural swagger always comes across in the pictures, but she’s also funny and doesn’t take herself too seriously. This shoot was from 2014 with Rachael Kent doing a perfect job of keeping the makeup low key and letting Gemma (and freckles) shine.
 ---
-{% responsive_image path: images/2019/gemma/DSC4194_86963.jpg class: wide %}
+{% include image.html path='2019/gemma/DSC4194_86963.jpg' class='wide' %}
 
 I wish I lived closer to Gemma. I’d be pestering her to do shoots all the time. She’s strong and powerful with beautiful freckles that soften her whole face. Gemma is one of the easiest people to shoot with, her natural swagger always comes across in the pictures, but she’s also funny and doesn’t take herself too seriously. Gemma will be looking fierce and sexy then pull a goofy face making everyone smile and leading to many of my favourite pictures of her. This shoot was from 2014 with Rachael Kent doing a perfect job of keeping the makeup low key and letting Gemma (and freckles) shine.
 {: class="square-text-above"}
 
-{% responsive_image path: images/2019/gemma/DSC3936.jpg class: square %}
+{% include image.html path='2019/gemma/DSC3936.jpg' class='square' %}
 
-{% responsive_image path: images/2019/gemma/DSC4042.jpg class: wide %}
+{% include image.html path='2019/gemma/DSC4042.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma/DSC4035.jpg class: wide %}
+{% include image.html path='2019/gemma/DSC4035.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma/DSC3975.jpg class: wide %}
+{% include image.html path='2019/gemma/DSC3975.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma/DSC3983.jpg class: wide %}
+{% include image.html path='2019/gemma/DSC3983.jpg' class='wide' %}
