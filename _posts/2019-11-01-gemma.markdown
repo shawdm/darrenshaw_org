@@ -8,33 +8,33 @@ categories: photo
 tags: [photo]
 excerpt: It’s been a too long since Gemma and I shot together. We made up for it with a day long shoot in the studio and gym. Gemma can do it all, fitness, beauty, hard, soft, natural, serious, and silly. I want to work with her over and over again. Bar one Hasselblad frame, these are all strobe lit and digitally shot.
 ---
-{% responsive_image path: images/2019/gemma-september/_DSC2356-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2356-Edit-Edit.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2388-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2388-Edit-Edit.jpg' class='wide' %}
 
 It’s been a too long since Gemma and I shot together. We made up for it with a day long shoot in the studio and gym. Gemma can do it all, fitness, beauty, hard, soft, natural, serious, and silly. I want to work with her over and over again. Bar one Hasselblad frame, these are all strobe lit and digitally shot.
 {: class="square-text-above"}
 
-{% responsive_image path: images/2019/gemma-september/Gemma-9.jpg class: square %}
+{% include image.html path='2019/gemma-september/Gemma-9.jpg' class='square' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSF3111-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSF3111-Edit-Edit.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSF3147-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSF3147-Edit-Edit.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2610.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2610.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2616.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2616.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2573.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2573.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2749.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2749.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2691.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2691.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2785.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2785.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSC2781.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSC2781.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSF3194-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSF3194-Edit-Edit.jpg' class='wide' %}
 
-{% responsive_image path: images/2019/gemma-september/_DSF3183-Edit-Edit.jpg class: wide %}
+{% include image.html path='2019/gemma-september/DSF3183-Edit-Edit.jpg' class='wide' %}

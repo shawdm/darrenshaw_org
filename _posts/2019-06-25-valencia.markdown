@@ -7,20 +7,20 @@ location: Valencia, Spain
 categories: [photo]
 tags: [photo]
 excerpt: Hello from the future, Valencia, Spain. The City of Arts and Sciences, built at the end of what was once the river Turia.
-thumbnail: "{% responsive_image path: images/2019/valencia/_DSF3037.jpg class: wide %}"
+thumbnail: "{% include image.html path='2019/valencia/DSF3037.jpg' class='wide' %}"
 ---
-{% responsive_image path: images/2019/valencia/_DSF3037.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3068.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3007.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3065.jpg class: square %}
-{% responsive_image path: images/2019/valencia/_DSF2996.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF2988.jpg class: square %}
-{% responsive_image path: images/2019/valencia/_DSF3048.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3051.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3035.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3034.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF2970.jpg class: square %}
-{% responsive_image path: images/2019/valencia/_DSF2968.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3056.jpg class: wide %}
-{% responsive_image path: images/2019/valencia/_DSF3052.jpg class: square %}
-{% responsive_image path: images/2019/valencia/_DSF3062.jpg class: wide %}
+{% include image.html path='2019/valencia/DSF3037.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3068.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3007.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3065.jpg' class='square' %}
+{% include image.html path='2019/valencia/DSF2996.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF2988.jpg' class='square' %}
+{% include image.html path='2019/valencia/DSF3048.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3051.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3035.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3034.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF2970.jpg' class='square' %}
+{% include image.html path='2019/valencia/DSF2968.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3056.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3052.jpg' class='wide' %}
+{% include image.html path='2019/valencia/DSF3062.jpg' class='wide' %}

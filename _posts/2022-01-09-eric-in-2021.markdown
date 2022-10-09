@@ -7,22 +7,20 @@ location: Winchester, UK
 categories: photo
 tags: [photo]
 excerpt: A set of pictures I made with Eric in 2021. I love working with her.
-thumbnail: "{% responsive_image path: images/2022/eric-best-2021/_DMS3392.jpg class: wide %}"
+thumbnail: "{% include image.html path='2022/eric-best-2021/DMS3392.jpg' class='thumbnail %}"
 ---
-{% responsive_image path: images/2022/eric-best-2021/_DMS3412-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3392.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3473-Edit-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3670-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3678-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3863-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3874-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3879-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3903-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3905-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3925-Edit.jpg class: wide %}
-{% responsive_image path: images/2022/eric-best-2021/_DMS3985-Edit.jpg class: wide %}
-
-
+{% include image.html path='2022/eric-best-2021/DMS3412-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3392.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3473-Edit-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3670-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3678-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3863-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3874-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3879-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3903-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3905-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3925-Edit.jpg' class='wide' %}
+{% include image.html path='2022/eric-best-2021/DMS3985-Edit.jpg' class='wide' %}
 
 
 

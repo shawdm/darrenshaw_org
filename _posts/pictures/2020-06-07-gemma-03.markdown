@@ -4,8 +4,8 @@ title:  "Gemma"
 date:   2020-06-07 10:00:00 +0000
 categories: pictures
 caption: 
-thumbnail: _DSC4194_86963.jpg
+thumbnail: DSC4194_86963.jpg
 orientation: portrait
 order: 20
 ---
-{% responsive_image path: images/gallery/_DSC4194_86963.jpg class: wide %}
+{% include image.html path='gallery/DSC4194_86963.jpg' %}

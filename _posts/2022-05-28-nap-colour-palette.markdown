@@ -5,14 +5,16 @@ date:   2022-07-10 12:00:00 +0000
 date_written: 2022-07-10 12:00:00 +0000
 location: Winchester, UK
 categories: blog
-tags: [front, tech]
+tags: [tech]
 excerpt: Net-A-Porter's Spring Summer 2022 marketing campaign, "Go for Bold", centred around a collection of colourful products. Marketing wanted to add a technology element and one idea was to use palettes as a route to finding products. Ultimately this was binned, but I built it anyway.
 ---
-[![Black Net-A-Porter Palette](/images/blog/colour-of-net-a-porter/palette-black.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
+<a href='{% link _posts/2022-05-28-nap-colour-palette.markdown %}'>
+    {% include image.html path='blog/colour-of-net-a-porter/palette-black.png' title='Black Net-A-Porter Palette' alt='Black Net-A-Porter Palette' %}
+</a>
 
 [Net-A-Porter](https://www.net-a-porter.com/en-gb/)'s Spring Summer 2022 marketing campaign, "Go for Bold", centred around a collection of colourful products. The campaign photography (which I love) used dramatic angles, shadows and vivid palettes. Marketing wanted to add a technology element to the project and one idea was to use palettes as a route to finding products.
 
-{% responsive_image path: images/blog/colour-of-net-a-porter/go-for-bold-campaign.jpg %}
+{% include image.html path='blog/colour-of-net-a-porter/go-for-bold-campaign.jpg' class='wide' %}
 
 Ultimately this idea was binned for [something else](https://www.ynap.com/news/net-a-porter-launches-its-spring-summer-22-campaign-go-for-bold-integrating-ar-and-ai-technologies), but Kris and Naz from our Future Strategy and Design team had already discussed how we might do this with Google, who had done something similar with [Art Palette](https://artsexperiments.withgoogle.com/artpalette/). I was too attached to the idea and what Google had done to not build it anyway.
 
@@ -30,7 +32,7 @@ The final step was to create an index of palette embeddings for the catalogue. A
 
 What makes this fun is that with an index of embeddings and a means of converting a palette to an embedding it's possible to search for products that are the nearest neighbour to any palette. There's no reason a palette needs to come from a product image. 
 
-[![Starry Night Net-A-Porter Palette](/images/blog/colour-of-net-a-porter/palette-starrynight.png)]({% link _posts/2022-05-28-nap-colour-palette.markdown %})
+{% include image.html path='blog/colour-of-net-a-porter/palette-starrynight.png' class='wide' title='Starry Night Net-A-Porter Palette'%}
 
 References:
 1. Google's [Art Palette](https://artsexperiments.withgoogle.com/artpalette/) and [source code](https://github.com/googleartsculture/art-palette).

@@ -1,0 +1,101 @@
+article.spotify {
+    font-weight: 400;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #222;
+    color: #ccc;
+}
+
+article.spotify h2{
+    text-align: center;
+}
+
+article.spotify section.title{
+    text-align: center;
+}
+
+article.spotify section.title img{
+    width: 50px;
+    display: inline;
+    padding-top: 3rem;
+}
+
+article.spotify section.how-did-i-make-this{
+    padding-bottom: 80px;
+}
+
+section.about{
+    margin-top: 0;
+}
+
+article.spotify section p, article.spotify section ol, article.spotify section h2, article.spotify section h3{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article.spotify section h2{
+    font-weight: 300;
+}
+
+article.spotify section h3{
+    font-weight: 400;
+}
+
+article.spotify section p{
+    font-weight: 300;
+}
+
+article.spotify section a {
+    color: #fff;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+
+article.spotify section a:hover{
+    text-decoration: underline;
+}
+
+.graph{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tooltip{
+    font-size: 1em;
+    fill: #ddd;
+}
+
+.tooltip-shadow {
+    font-size: 1em;
+    stroke: #222;
+    stroke-width: 4px;
+    stroke-opacity: 0.9;
+}
+
+.label{
+    font-size: 10px;
+    fill: #ccc;
+}
+
+.label-shadow {
+    font-size: 10px;
+    stroke: #222;
+    stroke-width: 2px;
+}
+
+
+@media (max-width: 800px) {
+
+    article.spotify h2{
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+  }

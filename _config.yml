@@ -12,73 +12,14 @@ description: > # this means to ignore newlines until "baseurl:"
   This is Darren Shaw's site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.darrenshaw.org" # the base hostname & protocol for your site
+absolute_url: "https://www.darrenshaw.org"
 twitter_username: shawdm
 github_username:  shawdm
 
 # Build settings
 markdown: kramdown
 
-plugins:
-  - jekyll-responsive-image
-
 exclude: 
-  - script/
   - Makefile
   - README.md
-
-responsive_image:
-  # [Required]
-  # Path to the image template.
-  template: _includes/responsive-image.html
-
-  # [Optional, Default: 85]
-  # Quality to use when resizing images.
-  default_quality: 70
-
-  # [Optional, Default: []]
-  # An array of resize configuration objects. Each object must contain at least
-  # a `width` value.
-  sizes:
-    - width: 2720
-    - width: 1740
-    - width: 1200
-    - width: 800
-
-  # [Optional, Default: false]
-  # Rotate resized images depending on their EXIF rotation attribute. Useful for
-  # working with JPGs directly from digital cameras and smartphones
-  auto_rotate: false
-
-  # [Optional, Default: assets]
-  # The base directory where assets are stored. This is used to determine the
-  # `dirname` value in `output_path_format` below.
-  base_path: assets
-
-  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
-  # The template used when generating filenames for resized images. Must be a
-  # relative path.
-  #
-  # Parameters available are:
-  #   %{dirname}     Directory of the file relative to `base_path` (assets/sub/dir/some-file.jpg => sub/dir)
-  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
-  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
-  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
-  #   %{width}       Width of the resized image
-  #   %{height}      Height of the resized image
-  #
-  output_path_format: assets/resized/%{width}/%{basename}
-
-  # [Optional, Default: true]
-  # Whether or not to save the generated assets into the source folder.
-  save_to_source: false
-
-  # [Optional, Default: false]
-  # Cache the result of {% responsive_image %} and {% responsive_image_block %}
-  # tags. See the "Caching" section of the README for more information.
-  cache: false
-
-  # [Optional, Default: []]
-  # By default, only images referenced by the responsive_image and responsive_image_block
-  # tags are resized. Here you can set a list of paths or path globs to resize other
-  # images. This is useful for resizing images which will be referenced from stylesheets.
-  extra_images: []
+  - images/original
