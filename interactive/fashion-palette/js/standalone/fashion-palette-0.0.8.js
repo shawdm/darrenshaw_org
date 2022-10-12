@@ -1,6 +1,4 @@
-const MAX_IMAGE_UPLOAD_KB = 1024;
 const DEFAULT_COLOURS = ['#fff','#fff','#fff','#fff','#fff'];
-
 let renderedProductIds = [];
 
 
@@ -29,21 +27,6 @@ var HB_TEMPLATE_SEARCH_PALETTE = Handlebars.compile(
     `<div class='palette loaded'>
         <div class='colours'>
             {{>colours}}
-        </div>
-    </div>`
-)
-
-var HB_TEMPLATE_SEARCH_IMAGE = Handlebars.compile(
-    `<div class='search-image'>
-        <input id="file" type="file" accept=".jpg,.jpeg,.png" onchange="selectImageFile(this);"/>
-        <div class='search-image-frame'>
-            <img id="search-image" src='img/image-placeholder.png' class='loading' title='Click to select image'>
-            <p id='search-image-help' class='visible'>Click to upload image (max 1024kB).</p>
-        </div>
-        <div id='search-image-palette' class='palette loading hidden'>
-            <div class='colours'>
-                {{>colours}}
-            </div>
         </div>
     </div>`
 )
@@ -110,15 +93,15 @@ Handlebars.registerPartial(
 )
 // END TEMPLATES
 
-function embeddingGetNeighboursEmbeddings(embeddings){
-    let artPaletteEmbedding = embeddings.embeddings.filter(embedding => embedding.id == "art-palette")[0];
-    var neighboursEmbeddingUrl = EMBEDDING_URL + "/neighbours?embedding="+artPaletteEmbedding.value.join(',');
-    embeddingSearchNeighbours(neighboursEmbeddingUrl);
-}
+
 
 function embeddingSearchSelf(searchVariantEmbeddingUrl){
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
+
     var requestOptions = {
         method: 'GET',
+        headers: headers,
         redirect: 'follow'
     };
 
@@ -130,8 +113,12 @@ function embeddingSearchSelf(searchVariantEmbeddingUrl){
 }
 
 function embeddingSearchNeighbours(neighboursUrl){
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
+
     var requestOptions = {
         method: 'GET',
+        headers: headers,
         redirect: 'follow'
     };
 
@@ -198,15 +185,19 @@ function plpResponseToProducts(plpResponse){
 }
 
 function plpLoadPalettes(products){
-    let variantIds = products.map(product => product.partNumber)
+    let variantIds = products.map(product => product.partNumber);
+
+    var headers = new Headers();
+    headers.append(PARAM_NAME_X_API_CLIENT_ID, PARAM_VALUE_X_API_CLIENT_ID);
 
     var requestOptions = {
         method: 'GET',
-        redirect: 'follow'
+        redirect: 'follow',
+        headers: headers
     };
 
     var embeddingsUrl = EMBEDDING_URL + "/self?embedding_id="+variantIds.join();
-    // TODO convert to fetchRetry?
+    
     fetch(embeddingsUrl, requestOptions)
         .then(response => response.json())
         .then(renderPalettes)
@@ -227,59 +218,6 @@ function initVariantPage(variantId){
 }
 // END VARIANT PAGE
 
-
-// IMAGE PAGE
-function initImagePage(){
-    let data = {colours:DEFAULT_COLOURS}
-    let searchContent = HB_TEMPLATE_SEARCH_IMAGE(data);
-    document.getElementById("search").innerHTML = searchContent;
-    document.getElementById("search-image").onclick = function(event){
-        document.getElementById("file").click();
-    }
-    document.getElementById("search-image-help").onclick = function(event){
-        document.getElementById("file").click();
-    }
-}
-
-function selectImageFile(element) {
-    var file = element.files[0];
-    var reader = new FileReader();
-    reader.onloadend = searchImage;
-    reader.readAsDataURL(file);
-}
-
-function searchImage(event){
-    let base64Image = event.target.result;
-
-    if(base64ImageSizeKb(base64Image) > MAX_IMAGE_UPLOAD_KB){
-        renderImageError({statusText: 'Image is too large, must be less than '+MAX_IMAGE_UPLOAD_KB+'kB.'});
-        return;
-    }
-    
-    renderImage(base64Image);
-    renderPlaceholderProducts();
-    annotateImage(base64Image)
-        .then(renderImageEmbedding)
-        .then(embeddingGetNeighboursEmbeddings)
-        .catch(manageAnnotateImageError);
-}
-
-function manageAnnotateImageError(error){
-    console.log(error);
-    renderImageError(error);
-}
-
-function annotateImage(base64Image){
-    var requestOptions = {
-        method: 'POST',
-        redirect: 'follow',
-        body: base64Image
-    };
-
-    return fetchRetry(ANNOTATE_URL, requestOptions, 2)
-        .then(manageResponse)
-}
-// END IMAGE PAGE
 
 
 // RENDER FUNCTIONS
@@ -315,29 +253,8 @@ function renderSearchPalette(neighbour){
     document.getElementById("search").innerHTML = searchPalette;
     return neighbour;
 }
-
-function renderImage(base64Image){
-    document.getElementById("search-image").classList.remove('loading');
-    document.getElementById("search-image-help").classList.remove('visible');
-    document.getElementById("search-image-palette").classList.remove('hidden');
-    document.getElementById("search-image").setAttribute('src',base64Image);
-}
-
-function renderImageError(error){
-    document.getElementById("search-image").classList.add('loading');
-    document.getElementById("search-image-help").classList.add('visible');
-    document.getElementById("search-image-help").innerHTML = error.statusText
-    document.getElementById("search-image").setAttribute('src','img/image-placeholder.png');
-}
-
-function renderImageEmbedding(embedding){
-    let hexColours = embedding.palette.colours.map(colour => colour.hex);
-    let paletteHtml = HB_TEMPLATE_COLOURS({colours:hexColours})
-    document.getElementById("search-image-palette").innerHTML = paletteHtml;
-    document.getElementById("search-image-palette").classList.remove('loading');
-    return embedding;
-}
 // END RENDER FUNCTIONS
+
 
 function copyIdsToClipboard(){
     navigator.clipboard.writeText(renderedProductIds.join(','));
@@ -356,9 +273,6 @@ function getParams(location) {
 const params = getParams(window.location);
 if(params.variantId){
     initVariantPage(params.variantId);
-}
-else if(params.page && params.page == 'image'){
-    initImagePage();
 }
 else{
     initPlpPage();
