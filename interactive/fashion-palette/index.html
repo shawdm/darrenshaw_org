@@ -12,10 +12,6 @@
             <div class="menu">
                 <a href="javascript:copyIdsToClipboard();">COPY IDs</a>
             </div>
-            <span>|</span>
-            <div class="menu">
-                <a href="?page=image">UPLOAD IMAGE</a>
-            </div>
         </div>
         <div id="search" class="search"></div>
         <div id="results" class="results"></div>
@@ -29,16 +25,10 @@
             const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 
             // PRD
-            const EMBEDDING_URL = "https://7oyibreih4.execute-api.eu-west-1.amazonaws.com/dev_stage/nap/embedding";
+            const PARAM_NAME_X_API_CLIENT_ID = "x-api-key";
+            const PARAM_VALUE_X_API_CLIENT_ID = "4jr30M2Yh94DIq4QV3hDj9C0VsqwAYTR3yB64KpA";
+            const EMBEDDING_URL = "https://nu8k1onnk8.execute-api.us-east-1.amazonaws.com/api/nap/coloursearch";
             const ANNOTATE_URL = "https://7oyibreih4.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-
-            // DEV
-            // const EMBEDDING_URL = "https://tpu4mpngvk.execute-api.eu-west-1.amazonaws.com/dev_stage/nap/embedding";
-            // const ANNOTATE_URL = "https://tpu4mpngvk.execute-api.eu-west-1.amazonaws.com/dev_stage/annotate/image";
-
-            // LOCAL
-            //const EMBEDDING_URL = "http://localhost:8081/v1/embedding";
-            //const ANNOTATE_URL = "http://localhost:8080/v1/annotate/image";
 
             Handlebars.registerPartial(
                 "productImage", 

@@ -97,15 +97,6 @@ Handlebars.registerPartial(
     </a>`
 )
 
-// Handlebars.registerPartial(
-//     "palette",
-//     `<div class='palette {{#if loadingPalettes}}loading{{/if}}' id='palette-{{partNumber}}'>
-//         <div class='colours'>
-//             {{>colours}}
-//         </div>
-//     </div>`
-// )
-
 Handlebars.registerPartial(
     "dummyPalette",
     `<div class='palette loading'>
