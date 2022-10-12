@@ -97,7 +97,7 @@ Handlebars.registerPartial(
 
 function embeddingSearchSelf(searchVariantEmbeddingUrl){
     var headers = new Headers();
-    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
+    headers.append(PARAM_NAME_X_API_CLIENT_ID, PARAM_VALUE_X_API_CLIENT_ID);
 
     var requestOptions = {
         method: 'GET',
@@ -114,7 +114,7 @@ function embeddingSearchSelf(searchVariantEmbeddingUrl){
 
 function embeddingSearchNeighbours(neighboursUrl){
     var headers = new Headers();
-    headers.append(PARAM_NAME_X_IBM_CLIENT_ID, PARAM_VALUE_X_IBM_CLIENT_ID);
+    headers.append(PARAM_NAME_X_API_CLIENT_ID, PARAM_VALUE_X_API_CLIENT_ID);
 
     var requestOptions = {
         method: 'GET',
