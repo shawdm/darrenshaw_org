@@ -1,0 +1,16 @@
+<section class="album grid">
+    <div class="header">
+      <a href='{{ album.spotify_url }}'>
+          <h2 class="title">{{album.title}}</h2>&nbsp;
+          <h2 class="artist">{{album.artist}}</h2>
+      </a>
+    </div>
+    <div class="art">
+      <a href='{{ album.spotify_url }}'>
+        <img src="images/sized/albums/{{album.art}}"/>
+      </a>
+    </div>
+    <div class="description">
+      {{album.excerpt}}
+    </div>
+</section>
