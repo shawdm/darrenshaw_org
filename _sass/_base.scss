@@ -234,6 +234,58 @@ nav a {
 }
 
 
+
+/*
+ * Albums
+ */
+ .albums a{
+  text-decoration: none;
+  background: none;
+  color: $black-color;
+  padding:0;
+  border: 0;
+}
+
+.albums .letter{
+  margin-top: $spacing-unit-xlarge;
+  margin-bottom: $spacing-unit-large;
+}
+
+.albums .letter h1{
+  grid-column: 6 / span 2;
+  text-align: center;
+}
+
+.album{
+  margin-bottom: $spacing-unit-large;
+}
+
+.album .header{
+  background: none;
+  height: $line-height-medium-nospace;
+  grid-column: 1 / span 12;
+}
+
+.album .header h2{
+  display: inline;
+}
+.album .header h2.title{
+  font-weight: $heavy-font-weight;
+}
+
+.album .art{
+  grid-column: 1 / span 3;
+}
+
+.album .art img{
+  width: 100%;
+}
+
+.album .description{
+  grid-column: 4 / span 8;
+}
+
+
 /**
 * Footer
 */
