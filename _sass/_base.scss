@@ -258,16 +258,19 @@ nav a {
 
 .album{
   margin-bottom: $spacing-unit-large;
+  padding-left: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
 }
 
 .album .header{
   background: none;
-  height: $line-height-medium-nospace;
+  height: auto;
   grid-column: 1 / span 12;
 }
 
 .album .header h2{
   display: inline;
+  line-height: $line-height-medium-nospace;
 }
 .album .header h2.title{
   font-weight: $heavy-font-weight;
