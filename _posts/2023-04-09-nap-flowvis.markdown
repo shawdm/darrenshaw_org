@@ -5,7 +5,7 @@ date_written: 2023-04-09 13:00:00 +0000
 location: Winchester, UK
 categories: blog
 tags: [graphic, tech]
-excerpt: What does a day's trading at Net-A-Porter look like? Taking inspiration from Formula 1's use of flowvis paint, I came up with a visualisation for a YNAP hackday.
+excerpt: What does a day's trading at Net-A-Porter look like? Taking inspiration from Formula 1's use of flow-vis paint, I came up with a visualisation for a YNAP hackday.
 ---
 Formula 1 engineers use [flow-vis](https://the-race.com/formula-1/gary-andersons-guide-to-flow-vis-in-f1-testing/) paint to see air flow. It’s a simple technique that turns something hidden, visible. It can also be beautiful. Acting on that inspiration, this is what a day’s trading at Net-A-Porter looks like rendered in flow-vis.
 
@@ -34,7 +34,7 @@ Given that image was based on a single days’ trading, I thought it would be in
 I’ve been asked if I could show specific things, product categories performing well, peak age of product performance or how a sale period might look. All would be possible, but could be seen much more clearly on a simple graph. My priority was to come up with something based on data that looked pretty rather than being insightful. It’s ok that this visualisation is ultimately meaningless.
 
 ## Notes
-If you’re interested in flow fields or any kind of generative art, I can’t recommend [Charlotte Dann](https://charlottedann.com) and [Tyler Hobbs](https://tylerxhobbs.com) sites more highly. They are both real artists, producing beautiful things and are amazingly generous in sharing their techniques.
+If you’re interested in flow fields or any kind of generative art, I can’t recommend [Charlotte Dann](https://charlottedann.com) and [Tyler Hobbs](https://tylerxhobbs.com) more highly. They are both real artists, producing beautiful things and are amazingly generous in sharing their techniques.
 
 I use [p5.js](https://p5js.org) to play around with things like this.
 
