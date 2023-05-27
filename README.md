@@ -18,10 +18,9 @@ The `sized` directory which is published to site stores images that should not b
 
 # Development
 ## OSX Prereqs
-```
-brew unlink imagemagick
-brew install imagemagick@6 && brew link imagemagick@6 --force
-```
+1. Ruby
+2. Bundler
+
 ## Startup
 ```
 bundle install
@@ -31,9 +30,8 @@ bundle exec jekyll serve --drafts
 Will start the site on: ``http://localhost:4000``
 
 # Deployment
-Requires Jekyl Responsive Image plugin:
 ```
-gem install jekyll-responsive-image
+make
 ```
 
 # Todo
