@@ -20,6 +20,7 @@ The `sized` directory which is published to site stores images that should not b
 ## OSX Prereqs
 1. Ruby
 2. Bundler
+3. AWS CLI
 
 ## Startup
 ```
