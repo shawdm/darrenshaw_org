@@ -1,0 +1,222 @@
+article.theoc {
+    font-weight: 400;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #ccc;
+    color: #222;
+}
+
+article.theoc h2{
+    text-align: center;
+}
+
+article.theoc section.title{
+    text-align: center;
+}
+
+article.theoc section.title img{
+    width: 50px;
+    display: inline;
+    padding-top: 3rem;
+}
+
+article.theoc section.how-did-i-make-this{
+    padding-bottom: 80px;
+}
+
+article.theoc section p, article.theoc section ol, article.theoc section h2, article.theoc section h3{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article.theoc section.full p, article.theoc section.full ol, article.theoc section.full h2, article.theoc section.full h3{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+article.theoc section h2{
+    font-weight: 300;
+}
+
+article.theoc section h3{
+    font-weight: 400;
+}
+
+article.theoc section p{
+    font-weight: 300;
+}
+
+article.theoc section a {
+    color: #fff;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+
+article.theoc section a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+article.theoc .episodes ol{
+    list-style-type: none;
+}
+
+
+
+article.theoc .episodes li.episode{
+    display: flex;
+}
+
+article.theoc .episodes li.episode h3{
+    flex-grow: 0;
+}
+
+article.theoc .episodes li.episode ol.scenes{
+    flex-grow: 1;
+}
+
+article.theoc .episodes li.episode ol.scenes li.scene{
+    display: inline;
+    margin-right: 5px;
+    background-color: bisque;
+}
+
+article.theoc .episodes li.episode ol.scenes li.scene div.characters{
+    display: inline;
+}
+
+article.theoc .episodes li.episode ol.scenes li.scene div.characters div{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+}
+
+
+div.character{
+    background-size: contain;
+    border-radius: 50%;
+}
+div.character.ALEX{
+    background-image: url("../images/alex.jpg");
+}
+div.character.ANNA{
+    background-image: url("../images/anna.jpg");
+}
+div.character.CALEB{
+    background-image: url("../images/caleb.jpg");
+}
+div.character.FRANK{
+    background-image: url("../images/frank.jpg");
+}
+div.character.HAILEY{
+    background-image: url("../images/hailey.jpg");
+}
+div.character.GORDON{
+    background-image: url("../images/gordon.jpg");
+}
+div.character.JESS{
+    background-image: url("../images/jess.jpg");
+}
+div.character.JIMMY{
+    background-image: url("../images/jimmy.jpg");
+}
+div.character.JULIE{
+    background-image: url("../images/julie.jpg");
+}
+div.character.KAITLIN{
+    background-image: url("../images/kaitlin.jpg");
+}
+div.character.KIRSTEN{
+    background-image: url("../images/kirsten.jpg");
+}
+div.character.LINDSAY{
+    background-image: url("../images/lindsay.jpg");
+}
+div.character.LUKE{
+    background-image: url("../images/luke.jpg");
+}
+div.character.MARISSA{
+    background-image: url("../images/marissa.jpg");
+}
+div.character.RYAN{
+    background-image: url("../images/ryan.jpg");
+}
+div.character.SANDY{
+    background-image: url("../images/sandy.jpg");
+}
+div.character.SETH{
+    background-image:url("../images/seth.jpg");
+}
+div.character.SUMMER{
+    background-image: url("../images/summer.jpg");
+}
+div.character.TAYLOR{
+    background-image: url("../images/taylor.jpg");
+}
+div.character.THERESA{
+    background-image: url("../images/theresa.jpg");
+}
+div.character.TREY{
+    background-image: url("../images/trey.jpg");
+}
+div.character.ZACH{
+    background-image: url("../images/zach.jpg");
+}
+
+
+
+
+
+
+
+.graph{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tooltip{
+    font-size: 1em;
+    fill: #ddd;
+}
+
+.tooltip-shadow {
+    font-size: 1em;
+    stroke: #222;
+    stroke-width: 4px;
+    stroke-opacity: 0.9;
+}
+
+.label{
+    font-size: 10px;
+    fill: #ccc;
+}
+
+.label-shadow {
+    font-size: 10px;
+    stroke: #222;
+    stroke-width: 2px;
+}
+
+
+@media (max-width: 800px) {
+
+    article.spotify h2{
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+}
