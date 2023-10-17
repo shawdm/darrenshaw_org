@@ -1,0 +1,11 @@
+---
+layout: none
+title: "1989"
+artist: "Taylor Swift"
+secondary_artists: ""
+art: "taylor-swift-1989.jpg"
+spotify_url: https://open.spotify.com/album/5fy0X0JmZRZnVa2UEicIOl
+date: 2014-01-01 01:00:00 +0000
+categories: album
+tags: []
+---
