@@ -1,0 +1,11 @@
+---
+layout: none
+title: "SOS"
+artist: "SZA"
+secondary_artists: ""
+art: "sza-sos.jpg"
+spotify_url: https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG
+date: 2022-12-09 01:00:00 +0000
+categories: album
+tags: []
+---
