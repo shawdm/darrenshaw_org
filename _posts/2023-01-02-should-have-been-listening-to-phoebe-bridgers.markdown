@@ -5,7 +5,7 @@ date:   2023-01-05 06:00:00 +0000
 date_written: 2023-01-05 06:00:00 +0000
 location: Winchester, UK
 categories: blog
-tags: [front, tech]
+tags: [tech]
 excerpt: Spotify's Wrapped is very shareable but what if it took a longer term view? What if it considered the full thirteen years I've been with Spotify?
 ---
 Spotify's Wrapped is very shareable. We're all proud of our music taste and it's interesting to see what songs soundtracked a friend's year. But insightful? That I listened to a lot of Taylor Swift was not news to anyone. What if Wrapped took a longer term view? What if it considered the full thirteen years I've been with Spotify?
