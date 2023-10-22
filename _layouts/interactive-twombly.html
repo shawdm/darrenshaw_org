@@ -1,0 +1,176 @@
+<html>
+<!-- layout interactive-twombly -->
+{% include version.html %}
+
+<head>
+  {% include head-core.html %}
+  <link rel='stylesheet' href='{{"/interactive/twombly/css/site-1.0.0.css" | prepend:site.baseurl}}' />
+</head>
+
+<body>
+
+  <!-- only need to add when this is no longer the home page -->
+  <!-- {% include header.html %} -->
+
+  <article class='twombly'>
+    
+    <section class="grid title">
+      <div>
+        <!-- <h2>Twombly</h2> -->
+      </div>
+    </section>
+   
+    <section class="grid">
+      <div>
+        <p class="intro">
+          My favourite things from the <a href="https://www.louvreabudhabi.ae/en">Louvre Abu Dhabi</a> were Cy Twombly's <a href="https://www.louvreabudhabi.ae/en/Explore/highlights-of-the-collection/untitled">Untitled I-IX</a> paintings. They're structured but chaotic and beautifully imperfect.
+        </p>
+        <p>
+           Twombly created <a href="https://www.artnet.com/artists/cy-twombly/untitled-new-york-city-kpAvSt550L37XKTUIA5KzQ2">similar</a> pseudo-writing (his description) art throughout his life and his earlier iterations are simpler and more like something I could understand and replicate in code. This is my first attempt at an algorithmic Twombly.
+        </p>
+      </div>
+    </section>
+   
+    <section class="grid p5">
+      <div class="frame">
+        <a id="twombly">
+         <div class="graphic" id="twombly-p5" ></div>
+        </a>
+      </div>
+      <div id='twombly-p5-controls' class="controls">
+        <span class="control">
+          <label for="control_backgrounddetail">Background Detail:</label>
+          <input type="range" min="0" max="300" value="35" step="1" class="slider" id="control_backgrounddetail">
+        </span>
+        <span class="control">
+          <label for="control_backgroundcomplexity">Background Complexity:</label>
+          <input type="range" min="0" max="8" value="5" step="1" class="slider" id="control_backgroundcomplexity">
+        </span>
+        <span class="control">
+          <label for="control_xoverlap">X-Overlap:</label>
+          <input type="range" min="-0.5" max="0.5" value="0.0" step="0.01" class="slider" id="control_xoverlap">
+        </span>
+        <span class="control">
+          <label for="control_xjitter">X-Jitter:</label>
+          <input type="range" min="-0.5" max="0.5" value="0.03" step="0.01" class="slider" id="control_xjitter">
+        </span>
+        <span class="control">
+          <label for="control_xoffsetjitter">X-Offset Jitter:</label>
+          <input type="range" min="-1" max="1" value="0.5" step="0.1" class="slider" id="control_xoffsetjitter">
+        </span>
+        <span class="control">
+          <label for="control_xstartjitter">X-Start Jitter:</label>
+          <input type="range" min="0" max="1" value="0.5" step="0.1" class="slider" id="control_xstartjitter">
+        </span>
+        <span class="control">
+          <label for="control_widthjitter">Width Jitter:</label>
+          <input type="range" min="-1" max="1" value="0.0" step="0.1" class="slider" id="control_widthjitter">
+        </span>
+        <span class="control">
+          <label for="control_yoverlap">Y-Overlap:</label>
+          <input type="range" min="-0.1" max="0.1" value="0.02" step="0.01" class="slider" id="control_yoverlap">
+        </span>
+        <span class="control">
+          <label for="control_yjitter">Y-Jitter:</label>
+          <input type="range" min="-0.5" max="0.5" value="0.07" step="0.01" class="slider" id="control_yjitter">
+        </span>
+        <span class="control">
+          <label for="control_yoffsetjitter">Y-Offset Jitter:</label>
+          <input type="range" min="-1" max="1" value="0.1" step="0.1" class="slider" id="control_yoffsetjitter">
+        </span>
+        <span class="control">
+          <label for="control_heightjitter">Height Jitter:</label>
+          <input type="range" min="-1" max="1" value="0.2" step="0.1" class="slider" id="control_heightjitter">
+        </span>
+        <span class="control">
+          <label for="control_linescaling">Scaling:</label>
+          <input type="range" min="1" max="2" value="1.15" step="0.01" class="slider" id="control_linescaling">
+        </span>
+        <span class="control">
+          <label for="control_aspect">Aspect Ratio:</label>
+          <input type="range" min="0.5" max="1.5" value="1.0" step="0.01" class="slider" id="control_aspect">
+        </span>
+        <span class="control">
+          <label for="control_layers">Layers:</label>
+          <input type="range" min="0" max="20" value="17" step="1" class="slider" id="control_layers">
+        </span>
+        <input type="range" min="0" max="360" value="140" step="1" class="hidden" id="control_brushangle">
+        <input type="range" min="0" max="10" value="0" step="0.6" class="hidden" id="control_brushlength">
+        <input type="range" min="1" max="10" value="1.1" step="0.1" class="hidden" id="control_brushweight">
+      </div>
+    </section>  
+
+    <section class="grid">
+      <div>
+        <p>
+          In projects like this the good stuff is in the code producing unexpected results. And getting instant visual feedback (see Bret Victor's <a href="https://www.youtube.com/watch?v=EGqwXt90ZqA">Inventing on Principle</a>) is the fastest way to interesting. <a href="javascript:presetExtreme()">Pushing the parameters to the extreme</a> generates something more unexpected and original.
+        </p>
+        <p>
+          This Twombly is formed from rows of interconnected <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier curves</a> intended to look like joined up 'e' characters. The parameters control the exact position of the anchor and control points in those curves, ensuring they're not all identical. The maths to create the curves (and keep them resembling 'e' characters) was laborious. It was done on graph paper with a calculator and is the main reason I've only used a single character.
+        </p>
+        <p>
+          The background is intended to resemble chalk and was based on Tyler Hobbs' <a href="https://tylerxhobbs.com/essays/2017/a-generative-approach-to-simulating-watercolor-paints">simulated watercolour</a>, which is the best combination of a brilliantly clever yet simple idea.
+        </p>
+        <p>
+          For the next iteration I'd like to generate the curves automatically, perhaps from reverse engineering some hand drawn characters. I'd also like to switch from pencil lines to fountain pens or paint brushes. One of the joys of Twombly's Untitled I-IX series are the drips, splashes and messyness of the paint. You don't get that from my somewhat clinical version.
+        </p>
+      </div>
+    </section>
+      
+  </article>
+
+  {% include archive.html %}
+  
+  {% include about.html %}
+
+  {% include footer.html %}
+
+  <script src='{{"/interactive/twombly/js/p5.min.js" | prepend:site.baseurl}}'></script>
+  <script src='{{"/interactive/twombly/js/p5.svg.js" | prepend:site.baseurl}}'></script>
+  <script src='{{"/interactive/twombly/js/sketch-twombly-v1.js" | prepend:site.baseurl}}'></script>
+  <script>
+    window.onresize = function(){
+      document.querySelector('#twombly-p5').querySelector('#p5').remove();
+      setup();
+    }
+
+    function calcSize(){
+      let p5Element = document.querySelector('#twombly-p5');
+      let p5ElementPadding = parseFloat(window.getComputedStyle(p5Element, null).getPropertyValue('padding'));
+      let canvasWidth = p5Element.offsetWidth - (2 * p5ElementPadding);
+      let canvasHeight = document.querySelector('#twombly-p5-controls').offsetHeight - (2 * p5ElementPadding);
+      return {width:canvasWidth, height: canvasHeight};
+    }
+
+    function setup(){
+      let size = calcSize();
+      let canvas = createCanvas(size.width,size.height);
+      canvas.parent("twombly-p5");
+      canvas.id('p5');
+      frameRate(24);
+      reset();
+    }
+
+    function presetExtreme(){
+      document.getElementById('control_backgrounddetail').value = 0;
+      document.getElementById('control_backgroundcomplexity').value = 0;
+      document.getElementById('control_xoverlap').value = 0.5;
+      document.getElementById('control_xjitter').value = 0.5;
+      document.getElementById('control_xoffsetjitter').value = 1;
+      document.getElementById('control_xstartjitter').value = 1;
+      document.getElementById('control_widthjitter').value = 1;
+      document.getElementById('control_yoverlap').value = 0.1;
+      document.getElementById('control_yjitter').value = 0.5;
+      document.getElementById('control_yoffsetjitter').value = 1;
+      document.getElementById('control_heightjitter').value = 1;
+      document.getElementById('control_linescaling').value = 1.5;
+      document.getElementById('control_aspect').value = 1;
+      document.getElementById('control_layers').value = 20;
+      location.hash = "#twombly";
+    }
+        
+  </script>
+
+</body>
+
+</html>

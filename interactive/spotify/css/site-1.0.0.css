@@ -1,3 +1,13 @@
+/* for header.html include */
+.header{
+    background-color: #222;
+}
+
+a.title{
+    background-color: #222;
+}
+/* end for header.html include */
+
 article.spotify {
     font-weight: 400;
     width: 100%;

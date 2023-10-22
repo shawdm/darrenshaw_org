@@ -1,0 +1,133 @@
+/* for header.html include */
+.header{
+    background-color: #6b6b70;
+}
+
+a.title{
+    background-color: #6b6b70;
+}
+/* end for header.html include */
+
+
+article.twombly {
+    font-weight: 300;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #dbdad7;
+    color: #6f7373;
+}
+
+article.twombly section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+article.twombly section.p5{
+    padding-bottom: 1rem;
+}
+
+
+article.twombly section p, article.twombly section h2{
+    max-width: 800px;
+}
+
+article.twombly section p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #6f7373;
+}
+
+article.twombly section p.intro{
+    padding-bottom: 0;
+    color: #3e4040;
+    font-weight: 400;
+}
+
+article.twombly a { 
+    color: inherit;
+    background-color: inherit;
+    padding: inherit;
+    border-radius: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: wavy;
+    padding-bottom: 0;
+}
+
+article.twombly .grid{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+}
+
+article.twombly .frame{
+    background-color: #fcfcfc;
+}
+
+article.twombly .graphic{
+    padding: 15px;
+}
+
+article.twombly .controls{
+    color: #3e4040;
+    font-size: 0.6em;
+}
+
+article.twombly .hidden{
+    visibility: collapse;
+    display: none;
+}
+
+
+article.twombly .slider {
+    display: inline;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px; 
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  article.twombly .slider:hover {
+    opacity: 1;
+  }
+  
+  article.twombly .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #3e4040;
+    cursor: pointer;
+  }
+  
+  article.twombly .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: #3e4040;
+    cursor: pointer;
+  }
+
+
+@media (max-width: 850px) {
+    article.twombly section{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    article.twombly .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+    }
+
+}

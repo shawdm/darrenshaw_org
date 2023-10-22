@@ -1,0 +1,25 @@
+---
+layout: interactive-twombly
+title:  "Twombly"
+date:   2023-11-25 18:00:00 +0000
+date_written: 2023-11-25 18:00:00 +0000
+location: Winchester, UK
+categories: blog
+tags: [front, tech]
+excerpt:  My favourite things at the Louvre Abu Dhabi were Cy Twombly's Untitled I-IX paintings. They're structured but chaotic and beautifully imperfect.
+---
+My favourite things from the <a href="https://www.louvreabudhabi.ae/en">Louvre Abu Dhabi</a> were Cy Twombly's <a href="https://www.louvreabudhabi.ae/en/Explore/highlights-of-the-collection/untitled">Untitled I-IX</a> paintings. They're structured but chaotic and beautifully imperfect.
+
+Twombly created <a href="https://www.artnet.com/artists/cy-twombly/untitled-new-york-city-kpAvSt550L37XKTUIA5KzQ2">similar</a> pseudo-writing (his description) art throughout his life and his earlier iterations are simpler and more like something I could understand and replicate in code. This is my first attempt at an algorithmic Twombly.
+
+{% include image_absolute.html path='images/sized/blog/twombly/twombly.jpg' alt='Generated Twombly' title='Generated Twombly' %}
+
+In projects like this the good stuff is in the code producing unexpected results. And getting instant visual feedback (see Bret Victor's <a href="https://www.youtube.com/watch?v=EGqwXt90ZqA">Inventing on Principle</a>) is the fastest way to interesting. <a href="javascript:presetExtreme()">Pushing the parameters to the extreme</a> generates something more unexpected and original.
+
+{% include image_absolute.html path='images/sized/blog/twombly/twombly-extreme.jpg' alt='Generated Twombly Extreme' title='Generated Twombly Extreme' %}
+
+This Twombly is formed from rows of interconnected <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier curves</a> intended to look like joined up 'e' characters. The parameters control the exact position of the anchor and control points in those curves, ensuring they're not all identical. The maths to create the curves (and keep them resembling 'e' characters) was laborious. It was done on graph paper with a calculator and is the main reason I've only used a single character.
+      
+The background is intended to resemble chalk and was based on Tyler Hobbs' <a href="https://tylerxhobbs.com/essays/2017/a-generative-approach-to-simulating-watercolor-paints">simulated watercolour</a>, which is the best combination of a brilliantly clever yet simple idea.
+          
+For the next iteration I'd like to generate the curves automatically, perhaps from reverse engineering some hand drawn characters. I'd also like to switch from pencil lines to fountain pens or paint brushes. One of the joys of Twombly's Untitled I-IX series are the drips, splashes and messyness of the paint. You don't get that from my somewhat clinical version.
