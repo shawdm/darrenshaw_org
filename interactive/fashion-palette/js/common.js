@@ -1,5 +1,4 @@
 function fetchRetry(url, options, retries){
-    console.log('retries: ' + retries);
     return fetch(url, options)
         .then(response => {
             if(response.status != 200){

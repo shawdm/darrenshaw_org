@@ -1,0 +1,3382 @@
+{
+  "recordSetCount": 58,
+  "resourceId": "\/search\/resources\/store\/NAP_GB\/productview\/summary\/byPartNumbers?pn=1647597326660353&pn=1647597319636816&pn=1647597303638107&pn=1647597316234046&pn=1647597294356042&pn=1647597322144627&pn=1647597316573410&pn=1647597317117514&pn=1647597318356644&pn=1647597303638045&pn=1647597326660403&pn=1647597310888583&pn=1647597315262496&pn=1647597311546231&pn=1647597330222348&pn=1647597318333246&pn=1647597328078433&pn=1647597316573399&pn=1647597305426136&pn=1647597326209828&pn=1647597301994016&pn=1647597314693774&pn=1647597303638519&pn=1647597294334560&pn=1647597319852695&pn=1647597304200841&pn=1647597294320304&pn=1647597314215193&pn=1647597326498295&pn=1647597326624006&pn=1647597318622791&pn=1647597318506261&pn=11452292646253865&pn=1647597326624010&pn=1647597314693759&pn=1647597328078431&pn=1647597318356785&pn=1647597326851549&pn=1647597315262636&pn=1647597318392193&pn=1647597310877578&pn=11452292646253895&pn=1647597311519075&pn=1647597304200882&pn=1647597320523395&pn=1647597299304513&pn=1647597326851543&pn=1647597326660435&pn=1647597328078425&pn=1647597315332935&pn=1647597316332411&pn=1647597303543908&pn=1647597320177202&pn=1647597294334548&pn=1647597318381708&pn=1647597303898662&pn=1647597328078438&pn=1647597307911604&pn=1647597326673619&pn=1647597318337508",
+  "recordSetTotal": 58,
+  "version": 1.7,
+  "recordSetComplete": "true",
+  "products": [
+    {
+      "designerIdentifier": "FERRAGAMO",
+      "productId": "3074457345625783758",
+      "shortDescription": "Asymmetric embellished draped satin and organza dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "FERRAGAMO",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1303",
+            "labelEN": "Knee Length Dresses",
+            "label": "Knee Length Dresses",
+            "categoryId": "3074457345616677118"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 244500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 244500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Asymmetric embellished draped satin and organza dress",
+      "partNumber": "1647597303543908",
+      "designerNameEN": "FERRAGAMO",
+      "seo": {
+        "seoURLKeyword": "\/ferragamo\/clothing\/knee-length-dresses\/asymmetric-embellished-draped-satin-and-organza-dress\/1647597303543908"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303543908\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "VITAKIN",
+      "productId": "3074457345625823190",
+      "price": {
+        "sellingPrice": {
+          "amount": 224200,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 224200,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Pandora pleated broderie anglaise linen midi dress",
+      "partNumber": "1647597303898662",
+      "shortDescription": "Pandora pleated broderie anglaise linen midi dress",
+      "designerNameEN": "VITA KIN",
+      "seo": {
+        "seoURLKeyword": "\/vita-kin\/clothing\/midi-dresses\/pandora-pleated-broderie-anglaise-linen-midi-dress\/1647597303898662"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VITA KIN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303898662\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-1314",
+            "labelEN": "Midi",
+            "label": "Midi",
+            "categoryId": "3074457345616677136"
+          }
+        }
+      },
+      "designerIdentifier": "GUCCI",
+      "productId": "3074457345626374698",
+      "price": {
+        "sellingPrice": {
+          "amount": 145000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 145000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597311546231",
+      "shortDescription": "Pleated striped wool midi skirt",
+      "designerNameEN": "GUCCI",
+      "seo": {
+        "seoURLKeyword": "\/gucci\/clothing\/midi\/pleated-striped-wool-midi-skirt\/1647597311546231"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311546231\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "FERRAGAMO",
+      "productId": "3074457345626777772",
+      "price": {
+        "sellingPrice": {
+          "amount": 145000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 145000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597319636816",
+      "shortDescription": "Wool and cashmere-blend sweater",
+      "designerNameEN": "FERRAGAMO",
+      "seo": {
+        "seoURLKeyword": "\/ferragamo\/clothing\/round-neck\/wool-and-cashmere-blend-sweater\/1647597319636816"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "FERRAGAMO",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319636816\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "DEN",
+      "productId": "3074457345626711724",
+      "price": {
+        "sellingPrice": {
+          "amount": 28278,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28300,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318506261",
+      "shortDescription": "Anisa alpaca-blend cardigan",
+      "designerNameEN": "D\u00d4EN",
+      "seo": {
+        "seoURLKeyword": "\/doen\/clothing\/cardigans\/anisa-alpaca-blend-cardigan\/1647597318506261"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "D\u00d4EN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318506261\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "SOLACELONDON",
+      "productId": "3074457345626689680",
+      "price": {
+        "sellingPrice": {
+          "amount": 49000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 49000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318333246",
+      "shortDescription": "Lillia one-shoulder draped pliss\u00e9-chiffon and stretch-crepe gown",
+      "designerNameEN": "SOLACE LONDON",
+      "seo": {
+        "seoURLKeyword": "\/solace-london\/clothing\/gowns\/lillia-one-shoulder-draped-plisse-chiffon-and-stretch-crepe-gown\/1647597318333246"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "SOLACE LONDON",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318333246\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "HUNZAG",
+      "productId": "3074457345627180894",
+      "price": {
+        "sellingPrice": {
+          "amount": 17500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 17500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326624006",
+      "shortDescription": "Maya cutout seersucker swimsuit",
+      "designerNameEN": "HUNZA G",
+      "seo": {
+        "seoURLKeyword": "\/hunza-g\/clothing\/one-piece\/maya-cutout-seersucker-swimsuit\/1647597326624006"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "HUNZA G",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326624006\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "OSREE",
+      "productId": "3074457345627194946",
+      "price": {
+        "sellingPrice": {
+          "amount": 47500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 47500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326851549",
+      "shortDescription": "Lumi\u00e8re feather-trimmed metallic stretch-knit halterneck mini dress",
+      "designerNameEN": "OS\u00c9REE",
+      "seo": {
+        "seoURLKeyword": "\/oseree\/clothing\/mini-dresses\/lumiere-feather-trimmed-metallic-stretch-knit-halterneck-mini-dress\/1647597326851549"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "OS\u00c9REE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326851549\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2567",
+            "labelEN": "Turtleneck",
+            "label": "Turtleneck",
+            "categoryId": "3074457345616695172"
+          }
+        }
+      },
+      "designerIdentifier": "APIECEAPART",
+      "productId": "3074457345627151446",
+      "price": {
+        "sellingPrice": {
+          "amount": 42000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 42000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326209828",
+      "shortDescription": "Softest Tissue cashmere and silk-blend sweater",
+      "designerNameEN": "APIECE APART",
+      "seo": {
+        "seoURLKeyword": "\/apiece-apart\/clothing\/turtleneck\/softest-tissue-cashmere-and-silk-blend-sweater\/1647597326209828"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "APIECE APART",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326209828\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1912",
+          "labelEN": "Apr\u00e8s Sport",
+          "label": "Apr\u00e8s Sport",
+          "categoryId": "3074457345616676730",
+          "child": {
+            "identifier": "NAP-1911-1912-1982",
+            "labelEN": "Shorts",
+            "label": "Shorts",
+            "categoryId": "3074457345616676989"
+          }
+        }
+      },
+      "designerIdentifier": "THEUPSIDE",
+      "productId": "3074457345625929241",
+      "price": {
+        "sellingPrice": {
+          "amount": 11000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 11000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597305426136",
+      "shortDescription": "Monaco Aurora striped organic cotton shorts",
+      "designerNameEN": "THE UPSIDE",
+      "seo": {
+        "seoURLKeyword": "\/the-upside\/sport\/shorts\/monaco-aurora-striped-organic-cotton-shorts\/1647597305426136"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "THE UPSIDE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597305426136\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "SUZIEKONDI",
+      "productId": "3074457345626575687",
+      "price": {
+        "sellingPrice": {
+          "amount": 134500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 134500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597316573410",
+      "shortDescription": "Bari oversized cashmere cardigan",
+      "designerNameEN": "SUZIE KONDI",
+      "seo": {
+        "seoURLKeyword": "\/suzie-kondi\/clothing\/cardigans\/bari-oversized-cashmere-cardigan\/1647597316573410"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "SUZIE KONDI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316573410\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "JACQUEMUS",
+      "productId": "3074457345626693773",
+      "price": {
+        "rdDiscount": {
+          "amount": 5000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 33000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 5000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 33000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597318381708",
+      "shortDescription": "Bahia twist-front cutout cotton mini dress",
+      "designerNameEN": "JACQUEMUS",
+      "seo": {
+        "seoURLKeyword": "\/jacquemus\/clothing\/mini-dresses\/bahia-twist-front-cutout-cotton-mini-dress\/1647597318381708"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JACQUEMUS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318381708\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "STELLAMCCARTNEY",
+      "productId": "3074457345626820169",
+      "price": {
+        "sellingPrice": {
+          "amount": 159000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 159000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597320177202",
+      "shortDescription": "+ NET SUSTAIN cape-effect crepe midi dress",
+      "designerNameEN": "STELLA MCCARTNEY",
+      "seo": {
+        "seoURLKeyword": "\/stella-mccartney\/clothing\/midi-dresses\/plus-net-sustain-cape-effect-crepe-midi-dress\/1647597320177202"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "STELLA MCCARTNEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597320177202\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1941",
+            "labelEN": "Knitwear",
+            "label": "Knitwear",
+            "categoryId": "3074457345616677054"
+          }
+        }
+      },
+      "designerIdentifier": "PERFECTMOMENT",
+      "productId": "3074457345626851201",
+      "price": {
+        "sellingPrice": {
+          "amount": 26000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 26000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597320523395",
+      "shortDescription": "Piste jacquard-knit merino wool turtleneck sweater",
+      "designerNameEN": "PERFECT MOMENT",
+      "seo": {
+        "seoURLKeyword": "\/perfect-moment\/sport\/knitwear\/piste-jacquard-knit-merino-wool-turtleneck-sweater\/1647597320523395"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PERFECT MOMENT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597320523395\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "BOTTEGAVENETA",
+      "productId": "3074457345626965207",
+      "price": {
+        "sellingPrice": {
+          "amount": 493000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 493000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597322144627",
+      "shortDescription": "Gathered boucl\u00e9 maxi dress",
+      "designerNameEN": "BOTTEGA VENETA",
+      "seo": {
+        "seoURLKeyword": "\/bottega-veneta\/clothing\/maxi-dresses\/gathered-boucle-maxi-dress\/1647597322144627"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BOTTEGA VENETA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597322144627\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-125",
+            "labelEN": "Bikinis",
+            "label": "Bikinis",
+            "categoryId": "3074457345616677141"
+          }
+        }
+      },
+      "designerIdentifier": "HUNZAG",
+      "productId": "3074457345627180889",
+      "price": {
+        "sellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326624010",
+      "shortDescription": "Gina seersucker bikini",
+      "designerNameEN": "HUNZA G",
+      "seo": {
+        "seoURLKeyword": "\/hunza-g\/clothing\/bikinis\/gina-seersucker-bikini\/1647597326624010"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "HUNZA G",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326624010\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "MAGDABUTRYM",
+      "productId": "3074457345620914970",
+      "shortDescription": "Tie-detailed bikini top",
+      "seo_token_ntk": "tie-detailed-bikini-top-11452292646253895-1",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MAGDA BUTRYM",
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2197",
+            "labelEN": "Bikini Tops",
+            "label": "Bikini Tops",
+            "categoryId": "3074457345616677143"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 31000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 31000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Tie-detailed bikini top",
+      "partNumber": "11452292646253895",
+      "designerNameEN": "MAGDA BUTRYM",
+      "seo": {
+        "seoURLKeyword": "\/magda-butrym\/clothing\/bikini-tops\/tie-detailed-bikini-top\/11452292646253895"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/11452292646253895\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ALEXANDERMCQUEEN",
+      "productId": "3074457345626507732",
+      "shortDescription": "Cold-shoulder ruffled jersey and faille mini dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALEXANDER MCQUEEN",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 299000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 299000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Cold-shoulder ruffled jersey and faille mini dress",
+      "partNumber": "1647597315332935",
+      "designerNameEN": "ALEXANDER MCQUEEN",
+      "seo": {
+        "seoURLKeyword": "\/alexander-mcqueen\/clothing\/mini-dresses\/cold-shoulder-ruffled-jersey-and-faille-mini-dress\/1647597315332935"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315332935\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "LOEWE",
+      "productId": "3074457345626696192",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 144000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 240000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 144000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 240000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597318392193",
+      "shortDescription": "Draped wool-blend mini dress",
+      "designerNameEN": "LOEWE",
+      "seo": {
+        "seoURLKeyword": "\/loewe\/clothing\/mini-dresses\/draped-wool-blend-mini-dress\/1647597318392193"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LOEWE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318392193\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "NORMAKAMALI",
+      "productId": "3074457345627274208",
+      "price": {
+        "sellingPrice": {
+          "amount": 50500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 50500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597328078431",
+      "shortDescription": "Tie-detailed stretch-mesh gown",
+      "designerNameEN": "NORMA KAMALI",
+      "seo": {
+        "seoURLKeyword": "\/norma-kamali\/clothing\/maxi-dresses\/tie-detailed-stretch-mesh-gown\/1647597328078431"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "NORMA KAMALI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597328078431\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "NORMAKAMALI",
+      "productId": "3074457345627274226",
+      "price": {
+        "sellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597328078433",
+      "shortDescription": "Pickleball ruched stretch-jersey mini dress",
+      "designerNameEN": "NORMA KAMALI",
+      "seo": {
+        "seoURLKeyword": "\/norma-kamali\/clothing\/mini-dresses\/pickleball-ruched-stretch-jersey-mini-dress\/1647597328078433"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "NORMA KAMALI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597328078433\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "ANDDAUGHTER",
+      "productId": "3074457345627366668",
+      "price": {
+        "sellingPrice": {
+          "amount": 33500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 33500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Wool cardigan",
+      "partNumber": "1647597330222348",
+      "shortDescription": "+ NET SUSTAIN Ada wool cardigan",
+      "designerNameEN": "&DAUGHTER",
+      "seo": {
+        "seoURLKeyword": "\/daughter\/clothing\/cardigans\/plus-net-sustain-ada-wool-cardigan\/1647597330222348"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "&DAUGHTER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597330222348\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1945",
+            "labelEN": "Baselayer",
+            "label": "Baselayer",
+            "categoryId": "3074457345616677058"
+          }
+        }
+      },
+      "designerIdentifier": "BOGNER",
+      "productId": "3074457345626453229",
+      "price": {
+        "sellingPrice": {
+          "amount": 22500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 22500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597314215193",
+      "shortDescription": "Striped stretch-jersey base layer",
+      "designerNameEN": "BOGNER",
+      "seo": {
+        "seoURLKeyword": "\/bogner\/sport\/baselayer\/striped-stretch-jersey-base-layer\/1647597314215193"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BOGNER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597314215193\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ALEXANDERMCQUEEN",
+      "productId": "3074457345626084715",
+      "shortDescription": "Open-back wool-crepe straight-leg jumpsuit",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALEXANDER MCQUEEN",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-1113",
+          "labelEN": "Jumpsuits",
+          "label": "Jumpsuits",
+          "categoryId": "3074457345616676743",
+          "child": {
+            "identifier": "NAP-3-1113-1117",
+            "labelEN": "Full Length",
+            "label": "Full Length",
+            "categoryId": "3074457345616677106"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 299000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 299000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Open-back wool-crepe straight-leg jumpsuit",
+      "partNumber": "1647597307911604",
+      "designerNameEN": "ALEXANDER MCQUEEN",
+      "seo": {
+        "seoURLKeyword": "\/alexander-mcqueen\/clothing\/full-length\/open-back-wool-crepe-straight-leg-jumpsuit\/1647597307911604"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597307911604\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        },
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "designerIdentifier": "HIGHSPORT",
+      "productId": "3074457345625852317",
+      "price": {
+        "sellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597304200882",
+      "shortDescription": "Parker cotton-blend hoodie",
+      "designerNameEN": "HIGH SPORT",
+      "seo": {
+        "seoURLKeyword": "\/high-sport\/clothing\/sweatshirts\/parker-cotton-blend-hoodie\/1647597304200882"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "HIGH SPORT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597304200882\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "DOLCEANDGABBANA",
+      "productId": "3074457345625792845",
+      "shortDescription": "Cotton-terry mini dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "DOLCE & GABBANA",
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 135000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 135000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Cotton-terry mini dress",
+      "partNumber": "1647597303638519",
+      "designerNameEN": "DOLCE & GABBANA",
+      "seo": {
+        "seoURLKeyword": "\/dolce-gabbana\/clothing\/mini-dresses\/cotton-terry-mini-dress\/1647597303638519"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303638519\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345625274829",
+      "shortDescription": "Embellished wool-blend crepe shorts",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 98000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 98000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Embellished wool-blend crepe shorts",
+      "partNumber": "1647597294334548",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/short-and-mini\/embellished-wool-blend-crepe-shorts\/1647597294334548"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597294334548\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345625274841",
+      "shortDescription": "Draped silk-crepe gown",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 698000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 698000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Draped silk-crepe gown",
+      "partNumber": "1647597294334560",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/gowns\/draped-silk-crepe-gown\/1647597294334560"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597294334560\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "JACQUEMUS",
+      "productId": "3074457345626693877",
+      "price": {
+        "sellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Sierra off-the-shoulder embellished ribbed-knit midi dress",
+      "partNumber": "1647597318356644",
+      "shortDescription": "Sierra embellished ribbed-knit midi dress",
+      "designerNameEN": "JACQUEMUS",
+      "seo": {
+        "seoURLKeyword": "\/jacquemus\/clothing\/midi-dresses\/sierra-embellished-ribbed-knit-midi-dress\/1647597318356644"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JACQUEMUS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318356644\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "JACQUEMUS",
+      "productId": "3074457345626693775",
+      "price": {
+        "sellingPrice": {
+          "amount": 57500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 57500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318356785",
+      "shortDescription": "Pavane oversized alpaca-blend jacquard sweater",
+      "designerNameEN": "JACQUEMUS",
+      "seo": {
+        "seoURLKeyword": "\/jacquemus\/clothing\/round-neck\/pavane-oversized-alpaca-blend-jacquard-sweater\/1647597318356785"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JACQUEMUS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318356785\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "GANNI",
+      "productId": "3074457345626718177",
+      "price": {
+        "sellingPrice": {
+          "amount": 42500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 42500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318622791",
+      "shortDescription": "Ruched sequined tulle mini dress",
+      "designerNameEN": "GANNI",
+      "seo": {
+        "seoURLKeyword": "\/ganni\/clothing\/mini-dresses\/ruched-sequined-tulle-mini-dress\/1647597318622791"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GANNI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318622791\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "NORMAKAMALI",
+      "productId": "3074457345627274203",
+      "price": {
+        "sellingPrice": {
+          "amount": 16000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597328078425",
+      "shortDescription": "Cayla asymmetric draped stretch-jersey midi dress",
+      "designerNameEN": "NORMA KAMALI",
+      "seo": {
+        "seoURLKeyword": "\/norma-kamali\/clothing\/maxi-dresses\/cayla-asymmetric-draped-stretch-jersey-midi-dress\/1647597328078425"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "NORMA KAMALI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597328078425\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "HUNZAG",
+      "productId": "3074457345625667206",
+      "shortDescription": "+ NET SUSTAIN Brooke seersucker bandeau swimsuit",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "HUNZA G",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "+ NET SUSTAIN Brooke seersucker bandeau swimsuit",
+      "partNumber": "1647597301994016",
+      "designerNameEN": "HUNZA G",
+      "seo": {
+        "seoURLKeyword": "\/hunza-g\/clothing\/one-piece\/plus-net-sustain-brooke-seersucker-bandeau-swimsuit\/1647597301994016"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597301994016\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ALAA",
+      "productId": "3074457345625276234",
+      "shortDescription": "Layered stretch-jersey slim-leg pants",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALA\u00cfA",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-96",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677133"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 79000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 79000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Layered stretch-jersey slim-leg pants",
+      "partNumber": "1647597294356042",
+      "designerNameEN": "ALA\u00cfA",
+      "seo": {
+        "seoURLKeyword": "\/alaia\/clothing\/straight-leg\/layered-stretch-jersey-slim-leg-pants\/1647597294356042"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597294356042\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345626307964",
+      "price": {
+        "sellingPrice": {
+          "amount": 285000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 285000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597310877578",
+      "shortDescription": "Bow-detailed wool and silk-blend crepe mini dress",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/mini-dresses\/bow-detailed-wool-and-silk-blend-crepe-mini-dress\/1647597310877578"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597310877578\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-16",
+          "labelEN": "Coats",
+          "label": "Coats",
+          "categoryId": "3074457345616676745",
+          "child": {
+            "identifier": "NAP-3-16-77",
+            "labelEN": "Long",
+            "label": "Long",
+            "categoryId": "3074457345616677113"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345626463226",
+      "price": {
+        "sellingPrice": {
+          "amount": 480000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 480000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597314693774",
+      "shortDescription": "Oversized mohair-blend coat",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/long\/oversized-mohair-blend-coat\/1647597314693774"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597314693774\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345626463232",
+      "price": {
+        "sellingPrice": {
+          "amount": 119000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 119000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597314693759",
+      "shortDescription": "Cotton-poplin shirt",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/shirts\/cotton-poplin-shirt\/1647597314693759"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597314693759\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "OSREE",
+      "productId": "3074457345627194956",
+      "price": {
+        "sellingPrice": {
+          "amount": 29000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 29000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326851543",
+      "shortDescription": "Lumi\u00e8re stretch-knit halterneck maxi dress",
+      "designerNameEN": "OS\u00c9REE",
+      "seo": {
+        "seoURLKeyword": "\/oseree\/clothing\/maxi-dresses\/lumiere-stretch-knit-halterneck-maxi-dress\/1647597326851543"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "OS\u00c9REE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326851543\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "HIGHSPORT",
+      "productId": "3074457345625852289",
+      "shortDescription": "Nance strapless stretch-cotton mini dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "HIGH SPORT",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 114500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 114500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Nance strapless stretch-cotton mini dress",
+      "partNumber": "1647597304200841",
+      "designerNameEN": "HIGH SPORT",
+      "seo": {
+        "seoURLKeyword": "\/high-sport\/clothing\/mini-dresses\/nance-strapless-stretch-cotton-mini-dress\/1647597304200841"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597304200841\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LANVIN",
+      "productId": "3074457345625546247",
+      "shortDescription": "Ruffled charmeuse gown",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "LANVIN",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 278000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 278000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Ruffled charmeuse gown",
+      "partNumber": "1647597299304513",
+      "designerNameEN": "LANVIN",
+      "seo": {
+        "seoURLKeyword": "\/lanvin\/clothing\/gowns\/ruffled-charmeuse-gown\/1647597299304513"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597299304513\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345625274777",
+      "price": {
+        "sellingPrice": {
+          "amount": 260000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 260000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Cutout wool and silk-blend mini dress",
+      "partNumber": "1647597294320304",
+      "shortDescription": "Cutout wool and silk-blend mini dress",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/mini-dresses\/cutout-wool-and-silk-blend-mini-dress\/1647597294320304"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597294320304\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "GUCCI",
+      "productId": "3074457345626374685",
+      "price": {
+        "sellingPrice": {
+          "amount": 140000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 140000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597311519075",
+      "shortDescription": "Tie-detailed striped wool-jacquard sweater",
+      "designerNameEN": "GUCCI",
+      "seo": {
+        "seoURLKeyword": "\/gucci\/clothing\/round-neck\/tie-detailed-striped-wool-jacquard-sweater\/1647597311519075"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311519075\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        },
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "THEROW",
+      "productId": "3074457345626797325",
+      "price": {
+        "sellingPrice": {
+          "amount": 144000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 144000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597319852695",
+      "shortDescription": "Enid two-tone wool and cashmere-blend sweater",
+      "designerNameEN": "THE ROW",
+      "seo": {
+        "seoURLKeyword": "\/the-row\/clothing\/round-neck\/enid-two-tone-wool-and-cashmere-blend-sweater\/1647597319852695"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "THE ROW",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319852695\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-1113",
+          "labelEN": "Jumpsuits",
+          "label": "Jumpsuits",
+          "categoryId": "3074457345616676743",
+          "child": {
+            "identifier": "NAP-3-1113-1117",
+            "labelEN": "Full Length",
+            "label": "Full Length",
+            "categoryId": "3074457345616677106"
+          }
+        }
+      },
+      "designerIdentifier": "ROLANDMOURET",
+      "productId": "3074457345627183839",
+      "price": {
+        "sellingPrice": {
+          "amount": 99500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 99500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326660435",
+      "shortDescription": "Scarf-detailed asymmetric crepe jumpsuit",
+      "designerNameEN": "ROLAND MOURET",
+      "seo": {
+        "seoURLKeyword": "\/roland-mouret\/clothing\/full-length\/scarf-detailed-asymmetric-crepe-jumpsuit\/1647597326660435"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ROLAND MOURET",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326660435\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "RODARTE",
+      "productId": "3074457345627173357",
+      "price": {
+        "sellingPrice": {
+          "amount": 299567,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 299600,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326498295",
+      "shortDescription": "Cape-effect appliqu\u00e9d silk-charmeuse gown",
+      "designerNameEN": "RODARTE",
+      "seo": {
+        "seoURLKeyword": "\/rodarte\/clothing\/gowns\/cape-effect-appliqued-silk-charmeuse-gown\/1647597326498295"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "RODARTE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326498295\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2197",
+            "labelEN": "Bikini Tops",
+            "label": "Bikini Tops",
+            "categoryId": "3074457345616677143"
+          }
+        }
+      },
+      "designerIdentifier": "NORMAKAMALI",
+      "productId": "3074457345627274223",
+      "price": {
+        "sellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597328078438",
+      "shortDescription": "Diana one-shoulder ruched bikini top",
+      "designerNameEN": "NORMA KAMALI",
+      "seo": {
+        "seoURLKeyword": "\/norma-kamali\/clothing\/bikini-tops\/diana-one-shoulder-ruched-bikini-top\/1647597328078438"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "NORMA KAMALI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597328078438\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "ROLANDMOURET",
+      "productId": "3074457345627183838",
+      "price": {
+        "sellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326660353",
+      "shortDescription": "Strapless crepe midi dress",
+      "designerNameEN": "ROLAND MOURET",
+      "seo": {
+        "seoURLKeyword": "\/roland-mouret\/clothing\/midi-dresses\/strapless-crepe-midi-dress\/1647597326660353"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ROLAND MOURET",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326660353\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "MAGDABUTRYM",
+      "productId": "3074457345620914954",
+      "shortDescription": "Appliqu\u00e9d ruched bikini briefs",
+      "seo_token_ntk": "embellished-ruched-bikini-briefs-11452292646253865-1",
+      "imageViews": [
+        "in",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MAGDA BUTRYM",
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2200",
+            "labelEN": "Bikini Bottoms",
+            "label": "Bikini Bottoms",
+            "categoryId": "3074457345616677144"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Embellished ruched bikini briefs",
+      "partNumber": "11452292646253865",
+      "designerNameEN": "MAGDA BUTRYM",
+      "seo": {
+        "seoURLKeyword": "\/magda-butrym\/clothing\/bikini-bottoms\/appliqued-ruched-bikini-briefs\/11452292646253865"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/11452292646253865\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345625792823",
+      "shortDescription": "Cape-effect cotton-poplin shirt dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 216000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 360000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 216000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 360000,
+          "divisor": 100
+        }
+      },
+      "name": "Cape-effect cotton-poplin shirt dress",
+      "partNumber": "1647597303638045",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/midi-dresses\/cape-effect-cotton-poplin-shirt-dress\/1647597303638045"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303638045\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345625792826",
+      "shortDescription": "Cape-effect cotton-poplin mini shirt dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 162000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 270000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 162000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 270000,
+          "divisor": 100
+        }
+      },
+      "name": "Cape-effect cotton-poplin mini shirt dress",
+      "partNumber": "1647597303638107",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/mini-dresses\/cape-effect-cotton-poplin-mini-shirt-dress\/1647597303638107"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303638107\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345626307974",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 213000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 355000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 213000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 355000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597310888583",
+      "shortDescription": "Off-the-shoulder silk-faille mini dress",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/mini-dresses\/off-the-shoulder-silk-faille-mini-dress\/1647597310888583"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597310888583\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "STELLAMCCARTNEY",
+      "productId": "3074457345626501723",
+      "price": {
+        "sellingPrice": {
+          "amount": 159000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 159000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315262496",
+      "shortDescription": "+ NET SUSTAIN one-shoulder satin gown",
+      "designerNameEN": "STELLA MCCARTNEY",
+      "seo": {
+        "seoURLKeyword": "\/stella-mccartney\/clothing\/gowns\/plus-net-sustain-one-shoulder-satin-gown\/1647597315262496"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "STELLA MCCARTNEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315262496\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2567",
+            "labelEN": "Turtleneck",
+            "label": "Turtleneck",
+            "categoryId": "3074457345616695172"
+          }
+        }
+      },
+      "designerIdentifier": "ANDDAUGHTER",
+      "productId": "3074457345626548675",
+      "price": {
+        "sellingPrice": {
+          "amount": 39500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 39500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597316234046",
+      "shortDescription": "+ NET SUSTAIN Glenn wool turtleneck sweater",
+      "designerNameEN": "&DAUGHTER",
+      "seo": {
+        "seoURLKeyword": "\/daughter\/clothing\/turtleneck\/plus-net-sustain-glenn-wool-turtleneck-sweater\/1647597316234046"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "&DAUGHTER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316234046\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "PROENZASCHOULER",
+      "productId": "3074457345627183829",
+      "price": {
+        "sellingPrice": {
+          "amount": 162500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 162500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326673619",
+      "shortDescription": "Wrap-effect jersey maxi dress",
+      "designerNameEN": "PROENZA SCHOULER",
+      "seo": {
+        "seoURLKeyword": "\/proenza-schouler\/clothing\/maxi-dresses\/wrap-effect-jersey-maxi-dress\/1647597326673619"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "e2",
+        "sw"
+      ],
+      "designerName": "PROENZA SCHOULER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326673619\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-94",
+            "labelEN": "Mini",
+            "label": "Mini",
+            "categoryId": "3074457345616677138"
+          }
+        }
+      },
+      "designerIdentifier": "STELLAMCCARTNEY",
+      "productId": "3074457345626501738",
+      "price": {
+        "sellingPrice": {
+          "amount": 89000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 89000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315262636",
+      "shortDescription": "+ NET SUSTAIN wool wrap skirt",
+      "designerNameEN": "STELLA MCCARTNEY",
+      "seo": {
+        "seoURLKeyword": "\/stella-mccartney\/clothing\/mini\/plus-net-sustain-wool-wrap-skirt\/1647597315262636"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "STELLA MCCARTNEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315262636\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "ROLANDMOURET",
+      "productId": "3074457345627183831",
+      "price": {
+        "sellingPrice": {
+          "amount": 129500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 129500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326660403",
+      "shortDescription": "One-shoulder wool and silk-blend crepe gown",
+      "designerNameEN": "ROLAND MOURET",
+      "seo": {
+        "seoURLKeyword": "\/roland-mouret\/clothing\/gowns\/one-shoulder-wool-and-silk-blend-crepe-gown\/1647597326660403"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ROLAND MOURET",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326660403\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "SUZIEKONDI",
+      "productId": "3074457345626575691",
+      "price": {
+        "sellingPrice": {
+          "amount": 72500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 72500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597316573399",
+      "shortDescription": "Kismet cashmere sweater",
+      "designerNameEN": "SUZIE KONDI",
+      "seo": {
+        "seoURLKeyword": "\/suzie-kondi\/clothing\/round-neck\/kismet-cashmere-sweater\/1647597316573399"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "SUZIE KONDI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316573399\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "MAGDABUTRYM",
+      "productId": "3074457345626605260",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 76200,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 127000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 76200,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 127000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597317117514",
+      "shortDescription": "Strapless appliqu\u00e9d cutout stretch-silk mini dress",
+      "designerNameEN": "MAGDA BUTRYM",
+      "seo": {
+        "seoURLKeyword": "\/magda-butrym\/clothing\/mini-dresses\/strapless-appliqued-cutout-stretch-silk-mini-dress\/1647597317117514"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MAGDA BUTRYM",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597317117514\/{view}\/w{width}.jpg"
+    }
+  ]
+}

@@ -1,0 +1,3389 @@
+{
+  "recordSetCount": 59,
+  "resourceId": "\/search\/resources\/store\/NAP_GB\/productview\/summary\/byPartNumbers?pn=1647597326562736&pn=1647597326562643&pn=1647597326574488&pn=1647597326562705&pn=1647597318015514&pn=1647597326562773&pn=1647597318015498&pn=1647597309197176&pn=1647597304193714&pn=1647597309197160&pn=1647597332662609&pn=1647597309197296&pn=1647597309197144&pn=24772899113590632&pn=1647597332662438&pn=1647597318015619&pn=1647597326565008&pn=1647597303230675&pn=1647597311240705&pn=1647597326562843&pn=1647597303230696&pn=1647597308978534&pn=1647597326562923&pn=1647597315355372&pn=1647597309197192&pn=1647597309197270&pn=1647597309884403&pn=1647597318337282&pn=1647597326710779&pn=1647597303898711&pn=1647597326830667&pn=1647597303515421&pn=1647597321757930&pn=1647597309197299&pn=1647597309659862&pn=1647597326710540&pn=38063312420433765&pn=1647597306799870&pn=1647597311240805&pn=1647597308892669&pn=25185454455664246&pn=1647597326830721&pn=1647597326578406&pn=1647597326562495&pn=1647597326793217&pn=1647597314924217&pn=1647597321756494&pn=1647597309884357&pn=1647597319956846&pn=1647597315345047&pn=1647597315945604&pn=1647597326562991&pn=1647597310897425&pn=1647597306824301&pn=1647597326793173&pn=1647597278772552&pn=1647597326578404&pn=1647597326562711&pn=1647597326562613&pn=1647597315262684",
+  "recordSetTotal": 59,
+  "version": 1.7,
+  "recordSetComplete": "true",
+  "products": [
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163726",
+      "shortDescription": "Jazzercize printed stretch-jersey T-shirt",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2625",
+            "labelEN": "T-Shirts",
+            "label": "T-Shirts",
+            "categoryId": "3074457345616677153"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 10200,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 17000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 10200,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 17000,
+          "divisor": 100
+        }
+      },
+      "name": "Jazzercize printed stretch-jersey T-shirt",
+      "partNumber": "1647597309197176",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/t-shirts\/jazzercize-printed-stretch-jersey-t-shirt\/1647597309197176"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197176\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        },
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626226198",
+      "price": {
+        "sellingPrice": {
+          "amount": 115000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 115000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597309884357",
+      "shortDescription": "Slip-Around layered printed silk crepe de chine maxi dress",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/maxi-dresses\/slip-around-layered-printed-silk-crepe-de-chine-maxi-dress\/1647597309884357"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309884357\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "ALAA",
+      "productId": "3074457345626024712",
+      "price": {
+        "sellingPrice": {
+          "amount": 133000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 133000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Archetypes cape-effect leather-trimmed cotton-poplin mini dress",
+      "partNumber": "1647597306799870",
+      "shortDescription": "Archetypes cape-effect leather-trimmed cotton-poplin mini dress",
+      "designerNameEN": "ALA\u00cfA",
+      "seo": {
+        "seoURLKeyword": "\/alaia\/clothing\/mini-dresses\/archetypes-cape-effect-leather-trimmed-cotton-poplin-mini-dress\/1647597306799870"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALA\u00cfA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597306799870\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "RIXOLONDON",
+      "productId": "3074457345625852254",
+      "price": {
+        "sellingPrice": {
+          "amount": 19500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 19500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Anandi floral-print woven mini dress",
+      "partNumber": "1647597304193714",
+      "shortDescription": "Anandi floral-print woven mini dress",
+      "designerNameEN": "RIXO",
+      "seo": {
+        "seoURLKeyword": "\/rixo\/clothing\/mini-dresses\/anandi-floral-print-woven-mini-dress\/1647597304193714"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "RIXO",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597304193714\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1214",
+        "labelEN": "Lingerie",
+        "label": "Lingerie",
+        "categoryId": "3074457345616676670",
+        "child": {
+          "identifier": "NAP-1214-1224",
+          "labelEN": "Sleepwear",
+          "label": "Sleepwear",
+          "categoryId": "3074457345616676701",
+          "child": {
+            "identifier": "NAP-1214-1224-1242",
+            "labelEN": "Pajamas",
+            "label": "Pajamas",
+            "categoryId": "3074457345616676851"
+          }
+        }
+      },
+      "designerIdentifier": "SKIN",
+      "productId": "3074457345626805186",
+      "price": {
+        "sellingPrice": {
+          "amount": 14200,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 14200,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Courtney Pima cotton-jersey pajama set",
+      "partNumber": "1647597319956846",
+      "shortDescription": "+ NET SUSTAIN Courtney organic Pima cotton-jersey pajama set",
+      "designerNameEN": "SKIN",
+      "seo": {
+        "seoURLKeyword": "\/skin\/lingerie\/pajamas\/plus-net-sustain-courtney-organic-pima-cotton-jersey-pajama-set\/1647597319956846"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "SKIN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319956846\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "JOHANNAORTIZ",
+      "productId": "3074457345626928708",
+      "price": {
+        "sellingPrice": {
+          "amount": 79600,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 79600,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597321757930",
+      "shortDescription": "+ NET SUSTAIN God Enkai embroidered cotton-poplin midi dress",
+      "designerNameEN": "JOHANNA ORTIZ",
+      "seo": {
+        "seoURLKeyword": "\/johanna-ortiz\/clothing\/midi-dresses\/plus-net-sustain-god-enkai-embroidered-cotton-poplin-midi-dress\/1647597321757930"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JOHANNA ORTIZ",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597321757930\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "designerIdentifier": "ZIMMERMANN",
+      "productId": "3074457345627191352",
+      "price": {
+        "sellingPrice": {
+          "amount": 39500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 39500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326793217",
+      "shortDescription": "+ NET SUSTAIN Alight belted pleated floral-print linen shorts",
+      "designerNameEN": "ZIMMERMANN",
+      "seo": {
+        "seoURLKeyword": "\/zimmermann\/clothing\/short-and-mini\/plus-net-sustain-alight-belted-pleated-floral-print-linen-shorts\/1647597326793217"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZIMMERMANN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326793217\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177438",
+      "price": {
+        "sellingPrice": {
+          "amount": 62000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 62000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562843",
+      "shortDescription": "Mare asymmetric metallic crochet-knit skirt",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/coverups\/mare-asymmetric-metallic-crochet-knit-skirt\/1647597326562843"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562843\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2567",
+            "labelEN": "Turtleneck",
+            "label": "Turtleneck",
+            "categoryId": "3074457345616695172"
+          }
+        }
+      },
+      "designerIdentifier": "THEELDERSTATESMAN",
+      "productId": "3074457345627186720",
+      "price": {
+        "sellingPrice": {
+          "amount": 172500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 172500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326710779",
+      "shortDescription": "Hazy Fair Isle cashmere turtleneck sweater",
+      "designerNameEN": "THE ELDER STATESMAN",
+      "seo": {
+        "seoURLKeyword": "\/the-elder-statesman\/clothing\/turtleneck\/hazy-fair-isle-cashmere-turtleneck-sweater\/1647597326710779"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "THE ELDER STATESMAN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326710779\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "PUCCI",
+      "productId": "3074457345626204959",
+      "price": {
+        "sellingPrice": {
+          "amount": 82500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 82500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597309659862",
+      "shortDescription": "Printed silk maxi dress",
+      "designerNameEN": "PUCCI",
+      "seo": {
+        "seoURLKeyword": "\/pucci\/clothing\/maxi-dresses\/printed-silk-maxi-dress\/1647597309659862"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309659862\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "designerIdentifier": "BODE",
+      "productId": "3074457345626343199",
+      "price": {
+        "sellingPrice": {
+          "amount": 33000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 33000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597311240705",
+      "shortDescription": "Tumbler embroidered cotton-poplin shorts",
+      "designerNameEN": "BODE",
+      "seo": {
+        "seoURLKeyword": "\/bode\/clothing\/short-and-mini\/tumbler-embroidered-cotton-poplin-shorts\/1647597311240705"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BODE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311240705\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2607",
+            "labelEN": "Blouses",
+            "label": "Blouses",
+            "categoryId": "3074457345616677146"
+          }
+        }
+      },
+      "designerIdentifier": "ZIMMERMANN",
+      "productId": "3074457345627191335",
+      "price": {
+        "sellingPrice": {
+          "amount": 52500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 52500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326793173",
+      "shortDescription": "Alight gathered floral-print ramie blouse",
+      "designerNameEN": "ZIMMERMANN",
+      "seo": {
+        "seoURLKeyword": "\/zimmermann\/clothing\/blouses\/alight-gathered-floral-print-ramie-blouse\/1647597326793173"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZIMMERMANN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326793173\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-2103",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677132"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177451",
+      "price": {
+        "sellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562923",
+      "shortDescription": "Mare printed stretch-tulle flared pants",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/flared\/mare-printed-stretch-tulle-flared-pants\/1647597326562923"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562923\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "ERES",
+      "productId": "3074457345623761742",
+      "price": {
+        "sellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Les Essentiels Aquarelle swimsuit",
+      "partNumber": "38063312420433765",
+      "shortDescription": "Les Essentiels Aquarelle swimsuit",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/clothing\/one-piece\/les-essentiels-aquarelle-swimsuit\/38063312420433765"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/38063312420433765\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ERES",
+      "productId": "3074457345624341750",
+      "shortDescription": "Neptune printed silk midi dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 50500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 50500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Neptune printed silk midi dress",
+      "partNumber": "1647597278772552",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/clothing\/coverups\/neptune-printed-silk-midi-dress\/1647597278772552"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597278772552\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "THEELDERSTATESMAN",
+      "productId": "3074457345626148200",
+      "shortDescription": "Tie-dyed cotton and cashmere-blend shirt",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "THE ELDER STATESMAN",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 95500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 95500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Tie-dyed cotton and cashmere-blend shirt",
+      "partNumber": "1647597308978534",
+      "designerNameEN": "THE ELDER STATESMAN",
+      "seo": {
+        "seoURLKeyword": "\/the-elder-statesman\/clothing\/shirts\/tie-dyed-cotton-and-cashmere-blend-shirt\/1647597308978534"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597308978534\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163740",
+      "shortDescription": "Printed stretch-jersey leggings",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-161",
+            "labelEN": "Leggings",
+            "label": "Leggings",
+            "categoryId": "3074457345616677131"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 10200,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 17000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 10200,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 17000,
+          "divisor": 100
+        }
+      },
+      "name": "Printed stretch-jersey leggings",
+      "partNumber": "1647597309197270",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/leggings\/printed-stretch-jersey-leggings\/1647597309197270"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197270\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "VITAKIN",
+      "productId": "3074457345625823204",
+      "price": {
+        "sellingPrice": {
+          "amount": 199400,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 199400,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Misha embroidered linen mini dress",
+      "partNumber": "1647597303898711",
+      "shortDescription": "Misha embroidered linen mini dress",
+      "designerNameEN": "VITA KIN",
+      "seo": {
+        "seoURLKeyword": "\/vita-kin\/clothing\/mini-dresses\/misha-embroidered-linen-mini-dress\/1647597303898711"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VITA KIN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303898711\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1130",
+            "labelEN": "Maxi Dresses",
+            "label": "Maxi Dresses",
+            "categoryId": "3074457345616677116"
+          }
+        }
+      },
+      "designerIdentifier": "ZANKOV",
+      "productId": "3074457345626525678",
+      "price": {
+        "sellingPrice": {
+          "amount": 86000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 86000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315945604",
+      "shortDescription": "Matilda striped brushed knitted maxi dress",
+      "designerNameEN": "ZANKOV",
+      "seo": {
+        "seoURLKeyword": "\/zankov\/clothing\/maxi-dresses\/matilda-striped-brushed-knitted-maxi-dress\/1647597315945604"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZANKOV",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315945604\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1945",
+            "labelEN": "Baselayer",
+            "label": "Baselayer",
+            "categoryId": "3074457345616677058"
+          }
+        }
+      },
+      "designerIdentifier": "GOLDBERGH",
+      "productId": "3074457345626668208",
+      "price": {
+        "sellingPrice": {
+          "amount": 15900,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15900,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318015514",
+      "shortDescription": "Luna printed stretch-jersey ski top",
+      "designerNameEN": "GOLDBERGH",
+      "seo": {
+        "seoURLKeyword": "\/goldbergh\/sport\/baselayer\/luna-printed-stretch-jersey-ski-top\/1647597318015514"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GOLDBERGH",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318015514\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "HAIGHT",
+      "productId": "3074457345627178754",
+      "price": {
+        "sellingPrice": {
+          "amount": 19000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 19000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326578404",
+      "shortDescription": "+ NET SUSTAIN Luisa one-shoulder swimsuit",
+      "designerNameEN": "HAIGHT",
+      "seo": {
+        "seoURLKeyword": "\/haight\/clothing\/one-piece\/plus-net-sustain-luisa-one-shoulder-swimsuit\/1647597326578404"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "HAIGHT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326578404\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-125",
+            "labelEN": "Bikinis",
+            "label": "Bikinis",
+            "categoryId": "3074457345616677141"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177452",
+      "price": {
+        "sellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326565008",
+      "shortDescription": "Mare striped crochet-knit halterneck bikini",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/bikinis\/mare-striped-crochet-knit-halterneck-bikini\/1647597326565008"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326565008\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "THEELDERSTATESMAN",
+      "productId": "3074457345627186692",
+      "price": {
+        "sellingPrice": {
+          "amount": 159500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 159500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326710540",
+      "shortDescription": "Cropped intarsia cashmere sweater",
+      "designerNameEN": "THE ELDER STATESMAN",
+      "seo": {
+        "seoURLKeyword": "\/the-elder-statesman\/clothing\/cardigans\/cropped-intarsia-cashmere-sweater\/1647597326710540"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "THE ELDER STATESMAN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326710540\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ERES",
+      "productId": "3074457345622268181",
+      "shortDescription": "Les Essentiels Gredin bikini briefs",
+      "seo_token_ntk": "les-essentiels-gredin-bikini-briefs-25185454455664246-1",
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2200",
+            "labelEN": "Bikini Bottoms",
+            "label": "Bikini Bottoms",
+            "categoryId": "3074457345616677144"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 18500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 18500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Les Essentiels Gredin bikini briefs",
+      "partNumber": "25185454455664246",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/clothing\/bikini-bottoms\/les-essentiels-gredin-bikini-briefs\/25185454455664246"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/25185454455664246\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626226201",
+      "price": {
+        "sellingPrice": {
+          "amount": 59500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 59500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597309884403",
+      "shortDescription": "Foulard printed silk-twill shirt",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/shirts\/foulard-printed-silk-twill-shirt\/1647597309884403"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309884403\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "CARACARA",
+      "productId": "3074457345626143203",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 28800,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 48000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28800,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 48000,
+          "divisor": 100
+        }
+      },
+      "name": "Claire tiered floral-print cotton-poplin midi dress",
+      "partNumber": "1647597308892669",
+      "shortDescription": "Claire tiered floral-print cotton-poplin midi dress",
+      "designerNameEN": "CARA CARA",
+      "seo": {
+        "seoURLKeyword": "\/cara-cara\/clothing\/midi-dresses\/claire-tiered-floral-print-cotton-poplin-midi-dress\/1647597308892669"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "CARA CARA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597308892669\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163717",
+      "shortDescription": "Printed silk-twill wide-leg pants",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-97",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677134"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 34200,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 57000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 34200,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 57000,
+          "divisor": 100
+        }
+      },
+      "name": "Printed silk-twill wide-leg pants",
+      "partNumber": "1647597309197160",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/wide-leg\/printed-silk-twill-wide-leg-pants\/1647597309197160"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197160\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163747",
+      "shortDescription": "San Carlo printed silk-twill top",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2607",
+            "labelEN": "Blouses",
+            "label": "Blouses",
+            "categoryId": "3074457345616677146"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 28200,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 47000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28200,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 47000,
+          "divisor": 100
+        }
+      },
+      "name": "San Carlo printed silk-twill top",
+      "partNumber": "1647597309197296",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/blouses\/san-carlo-printed-silk-twill-top\/1647597309197296"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197296\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ALEXANDERMCQUEEN",
+      "productId": "3074457345626507721",
+      "shortDescription": "Gathered printed faille mini dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALEXANDER MCQUEEN",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 167000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 167000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Gathered printed faille mini dress",
+      "partNumber": "1647597315345047",
+      "designerNameEN": "ALEXANDER MCQUEEN",
+      "seo": {
+        "seoURLKeyword": "\/alexander-mcqueen\/clothing\/mini-dresses\/gathered-printed-faille-mini-dress\/1647597315345047"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315345047\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "STELLAMCCARTNEY",
+      "productId": "3074457345626501745",
+      "price": {
+        "sellingPrice": {
+          "amount": 199000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 199000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315262684",
+      "shortDescription": "+ NET SUSTAIN sequin-embellished printed organic silk crepe de chine midi dress",
+      "designerNameEN": "STELLA MCCARTNEY",
+      "seo": {
+        "seoURLKeyword": "\/stella-mccartney\/clothing\/midi-dresses\/plus-net-sustain-sequin-embellished-printed-organic-silk-crepe-de-chine-midi-dress\/1647597315262684"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "STELLA MCCARTNEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315262684\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "ZIMMERMANN",
+      "productId": "3074457345627193749",
+      "price": {
+        "sellingPrice": {
+          "amount": 180000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 180000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326830667",
+      "shortDescription": "Matchmaker belted floral-print linen and silk-blend midi dress",
+      "designerNameEN": "ZIMMERMANN",
+      "seo": {
+        "seoURLKeyword": "\/zimmermann\/clothing\/midi-dresses\/matchmaker-belted-floral-print-linen-and-silk-blend-midi-dress\/1647597326830667"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZIMMERMANN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326830667\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "ZIMMERMANN",
+      "productId": "3074457345627193809",
+      "price": {
+        "sellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 55000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326830721",
+      "shortDescription": "Matchmaker floral-print linen mini dress",
+      "designerNameEN": "ZIMMERMANN",
+      "seo": {
+        "seoURLKeyword": "\/zimmermann\/clothing\/mini-dresses\/matchmaker-floral-print-linen-mini-dress\/1647597326830721"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZIMMERMANN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326830721\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177423",
+      "price": {
+        "sellingPrice": {
+          "amount": 66000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 66000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562495",
+      "shortDescription": "Mare strapless printed tulle maxi dress",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/coverups\/mare-strapless-printed-tulle-maxi-dress\/1647597326562495"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562495\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2625",
+            "labelEN": "T-Shirts",
+            "label": "T-Shirts",
+            "categoryId": "3074457345616677153"
+          }
+        }
+      },
+      "designerIdentifier": "BALENCIAGA",
+      "productId": "3074457345627519225",
+      "price": {
+        "sellingPrice": {
+          "amount": 65000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 65000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597332662438",
+      "shortDescription": "Printed stretch-cotton jersey T-shirt",
+      "designerNameEN": "BALENCIAGA",
+      "seo": {
+        "seoURLKeyword": "\/balenciaga\/clothing\/t-shirts\/printed-stretch-cotton-jersey-t-shirt\/1647597332662438"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BALENCIAGA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597332662438\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "PIPPAHOLT",
+      "productId": "3074457345622252228",
+      "shortDescription": "+ NET SUSTAIN embroidered cotton-blend huipil",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PIPPA HOLT",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 43500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 43500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "+ NET SUSTAIN embroidered cotton-blend huipil",
+      "partNumber": "24772899113590632",
+      "designerNameEN": "PIPPA HOLT",
+      "seo": {
+        "seoURLKeyword": "\/pippa-holt\/clothing\/coverups\/plus-net-sustain-embroidered-cotton-blend-huipil\/24772899113590632"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/24772899113590632\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "designerIdentifier": "BODE",
+      "productId": "3074457345626343208",
+      "price": {
+        "sellingPrice": {
+          "amount": 50000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 50000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597311240805",
+      "shortDescription": "Tumbler embroidered cotton-poplin shirt",
+      "designerNameEN": "BODE",
+      "seo": {
+        "seoURLKeyword": "\/bode\/clothing\/shirts\/tumbler-embroidered-cotton-poplin-shirt\/1647597311240805"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BODE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311240805\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2200",
+            "labelEN": "Bikini Bottoms",
+            "label": "Bikini Bottoms",
+            "categoryId": "3074457345616677144"
+          }
+        }
+      },
+      "designerIdentifier": "MELISSAODABASH",
+      "productId": "3074457345625760206",
+      "price": {
+        "sellingPrice": {
+          "amount": 12600,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 12600,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597303230675",
+      "shortDescription": "Malta printed bikini briefs",
+      "designerNameEN": "MELISSA ODABASH",
+      "seo": {
+        "seoURLKeyword": "\/melissa-odabash\/clothing\/bikini-bottoms\/malta-printed-bikini-briefs\/1647597303230675"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MELISSA ODABASH",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303230675\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2197",
+            "labelEN": "Bikini Tops",
+            "label": "Bikini Tops",
+            "categoryId": "3074457345616677143"
+          }
+        }
+      },
+      "designerIdentifier": "MELISSAODABASH",
+      "productId": "3074457345625760230",
+      "price": {
+        "sellingPrice": {
+          "amount": 12600,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 12600,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597303230696",
+      "shortDescription": "Malta printed triangle bikini top",
+      "designerNameEN": "MELISSA ODABASH",
+      "seo": {
+        "seoURLKeyword": "\/melissa-odabash\/clothing\/bikini-tops\/malta-printed-triangle-bikini-top\/1647597303230696"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MELISSA ODABASH",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303230696\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177448",
+      "price": {
+        "sellingPrice": {
+          "amount": 43000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 43000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562736",
+      "shortDescription": "Mare open-back striped metallic crochet-knit swimsuit",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/one-piece\/mare-open-back-striped-metallic-crochet-knit-swimsuit\/1647597326562736"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562736\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "designerIdentifier": "BALENCIAGA",
+      "productId": "3074457345627519256",
+      "price": {
+        "sellingPrice": {
+          "amount": 109000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 109000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597332662609",
+      "shortDescription": "Oversized printed cotton-jersey hoodie",
+      "designerNameEN": "BALENCIAGA",
+      "seo": {
+        "seoURLKeyword": "\/balenciaga\/clothing\/sweatshirts\/oversized-printed-cotton-jersey-hoodie\/1647597332662609"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BALENCIAGA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597332662609\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "VALENTINOGARAVANI",
+      "productId": "3074457345626308007",
+      "price": {
+        "sellingPrice": {
+          "amount": 740000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 740000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597310897425",
+      "shortDescription": "Off-the-shoulder silk-taffeta gown",
+      "designerNameEN": "VALENTINO GARAVANI",
+      "seo": {
+        "seoURLKeyword": "\/valentino-garavani\/clothing\/gowns\/off-the-shoulder-silk-taffeta-gown\/1647597310897425"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VALENTINO GARAVANI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597310897425\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "designerIdentifier": "LOEWE",
+      "productId": "3074457345626025239",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 90000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 150000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 90000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 150000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597306824301",
+      "shortDescription": "Maruja Mallo printed silk-satin shirt",
+      "designerNameEN": "LOEWE",
+      "seo": {
+        "seoURLKeyword": "\/loewe\/clothing\/shirts\/maruja-mallo-printed-silk-satin-shirt\/1647597306824301"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LOEWE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597306824301\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163725",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 17400,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 29000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 17400,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 29000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597309197299",
+      "shortDescription": "Goddess one-shoulder printed stretch swimsuit",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/one-piece\/goddess-one-shoulder-printed-stretch-swimsuit\/1647597309197299"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197299\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "ALEXANDERMCQUEEN",
+      "productId": "3074457345626507759",
+      "price": {
+        "sellingPrice": {
+          "amount": 370000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 370000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315355372",
+      "shortDescription": "Cold-shoulder printed draped cotton-poplin midi dress",
+      "designerNameEN": "ALEXANDER MCQUEEN",
+      "seo": {
+        "seoURLKeyword": "\/alexander-mcqueen\/clothing\/midi-dresses\/cold-shoulder-printed-draped-cotton-poplin-midi-dress\/1647597315355372"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALEXANDER MCQUEEN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315355372\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "designerIdentifier": "ERDEM",
+      "productId": "3074457345626690675",
+      "price": {
+        "sellingPrice": {
+          "amount": 89500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 89500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318337282",
+      "shortDescription": "Floral-print linen midi dress",
+      "designerNameEN": "ERDEM",
+      "seo": {
+        "seoURLKeyword": "\/erdem\/clothing\/midi-dresses\/floral-print-linen-midi-dress\/1647597318337282"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERDEM",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318337282\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "JOHANNAORTIZ",
+      "productId": "3074457345626928209",
+      "price": {
+        "sellingPrice": {
+          "amount": 76000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 76000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597321756494",
+      "shortDescription": "+ NET SUSTAIN Ocean Clan embroidered organic linen-blend mini dress",
+      "designerNameEN": "JOHANNA ORTIZ",
+      "seo": {
+        "seoURLKeyword": "\/johanna-ortiz\/clothing\/coverups\/plus-net-sustain-ocean-clan-embroidered-organic-linen-blend-mini-dress\/1647597321756494"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JOHANNA ORTIZ",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597321756494\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "HAIGHT",
+      "productId": "3074457345627178823",
+      "price": {
+        "sellingPrice": {
+          "amount": 19000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 19000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326578406",
+      "shortDescription": "+ NET SUSTAIN Monica swimsuit",
+      "designerNameEN": "HAIGHT",
+      "seo": {
+        "seoURLKeyword": "\/haight\/clothing\/one-piece\/plus-net-sustain-monica-swimsuit\/1647597326578406"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "HAIGHT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326578406\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177425",
+      "price": {
+        "sellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562613",
+      "shortDescription": "Mare tiered striped mesh maxi dress",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/coverups\/mare-tiered-striped-mesh-maxi-dress\/1647597326562613"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562613\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177431",
+      "price": {
+        "sellingPrice": {
+          "amount": 71000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 71000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562705",
+      "shortDescription": "Mare one-shoulder striped metallic crochet-knit maxi dress",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/coverups\/mare-one-shoulder-striped-metallic-crochet-knit-maxi-dress\/1647597326562705"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562705\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177443",
+      "price": {
+        "sellingPrice": {
+          "amount": 81000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 81000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562773",
+      "shortDescription": "Mare twist-front metallic crochet-knit kaftan",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/coverups\/mare-twist-front-metallic-crochet-knit-kaftan\/1647597326562773"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562773\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163719",
+      "shortDescription": "Ariel printed cotton and silk-blend voile maxi skirt",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-95",
+            "labelEN": "Maxi",
+            "label": "Maxi",
+            "categoryId": "3074457345616677139"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 29400,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 49000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 29400,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 49000,
+          "divisor": 100
+        }
+      },
+      "name": "Ariel printed cotton and silk-blend voile maxi skirt",
+      "partNumber": "1647597309197144",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/maxi\/ariel-printed-cotton-and-silk-blend-voile-maxi-skirt\/1647597309197144"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197144\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1943",
+            "labelEN": "Pants",
+            "label": "Pants",
+            "categoryId": "3074457345616677056"
+          }
+        }
+      },
+      "designerIdentifier": "GOLDBERGH",
+      "productId": "3074457345626668215",
+      "price": {
+        "sellingPrice": {
+          "amount": 48900,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 48900,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318015619",
+      "shortDescription": "Supernova belted printed bootcut ski pants",
+      "designerNameEN": "GOLDBERGH",
+      "seo": {
+        "seoURLKeyword": "\/goldbergh\/sport\/pants\/supernova-belted-printed-bootcut-ski-pants\/1647597318015619"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GOLDBERGH",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318015619\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1940",
+            "labelEN": "Outerwear",
+            "label": "Outerwear",
+            "categoryId": "3074457345616677053"
+          }
+        }
+      },
+      "designerIdentifier": "GOLDBERGH",
+      "productId": "3074457345626668227",
+      "price": {
+        "sellingPrice": {
+          "amount": 78900,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 78900,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318015498",
+      "shortDescription": "Lumina hooded quilted printed ski jacket and mittens",
+      "designerNameEN": "GOLDBERGH",
+      "seo": {
+        "seoURLKeyword": "\/goldbergh\/sport\/outerwear\/lumina-hooded-quilted-printed-ski-jacket-and-mittens\/1647597318015498"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GOLDBERGH",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318015498\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-97",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677134"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177419",
+      "price": {
+        "sellingPrice": {
+          "amount": 68000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 68000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562711",
+      "shortDescription": "Striped cotton and silk-blend voile wide-leg pants",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/wide-leg\/striped-cotton-and-silk-blend-voile-wide-leg-pants\/1647597326562711"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562711\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-97",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677134"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177420",
+      "price": {
+        "sellingPrice": {
+          "amount": 68000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 68000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326574488",
+      "shortDescription": "Striped metallic crochet-knit wide-leg pants",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/wide-leg\/striped-metallic-crochet-knit-wide-leg-pants\/1647597326574488"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326574488\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-125",
+            "labelEN": "Bikinis",
+            "label": "Bikinis",
+            "categoryId": "3074457345616677141"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177432",
+      "price": {
+        "sellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 40000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562643",
+      "shortDescription": "Mare striped metallic crochet-knit bikini",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/bikinis\/mare-striped-metallic-crochet-knit-bikini\/1647597326562643"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562643\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-1113",
+          "labelEN": "Jumpsuits",
+          "label": "Jumpsuits",
+          "categoryId": "3074457345616676743",
+          "child": {
+            "identifier": "NAP-3-1113-1117",
+            "labelEN": "Full Length",
+            "label": "Full Length",
+            "categoryId": "3074457345616677106"
+          }
+        }
+      },
+      "designerIdentifier": "MISSONI",
+      "productId": "3074457345627177458",
+      "price": {
+        "sellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 85000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326562991",
+      "shortDescription": "Mare striped crochet-knit halterneck jumpsuit",
+      "designerNameEN": "MISSONI",
+      "seo": {
+        "seoURLKeyword": "\/missoni\/clothing\/full-length\/mare-striped-crochet-knit-halterneck-jumpsuit\/1647597326562991"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MISSONI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326562991\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LADOUBLEJ",
+      "productId": "3074457345626163724",
+      "shortDescription": "Biennale tie-detailed tiered printed poplin midi dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LA DOUBLEJ",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1304",
+            "labelEN": "Midi Dresses",
+            "label": "Midi Dresses",
+            "categoryId": "3074457345616677119"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 53400,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 89000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 53400,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 89000,
+          "divisor": 100
+        }
+      },
+      "name": "Biennale tie-detailed tiered printed poplin midi dress",
+      "partNumber": "1647597309197192",
+      "designerNameEN": "LA DOUBLEJ",
+      "seo": {
+        "seoURLKeyword": "\/la-doublej\/clothing\/midi-dresses\/biennale-tie-detailed-tiered-printed-poplin-midi-dress\/1647597309197192"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597309197192\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-124",
+            "labelEN": "One-Piece",
+            "label": "One-Piece",
+            "categoryId": "3074457345616677140"
+          }
+        }
+      },
+      "designerIdentifier": "MAXMARA",
+      "productId": "3074457345625782703",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 13500,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 22500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 13500,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 22500,
+          "divisor": 100
+        }
+      },
+      "name": "Chrissy cutout printed stretch swimsuit",
+      "partNumber": "1647597303515421",
+      "shortDescription": "Chrissy cutout printed stretch swimsuit",
+      "designerNameEN": "MAX MARA",
+      "seo": {
+        "seoURLKeyword": "\/max-mara\/clothing\/one-piece\/chrissy-cutout-printed-stretch-swimsuit\/1647597303515421"
+      },
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MAX MARA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303515421\/{view}\/w{width}.jpg"
+    }
+  ]
+}
