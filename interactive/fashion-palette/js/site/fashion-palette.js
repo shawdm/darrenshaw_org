@@ -1,12 +1,9 @@
-const LIVE_DATA = true;
-
 const PARAM_NAME_X_IBM_CLIENT_ID = "x-ibm-client-id";
 const PARAM_VALUE_X_IBM_CLIENT_ID = "95f14cbd-793e-46ec-9f76-6fac2fbb6683";
 const PARAM_NAME_X_API_CLIENT_ID = "x-api-key";
 const PARAM_VALUE_X_API_CLIENT_ID = "4jr30M2Yh94DIq4QV3hDj9C0VsqwAYTR3yB64KpA";
 const PRODUCT_SUMMARY_URL = "https://ecomm.ynap.biz/api/nap/search/resources/store/nap_gb/productview/summary";
 const COLOUR_SEARCH_URL = "https://nu8k1onnk8.execute-api.us-east-1.amazonaws.com/api/nap/coloursearch";
-const OFFLINE_DATA_URL = "/interactive/fashion-palette/offline";
 
 const DEFAULT_COLOURS = ['#fff','#fff','#fff','#fff','#fff'];
 
@@ -251,62 +248,6 @@ function renderPaletteDescription(elementId, colours, colourNames){
 }
 
 
-// OFFLINE VERSION
-function loadBlackProductsOffline(){
-    renderPlaceholderProducts('nap-products-black', 20)
-    getNearestProductsOffline('black',20)
-        .then(products => renderClusters('nap-products-black',products, false, false));
-}
-
-function loadRedProductsOffline(){
-    renderPlaceholderProducts('nap-products-red', 20);
-    getNearestProductsOffline('red',20)
-        .then(products => renderClusters('nap-products-red',products, false, false));
-}
-
-function loadMulticolourOffline(){
-    renderPlaceholderProducts('nap-products-multicolour', 20)
-    getNearestProductsOffline('missoni',20)
-        .then(products => renderClusters('nap-products-multicolour',products, false, false));
-}
-
-function loadStarrynightOffline(){
-    renderPlaceholderProducts('nap-products-starrynight', 20)
-    getNearestProductsOffline('starrynight',20)
-        .then(products => renderClusters('nap-products-starrynight',products, false, false));
-}
-
-
-function getNearestProductsOffline(neighboursId, size){
-    let neighboursUrl = OFFLINE_DATA_URL + "/neighbours-"+neighboursId+".json";
-
-    var requestOptions = {
-        method: 'GET',
-        redirect: 'follow'
-    };
-
-    return fetchRetry(neighboursUrl, requestOptions, 2)
-        .then(manageResponse)
-        .then(products => addProductDataOffline(products,neighboursId))
-        .then(products => products.slice(0,size))
-        .catch(error => console.log('Error in embeddingSearchNeighbours:', error));
-}
-
-function addProductDataOffline(neighbours, neighboursId){
-    let productsummaryUrl = OFFLINE_DATA_URL + "/product-"+neighboursId+".json";
-
-    var requestOptions = {
-        method: 'GET',
-        redirect: 'follow'
-    };
-
-    return fetch(productsummaryUrl, requestOptions)
-        .then(response => response.json())
-        .then(response => mergeNeighbourProductData(neighbours,response.products))
-        .catch(error => console.log('error', error));
-}
-
-
 // PAGE INIT
 function getParams(location) {
     const searchParams = new URLSearchParams(location.search);
@@ -316,16 +257,7 @@ function getParams(location) {
 }
 
 const params = getParams(window.location);
-
-if(LIVE_DATA){
-    loadBlackProducts(0);
-    loadRedProducts(0);
-    loadMulticolour(3000);
-    loadStarrynightProducts(4000);
-}
-else{
-    loadBlackProductsOffline();
-    loadRedProductsOffline();
-    loadMulticolourOffline();
-    loadStarrynightOffline();
-}
+loadBlackProducts(0);
+loadRedProducts(0);
+loadMulticolour(3000);
+loadStarrynightProducts(4000);

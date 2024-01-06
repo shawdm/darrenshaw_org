@@ -1,0 +1,3303 @@
+{
+  "recordSetCount": 59,
+  "resourceId": "\/search\/resources\/store\/NAP_GB\/productview\/summary\/byPartNumbers?pn=43769801095770189&pn=29419655932642505&pn=1647597317854903&pn=1647597325358242&pn=1647597325234829&pn=1647597315355369&pn=1647597291509910&pn=29419655932642149&pn=1647597307111278&pn=1647597324920504&pn=1647597326010165&pn=1647597326023115&pn=1647597326134504&pn=45666037504765691&pn=1647597313927105&pn=1647597317004602&pn=1647597307431408&pn=1647597320249533&pn=1647597307431544&pn=1647597307431593&pn=1647597325681461&pn=1647597311538549&pn=1647597315262559&pn=1647597323910971&pn=1647597303444161&pn=1647597313496931&pn=1647597324895153&pn=1647597325716101&pn=1647597311214260&pn=1647597316154646&pn=1647597331212087&pn=1647597295674133&pn=1647597305493260&pn=1647597298692431&pn=1647597316302815&pn=18706561956129025&pn=1647597306577112&pn=1647597289952854&pn=1647597308230029&pn=1647597325358240&pn=1647597319516081&pn=1647597314048275&pn=1647597308230068&pn=1647597319516084&pn=1647597313969731&pn=1647597316154707&pn=1647597325358245&pn=1647597333532440&pn=1647597305493268&pn=1647597295868158&pn=1647597324911165&pn=1647597315992948&pn=1647597313133412&pn=1647597327127319&pn=1647597318011121&pn=45666037504765652&pn=1647597311265802&pn=1647597317004609&pn=1647597325681683&pn=1647597319189151",
+  "recordSetTotal": 59,
+  "version": 1.7,
+  "recordSetComplete": "true",
+  "products": [
+    {
+      "designerIdentifier": "LOROPIANA",
+      "productId": "3074457345624099810",
+      "shortDescription": "Girocollo Valsesia wool sweater",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LORO PIANA",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 77000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 77000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Girocollo Valsesia wool sweater",
+      "partNumber": "45666037504765691",
+      "designerNameEN": "LORO PIANA",
+      "seo": {
+        "seoURLKeyword": "\/loro-piana\/clothing\/sweatshirts\/girocollo-valsesia-wool-sweater\/45666037504765691"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/45666037504765691\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ERES",
+      "productId": "3074457345626046234",
+      "shortDescription": "Coquette linen midi shirt dress",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-1214",
+        "labelEN": "Lingerie",
+        "label": "Lingerie",
+        "categoryId": "3074457345616676670",
+        "child": {
+          "identifier": "NAP-1214-2055",
+          "labelEN": "Loungewear",
+          "label": "Loungewear",
+          "categoryId": "3074457345616676708",
+          "child": {
+            "identifier": "NAP-1214-2055-2060",
+            "labelEN": "Dresses",
+            "label": "Dresses",
+            "categoryId": "3074457345616676864"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 41000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 41000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Coquette linen midi shirt dress",
+      "partNumber": "1647597307111278",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/lingerie\/dresses\/coquette-linen-midi-shirt-dress\/1647597307111278"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597307111278\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "designerIdentifier": "TOILEISABELMARANT",
+      "productId": "3074457345625095852",
+      "price": {
+        "sellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Eneidao frayed denim shorts",
+      "partNumber": "1647597289952854",
+      "shortDescription": "Eneidao frayed denim shorts",
+      "designerNameEN": "MARANT \u00c9TOILE",
+      "seo": {
+        "seoURLKeyword": "\/marant-etoile\/clothing\/short-and-mini\/eneidao-frayed-denim-shorts\/1647597289952854"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MARANT \u00c9TOILE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597289952854\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-1314",
+            "labelEN": "Midi",
+            "label": "Midi",
+            "categoryId": "3074457345616677136"
+          }
+        }
+      },
+      "designerIdentifier": "RAGANDBONE",
+      "productId": "3074457345626542722",
+      "price": {
+        "sellingPrice": {
+          "amount": 32500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 32500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597316154707",
+      "shortDescription": "Clara denim midi skirt",
+      "designerNameEN": "RAG & BONE",
+      "seo": {
+        "seoURLKeyword": "\/rag-bone\/clothing\/midi\/clara-denim-midi-skirt\/1647597316154707"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "RAG & BONE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316154707\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1305",
+            "labelEN": "Gowns",
+            "label": "Gowns",
+            "categoryId": "3074457345616677120"
+          }
+        }
+      },
+      "designerIdentifier": "ELIESAAB",
+      "productId": "3074457345626667678",
+      "price": {
+        "sellingPrice": {
+          "amount": 715000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 715000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597318011121",
+      "shortDescription": "Strapless embroidered sequin-embellished tulle gown",
+      "designerNameEN": "ELIE SAAB",
+      "seo": {
+        "seoURLKeyword": "\/elie-saab\/clothing\/gowns\/strapless-embroidered-sequin-embellished-tulle-gown\/1647597318011121"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ELIE SAAB",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597318011121\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "ETRO",
+      "productId": "3074457345627088218",
+      "price": {
+        "sellingPrice": {
+          "amount": 179000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 179000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597325358242",
+      "shortDescription": "Belted satin-trimmed velvet-jacquard cardigan",
+      "designerNameEN": "ETRO",
+      "seo": {
+        "seoURLKeyword": "\/etro\/clothing\/cardigans\/belted-satin-trimmed-velvet-jacquard-cardigan\/1647597325358242"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ETRO",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325358242\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-2562",
+            "labelEN": "Round Neck",
+            "label": "Round Neck",
+            "categoryId": "3074457345616695173"
+          }
+        }
+      },
+      "designerIdentifier": "GUESTINRESIDENCE",
+      "productId": "3074457345627140904",
+      "price": {
+        "sellingPrice": {
+          "amount": 34000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 34000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326023115",
+      "shortDescription": "Oversized cashmere sweater",
+      "designerNameEN": "GUEST IN RESIDENCE",
+      "seo": {
+        "seoURLKeyword": "\/guest-in-residence\/clothing\/round-neck\/oversized-cashmere-sweater\/1647597326023115"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GUEST IN RESIDENCE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326023115\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW DESIGNER",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_DESIGNER"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-110",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677103"
+          }
+        }
+      },
+      "designerIdentifier": "HAIKURE",
+      "productId": "3074457345627408186",
+      "price": {
+        "sellingPrice": {
+          "amount": 20500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 20500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597331212087",
+      "shortDescription": "Korea WB distressed boyfriend jeans",
+      "designerNameEN": "HAIKURE",
+      "seo": {
+        "seoURLKeyword": "\/haikure\/clothing\/wide-leg\/korea-wb-distressed-boyfriend-jeans\/1647597331212087"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "HAIKURE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597331212087\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "GOODAMERICAN",
+      "productId": "3074457345626056735",
+      "price": {
+        "sellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597307431408",
+      "shortDescription": "Good Boy high-rise straight-leg jeans",
+      "designerNameEN": "GOOD AMERICAN",
+      "seo": {
+        "seoURLKeyword": "\/good-american\/clothing\/straight-leg\/good-boy-high-rise-straight-leg-jeans\/1647597307431408"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GOOD AMERICAN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597307431408\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-104",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677100"
+          }
+        }
+      },
+      "designerIdentifier": "PAIGE",
+      "productId": "3074457345625932697",
+      "price": {
+        "sellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Genevieve mid-rise flared jeans",
+      "partNumber": "1647597305493260",
+      "shortDescription": "Genevieve mid-rise flared jeans",
+      "designerNameEN": "PAIGE",
+      "seo": {
+        "seoURLKeyword": "\/paige\/clothing\/flared\/genevieve-mid-rise-flared-jeans\/1647597305493260"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "PAIGE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597305493260\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ERES",
+      "productId": "3074457345626096179",
+      "shortDescription": "Samba Chicas lace-up striped coverup",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-128",
+            "labelEN": "Coverups",
+            "label": "Coverups",
+            "categoryId": "3074457345616677142"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Samba Chicas lace-up striped coverup",
+      "partNumber": "1647597308230068",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/clothing\/coverups\/samba-chicas-lace-up-striped-coverup\/1647597308230068"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597308230068\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-2162",
+            "labelEN": "Statement",
+            "label": "Statement",
+            "categoryId": "3074457345616677124"
+          }
+        }
+      },
+      "designerIdentifier": "GUCCI",
+      "productId": "3074457345626373361",
+      "price": {
+        "sellingPrice": {
+          "amount": 315000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 315000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597311538549",
+      "shortDescription": "Belted cotton-blend jacquard jacket",
+      "designerNameEN": "GUCCI",
+      "seo": {
+        "seoURLKeyword": "\/gucci\/clothing\/statement\/belted-cotton-blend-jacquard-jacket\/1647597311538549"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311538549\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "RAGANDBONE",
+      "productId": "3074457345626542717",
+      "price": {
+        "sellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597316154646",
+      "shortDescription": "Logan distressed high-rise wide-leg jeans",
+      "designerNameEN": "RAG & BONE",
+      "seo": {
+        "seoURLKeyword": "\/rag-bone\/clothing\/straight-leg\/logan-distressed-high-rise-wide-leg-jeans\/1647597316154646"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "RAG & BONE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316154646\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "ZIMMERMANN",
+      "productId": "3074457345626555251",
+      "price": {
+        "rdDiscount": {
+          "amount": 3000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 45500,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 65000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 45500,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 3000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 65000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597316302815",
+      "shortDescription": "Ruched tulle mini dress",
+      "designerNameEN": "ZIMMERMANN",
+      "seo": {
+        "seoURLKeyword": "\/zimmermann\/clothing\/mini-dresses\/ruched-tulle-mini-dress\/1647597316302815"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ZIMMERMANN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597316302815\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-90",
+            "labelEN": "Casual Jackets",
+            "label": "Casual Jackets",
+            "categoryId": "3074457345616677126"
+          }
+        }
+      },
+      "designerIdentifier": "VERSACE",
+      "productId": "3074457345626771701",
+      "price": {
+        "sellingPrice": {
+          "amount": 102000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 102000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597319516081",
+      "shortDescription": "Icons denim jacket",
+      "designerNameEN": "VERSACE",
+      "seo": {
+        "seoURLKeyword": "\/versace\/clothing\/casual-jackets\/icons-denim-jacket\/1647597319516081"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VERSACE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319516081\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-110",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677103"
+          }
+        }
+      },
+      "designerIdentifier": "SAINTLAURENT",
+      "productId": "3074457345626825851",
+      "price": {
+        "sellingPrice": {
+          "amount": 73000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 73000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597320249533",
+      "shortDescription": "High-rise wide-leg jeans",
+      "designerNameEN": "SAINT LAURENT",
+      "seo": {
+        "seoURLKeyword": "\/saint-laurent\/clothing\/wide-leg\/high-rise-wide-leg-jeans\/1647597320249533"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "SAINT LAURENT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597320249533\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-97",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677134"
+          }
+        }
+      },
+      "designerIdentifier": "ETRO",
+      "productId": "3074457345627088219",
+      "price": {
+        "sellingPrice": {
+          "amount": 89000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 89000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597325358245",
+      "shortDescription": "Paisley-print metallic fil coup\u00e9 silk-blend wide-leg pants",
+      "designerNameEN": "ETRO",
+      "seo": {
+        "seoURLKeyword": "\/etro\/clothing\/wide-leg\/paisley-print-metallic-fil-coupe-silk-blend-wide-leg-pants\/1647597325358245"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ETRO",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325358245\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "GIULIVAHERITAGE",
+      "productId": "3074457345627054703",
+      "price": {
+        "sellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 38000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597324920504",
+      "shortDescription": "The Dana high-rise straight-leg jeans",
+      "designerNameEN": "GIULIVA HERITAGE",
+      "seo": {
+        "seoURLKeyword": "\/giuliva-heritage\/clothing\/straight-leg\/the-dana-high-rise-straight-leg-jeans\/1647597324920504"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GIULIVA HERITAGE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597324920504\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "ROTATE",
+      "productId": "3074457345627596383",
+      "price": {
+        "sellingPrice": {
+          "amount": 23000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 23000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597333532440",
+      "shortDescription": "Sequined high-rise boucl\u00e9 straight-leg jeans",
+      "designerNameEN": "ROTATE BIRGER CHRISTENSEN",
+      "seo": {
+        "seoURLKeyword": "\/rotate-birger-christensen\/clothing\/straight-leg\/sequined-high-rise-boucle-straight-leg-jeans\/1647597333532440"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "ROTATE BIRGER CHRISTENSEN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597333532440\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "designerIdentifier": "AGOLDE",
+      "productId": "3074457345625997174",
+      "price": {
+        "sellingPrice": {
+          "amount": 18000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 18000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Parker distressed denim shorts",
+      "partNumber": "1647597306577112",
+      "shortDescription": "Parker distressed denim shorts",
+      "designerNameEN": "AGOLDE",
+      "seo": {
+        "seoURLKeyword": "\/agolde\/clothing\/short-and-mini\/parker-distressed-denim-shorts\/1647597306577112"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "AGOLDE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597306577112\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ERES",
+      "productId": "3074457345626096180",
+      "shortDescription": "Samba Vida eyelet-embellished striped bikini briefs",
+      "imageViews": [
+        "in",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ERES",
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-25",
+          "labelEN": "Beachwear",
+          "label": "Beachwear",
+          "categoryId": "3074457345616676750",
+          "child": {
+            "identifier": "NAP-3-25-2200",
+            "labelEN": "Bikini Bottoms",
+            "label": "Bikini Bottoms",
+            "categoryId": "3074457345616677144"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 35000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 35000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Samba Vida eyelet-embellished striped bikini briefs",
+      "partNumber": "1647597308230029",
+      "designerNameEN": "ERES",
+      "seo": {
+        "seoURLKeyword": "\/eres\/clothing\/bikini-bottoms\/samba-vida-eyelet-embellished-striped-bikini-briefs\/1647597308230029"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597308230029\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1940",
+            "labelEN": "Outerwear",
+            "label": "Outerwear",
+            "categoryId": "3074457345616677053"
+          }
+        }
+      },
+      "designerIdentifier": "PERFECTMOMENT",
+      "productId": "3074457345625328678",
+      "price": {
+        "sellingPrice": {
+          "amount": 69000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 69000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "DL1961 Nevada printed stretch-denim down ski jacket",
+      "partNumber": "1647597295674133",
+      "shortDescription": "DL1961 Nevada printed stretch-denim down ski jacket",
+      "designerNameEN": "PERFECT MOMENT",
+      "seo": {
+        "seoURLKeyword": "\/perfect-moment\/sport\/outerwear\/dl1961-nevada-printed-stretch-denim-down-ski-jacket\/1647597295674133"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PERFECT MOMENT",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597295674133\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "ALEXANDERMCQUEEN",
+      "productId": "3074457345626507756",
+      "shortDescription": "Belted leather and metallic tweed biker jacket",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ALEXANDER MCQUEEN",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-1370",
+            "labelEN": "Biker Jackets",
+            "label": "Biker Jackets",
+            "categoryId": "3074457345616677121"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 499000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 499000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Belted leather and metallic tweed biker jacket",
+      "partNumber": "1647597315355369",
+      "designerNameEN": "ALEXANDER MCQUEEN",
+      "seo": {
+        "seoURLKeyword": "\/alexander-mcqueen\/clothing\/biker-jackets\/belted-leather-and-metallic-tweed-biker-jacket\/1647597315355369"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315355369\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-106",
+            "labelEN": "Skinny Leg",
+            "label": "Skinny Leg",
+            "categoryId": "3074457345616677102"
+          }
+        }
+      },
+      "designerIdentifier": "MUGLER",
+      "productId": "3074457345626441726",
+      "price": {
+        "sellingPrice": {
+          "amount": 56000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 56000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597314048275",
+      "shortDescription": "Mid-rise flared jeans",
+      "designerNameEN": "MUGLER",
+      "seo": {
+        "seoURLKeyword": "\/mugler\/clothing\/skinny-leg\/mid-rise-flared-jeans\/1647597314048275"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MUGLER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597314048275\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-1379",
+            "labelEN": "Blazers",
+            "label": "Blazers",
+            "categoryId": "3074457345616677123"
+          }
+        }
+      },
+      "designerIdentifier": "COSTARELLOS",
+      "productId": "3074457345627223172",
+      "price": {
+        "sellingPrice": {
+          "amount": 81500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 81500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597327127319",
+      "shortDescription": "Satin-trimmed cotton-velvet blazer",
+      "designerNameEN": "COSTARELLOS",
+      "seo": {
+        "seoURLKeyword": "\/costarellos\/clothing\/blazers\/satin-trimmed-cotton-velvet-blazer\/1647597327127319"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "COSTARELLOS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597327127319\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2618",
+            "labelEN": "Shirts",
+            "label": "Shirts",
+            "categoryId": "3074457345616677150"
+          }
+        }
+      },
+      "designerIdentifier": "PURDEY",
+      "productId": "3074457345626347683",
+      "price": {
+        "sellingPrice": {
+          "amount": 19500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 19500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Embroidered cotton-chambray shirt",
+      "partNumber": "1647597311265802",
+      "shortDescription": "Embroidered cotton-chambray shirt",
+      "designerNameEN": "PURDEY",
+      "seo": {
+        "seoURLKeyword": "\/purdey\/clothing\/shirts\/embroidered-cotton-chambray-shirt\/1647597311265802"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PURDEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597311265802\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "GOODAMERICAN",
+      "productId": "3074457345626056743",
+      "price": {
+        "sellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597307431544",
+      "shortDescription": "Good 90s high-rise wide-leg jeans",
+      "designerNameEN": "GOOD AMERICAN",
+      "seo": {
+        "seoURLKeyword": "\/good-american\/clothing\/straight-leg\/good-90s-high-rise-wide-leg-jeans\/1647597307431544"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GOOD AMERICAN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597307431544\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-901",
+          "labelEN": "Shorts",
+          "label": "Shorts",
+          "categoryId": "3074457345616676753",
+          "child": {
+            "identifier": "NAP-3-901-902",
+            "labelEN": "Short and Mini",
+            "label": "Short and Mini",
+            "categoryId": "3074457345616677157"
+          }
+        }
+      },
+      "designerIdentifier": "PAIGE",
+      "productId": "3074457345625932699",
+      "price": {
+        "sellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Asher distressed denim shorts",
+      "partNumber": "1647597305493268",
+      "shortDescription": "Asher distressed denim shorts",
+      "designerNameEN": "PAIGE",
+      "seo": {
+        "seoURLKeyword": "\/paige\/clothing\/short-and-mini\/asher-distressed-denim-shorts\/1647597305493268"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "PAIGE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597305493268\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "TRENDING NOW",
+          "type": "MERCHANDISING",
+          "key": "BADGE_TRENDING_NOW"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-97",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677134"
+          }
+        }
+      },
+      "designerIdentifier": "JEANPAULGAULTIER",
+      "productId": "3074457345626434221",
+      "price": {
+        "sellingPrice": {
+          "amount": 75285,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 75300,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597313927105",
+      "shortDescription": "Paneled denim and pinstriped wool-blend wide-leg pants",
+      "designerNameEN": "JEAN PAUL GAULTIER",
+      "seo": {
+        "seoURLKeyword": "\/jean-paul-gaultier\/clothing\/wide-leg\/paneled-denim-and-pinstriped-wool-blend-wide-leg-pants\/1647597313927105"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JEAN PAUL GAULTIER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597313927105\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "designerIdentifier": "JAMESPERSE",
+      "productId": "3074457345626592675",
+      "price": {
+        "sellingPrice": {
+          "amount": 23933,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 24000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597317004609",
+      "shortDescription": "Cotton-terry hoodie",
+      "designerNameEN": "JAMES PERSE",
+      "seo": {
+        "seoURLKeyword": "\/james-perse\/clothing\/sweatshirts\/cotton-terry-hoodie\/1647597317004609"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JAMES PERSE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597317004609\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-14",
+          "labelEN": "Knitwear",
+          "label": "Knitwear",
+          "categoryId": "3074457345616676744",
+          "child": {
+            "identifier": "NAP-3-14-119",
+            "labelEN": "Cardigans",
+            "label": "Cardigans",
+            "categoryId": "3074457345616695171"
+          }
+        }
+      },
+      "designerIdentifier": "ACNESTUDIOS",
+      "productId": "3074457345627080337",
+      "price": {
+        "sellingPrice": {
+          "amount": 30000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 30000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Appliqu\u00e9d wool cardigan",
+      "partNumber": "1647597325234829",
+      "shortDescription": "Appliqu\u00e9d wool cardigan",
+      "designerNameEN": "ACNE STUDIOS",
+      "seo": {
+        "seoURLKeyword": "\/acne-studios\/clothing\/cardigans\/appliqued-wool-cardigan\/1647597325234829"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ACNE STUDIOS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325234829\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LOROPIANA",
+      "productId": "3074457345624099790",
+      "shortDescription": "Reversible belted cashmere coat",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "LORO PIANA",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-16",
+          "labelEN": "Coats",
+          "label": "Coats",
+          "categoryId": "3074457345616676745",
+          "child": {
+            "identifier": "NAP-3-16-77",
+            "labelEN": "Long",
+            "label": "Long",
+            "categoryId": "3074457345616677113"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 523000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 523000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Reversible belted cashmere coat",
+      "partNumber": "45666037504765652",
+      "designerNameEN": "LORO PIANA",
+      "seo": {
+        "seoURLKeyword": "\/loro-piana\/clothing\/long\/reversible-belted-cashmere-coat\/45666037504765652"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/45666037504765652\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-90",
+            "labelEN": "Casual Jackets",
+            "label": "Casual Jackets",
+            "categoryId": "3074457345616677126"
+          }
+        }
+      },
+      "designerIdentifier": "GUCCI",
+      "productId": "3074457345623202670",
+      "price": {
+        "sellingPrice": {
+          "amount": 210000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 210000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Jumbo GG denim-jacquard jacket",
+      "partNumber": "29419655932642505",
+      "shortDescription": "Jumbo GG denim-jacquard jacket",
+      "designerNameEN": "GUCCI",
+      "seo": {
+        "seoURLKeyword": "\/gucci\/clothing\/casual-jackets\/jumbo-gg-denim-jacquard-jacket\/29419655932642505"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "GUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/29419655932642505\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-94",
+            "labelEN": "Mini",
+            "label": "Mini",
+            "categoryId": "3074457345616677138"
+          }
+        }
+      },
+      "designerIdentifier": "VERSACE",
+      "productId": "3074457345626771686",
+      "price": {
+        "sellingPrice": {
+          "amount": 61000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 61000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597319516084",
+      "shortDescription": "Icons embellished denim mini skirt",
+      "designerNameEN": "VERSACE",
+      "seo": {
+        "seoURLKeyword": "\/versace\/clothing\/mini\/icons-embellished-denim-mini-skirt\/1647597319516084"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VERSACE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319516084\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-2103",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677132"
+          }
+        }
+      },
+      "designerIdentifier": "POLORALPHLAUREN",
+      "productId": "3074457345627053746",
+      "price": {
+        "sellingPrice": {
+          "amount": 45000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 45000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597324911165",
+      "shortDescription": "Tartan wool flared pants",
+      "designerNameEN": "POLO RALPH LAUREN",
+      "seo": {
+        "seoURLKeyword": "\/polo-ralph-lauren\/clothing\/flared\/tartan-wool-flared-pants\/1647597324911165"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "POLO RALPH LAUREN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597324911165\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-95",
+            "labelEN": "Maxi",
+            "label": "Maxi",
+            "categoryId": "3074457345616677139"
+          }
+        }
+      },
+      "designerIdentifier": "ETRO",
+      "productId": "3074457345627088210",
+      "price": {
+        "sellingPrice": {
+          "amount": 148500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 148500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597325358240",
+      "shortDescription": "Paisley-print metallic fil coup\u00e9 silk-blend maxi skirt",
+      "designerNameEN": "ETRO",
+      "seo": {
+        "seoURLKeyword": "\/etro\/clothing\/maxi\/paisley-print-metallic-fil-coupe-silk-blend-maxi-skirt\/1647597325358240"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ETRO",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325358240\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-1314",
+            "labelEN": "Midi",
+            "label": "Midi",
+            "categoryId": "3074457345616677136"
+          }
+        }
+      },
+      "designerIdentifier": "VERONICABEARD",
+      "productId": "3074457345627151120",
+      "price": {
+        "sellingPrice": {
+          "amount": 35000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 35000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326134504",
+      "shortDescription": "Limani ruched floral-print georgette maxi skirt",
+      "designerNameEN": "VERONICA BEARD",
+      "seo": {
+        "seoURLKeyword": "\/veronica-beard\/clothing\/midi\/limani-ruched-floral-print-georgette-maxi-skirt\/1647597326134504"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "VERONICA BEARD",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326134504\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-103",
+            "labelEN": "Bootcut",
+            "label": "Bootcut",
+            "categoryId": "3074457345616677099"
+          }
+        }
+      },
+      "designerIdentifier": "PAIGE",
+      "productId": "3074457345625184207",
+      "price": {
+        "sellingPrice": {
+          "amount": 24000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 24000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Manhattan high-rise bootcut jeans",
+      "partNumber": "1647597291509910",
+      "shortDescription": "Manhattan high-rise bootcut jeans",
+      "designerNameEN": "PAIGE",
+      "seo": {
+        "seoURLKeyword": "\/paige\/clothing\/bootcut\/manhattan-high-rise-bootcut-jeans\/1647597291509910"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "PAIGE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597291509910\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "LOROPIANA",
+      "productId": "3074457345625777343",
+      "shortDescription": "Striped silk and cotton-blend top",
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "LORO PIANA",
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 122000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 122000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Striped silk and cotton-blend top",
+      "partNumber": "1647597303444161",
+      "designerNameEN": "LORO PIANA",
+      "seo": {
+        "seoURLKeyword": "\/loro-piana\/clothing\/sweatshirts\/striped-silk-and-cotton-blend-top\/1647597303444161"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597303444161\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-2103",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677132"
+          }
+        }
+      },
+      "designerIdentifier": "FRAME",
+      "productId": "3074457345625517237",
+      "price": {
+        "sellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 22000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597298692431",
+      "shortDescription": "Jetset stretch-denim flared pants",
+      "designerNameEN": "FRAME",
+      "seo": {
+        "seoURLKeyword": "\/frame\/clothing\/flared\/jetset-stretch-denim-flared-pants\/1647597298692431"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "FRAME",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597298692431\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-2081",
+            "labelEN": "Slim Leg",
+            "label": "Slim Leg",
+            "categoryId": "3074457345616695169"
+          }
+        }
+      },
+      "designerIdentifier": "MOTHER",
+      "productId": "3074457345625343225",
+      "price": {
+        "sellingPrice": {
+          "amount": 27000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 27000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597295868158",
+      "shortDescription": "+ NET SUSTAIN The Tomcat Hover high-rise straight leg jeans",
+      "designerNameEN": "MOTHER",
+      "seo": {
+        "seoURLKeyword": "\/mother\/clothing\/slim-leg\/plus-net-sustain-the-tomcat-hover-high-rise-straight-leg-jeans\/1647597295868158"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MOTHER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597295868158\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "Low stock",
+          "type": "STOCK",
+          "key": "BADGE_LOW_STOCK"
+        },
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        },
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-89",
+            "labelEN": "Smart",
+            "label": "Smart",
+            "categoryId": "3074457345616677125"
+          }
+        }
+      },
+      "designerIdentifier": "SACAI",
+      "productId": "3074457345626435207",
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 105000,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 175000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 105000,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 175000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597313969731",
+      "shortDescription": "Double-breasted faux fur jacket",
+      "designerNameEN": "SACAI",
+      "seo": {
+        "seoURLKeyword": "\/sacai\/clothing\/smart\/double-breasted-faux-fur-jacket\/1647597313969731"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu",
+        "sw"
+      ],
+      "designerName": "SACAI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597313969731\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "RUNWAY",
+          "type": "MERCHANDISING",
+          "key": "BADGE_RUNWAY"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-23",
+          "labelEN": "Skirts",
+          "label": "Skirts",
+          "categoryId": "3074457345616676749",
+          "child": {
+            "identifier": "NAP-3-23-95",
+            "labelEN": "Maxi",
+            "label": "Maxi",
+            "categoryId": "3074457345616677139"
+          }
+        }
+      },
+      "designerIdentifier": "STELLAMCCARTNEY",
+      "productId": "3074457345626501729",
+      "price": {
+        "sellingPrice": {
+          "amount": 69000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 69000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597315262559",
+      "shortDescription": "+ NET SUSTAIN paneled denim and wool-twill maxi skirt",
+      "designerNameEN": "STELLA MCCARTNEY",
+      "seo": {
+        "seoURLKeyword": "\/stella-mccartney\/clothing\/maxi\/plus-net-sustain-paneled-denim-and-wool-twill-maxi-skirt\/1647597315262559"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "rw",
+        "cu"
+      ],
+      "designerName": "STELLA MCCARTNEY",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315262559\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "REDONE",
+      "productId": "3074457345626530685",
+      "price": {
+        "sellingPrice": {
+          "amount": 27500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 27500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "+ NET SUSTAIN 90s High Rise Loose distressed straight-leg jeans",
+      "partNumber": "1647597315992948",
+      "shortDescription": "90s Loose high-rise straight-leg jeans",
+      "designerNameEN": "RE\/DONE",
+      "seo": {
+        "seoURLKeyword": "\/redone\/clothing\/straight-leg\/90s-loose-high-rise-straight-leg-jeans\/1647597315992948"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "RE\/DONE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597315992948\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-26",
+          "labelEN": "Tops",
+          "label": "Tops",
+          "categoryId": "3074457345616676751",
+          "child": {
+            "identifier": "NAP-3-26-2621",
+            "labelEN": "Sweatshirts",
+            "label": "Sweatshirts",
+            "categoryId": "3074457345616677151"
+          }
+        }
+      },
+      "designerIdentifier": "BALENCIAGA",
+      "productId": "3074457345626745215",
+      "price": {
+        "sellingPrice": {
+          "amount": 115000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 115000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597319189151",
+      "shortDescription": "Oversized distressed printed cotton-jersey hoodie",
+      "designerNameEN": "BALENCIAGA",
+      "seo": {
+        "seoURLKeyword": "\/balenciaga\/clothing\/sweatshirts\/oversized-distressed-printed-cotton-jersey-hoodie\/1647597319189151"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "BALENCIAGA",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597319189151\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-1379",
+            "labelEN": "Blazers",
+            "label": "Blazers",
+            "categoryId": "3074457345616677123"
+          }
+        }
+      },
+      "designerIdentifier": "DIANEVONFURSTENBERG",
+      "productId": "3074457345626414681",
+      "price": {
+        "sellingPrice": {
+          "amount": 58000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 58000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597313496931",
+      "shortDescription": "Double-breasted printed velvet blazer",
+      "designerNameEN": "DIANE VON FURSTENBERG",
+      "seo": {
+        "seoURLKeyword": "\/diane-von-furstenberg\/clothing\/blazers\/double-breasted-printed-velvet-blazer\/1647597313496931"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "DIANE VON FURSTENBERG",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597313496931\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "COPERNI",
+      "productId": "3074457345627022197",
+      "price": {
+        "sellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597323910971",
+      "shortDescription": "High-rise straight-leg jeans",
+      "designerNameEN": "COPERNI",
+      "seo": {
+        "seoURLKeyword": "\/coperni\/clothing\/straight-leg\/high-rise-straight-leg-jeans\/1647597323910971"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "COPERNI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597323910971\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "AGOLDE",
+      "productId": "3074457345627051723",
+      "price": {
+        "sellingPrice": {
+          "amount": 29000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 29000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597324895153",
+      "shortDescription": "Harper mid-rise straight-leg jeans",
+      "designerNameEN": "AGOLDE",
+      "seo": {
+        "seoURLKeyword": "\/agolde\/clothing\/straight-leg\/harper-mid-rise-straight-leg-jeans\/1647597324895153"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "AGOLDE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597324895153\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-101",
+            "labelEN": "Track Pants",
+            "label": "Track Pants",
+            "categoryId": "3074457345616677129"
+          }
+        }
+      },
+      "designerIdentifier": "JAMESPERSE",
+      "productId": "3074457345626592680",
+      "price": {
+        "sellingPrice": {
+          "amount": 15500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 15500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Cropped Supima cotton-terry track pants",
+      "partNumber": "1647597317004602",
+      "shortDescription": "French cotton-terry sweatpants",
+      "designerNameEN": "JAMES PERSE",
+      "seo": {
+        "seoURLKeyword": "\/james-perse\/clothing\/track-pants\/french-cotton-terry-sweatpants\/1647597317004602"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "JAMES PERSE",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597317004602\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "MONCLERGENIUS",
+      "productId": "3074457345623987269",
+      "shortDescription": "+ JW Anderson Dalby hooded faux leather-trimmed denim down vest",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "MONCLER GENIUS",
+      "badges": [
+        {
+          "label": "One left",
+          "type": "STOCK",
+          "key": "BADGE_ONLY_ONE_LEFT"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-19",
+          "labelEN": "Jackets",
+          "label": "Jackets",
+          "categoryId": "3074457345616676747",
+          "child": {
+            "identifier": "NAP-3-19-1371",
+            "labelEN": "Vests and Gilets",
+            "label": "Vests and Gilets",
+            "categoryId": "3074457345616677122"
+          }
+        }
+      },
+      "price": {
+        "sellingPrice": {
+          "amount": 126000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 126000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "+ JW Anderson Dalby hooded faux leather-trimmed denim down vest",
+      "partNumber": "43769801095770189",
+      "designerNameEN": "MONCLER GENIUS",
+      "seo": {
+        "seoURLKeyword": "\/moncler-genius\/clothing\/vests-and-gilets\/plus-jw-anderson-dalby-hooded-faux-leather-trimmed-denim-down-vest\/43769801095770189"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/43769801095770189\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "NEW TO SALE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_NEW_TO_SALE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-22",
+          "labelEN": "Pants",
+          "label": "Pants",
+          "categoryId": "3074457345616676748",
+          "child": {
+            "identifier": "NAP-3-22-2103",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677132"
+          }
+        }
+      },
+      "designerIdentifier": "ACNESTUDIOS",
+      "productId": "3074457345626380276",
+      "price": {
+        "rdDiscount": {
+          "amount": 3000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 29400,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 42000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 29400,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 3000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 42000,
+          "divisor": 100
+        }
+      },
+      "partNumber": "1647597313133412",
+      "shortDescription": "+ NET SUSTAIN pintucked recycled grain de poudre flared pants",
+      "designerNameEN": "ACNE STUDIOS",
+      "seo": {
+        "seoURLKeyword": "\/acne-studios\/clothing\/flared\/plus-net-sustain-pintucked-recycled-grain-de-poudre-flared-pants\/1647597313133412"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ACNE STUDIOS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597313133412\/{view}\/w{width}.jpg"
+    },
+    {
+      "designerIdentifier": "AGOLDE",
+      "productId": "3074457345621656674",
+      "shortDescription": "Riley cropped high-rise straight-leg organic jeans",
+      "seo_token_ntk": "riley-cropped-high-rise-straight-leg-organic-jeans-18706561956129025-1",
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "AGOLDE",
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "price": {
+        "rdDiscount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "sellingPrice": {
+          "amount": 16800,
+          "divisor": 100
+        },
+        "wasPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16800,
+          "divisor": 100
+        },
+        "discount": {
+          "amount": 4000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        },
+        "rdWasPrice": {
+          "amount": 28000,
+          "divisor": 100
+        }
+      },
+      "name": "Riley cropped high-rise straight-leg organic jeans",
+      "partNumber": "18706561956129025",
+      "designerNameEN": "AGOLDE",
+      "seo": {
+        "seoURLKeyword": "\/agolde\/clothing\/straight-leg\/riley-cropped-high-rise-straight-leg-organic-jeans\/18706561956129025"
+      },
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/18706561956129025\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-104",
+            "labelEN": "Flared",
+            "label": "Flared",
+            "categoryId": "3074457345616677100"
+          }
+        }
+      },
+      "designerIdentifier": "FRAME",
+      "productId": "3074457345627109262",
+      "price": {
+        "sellingPrice": {
+          "amount": 27000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 27000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Le High Flare high-rise jeans",
+      "partNumber": "1647597325681461",
+      "shortDescription": "Le High high-rise flared jeans",
+      "designerNameEN": "FRAME",
+      "seo": {
+        "seoURLKeyword": "\/frame\/clothing\/flared\/le-high-high-rise-flared-jeans\/1647597325681461"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "FRAME",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325681461\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "GUCCI",
+      "productId": "3074457345622836316",
+      "price": {
+        "sellingPrice": {
+          "amount": 81000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 81000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "name": "Jumbo GG denim-jacquard high-rise straight-leg jeans",
+      "partNumber": "29419655932642149",
+      "shortDescription": "Jumbo GG denim-jacquard high-rise straight-leg jeans",
+      "designerNameEN": "GUCCI",
+      "seo": {
+        "seoURLKeyword": "\/gucci\/clothing\/straight-leg\/jumbo-gg-denim-jacquard-high-rise-straight-leg-jeans\/29419655932642149"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GUCCI",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/29419655932642149\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-110",
+            "labelEN": "Wide Leg",
+            "label": "Wide Leg",
+            "categoryId": "3074457345616677103"
+          }
+        }
+      },
+      "designerIdentifier": "FRAME",
+      "productId": "3074457345627109236",
+      "price": {
+        "sellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 28000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597325681683",
+      "shortDescription": "Le Palazzo high-rise wide-leg jeans",
+      "designerNameEN": "FRAME",
+      "seo": {
+        "seoURLKeyword": "\/frame\/clothing\/wide-leg\/le-palazzo-high-rise-wide-leg-jeans\/1647597325681683"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "FRAME",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325681683\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "GOODAMERICAN",
+      "productId": "3074457345626056740",
+      "price": {
+        "sellingPrice": {
+          "amount": 17000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 17000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597307431593",
+      "shortDescription": "Good Skate recycled high-rise wide-leg jeans",
+      "designerNameEN": "GOOD AMERICAN",
+      "seo": {
+        "seoURLKeyword": "\/good-american\/clothing\/straight-leg\/good-skate-recycled-high-rise-wide-leg-jeans\/1647597307431593"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "GOOD AMERICAN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597307431593\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-1911",
+        "labelEN": "Sport",
+        "label": "Sport",
+        "categoryId": "3074457345616676672",
+        "child": {
+          "identifier": "NAP-1911-1919",
+          "labelEN": "Ski",
+          "label": "Ski",
+          "categoryId": "3074457345616676737",
+          "child": {
+            "identifier": "NAP-1911-1919-1945",
+            "labelEN": "Baselayer",
+            "label": "Baselayer",
+            "categoryId": "3074457345616677058"
+          }
+        }
+      },
+      "designerIdentifier": "WENORWEGIANS",
+      "productId": "3074457345626658200",
+      "price": {
+        "sellingPrice": {
+          "amount": 15950,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 16000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597317854903",
+      "shortDescription": "Voss merino wool-blend piqu\u00e9 ski top",
+      "designerNameEN": "WE NORWEGIANS",
+      "seo": {
+        "seoURLKeyword": "\/we-norwegians\/sport\/baselayer\/voss-merino-wool-blend-pique-ski-top\/1647597317854903"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "WE NORWEGIANS",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597317854903\/{view}\/w{width}.jpg"
+    },
+    {
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-10",
+          "labelEN": "Jeans",
+          "label": "Jeans",
+          "categoryId": "3074457345616676742",
+          "child": {
+            "identifier": "NAP-3-10-105",
+            "labelEN": "Straight Leg",
+            "label": "Straight Leg",
+            "categoryId": "3074457345616677101"
+          }
+        }
+      },
+      "designerIdentifier": "MOTHER",
+      "productId": "3074457345627140791",
+      "price": {
+        "sellingPrice": {
+          "amount": 37000,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 37000,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597326010165",
+      "shortDescription": "+ NET SUSTAIN The Private Double Pocket Skimp paneled jeans",
+      "designerNameEN": "MOTHER",
+      "seo": {
+        "seoURLKeyword": "\/mother\/clothing\/straight-leg\/plus-net-sustain-the-private-double-pocket-skimp-paneled-jeans\/1647597326010165"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "fr",
+        "bk",
+        "cu",
+        "e1",
+        "sw"
+      ],
+      "designerName": "MOTHER",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597326010165\/{view}\/w{width}.jpg"
+    },
+    {
+      "badges": [
+        {
+          "label": "EXCLUSIVE",
+          "type": "MERCHANDISING",
+          "key": "BADGE_EXCLUSIVE"
+        }
+      ],
+      "masterCategory": {
+        "identifier": "NAP-3",
+        "labelEN": "Clothing",
+        "label": "Clothing",
+        "categoryId": "3074457345616676673",
+        "child": {
+          "identifier": "NAP-3-17",
+          "labelEN": "Dresses",
+          "label": "Dresses",
+          "categoryId": "3074457345616676746",
+          "child": {
+            "identifier": "NAP-3-17-1302",
+            "labelEN": "Mini Dresses",
+            "label": "Mini Dresses",
+            "categoryId": "3074457345616677117"
+          }
+        }
+      },
+      "designerIdentifier": "ANDREWGN",
+      "productId": "3074457345627111263",
+      "price": {
+        "sellingPrice": {
+          "amount": 280500,
+          "divisor": 100
+        },
+        "rdSellingPrice": {
+          "amount": 280500,
+          "divisor": 100
+        },
+        "currency": {
+          "symbol": "\u00a3",
+          "label": "GBP"
+        }
+      },
+      "partNumber": "1647597325716101",
+      "shortDescription": "Crystal-embellished crepe turtleneck mini dress",
+      "designerNameEN": "ANDREW GN",
+      "seo": {
+        "seoURLKeyword": "\/andrew-gn\/clothing\/mini-dresses\/crystal-embellished-crepe-turtleneck-mini-dress\/1647597325716101"
+      },
+      "imageViews": [
+        "in",
+        "ou",
+        "bk",
+        "cu",
+        "sw"
+      ],
+      "designerName": "ANDREW GN",
+      "imageTemplate": "\/\/www.net-a-porter.com\/variants\/images\/1647597325716101\/{view}\/w{width}.jpg"
+    }
+  ]
+}
