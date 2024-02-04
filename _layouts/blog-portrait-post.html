@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- layout blog-photo-post -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+  </head>
+
+  <body>
+
+    {% include header.html %}
+   
+    <article class="blog-portrait">
+        {{ page.content }}
+    </article>
+
+    {% include archive.html %}
+
+    {% include about.html %}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

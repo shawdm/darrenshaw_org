@@ -1,0 +1,67 @@
+---
+layout: blog-portrait-post
+title:  "Eric"
+date_written: 2024-02-03 13:00:00 +0000
+location: Winchester, UK
+categories: blog
+tags: [front, photo]
+excerpt: Even more portaits with Eric, this time from January 2024.
+---
+<section>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5872-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
+
+<section class="title">
+    <h2>January<b>2024</b></h2>
+    <h1>Eric</h1>
+</section>
+
+<section>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5995-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
+
+<section class='layout-third'>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5883-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5862-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5888-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
+
+<section>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5981-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5962-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
+
+<section class='layout-half'>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5978-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5998-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
+
+<section>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS6113-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS5923-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+    <p>
+        {% include image_absolute.html path='images/1540/2024/eric-jan/DMS6059-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+    </p>
+</section>
