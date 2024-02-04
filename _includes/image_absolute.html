@@ -1,5 +1,15 @@
-<img
-  src='{{site.absolute_url}}/{{include.path}}'
+{% if jekyll.environment == "dev" %}
+  <img
+  src='/{{include.path}}'
   alt='{{include.alt}}'
   title='{{include.title}}'
-/>
+  />
+{% else %}
+  <img
+    src='{{site.absolute_url}}/{{include.path}}'
+    alt='{{include.alt}}'
+    title='{{include.title}}'
+  />
+{% endif %}
+
+

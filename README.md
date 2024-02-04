@@ -15,6 +15,7 @@ Resized images need to be added to the `300` and `2720` subdirectories which are
 
 The `sized` directory which is published to site stores images that should not be resized.
 
+Filenames cannot start with `_`.
 
 # Development
 ## OSX Prereqs
@@ -25,10 +26,13 @@ The `sized` directory which is published to site stores images that should not b
 ## Startup
 ```
 bundle install
-bundle exec jekyll serve --drafts
+JEKYLL_ENV=dev  bundle exec jekyll serve --drafts
 ```
 
 Will start the site on: ``http://localhost:4000``
+
+The setting JEKYLL_ENV to dev means relative image URLs will be generated. For production absolute URLs are used to ensure images load in RSS readers.
+
 
 # Deployment
 ```
@@ -36,4 +40,9 @@ make
 ```
 
 # Todo
-* Add a favicon
+* Add a favicon.
+* Merge `blog-photo-post` with `blog-photo-portait` layouts and css.
+* Remove unneeded files from s3
+* Add title to Valencia images.
+* Styling of Twombly to be in site style.
+* Update README image instructions.
