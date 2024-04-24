@@ -1,0 +1,42 @@
+<html>
+<!-- layout interactive-music-library -->
+{% include version.html %}
+
+<head>
+  {% include head-core.html %}
+  <link rel='stylesheet' href='{{"/interactive/music-library/css/site-1.0.0.css" | prepend:site.baseurl}}' />
+</head>
+
+<body>
+
+  <!-- only need to add when this is no longer the home page -->
+  {% include header.html %}
+
+  <article class='music-library'>
+    
+    <section class="grid title">
+      
+        <h2>Music Library</h2>
+      
+    </section>
+   
+    <section class="grid">
+      <div id="popular" class="graphic"></div>
+      <div id="album" class="graphic"></div>
+    </section>
+      
+  </article>
+
+  {% include archive.html %}
+  
+  {% include about.html %}
+
+  {% include footer.html %}
+
+  <script src='{{"/interactive/music-library/js/p5.min.js" | prepend:site.baseurl}}'></script>
+  <script src='{{"/interactive/music-library/js/p5.svg.js" | prepend:site.baseurl}}'></script>
+  <!-- <script src='{{"/interactive/music-library/js/popular.js" | prepend:site.baseurl}}'></script> -->
+  <script src='{{"/interactive/music-library/js/album.js" | prepend:site.baseurl}}'></script>
+</body>
+
+</html>

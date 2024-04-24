@@ -6,6 +6,7 @@ all:  buildSite deploy
 buildSite:
 	bundle exec jekyll clean
 	bundle exec jekyll build
+	rm -fr _site/data
 
 deploy:
 	@if [ $(BRANCH) = "master" ]; \

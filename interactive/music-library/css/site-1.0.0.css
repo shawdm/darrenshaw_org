@@ -1,0 +1,30 @@
+/* for header.html include */
+.header{
+    background-color: #6b6b70;
+}
+
+a.title{
+    background-color: #6b6b70;
+}
+/* end for header.html include */
+
+
+article.music-library {
+    font-weight: 400;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #222;
+    color: #ccc;
+}
+
+
+article.music-library .graphic{
+    grid-column: 1 / span 12;
+}
+
+
+article.music-library h2{
+    grid-column: 1 / span 12;
+}

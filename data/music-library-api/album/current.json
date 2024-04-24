@@ -1,0 +1,2746 @@
+{
+    "albums": [
+        {
+            "id": "1Mo4aZ8pdj6L1jx8zSwJnt",
+            "name": "THE TORTURED POETS DEPARTMENT",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2024
+        },
+        {
+            "id": "2yboV2QBcVGEhcRlYuPpDT",
+            "name": "Loose",
+            "artists": [
+                {
+                    "id": "2jw70GZXlAI8QzWeY2bgRc",
+                    "name": "Nelly Furtado"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a6f439c8957170652f9410e2",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a6f439c8957170652f9410e2",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2006
+        },
+        {
+            "id": "3DxR2xJJfAGJlbArx7wAgm",
+            "name": "Only By The Night",
+            "artists": [
+                {
+                    "id": "2qk9voo8llSGYcZ6xrBzKx",
+                    "name": "Kings of Leon"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27379b30684a8e0dd83917c7cc5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0279b30684a8e0dd83917c7cc5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485179b30684a8e0dd83917c7cc5",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2008
+        },
+        {
+            "id": "5yuG2LEkf7QA9ZGIXldCmy",
+            "name": "Recomposed By Max Richter: Vivaldi, The Four Seasons",
+            "artists": [
+                {
+                    "id": "2VZNmg4vCnew4Pavo8zDdW",
+                    "name": "Max Richter"
+                },
+                {
+                    "id": "59r5UU2HOytn9V5uMZ5Vur",
+                    "name": "Daniel Hope"
+                },
+                {
+                    "id": "19z3Is8jPDFmLphrQ2w2Du",
+                    "name": "Konzerthaus Kammerorchester Berlin"
+                },
+                {
+                    "id": "1pNP4idjNnhPXDLi0Jz12R",
+                    "name": "Andre de Ridder"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737ead2c02fb48674b6bac7cc4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027ead2c02fb48674b6bac7cc4",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517ead2c02fb48674b6bac7cc4",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2014
+        },
+        {
+            "id": "0JLN7JryQ2T7lBEYIrSQF1",
+            "name": "Sleep",
+            "artists": [
+                {
+                    "id": "2VZNmg4vCnew4Pavo8zDdW",
+                    "name": "Max Richter"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f8c65865f87dbcd6693856c9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f8c65865f87dbcd6693856c9",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f8c65865f87dbcd6693856c9",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2015
+        },
+        {
+            "id": "0OUOx6rJXtL66AzTnP9KUE",
+            "name": "THINK LATER",
+            "artists": [
+                {
+                    "id": "45dkTj5sMRSjrmBSBeiHym",
+                    "name": "Tate McRae"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27377eb7a5b9367de79c3b92a49",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0277eb7a5b9367de79c3b92a49",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485177eb7a5b9367de79c3b92a49",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "2fenSS68JI1h4Fo296JfGr",
+            "name": "folklore",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485195f754318336a07e85ec59bc",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "2Xoteh7uEpea4TohMxjtaq",
+            "name": "evermore",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27333b8541201f1ef38941024be",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0233b8541201f1ef38941024be",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485133b8541201f1ef38941024be",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "3q149oaxOiW9EoHXqM5nvO",
+            "name": "Don't Forget Me",
+            "artists": [
+                {
+                    "id": "4NZvixzsSefsNiIqXn0NDe",
+                    "name": "Maggie Rogers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273cbb095bd296832a6254f3f10",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02cbb095bd296832a6254f3f10",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851cbb095bd296832a6254f3f10",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2024
+        },
+        {
+            "id": "3U8n8LzBx2o9gYXvvNq4uH",
+            "name": "My 21st Century Blues",
+            "artists": [
+                {
+                    "id": "5KKpBU5eC2tJDzf0wmlRp2",
+                    "name": "RAYE"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0294e5237ce925531dbb38e75f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485194e5237ce925531dbb38e75f",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "4DGpT3ZtTOumlxhbmw69DD",
+            "name": "Reckless",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27375e086f5c2b7a5028b88038a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0275e086f5c2b7a5028b88038a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485175e086f5c2b7a5028b88038a",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "3vEiYqSfrz7tHnHq14XHQd",
+            "name": "Voyager - Essential Max Richter",
+            "artists": [
+                {
+                    "id": "2VZNmg4vCnew4Pavo8zDdW",
+                    "name": "Max Richter"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739906e7ba8214cab60e84fba7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029906e7ba8214cab60e84fba7",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519906e7ba8214cab60e84fba7",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2019
+        },
+        {
+            "id": "6BzxX6zkDsYKFJ04ziU5xQ",
+            "name": "COWBOY CARTER",
+            "artists": [
+                {
+                    "id": "6vWDO969PvNqNYHIOW5v0m",
+                    "name": "Beyoncé"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731572698fff8a1db257a53599",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021572698fff8a1db257a53599",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048511572698fff8a1db257a53599",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2024
+        },
+        {
+            "id": "5Ap3F8CxjjsQKZGASDcHNA",
+            "name": "Jagged Little Pill (2015 Remaster)",
+            "artists": [
+                {
+                    "id": "6ogn9necmbUdCppmNnGOdi",
+                    "name": "Alanis Morissette"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273242e643ea07118ecf677a6ef",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02242e643ea07118ecf677a6ef",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851242e643ea07118ecf677a6ef",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1995
+        },
+        {
+            "id": "0JGOiO34nwfUdDrD612dOp",
+            "name": "Happier Than Ever",
+            "artists": [
+                {
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022a038d3bf875d23e4aeaa84e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512a038d3bf875d23e4aeaa84e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "5EYKrEDnKhhcNxGedaRQeK",
+            "name": "eternal sunshine",
+            "artists": [
+                {
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2024
+        },
+        {
+            "id": "4CBUbnGFz2iKFJjYqRIwst",
+            "name": "Dive",
+            "artists": [
+                {
+                    "id": "5oOhM2DFWab8XhSdQiITry",
+                    "name": "Tycho"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e3685463e9a139c239030e31",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e3685463e9a139c239030e31",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e3685463e9a139c239030e31",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2011
+        },
+        {
+            "id": "2VeOtQQAJxR8VyvmoXqIbI",
+            "name": "Surrender",
+            "artists": [
+                {
+                    "id": "4NZvixzsSefsNiIqXn0NDe",
+                    "name": "Maggie Rogers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730fdfb62956211c999c39a5a3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020fdfb62956211c999c39a5a3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510fdfb62956211c999c39a5a3",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "06q6BDUpP6OS8Xnx3YC2M0",
+            "name": "Bell Bottom Country",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fab89700cf3b4ca3d6a3d93b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fab89700cf3b4ca3d6a3d93b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fab89700cf3b4ca3d6a3d93b",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "0bmiqbjKEu7qN1o7poiN1X",
+            "name": "Tough Love (Deluxe)",
+            "artists": [
+                {
+                    "id": "5Mq7iqCWBzofK39FBqblNc",
+                    "name": "Jessie Ware"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732dbf71c8b961ae579330f41f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022dbf71c8b961ae579330f41f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512dbf71c8b961ae579330f41f",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2014
+        },
+        {
+            "id": "3uJ6D2WOPdjwJ0SrsH9EiG",
+            "name": "In A Time Lapse",
+            "artists": [
+                {
+                    "id": "2uFUBdaVGtyMqckSeCl0Qj",
+                    "name": "Ludovico Einaudi"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736c8ef0538e04f2e28380dcc5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026c8ef0538e04f2e28380dcc5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516c8ef0538e04f2e28380dcc5",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2013
+        },
+        {
+            "id": "1nvzBC1M3dlCMIxfUCBhlO",
+            "name": "Singularity",
+            "artists": [
+                {
+                    "id": "7yxi31szvlbwvKq9dYOmFI",
+                    "name": "Jon Hopkins"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739d9126ec04bb005c687291a5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029d9126ec04bb005c687291a5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519d9126ec04bb005c687291a5",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2018
+        },
+        {
+            "id": "1rxWlYQcH945S3jpIMYR35",
+            "name": "Immunity",
+            "artists": [
+                {
+                    "id": "7yxi31szvlbwvKq9dYOmFI",
+                    "name": "Jon Hopkins"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273235e762de339c6076aa824dd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02235e762de339c6076aa824dd",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851235e762de339c6076aa824dd",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2013
+        },
+        {
+            "id": "1ZPtIPAHcNHgLuL0K6BzJN",
+            "name": "Orphée",
+            "artists": [
+                {
+                    "id": "3IpQziA6YwD53PQ5xbwgLF",
+                    "name": "Jóhann Jóhannsson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738988ae051bcdcab293a76f3d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028988ae051bcdcab293a76f3d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518988ae051bcdcab293a76f3d",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2016
+        },
+        {
+            "id": "5eg56dCpFn32neJak2vk0f",
+            "name": "Crazysexycool",
+            "artists": [
+                {
+                    "id": "0TImkz4nPqjegtVSMZnMRq",
+                    "name": "TLC"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a6125b1964a555892c49ea53",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a6125b1964a555892c49ea53",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a6125b1964a555892c49ea53",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1994
+        },
+        {
+            "id": "2Uc0HAF0Cj0LAgyzYZX5e3",
+            "name": "The Miseducation of Lauryn Hill",
+            "artists": [
+                {
+                    "id": "2Mu5NfyYm8n5iTomuKAEHl",
+                    "name": "Ms. Lauryn Hill"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739196fafd1d6160480d3df68a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029196fafd1d6160480d3df68a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519196fafd1d6160480d3df68a",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1998
+        },
+        {
+            "id": "0Fs1VrnUcbVxKW6Dbq7jyZ",
+            "name": "Bach: The Cello Suites - Recomposed by Peter Gregson",
+            "artists": [
+                {
+                    "id": "71tFaKKy6x1inyCFHjpzUE",
+                    "name": "Peter Gregson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736c160eb7d90a2c6890b91dae",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026c160eb7d90a2c6890b91dae",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516c160eb7d90a2c6890b91dae",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2018
+        },
+        {
+            "id": "1Su7jQECJV3scrqYw55XvD",
+            "name": "Deliverance",
+            "artists": [
+                {
+                    "id": "3RPYHNSwe3w0mtfJwKIN9P",
+                    "name": "Bubba Sparxxx"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e82286b51cca2e5643b14352",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e82286b51cca2e5643b14352",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e82286b51cca2e5643b14352",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2003
+        },
+        {
+            "id": "4FWvo9oS4gRgHtAwDwUjiO",
+            "name": "The Black Album",
+            "artists": [
+                {
+                    "id": "3nFkdlSjzX9mRTtwJOzDYB",
+                    "name": "JAY-Z"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c528802c308a1e0e4d9945dd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c528802c308a1e0e4d9945dd",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c528802c308a1e0e4d9945dd",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2003
+        },
+        {
+            "id": "0DBoWQ52XUHtrZQdfAqOVj",
+            "name": "Sometimes I Might Be Introvert",
+            "artists": [
+                {
+                    "id": "6eXZu6O7nAUA5z6vLV8NKI",
+                    "name": "Little Simz"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738880312891033e27f0e4341b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028880312891033e27f0e4341b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518880312891033e27f0e4341b",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "4Uv86qWpGTxf7fU7lG5X6F",
+            "name": "The College Dropout",
+            "artists": [
+                {
+                    "id": "5K4W6rqBFWDnAN6FQUkS6x",
+                    "name": "Kanye West"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0225b055377757b3cdd6f26b78",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485125b055377757b3cdd6f26b78",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2004
+        },
+        {
+            "id": "3C5uoP64tEWz65rtWYpMvi",
+            "name": "Folklore",
+            "artists": [
+                {
+                    "id": "2jw70GZXlAI8QzWeY2bgRc",
+                    "name": "Nelly Furtado"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730855cff08bf376324e78f9ec",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020855cff08bf376324e78f9ec",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510855cff08bf376324e78f9ec",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2003
+        },
+        {
+            "id": "2JLDMOX168DhnueBb946kw",
+            "name": "For Emma, Forever Ago",
+            "artists": [
+                {
+                    "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+                    "name": "Bon Iver"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736930babcd1f07e9def9e77b0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026930babcd1f07e9def9e77b0",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516930babcd1f07e9def9e77b0",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2008
+        },
+        {
+            "id": "6WCWxMMBOvsAQl1SLUTMup",
+            "name": "1989",
+            "artists": [
+                {
+                    "id": "2qc41rNTtdLK0tV3mJn2Pm",
+                    "name": "Ryan Adams"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27335fe4d58d3672cccfa9b3bbb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0235fe4d58d3672cccfa9b3bbb",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485135fe4d58d3672cccfa9b3bbb",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2015
+        },
+        {
+            "id": "4qkscHdLI9FsGy6HD20Z9L",
+            "name": "Ten Songs from Carnegie Hall",
+            "artists": [
+                {
+                    "id": "2qc41rNTtdLK0tV3mJn2Pm",
+                    "name": "Ryan Adams"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739e622dd3e35d7c317c053e37",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029e622dd3e35d7c317c053e37",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519e622dd3e35d7c317c053e37",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2015
+        },
+        {
+            "id": "3XCVHuvuKhqPY5sOFEw0Qv",
+            "name": "Coming Up (Remastered)",
+            "artists": [
+                {
+                    "id": "6PHIK3kjWggLtVygsOtpqS",
+                    "name": "Suede"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27306aaab327ebf489eb95ae643",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0206aaab327ebf489eb95ae643",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485106aaab327ebf489eb95ae643",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1996
+        },
+        {
+            "id": "1p1ZcTuiwQqh5RQmei6R6I",
+            "name": "Left of the Middle",
+            "artists": [
+                {
+                    "id": "0dlOr0VIysztGWvU1dpjmP",
+                    "name": "Natalie Imbruglia"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27353f9aa2f017eaa2309d8ed87",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0253f9aa2f017eaa2309d8ed87",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485153f9aa2f017eaa2309d8ed87",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1997
+        },
+        {
+            "id": "06SY6Ke6mXzZHhURLVU57R",
+            "name": "Teenage Dream",
+            "artists": [
+                {
+                    "id": "6jJ0s89eD6GaHleKKya26X",
+                    "name": "Katy Perry"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f619042d5f6b2149a4f5e0ca",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f619042d5f6b2149a4f5e0ca",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2010
+        },
+        {
+            "id": "3PogVmhNucYNfyywZvTd7F",
+            "name": "Recovery",
+            "artists": [
+                {
+                    "id": "7dGJo4pcD2V6oG8kP0tJRR",
+                    "name": "Eminem"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f20b0a39716f7958ddda8c16",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f20b0a39716f7958ddda8c16",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f20b0a39716f7958ddda8c16",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2010
+        },
+        {
+            "id": "5SxZmGwc4eJuPp6PcO4JgJ",
+            "name": "Deeper Well",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b598ad81e340f28f8b523c41",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b598ad81e340f28f8b523c41",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b598ad81e340f28f8b523c41",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2024
+        },
+        {
+            "id": "7vQRJ5q9b0c4gKrsh9yIhE",
+            "name": "Mid Air",
+            "artists": [
+                {
+                    "id": "3X2DdnmoANw8Rg8luHyZQb",
+                    "name": "Romy"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27335ba0d2342ebda40506ded9f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0235ba0d2342ebda40506ded9f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485135ba0d2342ebda40506ded9f",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "7nxjemFXgk7MH9ZeTulRNb",
+            "name": "Devotion - The Gold Edition",
+            "artists": [
+                {
+                    "id": "5Mq7iqCWBzofK39FBqblNc",
+                    "name": "Jessie Ware"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273bd9e1a8079bcb8b3791e4df9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02bd9e1a8079bcb8b3791e4df9",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851bd9e1a8079bcb8b3791e4df9",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2013
+        },
+        {
+            "id": "35S1JCj5paIfElT2GODl6x",
+            "name": "HOMECOMING: THE LIVE ALBUM",
+            "artists": [
+                {
+                    "id": "6vWDO969PvNqNYHIOW5v0m",
+                    "name": "Beyoncé"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738e525253c87c568cd84e491b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028e525253c87c568cd84e491b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518e525253c87c568cd84e491b",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2019
+        },
+        {
+            "id": "2UJwKSBUz6rtW4QLK74kQu",
+            "name": "BEYONCÉ [Platinum Edition]",
+            "artists": [
+                {
+                    "id": "6vWDO969PvNqNYHIOW5v0m",
+                    "name": "Beyoncé"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730d1d6e9325275f104f8e33f3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020d1d6e9325275f104f8e33f3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510d1d6e9325275f104f8e33f3",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2014
+        },
+        {
+            "id": "7ctCScnWG0nMedlfUiauOk",
+            "name": "Jay-Z Unplugged (Live On MTV Unplugged / 2001)",
+            "artists": [
+                {
+                    "id": "3nFkdlSjzX9mRTtwJOzDYB",
+                    "name": "JAY-Z"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27300ec30184bf13b6aad34a3a1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0200ec30184bf13b6aad34a3a1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485100ec30184bf13b6aad34a3a1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2001
+        },
+        {
+            "id": "0E4xv5gPjykrwBgBZzI8XG",
+            "name": "Back To Black (Deluxe Edition)",
+            "artists": [
+                {
+                    "id": "6Q192DXotxtaysaqNPy5yR",
+                    "name": "Amy Winehouse"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27376ffb5b5ab045d22c81235c1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0276ffb5b5ab045d22c81235c1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485176ffb5b5ab045d22c81235c1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2006
+        },
+        {
+            "id": "6yskFQZNlLYhkchAxELHi6",
+            "name": "Nebraska",
+            "artists": [
+                {
+                    "id": "3eqjTLE0HfPfh78zjh6TqT",
+                    "name": "Bruce Springsteen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738935cadb8e3e20d9fab4582e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028935cadb8e3e20d9fab4582e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518935cadb8e3e20d9fab4582e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1982
+        },
+        {
+            "id": "1hhz0ag2dAr0qw7W78smcT",
+            "name": "About Us",
+            "artists": [
+                {
+                    "id": "1Zz6NBe8UIZjm88TvehFtx",
+                    "name": "Le Youth"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b3a036162e4c2f4a95a215c2",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b3a036162e4c2f4a95a215c2",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b3a036162e4c2f4a95a215c2",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "7HWdGPosPkb9GY5MOgLgSW",
+            "name": "Awake",
+            "artists": [
+                {
+                    "id": "5oOhM2DFWab8XhSdQiITry",
+                    "name": "Tycho"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27344f450eee039b69359699765",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0244f450eee039b69359699765",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485144f450eee039b69359699765",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2014
+        },
+        {
+            "id": "7pAoYBc71YIalqSW5EmNd1",
+            "name": "Comfort Of Strangers",
+            "artists": [
+                {
+                    "id": "6cLEWhEKQl6nAvgr60M7zC",
+                    "name": "Beth Orton"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273334154f2dc45862a61706f7e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02334154f2dc45862a61706f7e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851334154f2dc45862a61706f7e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2006
+        },
+        {
+            "id": "0Q9wQEB1q2C8uHMQhCMtGZ",
+            "name": "Down The Way",
+            "artists": [
+                {
+                    "id": "4tvKz56Tr39bkhcQUTO0Xr",
+                    "name": "Angus & Julia Stone"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27372fe2d2befdc1990b43c9aa6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0272fe2d2befdc1990b43c9aa6",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485172fe2d2befdc1990b43c9aa6",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2010
+        },
+        {
+            "id": "2bYCNZfxZrTUv1CHXkz2d2",
+            "name": "Pink Friday 2",
+            "artists": [
+                {
+                    "id": "0hCNtLu0JehylgoiP8L4Gh",
+                    "name": "Nicki Minaj"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273651e1dbc0b5218f2306181a1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02651e1dbc0b5218f2306181a1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851651e1dbc0b5218f2306181a1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "6Pp6qGEywDdofgFC1oFbSH",
+            "name": "Punisher",
+            "artists": [
+                {
+                    "id": "1r1uxoy19fzMxunt3ONAkG",
+                    "name": "Phoebe Bridgers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a91b75c9ef65ed8d760ff600",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a91b75c9ef65ed8d760ff600",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a91b75c9ef65ed8d760ff600",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "0lzPMIAYhhUSD2BPT0VQWI",
+            "name": "Mr. Money With The Vibe",
+            "artists": [
+                {
+                    "id": "3a1tBryiczPAZpgoZN9Rzg",
+                    "name": "Asake"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731ee6732ccb8f07bd15b33beb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021ee6732ccb8f07bd15b33beb",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048511ee6732ccb8f07bd15b33beb",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "7f6xPqyaolTiziKf5R5Z0c",
+            "name": "Golden Hour",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732e35d25eb7288830d5540484",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022e35d25eb7288830d5540484",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512e35d25eb7288830d5540484",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2018
+        },
+        {
+            "id": "0EdtTRCl3J22AnWrNpH1w9",
+            "name": "Isles",
+            "artists": [
+                {
+                    "id": "73A3bLnfnz5BoQjb4gNCga",
+                    "name": "BICEP"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737002b491db4917f96f10283a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027002b491db4917f96f10283a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517002b491db4917f96f10283a",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "6LBK0pyzqO0W4ZzZz2KznI",
+            "name": "The Lemonade Stand",
+            "artists": [
+                {
+                    "id": "3TyeX0lk4B7k56ukfzEE0z",
+                    "name": "Tenille Townes"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27388dcf1aed39cb6315eb6c592",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0288dcf1aed39cb6315eb6c592",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485188dcf1aed39cb6315eb6c592",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "0HiZ8fNXwJOQcrf5iflrdz",
+            "name": "Endless Summer Vacation",
+            "artists": [
+                {
+                    "id": "5YGY8feqx7naU7z4HrwZM6",
+                    "name": "Miley Cyrus"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27358039b5147731b6e52202e46",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0258039b5147731b6e52202e46",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485158039b5147731b6e52202e46",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "6GhWU8SIWavH4IQAoeJazI",
+            "name": "Caution",
+            "artists": [
+                {
+                    "id": "4iHNK0tOyZPYnBU7nGAgpQ",
+                    "name": "Mariah Carey"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27325fc30d368f9d11d27faa43e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0225fc30d368f9d11d27faa43e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485125fc30d368f9d11d27faa43e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2018
+        },
+        {
+            "id": "2ttLsnGoW8PrCu4wYUO226",
+            "name": "The Emancipation of Mimi",
+            "artists": [
+                {
+                    "id": "4iHNK0tOyZPYnBU7nGAgpQ",
+                    "name": "Mariah Carey"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27391593c062e0c7c4a20e6eba1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0291593c062e0c7c4a20e6eba1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485191593c062e0c7c4a20e6eba1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2005
+        },
+        {
+            "id": "6hmmX5UP4rIvOpGSaPerV8",
+            "name": "Tracy Chapman",
+            "artists": [
+                {
+                    "id": "7oPgCQqMMXEXrNau5vxYZP",
+                    "name": "Tracy Chapman"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27390b8a540137ee2a718a369f9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0290b8a540137ee2a718a369f9",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485190b8a540137ee2a718a369f9",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1988
+        },
+        {
+            "id": "0AP5O47kJWlaKVnnybKvQI",
+            "name": "Everybody Else Is Doing It, So Why Can't We?",
+            "artists": [
+                {
+                    "id": "7t0rwkOPGlDPEhaOcVtOt9",
+                    "name": "The Cranberries"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f6325f361d7803ad0d908451",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f6325f361d7803ad0d908451",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f6325f361d7803ad0d908451",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1993
+        },
+        {
+            "id": "5xG9gJcs9ut3qDWezHUlsX",
+            "name": "Younger Now",
+            "artists": [
+                {
+                    "id": "5YGY8feqx7naU7z4HrwZM6",
+                    "name": "Miley Cyrus"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739012e092ad8ed4731ea11134",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029012e092ad8ed4731ea11134",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519012e092ad8ed4731ea11134",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2017
+        },
+        {
+            "id": "45wbw92Z6V8G8iPKFzSEPN",
+            "name": "SHE IS COMING",
+            "artists": [
+                {
+                    "id": "5YGY8feqx7naU7z4HrwZM6",
+                    "name": "Miley Cyrus"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734ddcd4e2f9e71125af2fa97c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024ddcd4e2f9e71125af2fa97c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514ddcd4e2f9e71125af2fa97c",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2019
+        },
+        {
+            "id": "6i7mF7whyRJuLJ4ogbH2wh",
+            "name": "One Thing At A Time",
+            "artists": [
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273705079df9a25a28b452c1fc9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851705079df9a25a28b452c1fc9",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "6IGpQUt0KNi5rBUXZZOFI6",
+            "name": "Same Trailer Different Park",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27327276e651476643cd5c10e71",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0227276e651476643cd5c10e71",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485127276e651476643cd5c10e71",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2013
+        },
+        {
+            "id": "4zEF7OsSjtoehhC67vmUFJ",
+            "name": "Montevallo",
+            "artists": [
+                {
+                    "id": "2kucQ9jQwuD8jWdtR9Ef38",
+                    "name": "Sam Hunt"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27385d2f007c47124459f06276e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0285d2f007c47124459f06276e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485185d2f007c47124459f06276e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2014
+        },
+        {
+            "id": "1xRcR4iSouBrfVhuqFkPAJ",
+            "name": "SOUTHSIDE",
+            "artists": [
+                {
+                    "id": "2kucQ9jQwuD8jWdtR9Ef38",
+                    "name": "Sam Hunt"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b5529363386deb522a4f586c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b5529363386deb522a4f586c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b5529363386deb522a4f586c",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "1bt6q2SruMsBtcerNVtpZB",
+            "name": "Rumours",
+            "artists": [
+                {
+                    "id": "08GQAI4eElDnROBrJRGE0X",
+                    "name": "Fleetwood Mac"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27357df7ce0eac715cf70e519a7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0257df7ce0eac715cf70e519a7",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485157df7ce0eac715cf70e519a7",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1977
+        },
+        {
+            "id": "17g3sAeWfpHSJlqMHuRAr6",
+            "name": "That! Feels Good!",
+            "artists": [
+                {
+                    "id": "5Mq7iqCWBzofK39FBqblNc",
+                    "name": "Jessie Ware"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f3a0088f5fc645693815c8ef",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f3a0088f5fc645693815c8ef",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f3a0088f5fc645693815c8ef",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "4zy14W6bIZQao37geZsdN8",
+            "name": "Foam",
+            "artists": [
+                {
+                    "id": "0ijZlfRS4zxGYWMxf8rvRN",
+                    "name": "Ulla"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737a95b265db93f6c2916bf781",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027a95b265db93f6c2916bf781",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517a95b265db93f6c2916bf781",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "0o9lEiGZLsVcfTwl6z77oB",
+            "name": "Paint My Bedroom Black",
+            "artists": [
+                {
+                    "id": "0nnYdIpahs41QiZ9MWp5Wx",
+                    "name": "Holly Humberstone"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730a81a4d2ba5d937a5d846a54",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020a81a4d2ba5d937a5d846a54",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510a81a4d2ba5d937a5d846a54",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "1u6xsrzOe8Kt0XRVzZYohw",
+            "name": "You & I",
+            "artists": [
+                {
+                    "id": "5CCwRZC6euC8Odo6y9X8jr",
+                    "name": "Rita Ora"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736eb67915f5021bea9e5c87c0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026eb67915f5021bea9e5c87c0",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516eb67915f5021bea9e5c87c0",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "7EnKDhVbHYKWOjTSQOjpRT",
+            "name": "Copycat Killer",
+            "artists": [
+                {
+                    "id": "1r1uxoy19fzMxunt3ONAkG",
+                    "name": "Phoebe Bridgers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c064561476f009b16709e4c9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c064561476f009b16709e4c9",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c064561476f009b16709e4c9",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2020
+        },
+        {
+            "id": "3WmujGwOS0ANHkJRnMH6n8",
+            "name": "Preacher’s Daughter",
+            "artists": [
+                {
+                    "id": "0avMDS4HyoCEP6RqZJWpY2",
+                    "name": "Ethel Cain"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ccd1887cc78b0bd55f54bbe1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ccd1887cc78b0bd55f54bbe1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ccd1887cc78b0bd55f54bbe1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "23Y5wdyP5byMFktZf8AcWU",
+            "name": "I AM...SASHA FIERCE",
+            "artists": [
+                {
+                    "id": "6vWDO969PvNqNYHIOW5v0m",
+                    "name": "Beyoncé"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e13de7b8662b085b0885ffef",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e13de7b8662b085b0885ffef",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e13de7b8662b085b0885ffef",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2008
+        },
+        {
+            "id": "1gIC63gC3B7o7FfpPACZQJ",
+            "name": "4",
+            "artists": [
+                {
+                    "id": "6vWDO969PvNqNYHIOW5v0m",
+                    "name": "Beyoncé"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ff5429125128b43572dbdccd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ff5429125128b43572dbdccd",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ff5429125128b43572dbdccd",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2011
+        },
+        {
+            "id": "1GIWJs7mEdzKym3tQ8QScJ",
+            "name": "TRUSTFALL",
+            "artists": [
+                {
+                    "id": "1KCSPY1glIKqW2TotWuXOR",
+                    "name": "P!nk"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735b8cf73dd4eebd286d9a2c78",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025b8cf73dd4eebd286d9a2c78",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515b8cf73dd4eebd286d9a2c78",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "2eGMoG8k6kEdieZXoEg1NZ",
+            "name": "KU:PALM",
+            "artists": [
+                {
+                    "id": "3hXDMlrPegHRO0zUvBsRSI",
+                    "name": "Photek"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f96b841c24336ee5c18b1022",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f96b841c24336ee5c18b1022",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f96b841c24336ee5c18b1022",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2012
+        },
+        {
+            "id": "22PkV1Le9P3X4RY4xtmK0q",
+            "name": "Desire, I Want To Turn Into You",
+            "artists": [
+                {
+                    "id": "4Ge8xMJNwt6EEXOzVXju9a",
+                    "name": "Caroline Polachek"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273de17893c581b6f4fbeba51e1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02de17893c581b6f4fbeba51e1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851de17893c581b6f4fbeba51e1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "39iamkNl07OMcr1AMKXtw9",
+            "name": "If You Wait (Deluxe Version)",
+            "artists": [
+                {
+                    "id": "3Bd1cgCjtCI32PYvDC3ynO",
+                    "name": "London Grammar"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273d954428ae165a1117d37b733",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02d954428ae165a1117d37b733",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851d954428ae165a1117d37b733",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2013
+        },
+        {
+            "id": "1o59UpKw81iHR0HPiSkJR0",
+            "name": "1989 (Taylor's Version) [Deluxe]",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273dc2bacae1dca83d26e2b1949",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02dc2bacae1dca83d26e2b1949",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851dc2bacae1dca83d26e2b1949",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "3BEDHGAd2zJh5dUL4dbmiw",
+            "name": "Humble Quest",
+            "artists": [
+                {
+                    "id": "6WY7D3jk8zTrHtmkqqo5GI",
+                    "name": "Maren Morris"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734e78f6837899f1c2d3e96e4e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024e78f6837899f1c2d3e96e4e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514e78f6837899f1c2d3e96e4e",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "6Zw6NKh3oIUhDRMOyBmsUU",
+            "name": "I See You",
+            "artists": [
+                {
+                    "id": "3iOvXCl6edW5Um0fXEBRXy",
+                    "name": "The xx"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fa132d6237850ac3f29e3af3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fa132d6237850ac3f29e3af3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fa132d6237850ac3f29e3af3",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2017
+        },
+        {
+            "id": "4SXTQ305LjMh2DBHA3CXIW",
+            "name": "Coexist",
+            "artists": [
+                {
+                    "id": "3iOvXCl6edW5Um0fXEBRXy",
+                    "name": "The xx"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739644aac468fd7844890974d3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029644aac468fd7844890974d3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519644aac468fd7844890974d3",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2012
+        },
+        {
+            "id": "7qxClQvz2eSkDB7CtFfPZH",
+            "name": "Rolling Up the Welcome Mat",
+            "artists": [
+                {
+                    "id": "3RqBeV12Tt7A8xH3zBDDUF",
+                    "name": "Kelsea Ballerini"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735dd0be885683aca03a996e88",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025dd0be885683aca03a996e88",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515dd0be885683aca03a996e88",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2023
+        },
+        {
+            "id": "1NAmidJlEaVgA3MpcPFYGq",
+            "name": "Lover",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2019
+        },
+        {
+            "id": "4hDok0OAJd57SGIT8xuWJH",
+            "name": "Fearless (Taylor's Version)",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a48964b5d9a3d6968ae3e0de",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a48964b5d9a3d6968ae3e0de",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "6kZ42qRrzov54LcAk4onW9",
+            "name": "Red (Taylor's Version)",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02318443aab3531a0558e79a4d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851318443aab3531a0558e79a4d",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "3Us57CjssWnHjTUIXBuIeH",
+            "name": "Bad (Remastered)",
+            "artists": [
+                {
+                    "id": "3fMbdgg4jU18AjLCKBhRSm",
+                    "name": "Michael Jackson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27362e97ae5072de10850578af5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0262e97ae5072de10850578af5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485162e97ae5072de10850578af5",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1987
+        },
+        {
+            "id": "2ANVost0y2y52ema1E9xAZ",
+            "name": "Thriller",
+            "artists": [
+                {
+                    "id": "3fMbdgg4jU18AjLCKBhRSm",
+                    "name": "Michael Jackson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02de437d960dda1ac0a3586d97",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851de437d960dda1ac0a3586d97",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1982
+        },
+        {
+            "id": "1Bwo9JkbVwxGyvtQNMRK21",
+            "name": "No Need To Argue (The Complete Sessions 1994-1995)",
+            "artists": [
+                {
+                    "id": "7t0rwkOPGlDPEhaOcVtOt9",
+                    "name": "The Cranberries"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0272d481a5999197ef5f42f796",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485172d481a5999197ef5f42f796",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1994
+        },
+        {
+            "id": "5q2iMctlDvEMYVIawF6Vop",
+            "name": "Actual Life 3 (January 1 - September 9 2022)",
+            "artists": [
+                {
+                    "id": "4oLeXFyACqeem2VImYeBFe",
+                    "name": "Fred again.."
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737622b889949b07f15c6b57e2",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027622b889949b07f15c6b57e2",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517622b889949b07f15c6b57e2",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "07w0rG5TETcyihsEIZR3qG",
+            "name": "SOS",
+            "artists": [
+                {
+                    "id": "7tYKF4w9nC0nq9CsPZTHyP",
+                    "name": "SZA"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485170dbc9f47669d120ad874ec1",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "6dVIqQ8qmQ5GBnJ9shOYGE",
+            "name": "OK Computer",
+            "artists": [
+                {
+                    "id": "4Z8W4fKeB5YxbusRsdQVPb",
+                    "name": "Radiohead"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c8b444df094279e70d0ed856",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c8b444df094279e70d0ed856",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1997
+        },
+        {
+            "id": "0qWcLfCZ8wtcoOdX14oGNI",
+            "name": "Stranger in the Alps",
+            "artists": [
+                {
+                    "id": "1r1uxoy19fzMxunt3ONAkG",
+                    "name": "Phoebe Bridgers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27368b90c3b34c3ac22856ddab8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0268b90c3b34c3ac22856ddab8",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485168b90c3b34c3ac22856ddab8",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2017
+        },
+        {
+            "id": "3LzKUdUTdJb6P7xGN6SotC",
+            "name": "Definitely Maybe",
+            "artists": [
+                {
+                    "id": "2DaxqgrOhkeH0fpeiQq2f4",
+                    "name": "Oasis"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737c8f18614002cc5542f6c7aa",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027c8f18614002cc5542f6c7aa",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517c8f18614002cc5542f6c7aa",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1994
+        },
+        {
+            "id": "2u30gztZTylY4RG7IvfXs8",
+            "name": "(What's The Story) Morning Glory?",
+            "artists": [
+                {
+                    "id": "2DaxqgrOhkeH0fpeiQq2f4",
+                    "name": "Oasis"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732f2eeee9b405f4d00428d84c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022f2eeee9b405f4d00428d84c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512f2eeee9b405f4d00428d84c",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1995
+        },
+        {
+            "id": "4cIAp0fnyPfICPqELp7LSH",
+            "name": "Pink Friday (Deluxe Edition)",
+            "artists": [
+                {
+                    "id": "0hCNtLu0JehylgoiP8L4Gh",
+                    "name": "Nicki Minaj"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731455defcb0b02a3d3a5388f7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021455defcb0b02a3d3a5388f7",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048511455defcb0b02a3d3a5388f7",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2010
+        },
+        {
+            "id": "5dGWwsZ9iB2Xc3UKR0gif2",
+            "name": "Justice",
+            "artists": [
+                {
+                    "id": "1uNFoZAHBGtllmzznpCI3s",
+                    "name": "Justin Bieber"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e6f407c7f3a0ec98845e4431",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2021
+        },
+        {
+            "id": "1pUJnA3OSbvVr5afqxNARZ",
+            "name": "Playboy",
+            "artists": [
+                {
+                    "id": "75VKfyoBlkmrJFDqo1o2VY",
+                    "name": "Fireboy DML"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a15480eec7fa4085d83ddb2d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a15480eec7fa4085d83ddb2d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a15480eec7fa4085d83ddb2d",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2022
+        },
+        {
+            "id": "0xWXamgZr4z2zSYrvcoOar",
+            "name": "Chaleur Humaine",
+            "artists": [
+                {
+                    "id": "04vj3iPUiVh5melWr0w3xT",
+                    "name": "Christine and the Queens"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c342e56ba3a3d3bc074f6c49",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c342e56ba3a3d3bc074f6c49",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c342e56ba3a3d3bc074f6c49",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2016
+        },
+        {
+            "id": "35UJLpClj5EDrhpNIi4DFg",
+            "name": "The Bends",
+            "artists": [
+                {
+                    "id": "4Z8W4fKeB5YxbusRsdQVPb",
+                    "name": "Radiohead"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029293c743fa542094336c5e12",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519293c743fa542094336c5e12",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1995
+        },
+        {
+            "id": "2vD3zSQr8hNlg0obNel4TE",
+            "name": "Camila",
+            "artists": [
+                {
+                    "id": "4nDoRrQiYLoBzwC5BhVJzF",
+                    "name": "Camila Cabello"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026eb0b9e73adcf04e4ed3eca4",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516eb0b9e73adcf04e4ed3eca4",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 2018
+        },
+        {
+            "id": "1p12OAWwudgMqfMzjMvl2a",
+            "name": "The Low End Theory",
+            "artists": [
+                {
+                    "id": "09hVIj6vWgoCDtT03h8ZCa",
+                    "name": "A Tribe Called Quest"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f38c6b37a21334e22005b1f7",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f38c6b37a21334e22005b1f7",
+                    "width": 64
+                }
+            ],
+            "genres": [],
+            "releaseYear": 1991
+        }
+    ]
+}
