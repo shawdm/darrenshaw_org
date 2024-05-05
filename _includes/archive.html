@@ -6,8 +6,23 @@
             </g>
         </svg>
     </div>
-    <div class='grid'>
+    <div class='menu'>
+        <a onclick="showArticlesArchive()">Articles</a>
+        <a onclick="showPhotoArchive()">Photos</a>
+    </div>
+    <div id='archive-articles' class='grid {% if page.layout == "photo-slideshow" %}hidden{% endif %}'>
     {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'blog'" %}
+        {% for post in all_posts limit:100 -%}
+        <div class='grid-item'>
+            <a href='{{ post.url }}' title='{{post.date_written | date: "%d %B %Y"}}'>
+                <h3>{{ post.title }}</h3>
+            </a>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+        </div>
+        {% endfor -%}
+    </div>    
+    <div id='archive-photos' class='grid {% if page.layout != "photo-slideshow" %}hidden{% endif %}'>
+    {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'photo'" %}
         {% for post in all_posts limit:100 -%}
         <div class='grid-item'>
             <a href='{{ post.url }}' title='{{post.date_written | date: "%d %B %Y"}}'>
