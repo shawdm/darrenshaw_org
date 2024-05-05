@@ -146,6 +146,33 @@ nav a {
   padding: 0;
 }
 
+
+/**
+* Reusable Classes 
+*/
+.background-black{
+  background-color: $black-color;
+  color: $white-color;
+}
+
+.background-white{
+  background-color: $black-color;
+  color: $white-color;
+}
+
+.padding-large{
+  padding: $spacing-unit-large;
+}
+
+.small-font{
+  font-size: $font-size-small;
+  line-height: 1rem;
+}
+
+.hidden{
+  display: none;
+}
+
 /**
 * About
 */
@@ -193,6 +220,24 @@ nav a {
 
   font-size: $font-size-small;
   line-height: 1rem;
+}
+
+.archive .menu{
+  text-align: center;
+  
+  padding-top: $spacing-unit-small;
+  padding-bottom: $spacing-unit-small;
+}
+
+.archive .menu a{
+  background-color: $white-color;
+  color: $black-color;
+  text-decoration: overline;
+}
+
+.archive .menu a:hover{
+  cursor: pointer;
+  text-decoration: overline;
 }
 
 .archive h3{
