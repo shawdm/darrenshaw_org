@@ -64,3 +64,21 @@ article.photo-slideshow .fade {
         opacity: 1
     }
 }
+
+@media (orientation: portrait) {
+
+    article.photo-slideshow {
+        padding: 0;
+    }
+
+    article.photo-slideshow .photo-slideshow-container {
+        height: auto;
+        width: 100%;
+    }
+
+    article.photo-slideshow .photo-slideshow-container img {
+        width: 100%;
+        height: auto;
+    }
+
+  }
