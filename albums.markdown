@@ -1,4 +1,0 @@
----
-layout: albums
-title: Albums
----

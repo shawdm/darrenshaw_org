@@ -184,11 +184,9 @@ section.federer-perspired h1, section.federer-perspired h2, section.federer-pers
  * Main content styling
  */
 section.federer-perspired {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-left: 10px;
   margin-right: 10px;
+  min-width: 600px;
 }
 
 .federer-perspired article {
