@@ -27,6 +27,6 @@ excerpt: Portraits with Eric from January 2024.
 
 {% include image_slideshow.html path='images/photo/2024-jan-eric/DMS6113-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric//DMS5923-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5923-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
 {% include image_slideshow.html path='images/photo/2024-jan-eric/DMS6059-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
