@@ -8,32 +8,32 @@ categories: [photo]
 tags: [photo]
 excerpt: Valencia, Spain. The City of Arts and Sciences, built at the end of what was once the river Turia.
 ---
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3037.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3037.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3068.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3068.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3007.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3007.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3065.jpg' class='square pad' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3065.jpg' class='square pad' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF2996.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2996.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF2988.jpg' class='square pad' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2988.jpg' class='square pad' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3048.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3048.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3051.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3051.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3035.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3035.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3034.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3034.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF2970.jpg' class='square pad' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2970.jpg' class='square pad' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF2968.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2968.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3056.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3056.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3052.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3052.jpg' class='wide' %}
 
-{% include image_slideshow.html path='images/sized/photo/2019-valencia/DSF3062.jpg' class='wide' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3062.jpg' class='wide' %}
