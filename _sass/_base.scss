@@ -1,41 +1,55 @@
 /**
- * Reset some basic elements
+ * Reset basic elements
  */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, img{
-    margin: 0;
-    padding: 0;
-    text-align: left;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure,
+img {
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
-/**
- * consistent box sizing
- */
-html, body, div{
-  box-sizing: border-box;
+html,
+body,
+div {
+  box-sizing: border-box; //consistent box sizing
 }
 
-/**
- * Prevents extra space below img
- */
-img{
-  display: block;
+img {
+  display: block; //Prevents extra space below img
 }
 
-img.square{
+img.square {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
-img.thumbnail{
+img.thumbnail {
   width: 100%;
   max-width: $thumbnail-small-width;
 }
 
-img.full-width{
+img.full-width {
   width: 100%;
   max-width: 100%;
 }
+
+
 
 /**
  * Basic styling
@@ -58,11 +72,13 @@ body {
   background-color: $white-color;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: $base-font-weight;
 }
 
-h1{
+h1 {
   font-size: $font-size-xlarge;
   line-height: $line-height-xlarge;
 }
@@ -78,7 +94,7 @@ h3 {
   line-height: $line-height-base;
 }
 
-a{
+a {
   text-decoration: none;
   color: $white-color;
   background-color: $black-color;
@@ -87,96 +103,127 @@ a{
   border-radius: $spacing-unit-blockout;
 }
 
-p{
+p {
   padding-bottom: 1rem;
 }
 
-
-/**
-* Default Grid
-*/
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: $spacing-unit-small;
-}
-
-
-.grid-item:nth-child(odd){
-  grid-column: 1 / span 6;
-}
-
-.grid-item:nth-child(even){
-  grid-column: 7 / span 6;
-}
-
-
-/**
- * Header and Navigation bar
- */
- .header{
-  width: 100%;
-  height: $spacing-unit-medium;
-  background-color: $black-color;
-}
-
-nav {
-  display: flex;
-  font-size: $font-size-small;
-  line-height: $spacing-unit-medium;
-  align-items: center;
-  justify-content: center;
-  color: $white-color;
-}
-
-nav span.nav{
-  padding-left: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-}
-
-nav .title{
-  font-weight: $heavy-font-weight;
-}
-
-nav a {
-  text-decoration: none;
-  background-color: $black-color;
-  color: $white-color;
-  border: 0;
-  padding: 0;
-}
 
 
 /**
 * Reusable Classes 
 */
-.background-black{
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: $spacing-unit-small;
+}
+
+.grid-item:nth-child(odd) {
+  grid-column: 1 / span 6;
+}
+
+.grid-item:nth-child(even) {
+  grid-column: 7 / span 6;
+}
+
+.image-frame img {
+  width: 100%;
+}
+
+.background-black {
   background-color: $black-color;
   color: $white-color;
 }
 
-.background-white{
+.background-white {
   background-color: $black-color;
   color: $white-color;
 }
 
-.padding-large{
+.padding-large {
   padding: $spacing-unit-large;
 }
 
-.small-font{
+.small-font {
   font-size: $font-size-small;
   line-height: 1rem;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
+
+
+
+
+
+/**
+ * Header and Navigation bar
+ */
+.header {
+  width: 100%;
+  height: $spacing-unit-xlarge;
+  background-color: $white-color;
+  color: $black-color;
+}
+
+.header .content {
+  max-width: $content-max-width;
+  padding-left: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.header .content .title {
+  font-size: $font-size-medium;
+  line-height: $spacing-unit-xlarge;
+}
+
+.header .content .title a {
+  background: none;
+  color: $black-color;
+}
+
+.header .content nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.header .content nav a {
+  font-size: $font-size-small;
+  line-height: $line-height-medium-nospace;
+  text-decoration: underline;
+  background: none;
+  color: $black-color;
+}
+
+.header.black{
+  background-color: $black-color;
+  color: $white-color;
+  height: $line-height-medium-nospace;
+}
+
+.header.black .content .title a {
+  color: $white-color;
+}
+
+.header.black .content nav a {
+  color: $white-color;
+}
+
+.header.black .content .title {
+  font-size: $font-size-small;
+  line-height: $line-height-medium-nospace;
+}
+
+
 
 /**
 * About
 */
-.about{
+.about {
   max-width: $max-article-width;
   margin-left: auto;
   margin-right: auto;
@@ -188,29 +235,30 @@ nav a {
   line-height: 1rem;
 }
 
-.about a{
+.about a {
   text-decoration: underline;
   color: $black-color;
-  background:none;
-  padding:0;
+  background: none;
+  padding: 0;
   border: 0;
 }
 
-.about .grid .logo{
+.about .grid .logo {
   grid-column: 3 / span 8;
   margin-bottom: $spacing-unit-small;
 }
 
 
-.about .grid-item{
+.about .grid-item {
   grid-column: 3 / span 4;
 }
+
 
 
 /**
 * Archive
 */
-.archive{
+.archive {
   max-width: $max-article-width;
   margin-left: auto;
   margin-right: auto;
@@ -222,136 +270,85 @@ nav a {
   line-height: 1rem;
 }
 
-.archive .menu{
+.archive .menu {
   text-align: center;
-  
+
   padding-top: $spacing-unit-small;
   padding-bottom: $spacing-unit-small;
 }
 
-.archive .menu a{
+.archive .menu a {
   background-color: $white-color;
   color: $black-color;
   text-decoration: overline;
 }
 
-.archive .menu a:hover{
+.archive .menu a:hover {
   cursor: pointer;
   text-decoration: overline;
 }
 
-.archive h3{
+.archive h3 {
   font-size: $font-size-small;
   font-weight: $heavy-font-weight;
   line-height: 1rem;
 }
 
-.archive a{
+.archive a {
   text-decoration: none;
   color: $black-color;
-  padding:0;
+  padding: 0;
   border: 0;
 }
 
-.archive a:hover{
+.archive a:hover {
   text-decoration: underline;
 }
 
-.archive .grid .logo{
+.archive .grid .logo {
   grid-column: 3 / span 8;
   margin-bottom: $spacing-unit-small;
 }
 
-.archive .grid-item:nth-child(odd){
+.archive .grid-item:nth-child(odd) {
   grid-column: 3 / span 4;
 }
 
-.archive .grid-item:nth-child(even){
+.archive .grid-item:nth-child(even) {
   grid-column: 7 / span 4;
 }
- 
-.archive .grid-item:nth-child(odd) h3, .archive .grid-item:nth-child(odd) p{
+
+.archive .grid-item:nth-child(odd) h3,
+.archive .grid-item:nth-child(odd) p {
   text-align: right;
 }
 
-.archive .grid-item:nth-child(even) h3, .archive .grid-item:nth-child(even) p{
+.archive .grid-item:nth-child(even) h3,
+.archive .grid-item:nth-child(even) p {
   text-align: left;
 }
 
 
 
-/*
- * Albums
- */
- .albums a{
-  text-decoration: none;
-  background: none;
-  color: $black-color;
-  padding:0;
-  border: 0;
-}
-
-.albums .letter{
-  margin-top: $spacing-unit-xlarge;
-  margin-bottom: $spacing-unit-large;
-}
-
-.albums .letter h1{
-  grid-column: 6 / span 2;
-  text-align: center;
-}
-
-.album{
-  margin-bottom: $spacing-unit-large;
-  padding-left: $spacing-unit-small;
-  padding-right: $spacing-unit-small;
-}
-
-.album .header{
-  background: none;
-  height: auto;
-  grid-column: 1 / span 12;
-}
-
-.album .header h2{
-  display: inline;
-  line-height: $line-height-medium-nospace;
-}
-.album .header h2.title{
-  font-weight: $heavy-font-weight;
-}
-
-.album .art{
-  grid-column: 1 / span 3;
-}
-
-.album .art img{
-  width: 100%;
-}
-
-.album .description{
-  grid-column: 4 / span 8;
-}
-
-
 /**
 * Footer
 */
-section.footer{
+section.footer {
   margin-top: $spacing-unit-xlarge;
   margin-bottom: $spacing-unit-small;
 }
 
-section.footer p{
- font-size: $font-size-small;
- text-align: center;
+section.footer p {
+  font-size: $font-size-small;
+  text-align: center;
 }
 
-section.footer a{
+section.footer a {
   background-color: $white-color;
   color: $black-color;
   border: 0;
 }
+
 
 
 /**
@@ -363,27 +360,27 @@ article {
   margin-right: auto;
 }
 
-article p img{
+article p img {
   max-width: 100%;
 }
 
-article ol.references{
+article ol.references {
   font-size: $font-size-small;
 }
 
-article p img.full-spaced{
+article p img.full-spaced {
   padding-top: $spacing-unit-tiny;
 }
 
-article section.title h2{
+article section.title h2 {
   font-weight: $heavy-font-weight;
 }
 
-article section.title h2 span{
+article section.title h2 span {
   font-weight: $base-font-weight;
 }
 
-article.blog section{
+article.blog section {
   padding-left: $spacing-unit-small;
   padding-right: $spacing-unit-small;
 }
@@ -392,7 +389,7 @@ article.blog section{
 /**
  * blog-photo article
  */
-article.blog-photo{
+article.blog-photo {
   max-width: $content-max-width;
   margin-top: 0;
 }
@@ -410,98 +407,99 @@ article.blog-photo p {
   padding: 0;
 }
 
-article.blog-photo p.square-text-above{
+article.blog-photo p.square-text-above {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-article.blog-photo p.square-text-below{
+article.blog-photo p.square-text-below {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 
 
 /**
  * blog-portrait article
  */
-article.blog-portrait {
-  max-width: $max-article-width;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-}
+// article.blog-portrait {
+//   max-width: $max-article-width;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 0;
+// }
 
-article.blog-portrait section {
-  padding-left: $spacing-unit-small;
-  padding-right: $spacing-unit-small;
-  margin-top: 0;
-}
+// article.blog-portrait section {
+//   padding-left: $spacing-unit-small;
+//   padding-right: $spacing-unit-small;
+//   margin-top: 0;
+// }
 
-article.blog-portrait section.layout-half {
-  display: grid;
-  grid-template-columns: auto auto;
-}
+// article.blog-portrait section.layout-half {
+//   display: grid;
+//   grid-template-columns: auto auto;
+// }
 
-article.blog-portrait section.layout-third {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+// article.blog-portrait section.layout-third {
+//   display: grid;
+//   grid-template-columns: auto auto auto;
+// }
 
-article.blog-portrait img {
-  display: block;
-}
+// article.blog-portrait img {
+//   display: block;
+// }
 
-article.blog-portrait img.pad {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+// article.blog-portrait img.pad {
+//   margin-top: 1rem;
+//   margin-bottom: 1rem;
+// }
 
-article.blog-portrait p {
-  padding: 0;
-}
+// article.blog-portrait p {
+//   padding: 0;
+// }
 
-article.blog-portrait p.square-text-above{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+// article.blog-portrait p.square-text-above {
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 50%;
+// }
 
-article.blog-portrait p.square-text-below{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-
-article.blog-portrait section.title {
-  margin-top: $spacing-unit-medium;
-  margin-bottom: $spacing-unit-medium;
-}
-
-article.blog-portrait section.title h1 { 
-  text-transform: uppercase;
-  font-weight: $heavy-font-weight;
-}
-
-/* Font has padding around letters, may need adjusting for left looping characters*/
-article.blog-portrait section.title h1::first-letter{
-  margin-left: -0.08em;
-}
+// article.blog-portrait p.square-text-below {
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 50%;
+// }
 
 
-article.blog-portrait section.title h2{ 
-  text-transform: uppercase;
-  font-size: $font-size-medium;
-  font-weight: $base-font-weight;
-  line-height: $line-height-medium-nospace;
-  padding-top: 0;
-} 
+// article.blog-portrait section.title {
+//   margin-top: $spacing-unit-medium;
+//   margin-bottom: $spacing-unit-medium;
+// }
 
-article.blog-portrait section.title h2 b{ 
- font-weight: $heavy-font-weight;
-} 
+// article.blog-portrait section.title h1 {
+//   text-transform: uppercase;
+//   font-weight: $heavy-font-weight;
+// }
+
+// /* Font has padding around letters, may need adjusting for left looping characters*/
+// article.blog-portrait section.title h1::first-letter {
+//   margin-left: -0.08em;
+// }
+
+
+// article.blog-portrait section.title h2 {
+//   text-transform: uppercase;
+//   font-size: $font-size-medium;
+//   font-weight: $base-font-weight;
+//   line-height: $line-height-medium-nospace;
+//   padding-top: 0;
+// }
+
+// article.blog-portrait section.title h2 b {
+//   font-weight: $heavy-font-weight;
+// }
 
 
 
@@ -509,20 +507,40 @@ article.blog-portrait section.title h2 b{
 /**
  * photography article
  */
-article.photography{
+article.photography {
   max-width: 100%;
 }
 
-article.photography p{
+article.photography p {
   padding-bottom: 0;
 }
 
-article.photography p.full-bleed{
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  background-color: $black-color;
+article.photography section.introduction {
+  padding-left: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+  text-align: right;
 }
+
+article.photography section.introduction p {
+  text-align: right;
+}
+
+article.photography section.gallery-masonry {
+  width: 100%;
+  columns: 4 300px;
+  column-gap: 0;
+}
+
+article.photography section.gallery-masonry .image-frame {
+  width: 100%;
+  display: block;
+  padding: 0;
+  padding: $spacing-unit-tiny;
+}
+
+
 
 /**
  * Gallery
@@ -537,7 +555,7 @@ ul.gallery {
   padding-right: $spacing-unit-tiny;
 }
 
-ul.gallery li{
+ul.gallery li {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto;
@@ -546,53 +564,50 @@ ul.gallery li{
   padding-top: $spacing-unit-tiny;
 }
 
-ul.gallery li img{
+ul.gallery li img {
   width: 100%;
 }
 
 
-@media (max-width: 1100px) {
-
-
-}
+@media (max-width: 1100px) {}
 
 @media (max-width: 800px) {
-
   ul.gallery {
     column-count: 1;
     column-gap: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
-  
 }
 
 @media (max-width: 600px) {
 
-  .archive .grid{
+  .archive .grid {
     column-gap: $spacing-unit-small;
     row-gap: 0;
   }
 
-  .archive .grid-item:nth-child(odd){
+  .archive .grid-item:nth-child(odd) {
     grid-column: 3 / span 8;
   }
-  
-  .archive .grid-item:nth-child(even){
+
+  .archive .grid-item:nth-child(even) {
     grid-column: 3 / span 8;
   }
-   
-  .archive .grid-item:nth-child(odd) h3, .archive .grid-item:nth-child(odd) p{
-    text-align: left;
-  }
-  
-  .archive .grid-item:nth-child(even) h3, .archive .grid-item:nth-child(even) p{
+
+  .archive .grid-item:nth-child(odd) h3,
+  .archive .grid-item:nth-child(odd) p {
     text-align: left;
   }
 
-  .about .grid-item{
+  .archive .grid-item:nth-child(even) h3,
+  .archive .grid-item:nth-child(even) p {
+    text-align: left;
+  }
+
+  .about .grid-item {
     grid-column: 3 / span 8;
     text-align: left;
   }
-  
+
 }

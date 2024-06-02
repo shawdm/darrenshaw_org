@@ -7,10 +7,10 @@
         </svg>
     </div>
     <div class='menu'>
-        <a onclick="showArticlesArchive()">Articles</a>
+        <a onclick="showArticlesArchive()">Projects</a>
         <a onclick="showPhotoArchive()">Photos</a>
     </div>
-    <div id='archive-articles' class='grid {% if page.layout == "photo-slideshow" %}hidden{% endif %}'>
+    <div id='archive-articles' class='grid {% if page.layout == "photo-slideshow" or page.layout == "photography" %}hidden{% endif %}'>
     {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'blog'" %}
         {% for post in all_posts limit:100 -%}
         <div class='grid-item'>
@@ -21,7 +21,7 @@
         </div>
         {% endfor -%}
     </div>    
-    <div id='archive-photos' class='grid {% if page.layout != "photo-slideshow" %}hidden{% endif %}'>
+    <div id='archive-photos' class='grid {% if page.layout != "photo-slideshow" and  page.layout != "photography" %}hidden{% endif %}'>
     {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'photo'" %}
         {% for post in all_posts limit:100 -%}
         <div class='grid-item'>
