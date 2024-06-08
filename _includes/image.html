@@ -1,3 +1,8 @@
 <div class="image-frame">
-  <img class="{{include.class}}" src='/{{include.path}}' alt='{{include.alt}}' title='{{include.title}}'/>
+  <img 
+    class="{{include.class}}" 
+    src='/{{include.path}}' 
+    {% if include.alt != null %} alt='{{include.alt}}' {% endif %} 
+    {% if include.title != null %} title='{{include.title}}' {% endif %} 
+  />
 </div>

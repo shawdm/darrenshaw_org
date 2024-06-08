@@ -528,9 +528,9 @@ article.photography section.introduction p {
 }
 
 article.photography section.gallery-masonry {
-  width: 100%;
   columns: 4 300px;
   column-gap: 0;
+  margin: $spacing-unit-tiny;
 }
 
 article.photography section.gallery-masonry .image-frame {
@@ -580,8 +580,7 @@ ul.gallery li img {
   }
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 620px) {
   .archive .grid {
     column-gap: $spacing-unit-small;
     row-gap: 0;
@@ -608,6 +607,16 @@ ul.gallery li img {
   .about .grid-item {
     grid-column: 3 / span 8;
     text-align: left;
+  }
+
+  article.photography section.gallery-masonry{
+    columns: 1;
+    column-gap: 0;
+    margin: 0;
+  }
+
+  article.photography section.gallery-masonry .image-frame{
+    padding: 0;
   }
 
 }
