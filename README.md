@@ -9,11 +9,14 @@ The `design` directory contains
 ** photoshop processors for image resizing
 
 # Images
-Original images are stored in `images/original`. Original images are not published to site.
+## Gallery 
+** w800px
 
-Resized images need to be added to the `300` and `2720` subdirectories which are published to site. Photoshop processors to do this are in the `design` directory.
+## Full Width
+** w2400px
 
-The `sized` directory which is published to site stores images that should not be resized.
+## Article
+** w1400px
 
 Filenames cannot start with `_`.
 
@@ -26,7 +29,7 @@ Filenames cannot start with `_`.
 ## Startup
 ```
 bundle install
-JEKYLL_ENV=dev  bundle exec jekyll serve --drafts
+JEKYLL_ENV=dev  bundle exec jekyll serve
 ```
 
 Will start the site on: ``http://localhost:4000``
