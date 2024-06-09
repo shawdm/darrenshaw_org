@@ -15,6 +15,9 @@ The `design` directory contains
 ## Full Width
 ** w2400px
 
+## Slidshow
+** Long edge 2000px
+
 ## Article
 ** w1400px
 
