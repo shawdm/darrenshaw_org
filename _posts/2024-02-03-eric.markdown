@@ -7,26 +7,26 @@ categories: photo
 tags: [photo]
 excerpt: Portraits with Eric from January 2024.
 ---
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5872-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5872.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5995-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5995.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5883-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5883.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5862-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5862.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5888-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5888.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5981-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5981.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5962-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5962.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5978-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5978.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5998-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5998.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS6113-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS6113.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS5923-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS5923.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
-{% include image_slideshow.html path='images/photo/2024-jan-eric/DMS6059-Edit-Edit.jpg' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-jan-eric/2401-_DMS6059.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
