@@ -12,7 +12,7 @@
     {% include header.html class='black' %}
    
     <article class="photo-slideshow background-black padding-large">
-      <div class="photo-slideshow-container">
+      <div class="photo-slideshow-container noselect">
         {{ page.content | remove: '<p>' | remove: '</p>' }}
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
