@@ -1,3 +1,4 @@
+<a id="archive"></a>
 <section class="archive">
     <div class='grid'>
         <svg class='logo' width="100%" height="100%" viewBox="0 0 816 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
@@ -7,8 +8,8 @@
         </svg>
     </div>
     <div class='menu'>
-        <a onclick="showArticlesArchive()">Projects</a>
-        <a onclick="showPhotoArchive()">Photos</a>
+        <a onclick="return showArticlesArchive()" href="/projects.html#archive" >Projects</a>
+        <a onclick="return showPhotoArchive()" href="/photography.html#archive">Photos</a>
     </div>
     <div id='archive-articles' class='grid {% if page.layout == "photo-slideshow" or page.layout == "photography" %}hidden{% endif %}'>
     {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'blog'" %}
