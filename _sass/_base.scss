@@ -162,6 +162,9 @@ p {
   user-select: none;
 }
 
+.anchor {
+  // display: none;
+}
 
 /**
  * Header and Navigation bar
@@ -241,6 +244,10 @@ p {
   line-height: 1rem;
 }
 
+.about h2{
+  padding-top: 0;
+}
+
 .about a {
   text-decoration: underline;
   color: $black-color;
@@ -259,6 +266,9 @@ p {
   grid-column: 3 / span 4;
 }
 
+.about .grid-item.right {
+  grid-column: 7 / span 4;
+}
 
 
 /**

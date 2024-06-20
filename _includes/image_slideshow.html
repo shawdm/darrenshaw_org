@@ -4,12 +4,14 @@
     src='/{{include.path}}'
     alt='{{include.alt}}'
     title='{{include.title}}'
+    onclick='plusSlides(1)'
     />
   {% else %}
     <img
       src='{{site.absolute_url}}/{{include.path}}'
       alt='{{include.alt}}'
       title='{{include.title}}'
+      onclick='plusSlides(1)'
     />
   {% endif %}
 </div>
