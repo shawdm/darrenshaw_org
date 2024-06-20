@@ -24,6 +24,7 @@ article.photo-slideshow .slide {
 article.photo-slideshow .photo-slideshow-container img {
     height: 100%;
     margin: auto;
+    cursor: pointer;
 }
 
 article.photo-slideshow .prev, article.photo-slideshow .next {
