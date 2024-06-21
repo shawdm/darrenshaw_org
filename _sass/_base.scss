@@ -597,6 +597,15 @@ ul.gallery li img {
 }
 
 @media (max-width: 620px) {
+  .header{
+    height: $line-height-medium-nospace;
+  }
+  
+  .header .content .title {
+    font-size: $font-size-small;
+    line-height: $line-height-medium-nospace;
+  }
+
   .archive .grid {
     column-gap: $spacing-unit-small;
     row-gap: 0;
@@ -623,6 +632,10 @@ ul.gallery li img {
   .about .grid-item {
     grid-column: 3 / span 8;
     text-align: left;
+  }
+
+  .about .grid-item.right {
+    grid-column: 3 / span 8;
   }
 
   article.photography section.gallery-masonry{
