@@ -1,6 +1,7 @@
 ---
 layout: blog-post
-title:  "Physical Web and Physical Meetings"
+title: "Physical Web and Physical Meetings"
+seo_title:  "Physical Web and Physical Meetings | Darren Shaw, UK Software Developer"
 date:   2016-01-27 08:00:00 +0000
 date_written:   2011-01-27 08:00:00 +0000
 location: Winchester, UK

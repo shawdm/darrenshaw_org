@@ -1,6 +1,7 @@
 ---
 layout: interactive-fashion-palette
-title:  "My Favourite Net-A-Porter Colour is Black"
+title: "My Favourite Net-A-Porter Colour is Black"
+seo_title: "My Favourite Net-A-Porter Colour is Black - Colour Palettes Data Visualisation For Online Retail | Darren Shaw, UK Software Developer"
 date:   2022-07-10 12:00:00 +0000
 date_written: 2022-07-10 12:00:00 +0000
 location: Winchester, UK

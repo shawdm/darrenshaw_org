@@ -1,6 +1,7 @@
 ---
 layout: interactive-spotify
-title:  "Should Have Been Listening to Phoebe Bridgers"
+title: "Should Have Been Listening to Phoebe Bridgers"
+seo_title:  "Should Have Been Listening to Phoebe Bridgers, Spotify Data Visualisation | Darren Shaw, UK Software Developer"
 date:   2023-01-05 06:00:00 +0000
 date_written: 2023-01-05 06:00:00 +0000
 location: Winchester, UK
