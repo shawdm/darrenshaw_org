@@ -1,6 +1,7 @@
 ---
 layout: blog-post
-title:  "YNAP Hackday Poster"
+title: "YNAP Hackday Poster"
+seo_title: "YNAP Hackday Poster | Darren Shaw, UK Software Developer"
 date_written: 2023-03-12 13:00:00 +0000
 location: Winchester, UK
 categories: blog

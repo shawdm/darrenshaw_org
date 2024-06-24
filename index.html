@@ -1,4 +1,4 @@
 ---
 layout: photography
-title: Photography
+title: Darren Shaw | UK fashion, portrait and model photographer | Winchester, Southampton, Portsmouth, Hampshire
 ---

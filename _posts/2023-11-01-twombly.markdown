@@ -1,6 +1,7 @@
 ---
 layout: interactive-twombly
-title:  "Twombly"
+title: "Algorithmic Twombly "
+seo_title:  "Algorithmic Twombly | Darren Shaw, UK Software Developer"
 date:   2023-11-25 18:00:00 +0000
 date_written: 2023-11-25 18:00:00 +0000
 location: Winchester, UK
