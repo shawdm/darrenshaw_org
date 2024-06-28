@@ -1,40 +1,40 @@
 ---
 layout: photo-slideshow
-title: "Hello From the Future, Valencia"
+title: "Hello From the Future, Valencia, Spain"
 seo_title:  "Hello from the future, Valencia | Darren Shaw | UK fashion, portrait and model photographer | Winchester, Southampton, Portsmouth, Hampshire"
 date:   2019-06-26 13:00:00 +0000
 date_written: 2019-06-26 13:00:00 +0000
 location: Valencia, Spain
 categories: [photo]
 tags: [photo]
-excerpt: Valencia, Spain. The City of Arts and Sciences, built at the end of what was once the river Turia.
+excerpt: The City of Arts and Sciences, built at the end of what was once the river Turia. Valencia, Spain, 2019.
 ---
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3037.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3037.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3068.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3068.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3007.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3007.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3065.jpg' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3065.avif' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF2996.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2996.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF2988.jpg' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2988.avif' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3048.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3048.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3051.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3051.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela'  %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3035.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3035.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3034.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3034.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF2970.jpg' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2970.avif' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF2968.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF2968.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3056.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3056.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3052.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3052.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
 
-{% include image_slideshow.html path='images/photo/2019-valencia/DSF3062.jpg' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2019-valencia/DSF3062.avif' orientation='landscape' alt='City of Arts and Sciences, Valencia, Santiago Calatrava and Félix Candela' %}
