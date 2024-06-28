@@ -8,7 +8,7 @@ categories: photo
 tags: [photo]
 excerpt: Portraits with Eric from April 2024.
 ---
-{% include image_slideshow.html path='images/photo/2024-april-eric/2404-_DMS6847.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
+{% include image_slideshow.html path='images/photo/2024-april-eric/2404-_DMS6847.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' orientation='landscape' %}
 
 {% include image_slideshow.html path='images/photo/2024-april-eric/2404-_DMS6851.avif' alt='Photographer: Darren Shaw, Model: Eric' title='Eric' %}
 
