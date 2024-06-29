@@ -8,11 +8,9 @@ categories: photo
 tags: [photo]
 excerpt: Model portfolio update with Emily Anderson, Winchester, UK, June 2024.
 ---
-{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS6963.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7014.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
 
 {% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS6965.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
-
-{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7014.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
 
 {% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7047.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
 
