@@ -1,7 +1,7 @@
 ---
 layout: photo-slideshow
 title: "Hello From the Future, Valencia, Spain"
-seo_title:  "Hello from the future, Valencia | Darren Shaw | UK fashion, portrait and model photographer | Winchester, Southampton, Portsmouth, Hampshire"
+seo_title:  "City of Arts and Sciences by Darren Shaw, Valencia, Spain"
 date:   2019-06-26 13:00:00 +0000
 date_written: 2019-06-26 13:00:00 +0000
 location: Valencia, Spain

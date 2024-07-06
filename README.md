@@ -23,6 +23,9 @@ The `design` directory contains
 
 Filenames cannot start with `_`.
 
+# Favicons
+* https://favicon.io
+
 # Development
 ## OSX Prereqs
 1. Ruby
