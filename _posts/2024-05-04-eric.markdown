@@ -1,7 +1,7 @@
 ---
 layout: photo-slideshow
 title: "Eric Liyah Kane - April 2024"
-seo_title: "Eric Liyah Kane by Darren Shaw | UK fashion, portrait and model photographer | Winchester, Southampton, Portsmouth, Hampshire"
+seo_title: "Eric Liyah Kane, Beauty and Lifestyle Shoot by Darren Shaw | Southampton, UK"
 date_written: 2024-05-04 13:00:00 +0000
 location: Winchester, UK
 categories: photo
