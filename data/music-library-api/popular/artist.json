@@ -1,0 +1,2610 @@
+{
+    "artists": [
+        {
+            "id": "06HL4z0CvFAxyc27GXpf02",
+            "name": "Taylor Swift",
+            "popularityLong": 100,
+            "popularityMedium": 100,
+            "popularityShort": 100,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e672b5f553298dcdccb0e676",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+            "name": "Billie Eilish",
+            "popularityLong": 95,
+            "popularityMedium": 95,
+            "popularityShort": 95,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1784a21b4760d2ecb7b0dcdc8da",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "art pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "66CXWjxzNUsdJxJ2JdwvnR",
+            "name": "Ariana Grande",
+            "popularityLong": 91,
+            "popularityMedium": 91,
+            "popularityShort": 91,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb40b5c07ab77b6b1a9075fdc0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517440b5c07ab77b6b1a9075fdc0",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17840b5c07ab77b6b1a9075fdc0",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "4oUHIQIBe0LHzYfvXNW4QM",
+            "name": "Morgan Wallen",
+            "popularityLong": 91,
+            "popularityMedium": 91,
+            "popularityShort": 91,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebcdb9694bfa4a026ee19426ae",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174cdb9694bfa4a026ee19426ae",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178cdb9694bfa4a026ee19426ae",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country"
+            ]
+        },
+        {
+            "id": "5pKCCKE2ajJHZ9KAiaK11H",
+            "name": "Rihanna",
+            "popularityLong": 90,
+            "popularityMedium": 90,
+            "popularityShort": 90,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb99e4fca7c0b7cb166d915789",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517499e4fca7c0b7cb166d915789",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17899e4fca7c0b7cb166d915789",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "barbadian pop",
+                "pop",
+                "urban contemporary"
+            ]
+        },
+        {
+            "id": "74KM79TiuVKeVCqs8QtB0B",
+            "name": "Sabrina Carpenter",
+            "popularityLong": 90,
+            "popularityMedium": 90,
+            "popularityShort": 90,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe053b8338322b9c8609ee7ae",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e053b8338322b9c8609ee7ae",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e053b8338322b9c8609ee7ae",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+            "name": "David Guetta",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 90,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebf150017ca69c8793503c2d4f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178f150017ca69c8793503c2d4f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "big room",
+                "dance pop",
+                "edm",
+                "pop",
+                "pop dance"
+            ]
+        },
+        {
+            "id": "6M2wZ9GZgrQXHCFfjv46we",
+            "name": "Dua Lipa",
+            "popularityLong": 88,
+            "popularityMedium": 88,
+            "popularityShort": 88,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1780c68f6c95232e716f0abee8d",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "25uiPmTg16RbhZWAqwLBy5",
+            "name": "Charli xcx",
+            "popularityLong": 88,
+            "popularityMedium": 88,
+            "popularityShort": 88,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb936885667ef44c306483c838",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174936885667ef44c306483c838",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178936885667ef44c306483c838",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "art pop",
+                "candy pop",
+                "metropopolis",
+                "pop",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "7CajNmpbOovFoOoasH2HaY",
+            "name": "Calvin Harris",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 87,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb014a3c1730d960c66396ed63",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174014a3c1730d960c66396ed63",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178014a3c1730d960c66396ed63",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "edm",
+                "electro house",
+                "house",
+                "pop",
+                "progressive house",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "0EmeFodog0BfCgMzAIvKQp",
+            "name": "Shakira",
+            "popularityLong": 86,
+            "popularityMedium": 86,
+            "popularityShort": 86,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebaee73c0f0458b95091845ee1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174aee73c0f0458b95091845ee1",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178aee73c0f0458b95091845ee1",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "colombian pop",
+                "dance pop",
+                "latin pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "6jJ0s89eD6GaHleKKya26X",
+            "name": "Katy Perry",
+            "popularityLong": 85,
+            "popularityMedium": 85,
+            "popularityShort": 85,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb5e5f676a99a81dba06cc3db6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051745e5f676a99a81dba06cc3db6",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1785e5f676a99a81dba06cc3db6",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "0hCNtLu0JehylgoiP8L4Gh",
+            "name": "Nicki Minaj",
+            "popularityLong": 85,
+            "popularityMedium": 85,
+            "popularityShort": 85,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb07a50f0a9a8f11e5a1102cbd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517407a50f0a9a8f11e5a1102cbd",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17807a50f0a9a8f11e5a1102cbd",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "hip pop",
+                "pop",
+                "queens hip hop",
+                "rap"
+            ]
+        },
+        {
+            "id": "5cj0lLjcoR7YOSnhnX0Po5",
+            "name": "Doja Cat",
+            "popularityLong": 85,
+            "popularityMedium": 0,
+            "popularityShort": 85,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe94f88ff74ae4ddcab961f97",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e94f88ff74ae4ddcab961f97",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e94f88ff74ae4ddcab961f97",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "2o5jDhtHVPhrJdv3cEQ99Z",
+            "name": "Tiësto",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 84,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe84e08fb1dfa2bf9b5a61563",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e84e08fb1dfa2bf9b5a61563",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e84e08fb1dfa2bf9b5a61563",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "big room",
+                "brostep",
+                "dutch edm",
+                "edm",
+                "house",
+                "pop dance",
+                "progressive electro house",
+                "slap house",
+                "trance"
+            ]
+        },
+        {
+            "id": "5YGY8feqx7naU7z4HrwZM6",
+            "name": "Miley Cyrus",
+            "popularityLong": 83,
+            "popularityMedium": 83,
+            "popularityShort": 83,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb4ba86c361191d48cbeb4b32",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174b4ba86c361191d48cbeb4b32",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b4ba86c361191d48cbeb4b32",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "73sIBHcqh3Z3NyqHKZ7FOL",
+            "name": "Childish Gambino",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 82,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc3dc5429b676b16d451e5f77",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c3dc5429b676b16d451e5f77",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c3dc5429b676b16d451e5f77",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "atl hip hop",
+                "hip hop",
+                "rap"
+            ]
+        },
+        {
+            "id": "23fqKkggKUBHNkbKtXEls4",
+            "name": "Kygo",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 81,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe5ea1aa1404629c12ad86658",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e5ea1aa1404629c12ad86658",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e5ea1aa1404629c12ad86658",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "edm",
+                "pop",
+                "pop dance",
+                "tropical house"
+            ]
+        },
+        {
+            "id": "26VFTg2z8YR0cCuwLzESi2",
+            "name": "Halsey",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 81,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebf1ee3ff162b1370cdd11ad97",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174f1ee3ff162b1370cdd11ad97",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178f1ee3ff162b1370cdd11ad97",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "electropop",
+                "etherpop",
+                "indie poptimism",
+                "pop"
+            ]
+        },
+        {
+            "id": "7f5Zgnp2spUuuzKplmRkt7",
+            "name": "Lost Frequencies",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 80,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb6a77aaa2cde6783b1ca727e9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051746a77aaa2cde6783b1ca727e9",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1786a77aaa2cde6783b1ca727e9",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "belgian edm",
+                "edm",
+                "pop dance",
+                "tropical house"
+            ]
+        },
+        {
+            "id": "64M6ah0SkkRsnPGtGiRAbb",
+            "name": "Bebe Rexha",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 80,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebead1540fa76796266fadba33",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ead1540fa76796266fadba33",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ead1540fa76796266fadba33",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "3a1tBryiczPAZpgoZN9Rzg",
+            "name": "Asake",
+            "popularityLong": 79,
+            "popularityMedium": 79,
+            "popularityShort": 79,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0203df702d0792712e78cf2e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051740203df702d0792712e78cf2e",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1780203df702d0792712e78cf2e",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "afrobeats",
+                "nigerian pop"
+            ]
+        },
+        {
+            "id": "5fMUXHkw8R8eOP2RNVYEZX",
+            "name": "Diplo",
+            "popularityLong": 78,
+            "popularityMedium": 78,
+            "popularityShort": 78,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebdf01727aa674ddefa777797a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174df01727aa674ddefa777797a",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178df01727aa674ddefa777797a",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "edm",
+                "electro house",
+                "moombahton",
+                "pop dance"
+            ]
+        },
+        {
+            "id": "4oLeXFyACqeem2VImYeBFe",
+            "name": "Fred again..",
+            "popularityLong": 78,
+            "popularityMedium": 78,
+            "popularityShort": 78,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2302e6ba3091fcbc6fd5bb54",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051742302e6ba3091fcbc6fd5bb54",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782302e6ba3091fcbc6fd5bb54",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "edm",
+                "house",
+                "stutter house"
+            ]
+        },
+        {
+            "id": "3LZZPxNDGDFVSIPqf4JuEf",
+            "name": "Ice Spice",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 78,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb99878733414d6d04a20a5c3e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517499878733414d6d04a20a5c3e",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17899878733414d6d04a20a5c3e",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "bronx drill"
+            ]
+        },
+        {
+            "id": "70kkdajctXSbqSMJbQO424",
+            "name": "Kacey Musgraves",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc548c7ff983f25641dc71ffe",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c548c7ff983f25641dc71ffe",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "classic texas country",
+                "country dawn"
+            ]
+        },
+        {
+            "id": "1r1uxoy19fzMxunt3ONAkG",
+            "name": "Phoebe Bridgers",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb626686e362d30246e816cc5b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174626686e362d30246e816cc5b",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178626686e362d30246e816cc5b",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "indie pop",
+                "la indie",
+                "pov: indie"
+            ]
+        },
+        {
+            "id": "2uFUBdaVGtyMqckSeCl0Qj",
+            "name": "Ludovico Einaudi",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb8464d5180785222c0f2361d2",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051748464d5180785222c0f2361d2",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1788464d5180785222c0f2361d2",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "compositional ambient",
+                "neo-classical"
+            ]
+        },
+        {
+            "id": "3WGpXCj9YhhfX11TToZcXP",
+            "name": "Troye Sivan",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb26e8cb3ff6fc7744b312811b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517426e8cb3ff6fc7744b312811b",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17826e8cb3ff6fc7744b312811b",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "australian pop",
+                "pop",
+                "viral pop"
+            ]
+        },
+        {
+            "id": "2jw70GZXlAI8QzWeY2bgRc",
+            "name": "Nelly Furtado",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebd2ce0bf5614b54bd44e059d5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174d2ce0bf5614b54bd44e059d5",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178d2ce0bf5614b54bd44e059d5",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "canadian latin",
+                "canadian pop",
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "1Xylc3o4UrD53lo9CvFvVg",
+            "name": "Zara Larsson",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 77,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7619ca2683b434e139040f70",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747619ca2683b434e139040f70",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787619ca2683b434e139040f70",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop",
+                "scandipop",
+                "swedish electropop",
+                "swedish pop"
+            ]
+        },
+        {
+            "id": "0NIIxcxNHmOoyBx03SfTCD",
+            "name": "Tinashe",
+            "popularityLong": 74,
+            "popularityMedium": 74,
+            "popularityShort": 74,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eba669f860c74c9007934d2cb6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174a669f860c74c9007934d2cb6",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178a669f860c74c9007934d2cb6",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "alternative r&b",
+                "dance pop",
+                "metropopolis",
+                "pop",
+                "r&b",
+                "urban contemporary"
+            ]
+        },
+        {
+            "id": "6tPHARSq45lQ8BSALCfkFC",
+            "name": "Lainey Wilson",
+            "popularityLong": 74,
+            "popularityMedium": 74,
+            "popularityShort": 74,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7013c506a76bd0860e01927f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747013c506a76bd0860e01927f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787013c506a76bd0860e01927f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "modern country pop"
+            ]
+        },
+        {
+            "id": "7nDsS0l5ZAzMedVRKPP8F1",
+            "name": "Ella Henderson",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 74,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb6c6702fe8d62862e6f8bc373",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051746c6702fe8d62862e6f8bc373",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1786c6702fe8d62862e6f8bc373",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop dance",
+                "talent show",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "5CCwRZC6euC8Odo6y9X8jr",
+            "name": "Rita Ora",
+            "popularityLong": 72,
+            "popularityMedium": 72,
+            "popularityShort": 72,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc872d3c0c5491a40c98d0c44",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c872d3c0c5491a40c98d0c44",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c872d3c0c5491a40c98d0c44",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "6DgP9otnZw5z6daOntINxp",
+            "name": "Joel Corry",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 72,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebbe5806798d93a407f1f21cfe",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174be5806798d93a407f1f21cfe",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178be5806798d93a407f1f21cfe",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop dance",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "2VZNmg4vCnew4Pavo8zDdW",
+            "name": "Max Richter",
+            "popularityLong": 71,
+            "popularityMedium": 71,
+            "popularityShort": 71,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebed7d082db2925fe99a9b9487",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ed7d082db2925fe99a9b9487",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ed7d082db2925fe99a9b9487",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "compositional ambient",
+                "post-minimalism"
+            ]
+        },
+        {
+            "id": "75VKfyoBlkmrJFDqo1o2VY",
+            "name": "Fireboy DML",
+            "popularityLong": 71,
+            "popularityMedium": 71,
+            "popularityShort": 71,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb833675081693a864702b2084",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174833675081693a864702b2084",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178833675081693a864702b2084",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "afrobeats",
+                "nigerian pop"
+            ]
+        },
+        {
+            "id": "4sTQVOfp9vEMCemLw50sbu",
+            "name": "Galantis",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 71,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7bda087d6fb48d481efd3344",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747bda087d6fb48d481efd3344",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787bda087d6fb48d481efd3344",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "edm",
+                "pop",
+                "pop dance",
+                "progressive electro house"
+            ]
+        },
+        {
+            "id": "3RqBeV12Tt7A8xH3zBDDUF",
+            "name": "Kelsea Ballerini",
+            "popularityLong": 70,
+            "popularityMedium": 70,
+            "popularityShort": 70,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb66b3897322ef6750b37afb4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174b66b3897322ef6750b37afb4",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b66b3897322ef6750b37afb4",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "country"
+            ]
+        },
+        {
+            "id": "4NZvixzsSefsNiIqXn0NDe",
+            "name": "Maggie Rogers",
+            "popularityLong": 70,
+            "popularityMedium": 70,
+            "popularityShort": 70,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb621d7cddc0d2fa4d94ed1c1e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174621d7cddc0d2fa4d94ed1c1e",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178621d7cddc0d2fa4d94ed1c1e",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "indie pop"
+            ]
+        },
+        {
+            "id": "20gsENnposVs2I4rQ5kvrf",
+            "name": "Sam Feldt",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 70,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2043f9064a6470d811172ff3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051742043f9064a6470d811172ff3",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782043f9064a6470d811172ff3",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "edm",
+                "pop dance",
+                "progressive electro house",
+                "tropical house"
+            ]
+        },
+        {
+            "id": "03r4iKL2g2442PT9n2UKsx",
+            "name": "Beastie Boys",
+            "popularityLong": 0,
+            "popularityMedium": 69,
+            "popularityShort": 69,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/705bcd56dc5dbf9ebc578a3ba8094e6d622862c2",
+                    "width": 1000
+                },
+                {
+                    "url": "https://i.scdn.co/image/060ef251f0e12353057c36fe94724b688b963dac",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/eb9a69f247e84b9e9ce8b03f1ab5cca399b49cbc",
+                    "width": 200
+                },
+                {
+                    "url": "https://i.scdn.co/image/b6fafee2c4c169dadf039c2066ab77beb4c82b3e",
+                    "width": 64
+                }
+            ],
+            "genres": [
+                "alternative rock",
+                "east coast hip hop",
+                "golden age hip hop",
+                "hip hop",
+                "old school hip hop",
+                "rap",
+                "rap rock",
+                "rock"
+            ]
+        },
+        {
+            "id": "39B7ChWwrWDs7zXlsu3MoP",
+            "name": "Sonny Fodera",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 68,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb1fec314e385e0ce049bbe8a9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051741fec314e385e0ce049bbe8a9",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1781fec314e385e0ce049bbe8a9",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "house",
+                "pop dance",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "4TvhRzxIL1le2PWCeUqxQw",
+            "name": "The Blessed Madonna",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 68,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebbe1b6ff7dc71da48a2ca34d1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174be1b6ff7dc71da48a2ca34d1",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178be1b6ff7dc71da48a2ca34d1",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "edm",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "41qil2VaGbD194gaEcmmyx",
+            "name": "Will Smith",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 68,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb8e855437abd38da7f93f9ef1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051748e855437abd38da7f93f9ef1",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1788e855437abd38da7f93f9ef1",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "hip hop",
+                "pop rap"
+            ]
+        },
+        {
+            "id": "6tV2P2SciHytsSDufKr57B",
+            "name": "TWOPILOTS",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 68,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb4bd712a10e28cf1bce6e19f5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051744bd712a10e28cf1bce6e19f5",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1784bd712a10e28cf1bce6e19f5",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "tropical house"
+            ]
+        },
+        {
+            "id": "7i9j813KFoSBMldGqlh2Z1",
+            "name": "Riton",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 67,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb43b270773d180b196f8cf7ad",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517443b270773d180b196f8cf7ad",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17843b270773d180b196f8cf7ad",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "house",
+                "pop dance",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "2tndYCXQneCV4jtoWRwVpz",
+            "name": "Lucas Estrada",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 65,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7acd02f31873aecd2a2cb7a0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747acd02f31873aecd2a2cb7a0",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787acd02f31873aecd2a2cb7a0",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "deep pop edm",
+                "swedish tropical house"
+            ]
+        },
+        {
+            "id": "2gduEC76ry33RVurAvT05p",
+            "name": "Nathan Dawe",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 64,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebef9ec6731c54d53423ef9bd5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ef9ec6731c54d53423ef9bd5",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ef9ec6731c54d53423ef9bd5",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop dance",
+                "uk dance"
+            ]
+        },
+        {
+            "id": "6WFDpw4u23uSpon4BHvFRn",
+            "name": "Cat Burns",
+            "popularityLong": 63,
+            "popularityMedium": 63,
+            "popularityShort": 63,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe93f46b712d20c9865ba44b0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e93f46b712d20c9865ba44b0",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e93f46b712d20c9865ba44b0",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "uk pop"
+            ]
+        },
+        {
+            "id": "2FwJwEswyIUAljqgjNSHgP",
+            "name": "Snakehips",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 61,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7f733bafdc404730f821de26",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747f733bafdc404730f821de26",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787f733bafdc404730f821de26",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "electropop",
+                "uk dance",
+                "vapor soul"
+            ]
+        },
+        {
+            "id": "1clB4n7uMUiSx5ZZ0FQoM1",
+            "name": "NATURE",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 60,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebfeef3f94c4a556d680d2e311",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174feef3f94c4a556d680d2e311",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178feef3f94c4a556d680d2e311",
+                    "width": 160
+                }
+            ],
+            "genres": []
+        },
+        {
+            "id": "3X2DdnmoANw8Rg8luHyZQb",
+            "name": "Romy",
+            "popularityLong": 59,
+            "popularityMedium": 59,
+            "popularityShort": 59,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebef66595edf6f913e0f7c5b93",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ef66595edf6f913e0f7c5b93",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ef66595edf6f913e0f7c5b93",
+                    "width": 160
+                }
+            ],
+            "genres": []
+        },
+        {
+            "id": "5QrV5Vr4KdsyKtifvD6X1U",
+            "name": "Issey Cross",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 58,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb089c4a4b5d13ab8d420f894a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174089c4a4b5d13ab8d420f894a",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178089c4a4b5d13ab8d420f894a",
+                    "width": 160
+                }
+            ],
+            "genres": []
+        },
+        {
+            "id": "5oOhM2DFWab8XhSdQiITry",
+            "name": "Tycho",
+            "popularityLong": 57,
+            "popularityMedium": 57,
+            "popularityShort": 57,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb86e6efcd925f506fbc7620cb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517486e6efcd925f506fbc7620cb",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17886e6efcd925f506fbc7620cb",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "chillwave",
+                "downtempo",
+                "electronica",
+                "indietronica",
+                "intelligent dance music"
+            ]
+        },
+        {
+            "id": "371jpyGdoChzUASOIG2ECV",
+            "name": "Ashley McBryde",
+            "popularityLong": 56,
+            "popularityMedium": 56,
+            "popularityShort": 56,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc83854e71b7b5c73ff5dc16f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c83854e71b7b5c73ff5dc16f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c83854e71b7b5c73ff5dc16f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "arkansas country",
+                "contemporary country",
+                "country",
+                "country road"
+            ]
+        },
+        {
+            "id": "6beUvFUlKliUYJdLOXNj9C",
+            "name": "King Princess",
+            "popularityLong": 0,
+            "popularityMedium": 55,
+            "popularityShort": 55,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebdced725bdaf4014fdf5c3238",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174dced725bdaf4014fdf5c3238",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178dced725bdaf4014fdf5c3238",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "alt z",
+                "indie pop",
+                "nyc pop"
+            ]
+        },
+        {
+            "id": "4eYE8Z6cfEHEdG22lTyucP",
+            "name": "Morgan Wade",
+            "popularityLong": 54,
+            "popularityMedium": 54,
+            "popularityShort": 54,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebaba626ef25b0dc596e55cfc7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174aba626ef25b0dc596e55cfc7",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178aba626ef25b0dc596e55cfc7",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "modern country pop"
+            ]
+        },
+        {
+            "id": "2kLa7JZu4Ijdz1Gle2khZh",
+            "name": "TSHA",
+            "popularityLong": 0,
+            "popularityMedium": 0,
+            "popularityShort": 53,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebeed8855cbe71cb4440b41deb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174eed8855cbe71cb4440b41deb",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178eed8855cbe71cb4440b41deb",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "uk house"
+            ]
+        },
+        {
+            "id": "3TVXtAsR1Inumwj472S9r4",
+            "name": "Drake",
+            "popularityLong": 95,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1784293385d324db8558179afd9",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "canadian hip hop",
+                "canadian pop",
+                "hip hop",
+                "pop rap",
+                "rap"
+            ]
+        },
+        {
+            "id": "7dGJo4pcD2V6oG8kP0tJRR",
+            "name": "Eminem",
+            "popularityLong": 93,
+            "popularityMedium": 93,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "detroit hip hop",
+                "hip hop",
+                "rap"
+            ]
+        },
+        {
+            "id": "40ZNYROS4zLfyyBSs2PGe2",
+            "name": "Zach Bryan",
+            "popularityLong": 91,
+            "popularityMedium": 91,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb4fd54df35bfcfa0fc9fc2da7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051744fd54df35bfcfa0fc9fc2da7",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1784fd54df35bfcfa0fc9fc2da7",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "classic oklahoma country"
+            ]
+        },
+        {
+            "id": "1uNFoZAHBGtllmzznpCI3s",
+            "name": "Justin Bieber",
+            "popularityLong": 89,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb8ae7f2aaa9817a704a87ea36",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1788ae7f2aaa9817a704a87ea36",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "canadian pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "7tYKF4w9nC0nq9CsPZTHyP",
+            "name": "SZA",
+            "popularityLong": 89,
+            "popularityMedium": 89,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0895066d172e1f51f520bc65",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051740895066d172e1f51f520bc65",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1780895066d172e1f51f520bc65",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop",
+                "r&b",
+                "rap"
+            ]
+        },
+        {
+            "id": "6eUKZXaKkcviH0Ku9w2n3V",
+            "name": "Ed Sheeran",
+            "popularityLong": 87,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3bcef85e105dfc42399ef0ba",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051743bcef85e105dfc42399ef0ba",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1783bcef85e105dfc42399ef0ba",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop",
+                "singer-songwriter pop",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "1McMsnEElThX1knmY4oliG",
+            "name": "Olivia Rodrigo",
+            "popularityLong": 87,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebe03a98785f3658f0b6461ec4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178e03a98785f3658f0b6461ec4",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "718COspgdWOnwOFpJHRZHS",
+            "name": "Luke Combs",
+            "popularityLong": 87,
+            "popularityMedium": 87,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebbd634295d99c61823c517c3f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174bd634295d99c61823c517c3f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178bd634295d99c61823c517c3f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "country"
+            ]
+        },
+        {
+            "id": "6vWDO969PvNqNYHIOW5v0m",
+            "name": "Beyoncé",
+            "popularityLong": 86,
+            "popularityMedium": 86,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb247f44069c0bd1781df2f785",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174247f44069c0bd1781df2f785",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178247f44069c0bd1781df2f785",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop",
+                "r&b"
+            ]
+        },
+        {
+            "id": "4dpARuHxo51G3z768sgnrY",
+            "name": "Adele",
+            "popularityLong": 86,
+            "popularityMedium": 86,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb68f6e5892075d7f22615bd17",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17868f6e5892075d7f22615bd17",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "british soul",
+                "pop",
+                "pop soul",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "2RQXRUsr4IW1f3mKyKsy4B",
+            "name": "Noah Kahan",
+            "popularityLong": 85,
+            "popularityMedium": 85,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb336ec53126239813d38ff588",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174336ec53126239813d38ff588",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178336ec53126239813d38ff588",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pov: indie"
+            ]
+        },
+        {
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "popularityLong": 83,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0e08ea2c4d6789fbf5cbe0aa",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1780e08ea2c4d6789fbf5cbe0aa",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "r&b",
+                "soul"
+            ]
+        },
+        {
+            "id": "08GQAI4eElDnROBrJRGE0X",
+            "name": "Fleetwood Mac",
+            "popularityLong": 82,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c8752dd511cda8c31e9daee8",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c8752dd511cda8c31e9daee8",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "album rock",
+                "classic rock",
+                "rock",
+                "soft rock",
+                "yacht rock"
+            ]
+        },
+        {
+            "id": "45dkTj5sMRSjrmBSBeiHym",
+            "name": "Tate McRae",
+            "popularityLong": 82,
+            "popularityMedium": 82,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb846308bf9bf7d3183958b3a6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174846308bf9bf7d3183958b3a6",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178846308bf9bf7d3183958b3a6",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "pop"
+            ]
+        },
+        {
+            "id": "26dSoYclwsYLMAKD3tpOr4",
+            "name": "Britney Spears",
+            "popularityLong": 81,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb3a49b0a3954e460a8a76ed90",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051743a49b0a3954e460a8a76ed90",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1783a49b0a3954e460a8a76ed90",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "4Z8W4fKeB5YxbusRsdQVPb",
+            "name": "Radiohead",
+            "popularityLong": 81,
+            "popularityMedium": 81,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eba03696716c9ee605006047fd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174a03696716c9ee605006047fd",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178a03696716c9ee605006047fd",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "alternative rock",
+                "art rock",
+                "melancholia",
+                "oxford indie",
+                "permanent wave",
+                "rock"
+            ]
+        },
+        {
+            "id": "4nDoRrQiYLoBzwC5BhVJzF",
+            "name": "Camila Cabello",
+            "popularityLong": 81,
+            "popularityMedium": 81,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7ffadf2671159fbfdc5c87f4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747ffadf2671159fbfdc5c87f4",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787ffadf2671159fbfdc5c87f4",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "1KCSPY1glIKqW2TotWuXOR",
+            "name": "P!nk",
+            "popularityLong": 81,
+            "popularityMedium": 81,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb7bbad89a61061304ec842588",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1787bbad89a61061304ec842588",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop"
+            ]
+        },
+        {
+            "id": "3DiDSECUqqY1AuBP8qtaIa",
+            "name": "Alicia Keys",
+            "popularityLong": 78,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebebfd16a3bca87c31c1e20576",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ebfd16a3bca87c31c1e20576",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ebfd16a3bca87c31c1e20576",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "neo soul",
+                "pop",
+                "r&b"
+            ]
+        },
+        {
+            "id": "687cZJR45JO7jhk1LHIbgq",
+            "name": "Tems",
+            "popularityLong": 78,
+            "popularityMedium": 78,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb22d7d6f8981c7a27bf68a382",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517422d7d6f8981c7a27bf68a382",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17822d7d6f8981c7a27bf68a382",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "afro r&b",
+                "afrobeats",
+                "alte",
+                "nigerian pop"
+            ]
+        },
+        {
+            "id": "3eqjTLE0HfPfh78zjh6TqT",
+            "name": "Bruce Springsteen",
+            "popularityLong": 78,
+            "popularityMedium": 78,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb81df2fa2f937029ec986bbb8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517481df2fa2f937029ec986bbb8",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17881df2fa2f937029ec986bbb8",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "heartland rock",
+                "mellow gold",
+                "permanent wave",
+                "rock",
+                "singer-songwriter"
+            ]
+        },
+        {
+            "id": "2DaxqgrOhkeH0fpeiQq2f4",
+            "name": "Oasis",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb0522e98a6f0cf1ddbee9a74f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051740522e98a6f0cf1ddbee9a74f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1780522e98a6f0cf1ddbee9a74f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "beatlesque",
+                "britpop",
+                "madchester",
+                "permanent wave",
+                "rock"
+            ]
+        },
+        {
+            "id": "5KKpBU5eC2tJDzf0wmlRp2",
+            "name": "RAYE",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb5e4949a1e3073b5a34b9d938",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051745e4949a1e3073b5a34b9d938",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1785e4949a1e3073b5a34b9d938",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "uk contemporary r&b",
+                "uk pop"
+            ]
+        },
+        {
+            "id": "4iHNK0tOyZPYnBU7nGAgpQ",
+            "name": "Mariah Carey",
+            "popularityLong": 77,
+            "popularityMedium": 77,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb21b66418f7f3b86967f85bce",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517421b66418f7f3b86967f85bce",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17821b66418f7f3b86967f85bce",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "pop",
+                "urban contemporary"
+            ]
+        },
+        {
+            "id": "2qk9voo8llSGYcZ6xrBzKx",
+            "name": "Kings of Leon",
+            "popularityLong": 76,
+            "popularityMedium": 76,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb6fc940f2e99875ced9bafed0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051746fc940f2e99875ced9bafed0",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1786fc940f2e99875ced9bafed0",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "modern rock",
+                "rock"
+            ]
+        },
+        {
+            "id": "7t0rwkOPGlDPEhaOcVtOt9",
+            "name": "The Cranberries",
+            "popularityLong": 76,
+            "popularityMedium": 76,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/143c01f407ed64a4b3bcbc92d24c05ef80981251",
+                    "width": 1000
+                },
+                {
+                    "url": "https://i.scdn.co/image/a82245ec62ee9606ab456d787f1f7fcd788e6a10",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/3a0e3d6f957d3d713a386aeedd028a8e8a1d8803",
+                    "width": 200
+                },
+                {
+                    "url": "https://i.scdn.co/image/95b4d133c1e6a19efb05e4becf0f9c46e0894845",
+                    "width": 64
+                }
+            ],
+            "genres": [
+                "irish rock",
+                "pop rock",
+                "rock"
+            ]
+        },
+        {
+            "id": "78rUTD7y6Cy67W1RVzYs7t",
+            "name": "PinkPantheress",
+            "popularityLong": 76,
+            "popularityMedium": 76,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb90ddbcd825c7b6142d269e26",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517490ddbcd825c7b6142d269e26",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17890ddbcd825c7b6142d269e26",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "bedroom pop"
+            ]
+        },
+        {
+            "id": "5Ppie0uPnbnvGBYRwYmlt0",
+            "name": "Megan Moroney",
+            "popularityLong": 76,
+            "popularityMedium": 76,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebd0eb86d3ac3beaad7efb77d8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174d0eb86d3ac3beaad7efb77d8",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178d0eb86d3ac3beaad7efb77d8",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "modern country pop"
+            ]
+        },
+        {
+            "id": "3win9vGIxFfBRag9S63wwf",
+            "name": "Bailey Zimmerman",
+            "popularityLong": 75,
+            "popularityMedium": 75,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebed36422f0f4ab7564fd0a2d6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174ed36422f0f4ab7564fd0a2d6",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178ed36422f0f4ab7564fd0a2d6",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "modern country pop"
+            ]
+        },
+        {
+            "id": "4NHQUGzhtTLFvgF5SZesLK",
+            "name": "Tove Lo",
+            "popularityLong": 74,
+            "popularityMedium": 74,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb2360c963315739fc33b01687",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051742360c963315739fc33b01687",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1782360c963315739fc33b01687",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "metropopolis",
+                "pop",
+                "swedish electropop",
+                "swedish pop",
+                "swedish synthpop"
+            ]
+        },
+        {
+            "id": "1mX1TWKpNxDSAH16LgDfiR",
+            "name": "Jesse & Joy",
+            "popularityLong": 74,
+            "popularityMedium": 74,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb20681c5c3fec528fe11a1646",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000517420681c5c3fec528fe11a1646",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f17820681c5c3fec528fe11a1646",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "latin arena pop",
+                "latin pop",
+                "mexican pop"
+            ]
+        },
+        {
+            "id": "2Mu5NfyYm8n5iTomuKAEHl",
+            "name": "Ms. Lauryn Hill",
+            "popularityLong": 73,
+            "popularityMedium": 73,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ccb108f19352e88d6e69b1093d75a2be5efa1c99",
+                    "width": 907
+                },
+                {
+                    "url": "https://i.scdn.co/image/cd7ce04ab075f3edccefe469d274ca00492bcc07",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/f91d27d0fb43cfed4855d46a119310055cd30a39",
+                    "width": 200
+                },
+                {
+                    "url": "https://i.scdn.co/image/500d9d449b4ad8e8158d5417de875438c16fd9da",
+                    "width": 64
+                }
+            ],
+            "genres": [
+                "alternative r&b",
+                "conscious hip hop",
+                "hip hop",
+                "neo soul",
+                "new jersey rap",
+                "r&b"
+            ]
+        },
+        {
+            "id": "2p1fiYHYiXz9qi0JJyxBzN",
+            "name": "Skepta",
+            "popularityLong": 72,
+            "popularityMedium": 72,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb247e3bd61bd004869b5bffc3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174247e3bd61bd004869b5bffc3",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178247e3bd61bd004869b5bffc3",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "birmingham grime",
+                "grime",
+                "instrumental grime",
+                "uk hip hop"
+            ]
+        },
+        {
+            "id": "7oPgCQqMMXEXrNau5vxYZP",
+            "name": "Tracy Chapman",
+            "popularityLong": 71,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/965060777aeacb43659097cddc16b741785a508f",
+                    "width": 1000
+                },
+                {
+                    "url": "https://i.scdn.co/image/fe0085416276eb64c28eda1d2ef1feecbaa16d60",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/98b112faf6262679775d0421ec865b0d69c12fad",
+                    "width": 199
+                },
+                {
+                    "url": "https://i.scdn.co/image/0eb9ed7607fe32d96ac2ba4018abc43826150acb",
+                    "width": 64
+                }
+            ],
+            "genres": [
+                "folk",
+                "lilith",
+                "singer-songwriter",
+                "women's music"
+            ]
+        },
+        {
+            "id": "59wfkuBoNyhDMQGCljbUbA",
+            "name": "Diddy",
+            "popularityLong": 71,
+            "popularityMedium": 71,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb5065f82653e9ad00fdcafa42",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab676161000051745065f82653e9ad00fdcafa42",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f1785065f82653e9ad00fdcafa42",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "dance pop",
+                "east coast hip hop",
+                "hip hop",
+                "hip pop",
+                "pop rap",
+                "rap"
+            ]
+        },
+        {
+            "id": "6WY7D3jk8zTrHtmkqqo5GI",
+            "name": "Maren Morris",
+            "popularityLong": 70,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebc77de12a2a47f2b7e777a8e4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174c77de12a2a47f2b7e777a8e4",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178c77de12a2a47f2b7e777a8e4",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "classic texas country",
+                "contemporary country"
+            ]
+        },
+        {
+            "id": "2kucQ9jQwuD8jWdtR9Ef38",
+            "name": "Sam Hunt",
+            "popularityLong": 69,
+            "popularityMedium": 69,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb800647d0d619aa4bbfc10a53",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174800647d0d619aa4bbfc10a53",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178800647d0d619aa4bbfc10a53",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "contemporary country",
+                "country",
+                "country pop",
+                "modern country rock"
+            ]
+        },
+        {
+            "id": "6ogn9necmbUdCppmNnGOdi",
+            "name": "Alanis Morissette",
+            "popularityLong": 68,
+            "popularityMedium": 68,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebf6a97342ccd47692b7cdf8c0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174f6a97342ccd47692b7cdf8c0",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178f6a97342ccd47692b7cdf8c0",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "canadian pop",
+                "canadian singer-songwriter",
+                "lilith",
+                "neo mellow",
+                "pop rock",
+                "singer-songwriter"
+            ]
+        },
+        {
+            "id": "3iOvXCl6edW5Um0fXEBRXy",
+            "name": "The xx",
+            "popularityLong": 66,
+            "popularityMedium": 66,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5eb193bce41687d1869f8c7593f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174193bce41687d1869f8c7593f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178193bce41687d1869f8c7593f",
+                    "width": 160
+                }
+            ],
+            "genres": [
+                "downtempo",
+                "dream pop",
+                "indietronica"
+            ]
+        },
+        {
+            "id": "5SHgclK1ZpTdfdAmXW7J6s",
+            "name": "The Last Dinner Party",
+            "popularityLong": 65,
+            "popularityMedium": 0,
+            "popularityShort": 0,
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000e5ebb902c1ee47d05961cfd87b9f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616100005174b902c1ee47d05961cfd87b9f",
+                    "width": 320
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab6761610000f178b902c1ee47d05961cfd87b9f",
+                    "width": 160
+                }
+            ],
+            "genres": []
+        }
+    ]
+}

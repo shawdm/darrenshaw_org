@@ -8,6 +8,7 @@ buildSite:
 	bundle exec jekyll build
 
 deploy:
+	rm -fr _site/data
 	@if [ $(BRANCH) = "master" ]; \
 	then\
 		aws s3 cp _site s3://www.darrenshaw.org/ --recursive --profile shawdm-darrenshaw-org; \
