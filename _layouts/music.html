@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- layout music -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+    {% include favicon-music.html %}
+  </head>
+
+  <body>
+
+    {% include header.html class='black'%}
+
+    <article class="music">
+      <section class="title">
+        <h2>Popular Artists</h2>
+        <p id="music-list-popular-artists-updated"></p>
+      </section>
+      <section id="music-list-popular-artists" class="music-masonry"></section>
+    </article>
+
+
+    {% assign music_posts = site.posts | where_exp: "item", "item.categories contains 'music'" %}
+    {% for post in music_posts limit:100 -%}
+    <!-- <article>
+      <h2>{{ post.title }}</h2>
+      
+      <section>
+        {{ page.content }}
+      </section>
+    </article> -->
+    {% endfor -%}
+
+    {% include archive.html %}
+    
+    {% include about.html %}
+  
+    {% include footer.html %}
+
+    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/interactive/music/js/handlebars.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/interactive/music/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+    
+  </body>
+
+</html>

@@ -162,9 +162,6 @@ p {
   user-select: none;
 }
 
-.anchor {
-  // display: none;
-}
 
 /**
  * Header and Navigation bar
@@ -206,6 +203,10 @@ p {
   text-decoration: underline;
   background: none;
   color: $black-color;
+}
+
+.header .content nav a.nodecoration {
+  text-decoration: none;
 }
 
 .header.black{
@@ -436,90 +437,6 @@ article.blog-photo p.square-text-below {
 }
 
 
-
-/**
- * blog-portrait article
- */
-// article.blog-portrait {
-//   max-width: $max-article-width;
-//   margin-left: auto;
-//   margin-right: auto;
-//   margin-top: 0;
-// }
-
-// article.blog-portrait section {
-//   padding-left: $spacing-unit-small;
-//   padding-right: $spacing-unit-small;
-//   margin-top: 0;
-// }
-
-// article.blog-portrait section.layout-half {
-//   display: grid;
-//   grid-template-columns: auto auto;
-// }
-
-// article.blog-portrait section.layout-third {
-//   display: grid;
-//   grid-template-columns: auto auto auto;
-// }
-
-// article.blog-portrait img {
-//   display: block;
-// }
-
-// article.blog-portrait img.pad {
-//   margin-top: 1rem;
-//   margin-bottom: 1rem;
-// }
-
-// article.blog-portrait p {
-//   padding: 0;
-// }
-
-// article.blog-portrait p.square-text-above {
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 50%;
-// }
-
-// article.blog-portrait p.square-text-below {
-//   margin-left: auto;
-//   margin-right: auto;
-//   width: 50%;
-// }
-
-
-// article.blog-portrait section.title {
-//   margin-top: $spacing-unit-medium;
-//   margin-bottom: $spacing-unit-medium;
-// }
-
-// article.blog-portrait section.title h1 {
-//   text-transform: uppercase;
-//   font-weight: $heavy-font-weight;
-// }
-
-// /* Font has padding around letters, may need adjusting for left looping characters*/
-// article.blog-portrait section.title h1::first-letter {
-//   margin-left: -0.08em;
-// }
-
-
-// article.blog-portrait section.title h2 {
-//   text-transform: uppercase;
-//   font-size: $font-size-medium;
-//   font-weight: $base-font-weight;
-//   line-height: $line-height-medium-nospace;
-//   padding-top: 0;
-// }
-
-// article.blog-portrait section.title h2 b {
-//   font-weight: $heavy-font-weight;
-// }
-
-
-
-
 /**
  * photography article
  */
@@ -557,6 +474,55 @@ article.photography section.gallery-masonry .image-frame {
 }
 
 
+
+/**
+ * music article
+ */
+ article.music {
+  max-width: 100%;
+}
+
+article.music p {
+  padding-bottom: 0;
+}
+
+article.music section.title {
+  margin-left: $spacing-unit-tiny;
+  padding-left: $spacing-unit-tiny;
+  margin-right: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
+}
+
+article.music section.music-masonry {
+  columns: 8 150px;
+  column-gap: 0;
+  margin: $spacing-unit-tiny;
+}
+
+article.music section.music-masonry a {
+  color: inherit;
+  background-color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+article.music section.music-masonry .image-frame {
+  width: 100%;
+  display: block;
+  padding: 0;
+  padding: $spacing-unit-tiny;
+  position: relative;
+}
+
+article.music section.music-masonry .image-frame .description {
+  position: absolute;
+  bottom: 0;
+  left: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
+  z-index: 100;
+  background-color: $white-color;
+  
+}
 
 /**
  * Gallery
