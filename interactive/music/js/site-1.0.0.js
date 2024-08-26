@@ -60,11 +60,11 @@ async function mapToArtists(response){
     const headers = response.headers;
     var lastModified;
 
-    if(headers && headers.entries()){
-        lastModified = headers
-            .entries()
-            .find((key, _value) => key == 'Last-Modified');
-    }
+    // if(headers && headers.entries()){
+    //     lastModified = headers
+    //         .entries()
+    //         .find((key, _value) => key == 'Last-Modified');
+    // }
 
     if(!lastModified){
         lastModified = "Sun, 25 Aug 2024 23:00:52 GMT";
