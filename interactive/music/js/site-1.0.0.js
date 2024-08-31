@@ -31,7 +31,7 @@ function loadPopular(){
     const options = {};
     fetch(POPULAR_URL, options)
         .then(manageResponse)
-        .then(mapToArtists)
+        .then(mapToArtistData)
         .then(renderPopularArtists)
         .catch(error => {
             console.log(`Error fetching url=${POPULAR_URL}`, error);
@@ -46,52 +46,37 @@ function manageResponse(response){
         };
         throw(responseError);
     }
-    return response;
-    // else{
-    //     const headers = response.headers;
-    //     console.dir(headers);
-    //     return response.json();
-    // }
-    
+    return response;    
 }
 
-async function mapToArtists(response){
+async function mapToArtistData(response){
     const json = await response.json()
-    const headers = response.headers;
-    var lastModified;
-
-    // if(headers && headers.entries()){
-    //     lastModified = headers
-    //         .entries()
-    //         .find((key, _value) => key == 'Last-Modified');
-    // }
-
-    if(!lastModified){
-        lastModified = "Sun, 25 Aug 2024 23:00:52 GMT";
-    }
-
-    const popularArtists = json.artists.map((spotifyArtist, index) => {return {
-        name: spotifyArtist.name,
-        image: spotifyArtist.images[0].url,
-        url: `https://open.spotify.com/artist/${spotifyArtist.id}`,
-        position: index+1
-    }});
+    
+    const popularArtists = json.artists
+        .map((spotifyArtist, index) => {return {
+            name: spotifyArtist.name,
+            image: spotifyArtist.images[0].url,
+            url: `https://open.spotify.com/artist/${spotifyArtist.id}`,
+            position: index+1
+        }});
+    const updatedTimestamp = json.updatedTimestamp
 
     return {
         artists: popularArtists,
-        lastModified: lastModified
+        updatedTimestamp: updatedTimestamp
     }
 }
 
 function renderPopularArtists(popularArtists){
-    var parsedDate = new Date();
-    parsedDate.setTime(Date.parse(popularArtists.lastModified));
-    const formattedDate = parsedDate.toLocaleDateString("en-GB", {dateStyle:"long"});
-
-    let updatedDateHtml = HB_TEMPLATE_UPDATED_DATE({updatedDate: formattedDate})
-    let popularArtistsHtml = HB_TEMPLATE_ARTISTS({artists: popularArtists.artists});
-
-
+    const formattedDate = formatDate(popularArtists.updatedTimestamp)
+    const updatedDateHtml = HB_TEMPLATE_UPDATED_DATE({updatedDate: formattedDate})
+    const popularArtistsHtml = HB_TEMPLATE_ARTISTS({artists: popularArtists.artists});
     document.getElementById("music-list-popular-artists").innerHTML = popularArtistsHtml; 
     document.getElementById("music-list-popular-artists-updated").innerHTML = updatedDateHtml; 
+}
+
+function formatDate(dateString){
+    var parsedDate = new Date();
+    parsedDate.setTime(Date.parse(dateString));
+    return parsedDate.toLocaleDateString("en-GB", {dateStyle:"long"});
 }
