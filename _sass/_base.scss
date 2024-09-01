@@ -486,6 +486,19 @@ article.music p {
   padding-bottom: 0;
 }
 
+article.music a {
+  color: inherit;
+  background-color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+article.music a.alphabet {
+  // text-decoration: underline;
+  // padding-left: $spacing-unit-blockout;
+  // padding-right: $spacing-unit-blockout;
+}
+
 article.music section.title {
   margin-left: $spacing-unit-tiny;
   padding-left: $spacing-unit-tiny;
@@ -493,17 +506,32 @@ article.music section.title {
   padding-right: $spacing-unit-tiny;
 }
 
+article.music section.title p {
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+  text-align: right;
+}
+
+
+article.music section.title.albums-title h2 {
+  display: inline;
+}
+
+article.music section.title.albums-title div {
+  display: inline;
+}
+
+article.music section.title.albums-title div a {
+  text-decoration: underline;
+  padding-left: $spacing-unit-tiny;
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+}
+
 article.music section.music-masonry {
   columns: 8 150px;
   column-gap: 0;
   margin: $spacing-unit-tiny;
-}
-
-article.music section.music-masonry a {
-  color: inherit;
-  background-color: inherit;
-  padding: 0;
-  border-radius: 0;
 }
 
 article.music section.music-masonry .image-frame {
@@ -520,8 +548,36 @@ article.music section.music-masonry .image-frame .description {
   left: $spacing-unit-tiny;
   padding-right: $spacing-unit-tiny;
   z-index: 100;
-  background-color: $white-color;
-  
+  background-color: $white-color; 
+}
+
+article.music section.music-alphabetic h2 {
+  margin-left: $spacing-unit-tiny;
+  padding-left: $spacing-unit-tiny;
+  margin-right: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
+  padding-top: 0;
+}
+
+article.music section.music-alphabetic .album {
+  margin-left: $spacing-unit-tiny;
+  padding-left: $spacing-unit-tiny;
+  margin-right: $spacing-unit-tiny;
+  padding-right: $spacing-unit-tiny;
+  margin-bottom: $spacing-unit-tiny;
+  padding-bottom: $spacing-unit-tiny;
+  margin-top: $spacing-unit-tiny;
+  padding-top: $spacing-unit-tiny;;
+  display: flex;
+}
+
+article.music section.music-alphabetic .image-frame {
+  width: 150px;
+  margin-right: $spacing-unit-tiny;
+}
+
+article.music section.music-alphabetic .description {
+  margin-left: $spacing-unit-tiny;
 }
 
 /**
