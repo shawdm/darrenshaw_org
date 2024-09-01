@@ -1,0 +1,2790 @@
+{
+    "updatedTimestamp": "2024-08-31T17:37:43.261154439Z",
+    "playlistTracks": [
+        {
+            "id": "5mjYQaktjmjcMKcUIcqz4s",
+            "name": "Strangers",
+            "artists": [
+                {
+                    "id": "7uMDnSZyUYNBPLhPMNuaM2",
+                    "name": "Kenya Grace"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734756c2e9ae436437cd75e9f3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024756c2e9ae436437cd75e9f3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514756c2e9ae436437cd75e9f3",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-01T14:22:16Z"
+        },
+        {
+            "id": "5DIBVDJOHh7djepAjKHWCO",
+            "name": "Heart Like A Truck",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fab89700cf3b4ca3d6a3d93b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fab89700cf3b4ca3d6a3d93b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fab89700cf3b4ca3d6a3d93b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-06T22:03:56Z"
+        },
+        {
+            "id": "3967Uo1G05njseUUCnev2w",
+            "name": "Live Off",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fab89700cf3b4ca3d6a3d93b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fab89700cf3b4ca3d6a3d93b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fab89700cf3b4ca3d6a3d93b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-08T09:02:14Z"
+        },
+        {
+            "id": "7yVVTAPCav3KYMUksCTN3K",
+            "name": "What’s Up (What’s Going On)",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fab89700cf3b4ca3d6a3d93b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fab89700cf3b4ca3d6a3d93b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fab89700cf3b4ca3d6a3d93b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-08T09:09:41Z"
+        },
+        {
+            "id": "0kmeLaaMiIGBI8UhrM1bYQ",
+            "name": "New Friends",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fab89700cf3b4ca3d6a3d93b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fab89700cf3b4ca3d6a3d93b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fab89700cf3b4ca3d6a3d93b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-11T10:06:45Z"
+        },
+        {
+            "id": "33GIBaGFYWLPBJzZXCVTlF",
+            "name": "Bloodstream",
+            "artists": [
+                {
+                    "id": "1mbybf2CrAiwWiznqA8R3g",
+                    "name": "LOWES"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732275712213924037199aa2ad",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022275712213924037199aa2ad",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512275712213924037199aa2ad",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-12T07:40:19Z"
+        },
+        {
+            "id": "19CqaxojbrK0QthZtht4nR",
+            "name": "Sorority",
+            "artists": [
+                {
+                    "id": "6xgvgzXNv3ymcITXTrxRaA",
+                    "name": "ELIO"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27380773b0a83e1d865dc9adf37",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0280773b0a83e1d865dc9adf37",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485180773b0a83e1d865dc9adf37",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-12T07:44:11Z"
+        },
+        {
+            "id": "1AZoLkRwhHY5xSL9lGYrlc",
+            "name": "Elevator Eyes",
+            "artists": [
+                {
+                    "id": "4NHQUGzhtTLFvgF5SZesLK",
+                    "name": "Tove Lo"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b1762f566a71db8ecec5d567",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b1762f566a71db8ecec5d567",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b1762f566a71db8ecec5d567",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-12T07:46:14Z"
+        },
+        {
+            "id": "0hGsMejV4nDkEX0QogQPwU",
+            "name": "Ray-Bans",
+            "artists": [
+                {
+                    "id": "6Paz0vXJJ9bCPf0fEm3qzg",
+                    "name": "Dagny"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273403f3e290683af4579909ea0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02403f3e290683af4579909ea0",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851403f3e290683af4579909ea0",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-12T09:17:37Z"
+        },
+        {
+            "id": "47Xj8eIAp7hYOOqArmkqZE",
+            "name": "Spin You Around (1/24)",
+            "artists": [
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27379663e938af7d4dc153da554",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0279663e938af7d4dc153da554",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485179663e938af7d4dc153da554",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-01-28T20:45:42Z"
+        },
+        {
+            "id": "5AIUQWoMELIpAOi1WPMeSD",
+            "name": "Escapism. - 4am Remix",
+            "artists": [
+                {
+                    "id": "5KKpBU5eC2tJDzf0wmlRp2",
+                    "name": "RAYE"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ac4bb8d2412b16fd4fc17cb0",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ac4bb8d2412b16fd4fc17cb0",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ac4bb8d2412b16fd4fc17cb0",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-02T09:10:04Z"
+        },
+        {
+            "id": "0MyiHsmsraegQsowpoWxEf",
+            "name": "Right Back to It",
+            "artists": [
+                {
+                    "id": "5IWCU0V9evBlW4gIeGY4zF",
+                    "name": "Waxahatchee"
+                },
+                {
+                    "id": "4tK6Z8fK7Sc9133byjPGIT",
+                    "name": "MJ Lenderman"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273271c8eee56cd37a4f5e5b9f2",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02271c8eee56cd37a4f5e5b9f2",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851271c8eee56cd37a4f5e5b9f2",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-02T15:41:15Z"
+        },
+        {
+            "id": "0DFldA3ySuV2dblrOAWq1f",
+            "name": "Don't Forget Me",
+            "artists": [
+                {
+                    "id": "4NZvixzsSefsNiIqXn0NDe",
+                    "name": "Maggie Rogers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735d873b63829aaf5d67f438dc",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025d873b63829aaf5d67f438dc",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515d873b63829aaf5d67f438dc",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-09T07:10:00Z"
+        },
+        {
+            "id": "2lJn77IeZAP9cmv6DPXOrL",
+            "name": "Deeper Well",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27393b05c15358c25698086da89",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0293b05c15358c25698086da89",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485193b05c15358c25698086da89",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-09T07:10:04Z"
+        },
+        {
+            "id": "1yZmHipKOL0zDpkxzt8QHr",
+            "name": "Space Between",
+            "artists": [
+                {
+                    "id": "589TqkGa2orXeVV4EK653j",
+                    "name": "Jem Cassar-Daley"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ec7053a67167a2976da63951",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ec7053a67167a2976da63951",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ec7053a67167a2976da63951",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-09T07:28:59Z"
+        },
+        {
+            "id": "3PG6V5yuFfo4APiovOQoRv",
+            "name": "I Was Born To Love You",
+            "artists": [
+                {
+                    "id": "6DoH7ywD5BcQvjloe9OcIj",
+                    "name": "Ray LaMontagne"
+                },
+                {
+                    "id": "3oVcF3VdpMuvMvLLyHPT4t",
+                    "name": "Sierra Ferrell"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739aad3164d9106ded83bdae0e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029aad3164d9106ded83bdae0e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519aad3164d9106ded83bdae0e",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-09T13:21:17Z"
+        },
+        {
+            "id": "1xfF8Y370KZujtqcbOAwEE",
+            "name": "Three Little Birds - Bob Marley: One Love - Music Inspired By The Film",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27382f36e780a334006a19b7bd4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0282f36e780a334006a19b7bd4",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485182f36e780a334006a19b7bd4",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-09T16:11:37Z"
+        },
+        {
+            "id": "6fL5O5y6pSeU5Hjx9SgKar",
+            "name": "Country's Cool Again",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27362f8f4a7a2a7bb8bcc70bd57",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0262f8f4a7a2a7bb8bcc70bd57",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485162f8f4a7a2a7bb8bcc70bd57",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-16T21:03:09Z"
+        },
+        {
+            "id": "52e1X66wdRyPeSJcx5mqon",
+            "name": "You’re Gonna Go Far (with Brandi Carlile)",
+            "artists": [
+                {
+                    "id": "2RQXRUsr4IW1f3mKyKsy4B",
+                    "name": "Noah Kahan"
+                },
+                {
+                    "id": "2sG4zTOLvjKG1PSoOyf5Ej",
+                    "name": "Brandi Carlile"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739c2382b9f69ae2f3627b5a24",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029c2382b9f69ae2f3627b5a24",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519c2382b9f69ae2f3627b5a24",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-02-18T17:53:50Z"
+        },
+        {
+            "id": "4vIiVs5JoNfqqRi5o7jAIb",
+            "name": "Too Good to be True",
+            "artists": [
+                {
+                    "id": "70kkdajctXSbqSMJbQO424",
+                    "name": "Kacey Musgraves"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735837e3543df98a47b5fe5e7d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025837e3543df98a47b5fe5e7d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515837e3543df98a47b5fe5e7d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-01T09:23:27Z"
+        },
+        {
+            "id": "2MG0gRnnPFFMLKPF4ZH8uP",
+            "name": "2AM in London",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b5718d1c5907ce1bc3a6551",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b5718d1c5907ce1bc3a6551",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518b5718d1c5907ce1bc3a6551",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-01T09:32:36Z"
+        },
+        {
+            "id": "2fGoNwWte7OojQlB8x31ku",
+            "name": "Promises - VIP",
+            "artists": [
+                {
+                    "id": "2EFsfh1zewsSWhDINv7j1I",
+                    "name": "Logic1000"
+                },
+                {
+                    "id": "3MM3uKNdJbvefUael12dl3",
+                    "name": "Rochelle Jordan"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731b2995693634c6e2b8c4ad28",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021b2995693634c6e2b8c4ad28",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048511b2995693634c6e2b8c4ad28",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-01T13:21:19Z"
+        },
+        {
+            "id": "3ytbtkmMnkfwMrBi32a7FD",
+            "name": "Like What (Freestyle)",
+            "artists": [
+                {
+                    "id": "4kYSro6naA4h99UJvo89HB",
+                    "name": "Cardi B"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fe1fd60a94f026d613ac4be8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fe1fd60a94f026d613ac4be8",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fe1fd60a94f026d613ac4be8",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-08T10:26:20Z"
+        },
+        {
+            "id": "142PiXzA84lmEw2RstFHFa",
+            "name": "supernatural",
+            "artists": [
+                {
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-10T18:46:20Z"
+        },
+        {
+            "id": "2qovhIwmJitHmE9D8P9EjK",
+            "name": "Praise",
+            "artists": [
+                {
+                    "id": "28j8lBWDdDSHSSt5oPlsX2",
+                    "name": "ZHU"
+                },
+                {
+                    "id": "2xe8IXgCTpwHE3eA9hTs4n",
+                    "name": "BANKS"
+                },
+                {
+                    "id": "7GwwoezwdbKvUaNgtg51pX",
+                    "name": "bludnymph"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273c406abe35d909abac87bccb5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02c406abe35d909abac87bccb5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851c406abe35d909abac87bccb5",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-15T20:18:54Z"
+        },
+        {
+            "id": "4pUWfW7nhtlmqww70u0nkh",
+            "name": "So Sick Of Dreaming",
+            "artists": [
+                {
+                    "id": "4NZvixzsSefsNiIqXn0NDe",
+                    "name": "Maggie Rogers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732b6a5d974923e4243f2ab87c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022b6a5d974923e4243f2ab87c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512b6a5d974923e4243f2ab87c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-21T08:09:46Z"
+        },
+        {
+            "id": "6fQV58uxoLdKb0VJIsLaVr",
+            "name": "Work In Progress",
+            "artists": [
+                {
+                    "id": "0nnYdIpahs41QiZ9MWp5Wx",
+                    "name": "Holly Humberstone"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e9638dd439bf8b5974a15fb6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e9638dd439bf8b5974a15fb6",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e9638dd439bf8b5974a15fb6",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-22T10:03:40Z"
+        },
+        {
+            "id": "0RVEAF3XFF2dZFhI8O58JF",
+            "name": "Kingdom",
+            "artists": [
+                {
+                    "id": "5XMyhVhi5ZN2pi0Qwi1zXS",
+                    "name": "Joy Crookes"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a46834aa71df89c1c66a6662",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a46834aa71df89c1c66a6662",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a46834aa71df89c1c66a6662",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-28T20:36:20Z"
+        },
+        {
+            "id": "69UTmQOhqIRoGcTWFUidSZ",
+            "name": "Ready For You (feat. Celeste)",
+            "artists": [
+                {
+                    "id": "6wMr4zKPrrR0UVz08WtUWc",
+                    "name": "Black Coffee"
+                },
+                {
+                    "id": "49HlOY4gkHqsYG9GCuhkcc",
+                    "name": "Celeste"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b24033332bb5d78aaa7790d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b24033332bb5d78aaa7790d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518b24033332bb5d78aaa7790d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-28T20:37:29Z"
+        },
+        {
+            "id": "0siYMEsGrzzzlWLXK5zJfS",
+            "name": "BED",
+            "artists": [
+                {
+                    "id": "6DgP9otnZw5z6daOntINxp",
+                    "name": "Joel Corry"
+                },
+                {
+                    "id": "5KKpBU5eC2tJDzf0wmlRp2",
+                    "name": "RAYE"
+                },
+                {
+                    "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+                    "name": "David Guetta"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b06c09b9f72389ee7f1cbd6b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b06c09b9f72389ee7f1cbd6b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b06c09b9f72389ee7f1cbd6b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-28T21:06:17Z"
+        },
+        {
+            "id": "1HsMzd3cqmnVNN5nuf2t7R",
+            "name": "Prada",
+            "artists": [
+                {
+                    "id": "5wCmhq5J2hPwL2r0eKurxn",
+                    "name": "cassö"
+                },
+                {
+                    "id": "5KKpBU5eC2tJDzf0wmlRp2",
+                    "name": "RAYE"
+                },
+                {
+                    "id": "5VadK1havLhK1OpKYsXv9y",
+                    "name": "D-Block Europe"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ff1b7ad4308c1ac074418d33",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ff1b7ad4308c1ac074418d33",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ff1b7ad4308c1ac074418d33",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-28T21:06:38Z"
+        },
+        {
+            "id": "0jWgAnTrNZmOGmqgvHhZEm",
+            "name": "What's Up?",
+            "artists": [
+                {
+                    "id": "0Je74SitssvJg1w4Ra2EK7",
+                    "name": "4 Non Blondes"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273381371cb8ce680d0dc324600",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02381371cb8ce680d0dc324600",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851381371cb8ce680d0dc324600",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-30T15:23:02Z"
+        },
+        {
+            "id": "6DXZiYUbrYgrVIhfX3U9Z2",
+            "name": "Pretty Please",
+            "artists": [
+                {
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024bc66095f8a70bc4e6593f4f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514bc66095f8a70bc4e6593f4f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-03-31T16:16:31Z"
+        },
+        {
+            "id": "35mrmYpwNGBmNJmtuG9XJD",
+            "name": "Split Screen",
+            "artists": [
+                {
+                    "id": "2qk9voo8llSGYcZ6xrBzKx",
+                    "name": "Kings of Leon"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273870fb7eabd4df641b73cb745",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02870fb7eabd4df641b73cb745",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851870fb7eabd4df641b73cb745",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-03T08:25:29Z"
+        },
+        {
+            "id": "4AW85nhkcAkTVBPDkmGnMq",
+            "name": "Did I - Peaches Remix",
+            "artists": [
+                {
+                    "id": "3X2DdnmoANw8Rg8luHyZQb",
+                    "name": "Romy"
+                },
+                {
+                    "id": "1gkSl4XpHIHI4I1WQbfXOE",
+                    "name": "Peaches"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273487df6f58025b4ad7a1b7f2d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02487df6f58025b4ad7a1b7f2d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851487df6f58025b4ad7a1b7f2d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-05T07:27:09Z"
+        },
+        {
+            "id": "4DM1J2NHPGlIfdepXMFbK9",
+            "name": "House",
+            "artists": [
+                {
+                    "id": "3Bd1cgCjtCI32PYvDC3ynO",
+                    "name": "London Grammar"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273942000488ef124b6525a1993",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02942000488ef124b6525a1993",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851942000488ef124b6525a1993",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-05T07:50:27Z"
+        },
+        {
+            "id": "58z8aJEPO5uHIi45ea6IH8",
+            "name": "I Can't Get My Head Around You (OurVinyl Sessions)",
+            "artists": [
+                {
+                    "id": "02YLJJnWC7YQVixkjEBRn7",
+                    "name": "Billie Marten"
+                },
+                {
+                    "id": "4MhBe0d439ToDXCWlT3wae",
+                    "name": "OurVinyl"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734fbe7784e9f2cd55219d14cf",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024fbe7784e9f2cd55219d14cf",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514fbe7784e9f2cd55219d14cf",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-05T08:38:59Z"
+        },
+        {
+            "id": "1x6TYpJ3IfpEnfWOIuznkV",
+            "name": "falco",
+            "artists": [
+                {
+                    "id": "6grKEGFYz5bqq0IQraQhsQ",
+                    "name": "Pink Pablo"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ff61648787173cfc9c472e9d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ff61648787173cfc9c472e9d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ff61648787173cfc9c472e9d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-05T08:43:14Z"
+        },
+        {
+            "id": "5haqzzLVsTHG1iVvPTj1kM",
+            "name": "Time to Love, Time to Kill",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2732b4ddce30353b6d5987d92fb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e022b4ddce30353b6d5987d92fb",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048512b4ddce30353b6d5987d92fb",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-12T08:03:43Z"
+        },
+        {
+            "id": "5A1WGS4GA1XKmC7Qm362Vl",
+            "name": "Last Hurrah",
+            "artists": [
+                {
+                    "id": "2kucQ9jQwuD8jWdtR9Ef38",
+                    "name": "Sam Hunt"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273aea1812d4ecf3c2fff32c913",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02aea1812d4ecf3c2fff32c913",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851aea1812d4ecf3c2fff32c913",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-12T08:29:38Z"
+        },
+        {
+            "id": "23YGPdk7Nhho8KQaNflpH2",
+            "name": "Cycles",
+            "artists": [
+                {
+                    "id": "5RJFJWYgtgWktosLrUDzff",
+                    "name": "Griff"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735f8d448e7e3ef659398c129c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025f8d448e7e3ef659398c129c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515f8d448e7e3ef659398c129c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-12T08:29:49Z"
+        },
+        {
+            "id": "59xD5osEFsaNt5PXfIKUnX",
+            "name": "Illusion",
+            "artists": [
+                {
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273637707fdf5f11cd741080d20",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02637707fdf5f11cd741080d20",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851637707fdf5f11cd741080d20",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-13T20:03:32Z"
+        },
+        {
+            "id": "0lE3g4HFvJftx16QgzQsRz",
+            "name": "Girlboss",
+            "artists": [
+                {
+                    "id": "7MbSdIkdgkwmVxObpCg87e",
+                    "name": "Eves Karydas"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273426b70b0ba92a2a4b34b1f9c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02426b70b0ba92a2a4b34b1f9c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851426b70b0ba92a2a4b34b1f9c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-04-24T07:46:45Z"
+        },
+        {
+            "id": "5TzsTsDLPdrg7WLr0dpCXc",
+            "name": "Vicious Traditions",
+            "artists": [
+                {
+                    "id": "1MDw0zSUU0XtI9D5JgEZH5",
+                    "name": "The Veils"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27399dd98e0bf76bfe71147070f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0299dd98e0bf76bfe71147070f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485199dd98e0bf76bfe71147070f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-02T19:30:19Z"
+        },
+        {
+            "id": "1HiTSSMkRcKzeCEbTlZySu",
+            "name": "Cocoon",
+            "artists": [
+                {
+                    "id": "0nnYdIpahs41QiZ9MWp5Wx",
+                    "name": "Holly Humberstone"
+                },
+                {
+                    "id": "3C6wmSgnZuqxVQyBWujBsn",
+                    "name": "Medium Build"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a96eac4d6f32e6e9a9051acd",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a96eac4d6f32e6e9a9051acd",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a96eac4d6f32e6e9a9051acd",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T08:34:55Z"
+        },
+        {
+            "id": "5HsRYILDt34Fa7RspKlSzN",
+            "name": "42 - Maesic Remix",
+            "artists": [
+                {
+                    "id": "5fMUXHkw8R8eOP2RNVYEZX",
+                    "name": "Diplo"
+                },
+                {
+                    "id": "6WY7D3jk8zTrHtmkqqo5GI",
+                    "name": "Maren Morris"
+                },
+                {
+                    "id": "1GO0BdzMo0I4HNHfbaLbKZ",
+                    "name": "Maesic"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f3806fa84b88569de46f0a24",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f3806fa84b88569de46f0a24",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f3806fa84b88569de46f0a24",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T08:37:10Z"
+        },
+        {
+            "id": "7b6sWLSnbZhSIeqNGrJ4py",
+            "name": "These Walls",
+            "artists": [
+                {
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273778c1e4660aa23f6728b32a1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02778c1e4660aa23f6728b32a1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851778c1e4660aa23f6728b32a1",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T08:40:46Z"
+        },
+        {
+            "id": "77DRzu7ERs0TX3roZcre7Q",
+            "name": "euphoria",
+            "artists": [
+                {
+                    "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+                    "name": "Kendrick Lamar"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737587213b1be294ac4000f648",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517587213b1be294ac4000f648",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T09:01:31Z"
+        },
+        {
+            "id": "11Sd2Py9o6kDgdf6ivQZL7",
+            "name": "America In Your 20's",
+            "artists": [
+                {
+                    "id": "4ug3P1K8BaCdJXROrqHqhu",
+                    "name": "Winnetka Bowling League"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730e3cf2c6d3b5d090dd3c5a16",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020e3cf2c6d3b5d090dd3c5a16",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510e3cf2c6d3b5d090dd3c5a16",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T09:03:05Z"
+        },
+        {
+            "id": "2fLDKaSvow0ciPW60ibLil",
+            "name": "Vitamins",
+            "artists": [
+                {
+                    "id": "1MIVXf74SZHmTIp4V4paH4",
+                    "name": "Mabel"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273a6143fd1f7f989d9b09d70f6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02a6143fd1f7f989d9b09d70f6",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851a6143fd1f7f989d9b09d70f6",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T09:11:51Z"
+        },
+        {
+            "id": "3YyyTcNUwJU4fS01fppkkZ",
+            "name": "end game",
+            "artists": [
+                {
+                    "id": "6WFDpw4u23uSpon4BHvFRn",
+                    "name": "Cat Burns"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e76823f6ab0b7b2da2c0d471",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e76823f6ab0b7b2da2c0d471",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e76823f6ab0b7b2da2c0d471",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-03T09:13:32Z"
+        },
+        {
+            "id": "5OELUCYgOHKFAvCERnAvfS",
+            "name": "More Than My Hometown",
+            "artists": [
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027d6813fd233f3bc4977cceca",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517d6813fd233f3bc4977cceca",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-04T18:16:17Z"
+        },
+        {
+            "id": "7221xIgOnuakPdLqT0F3nP",
+            "name": "I Had Some Help (Feat. Morgan Wallen)",
+            "artists": [
+                {
+                    "id": "246dkjvS1zLTtiykXe5h60",
+                    "name": "Post Malone"
+                },
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27397306976e3eb8aad53b754eb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0297306976e3eb8aad53b754eb",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485197306976e3eb8aad53b754eb",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-16T07:26:18Z"
+        },
+        {
+            "id": "6w7OpHp3Y3ByHzmfQXYCRN",
+            "name": "Hang Tight Honey",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27338578a8d5a9cb11cbb1c182d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0238578a8d5a9cb11cbb1c182d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485138578a8d5a9cb11cbb1c182d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-17T08:15:40Z"
+        },
+        {
+            "id": "234Qv4iYZdhQFPUQVJRAdq",
+            "name": "Something I Can Cry To",
+            "artists": [
+                {
+                    "id": "0gSAxSvAApQc71cTpoXDFu",
+                    "name": "Tenille Arts"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27356d6b1e24ac1f27e6249f11b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0256d6b1e24ac1f27e6249f11b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485156d6b1e24ac1f27e6249f11b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-17T08:36:21Z"
+        },
+        {
+            "id": "2qSkIjg1o9h3YT9RAgYN75",
+            "name": "Espresso",
+            "artists": [
+                {
+                    "id": "74KM79TiuVKeVCqs8QtB0B",
+                    "name": "Sabrina Carpenter"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02659cd4673230913b3918e0d5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851659cd4673230913b3918e0d5",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-23T12:57:19Z"
+        },
+        {
+            "id": "2PF942PpnXkvXgLjphm8gG",
+            "name": "Fast Times",
+            "artists": [
+                {
+                    "id": "74KM79TiuVKeVCqs8QtB0B",
+                    "name": "Sabrina Carpenter"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730f45623be014a592a5815827",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020f45623be014a592a5815827",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510f45623be014a592a5815827",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-23T13:40:47Z"
+        },
+        {
+            "id": "3JugN3sP7UBIXKsl9qruWU",
+            "name": "So Do I",
+            "artists": [
+                {
+                    "id": "0gSAxSvAApQc71cTpoXDFu",
+                    "name": "Tenille Arts"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27356d6b1e24ac1f27e6249f11b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0256d6b1e24ac1f27e6249f11b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485156d6b1e24ac1f27e6249f11b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-24T07:25:27Z"
+        },
+        {
+            "id": "7iDBDNHUU1XrOzgjFo35no",
+            "name": "Do It - feat. Missy Elliott",
+            "artists": [
+                {
+                    "id": "2jw70GZXlAI8QzWeY2bgRc",
+                    "name": "Nelly Furtado"
+                },
+                {
+                    "id": "2wIVse2owClT7go1WT98tk",
+                    "name": "Missy Elliott"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735bb9fb87e68a1c896f43f7bc",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025bb9fb87e68a1c896f43f7bc",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515bb9fb87e68a1c896f43f7bc",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-26T19:20:30Z"
+        },
+        {
+            "id": "7cgu4JBW3hq1GwTM1ilkKQ",
+            "name": "Talking Body",
+            "artists": [
+                {
+                    "id": "4NHQUGzhtTLFvgF5SZesLK",
+                    "name": "Tove Lo"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27370cd79659edf4d5fec0840b8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0270cd79659edf4d5fec0840b8",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485170cd79659edf4d5fec0840b8",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-27T18:07:59Z"
+        },
+        {
+            "id": "2kSeF6yZz3wLFchfnX0xfO",
+            "name": "Always Forever",
+            "artists": [
+                {
+                    "id": "3X2DdnmoANw8Rg8luHyZQb",
+                    "name": "Romy"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736d554e3ef130058a49eb6fa8",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026d554e3ef130058a49eb6fa8",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516d554e3ef130058a49eb6fa8",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-28T18:47:37Z"
+        },
+        {
+            "id": "3bqFoUhoet6YhQa8iV5wO3",
+            "name": "No One’s Ever Kissed You",
+            "artists": [
+                {
+                    "id": "4ug3P1K8BaCdJXROrqHqhu",
+                    "name": "Winnetka Bowling League"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ad3414b921bfacf664df94f5",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ad3414b921bfacf664df94f5",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ad3414b921bfacf664df94f5",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-31T08:58:59Z"
+        },
+        {
+            "id": "0VYJseZYvfVP3YOsQZ1tzS",
+            "name": "360 featuring robyn and yung lean",
+            "artists": [
+                {
+                    "id": "25uiPmTg16RbhZWAqwLBy5",
+                    "name": "Charli xcx"
+                },
+                {
+                    "id": "6UE7nl9mha6s8z0wFQFIZ2",
+                    "name": "Robyn"
+                },
+                {
+                    "id": "67lytN32YpUxiSeWlKfHJ3",
+                    "name": "Yung Lean"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273217e62c74dd2b6520262d043",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02217e62c74dd2b6520262d043",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851217e62c74dd2b6520262d043",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-05-31T08:59:21Z"
+        },
+        {
+            "id": "13bPROSNrEszkMcTtX2SHh",
+            "name": "Joga Bonito",
+            "artists": [
+                {
+                    "id": "4Xi6LSfFqv26XgP9NKN26U",
+                    "name": "AJ Tracey"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735431b310fe8fe3590b3e9746",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025431b310fe8fe3590b3e9746",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515431b310fe8fe3590b3e9746",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-06T07:38:02Z"
+        },
+        {
+            "id": "2NvYdollt2CTUJYn66OBt9",
+            "name": "Any Way (feat. Maggie Rogers)",
+            "artists": [
+                {
+                    "id": "4PwlsrN0t5mLN0C827cbEU",
+                    "name": "L'Impératrice"
+                },
+                {
+                    "id": "4NZvixzsSefsNiIqXn0NDe",
+                    "name": "Maggie Rogers"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27392b8f36cf621dde5e7b94efe",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0292b8f36cf621dde5e7b94efe",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485192b8f36cf621dde5e7b94efe",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-06T19:01:16Z"
+        },
+        {
+            "id": "1o9JJeBKlVxQ9O4j5Qd4Vh",
+            "name": "Give Me Everything - Stripped Down",
+            "artists": [
+                {
+                    "id": "74rnJF4h8ScpbyEhLholBg",
+                    "name": "Archer Marsh"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735e84bec51f6aa64241caf94b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025e84bec51f6aa64241caf94b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515e84bec51f6aa64241caf94b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-07T09:08:26Z"
+        },
+        {
+            "id": "2ObBVRY8a2lnAkNG62u9eC",
+            "name": "Beautiful As You",
+            "artists": [
+                {
+                    "id": "6x2LnllRG5uGarZMsD4iO8",
+                    "name": "Thomas Rhett"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273339efd3540a84a0be92a1a98",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02339efd3540a84a0be92a1a98",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851339efd3540a84a0be92a1a98",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-07T09:58:45Z"
+        },
+        {
+            "id": "76ST8TBf6W54nnn8CZaecj",
+            "name": "Down the Drain",
+            "artists": [
+                {
+                    "id": "5fspZkvc27zQHB6PjbPoGK",
+                    "name": "Julia Fox"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738777e7864cc889620ce93dc3",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028777e7864cc889620ce93dc3",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518777e7864cc889620ce93dc3",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-08T12:10:57Z"
+        },
+        {
+            "id": "2uqYupMHANxnwgeiXTZXzd",
+            "name": "Austin (Boots Stop Workin')",
+            "artists": [
+                {
+                    "id": "7Ez6lTtSMjMf2YSYpukP1I",
+                    "name": "Dasha"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734ccf88b66e04cfd247f287eb",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024ccf88b66e04cfd247f287eb",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514ccf88b66e04cfd247f287eb",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-10T07:40:01Z"
+        },
+        {
+            "id": "15PtPmi0iXs6Mykh4k2JQo",
+            "name": "Light On In The Kitchen",
+            "artists": [
+                {
+                    "id": "371jpyGdoChzUASOIG2ECV",
+                    "name": "Ashley McBryde"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e533b7756e172ace5182b918",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e533b7756e172ace5182b918",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e533b7756e172ace5182b918",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-11T13:31:05Z"
+        },
+        {
+            "id": "2UrZkvkjjhdtqPiIi6fEjA",
+            "name": "Single At The Same Time",
+            "artists": [
+                {
+                    "id": "371jpyGdoChzUASOIG2ECV",
+                    "name": "Ashley McBryde"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273e533b7756e172ace5182b918",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02e533b7756e172ace5182b918",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851e533b7756e172ace5182b918",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-11T13:41:31Z"
+        },
+        {
+            "id": "42lqBjPYlmL1EXpMDXvhSN",
+            "name": "Somebody’s Problem",
+            "artists": [
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027d6813fd233f3bc4977cceca",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517d6813fd233f3bc4977cceca",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-12T07:37:18Z"
+        },
+        {
+            "id": "0sKEilrw1GrBlG6qsTCrP4",
+            "name": "865",
+            "artists": [
+                {
+                    "id": "4oUHIQIBe0LHzYfvXNW4QM",
+                    "name": "Morgan Wallen"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027d6813fd233f3bc4977cceca",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517d6813fd233f3bc4977cceca",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-12T07:42:58Z"
+        },
+        {
+            "id": "34cLr4m5Sxe84XE5oBfO2Q",
+            "name": "Out of Oklahoma (From Twisters: The Album)",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27324995732e3faa346bf282d53",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0224995732e3faa346bf282d53",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485124995732e3faa346bf282d53",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-21T07:58:24Z"
+        },
+        {
+            "id": "2QVur9XmWWwivQntbUwvVT",
+            "name": "Moth to a Flame",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27371a80880f4fa0748cd565171",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0271a80880f4fa0748cd565171",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485171a80880f4fa0748cd565171",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-21T08:02:06Z"
+        },
+        {
+            "id": "4PJPrTq598dd2HvLxQfh36",
+            "name": "The Night (Part 2 - Acoustic)",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2733488f753b8e027f3c7a1d48b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e023488f753b8e027f3c7a1d48b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048513488f753b8e027f3c7a1d48b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-24T17:31:16Z"
+        },
+        {
+            "id": "3o43rmM7KjVTQzGUD0ytad",
+            "name": "Love Bites (Feat. Tove Lo & SG Lewis) - Don Diablo Remix",
+            "artists": [
+                {
+                    "id": "2jw70GZXlAI8QzWeY2bgRc",
+                    "name": "Nelly Furtado"
+                },
+                {
+                    "id": "1l2ekx5skC4gJH8djERwh1",
+                    "name": "Don Diablo"
+                },
+                {
+                    "id": "4NHQUGzhtTLFvgF5SZesLK",
+                    "name": "Tove Lo"
+                },
+                {
+                    "id": "0GG2cWaonE4JPrjcCCQ1EG",
+                    "name": "SG Lewis"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273da02d8763e18d032efd51590",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02da02d8763e18d032efd51590",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851da02d8763e18d032efd51590",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-29T11:38:27Z"
+        },
+        {
+            "id": "3cJYabIZeTxKGoqJcGrfZz",
+            "name": "Miss Independent",
+            "artists": [
+                {
+                    "id": "2p1fiYHYiXz9qi0JJyxBzN",
+                    "name": "Skepta"
+                },
+                {
+                    "id": "6wNPY2m52IiyyVZXR339D9",
+                    "name": "R2R MOE"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27366e4cbd9af1b52348c4bb34d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0266e4cbd9af1b52348c4bb34d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485166e4cbd9af1b52348c4bb34d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-29T12:38:15Z"
+        },
+        {
+            "id": "5PmpmP9Z7lxKhriEoafUNr",
+            "name": "Reason Why (feat. Kim Petras & BC Kingdom)",
+            "artists": [
+                {
+                    "id": "5a2w2tgpLwv26BYJf2qYwu",
+                    "name": "SOPHIE"
+                },
+                {
+                    "id": "3Xt3RrJMFv5SZkCfUE8C1J",
+                    "name": "Kim Petras"
+                },
+                {
+                    "id": "7HVp0RVFZQBU8NJFZHe7vP",
+                    "name": "BC Kingdom"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2731db289b011dac3c17ad6186a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e021db289b011dac3c17ad6186a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048511db289b011dac3c17ad6186a",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-06-29T12:56:30Z"
+        },
+        {
+            "id": "0ZHdP6TzcInPSdQwQ1fkBZ",
+            "name": "4×4×U",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738642e6add8c14edcfb39c775",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028642e6add8c14edcfb39c775",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518642e6add8c14edcfb39c775",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-05T08:23:04Z"
+        },
+        {
+            "id": "7mKUUZmTmFlaiZN427p3fD",
+            "name": "What Would You Do?",
+            "artists": [
+                {
+                    "id": "0LlPal5iJGcCWwZp8VefVs",
+                    "name": "City High"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739ff8054cbe8c8401b764106d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029ff8054cbe8c8401b764106d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519ff8054cbe8c8401b764106d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-18T08:17:34Z"
+        },
+        {
+            "id": "38JweSPC9JTirnqgFOchCM",
+            "name": "the boy is mine",
+            "artists": [
+                {
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730f41d138987a79efce0f884c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020f41d138987a79efce0f884c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510f41d138987a79efce0f884c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-19T08:11:48Z"
+        },
+        {
+            "id": "3gEuM1l3MQ95jBt2aduIZH",
+            "name": "Total Control",
+            "artists": [
+                {
+                    "id": "4eYE8Z6cfEHEdG22lTyucP",
+                    "name": "Morgan Wade"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2735a58bab0311793a3661aaea6",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e025a58bab0311793a3661aaea6",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048515a58bab0311793a3661aaea6",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-19T08:12:26Z"
+        },
+        {
+            "id": "6h0U5OMGMZIysE4Apgf4ju",
+            "name": "Over When We're Sober",
+            "artists": [
+                {
+                    "id": "5q8HGNo0BjLWaTAhRtbwxa",
+                    "name": "Brantley Gilbert"
+                },
+                {
+                    "id": "2qwXeRk8VBAegbUnf3xdyi",
+                    "name": "Ashley Cooke"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273040a5be49ac1645d447d7a0f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02040a5be49ac1645d447d7a0f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851040a5be49ac1645d447d7a0f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-22T07:39:45Z"
+        },
+        {
+            "id": "6mbrwy2qyswMGrhXcfkjNE",
+            "name": "Espresso",
+            "artists": [
+                {
+                    "id": "6MERXsiRbur2oJZFgYRDKz",
+                    "name": "Vitamin String Quartet"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27305d43c3f218357f44f377f5a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0205d43c3f218357f44f377f5a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485105d43c3f218357f44f377f5a",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-26T12:09:37Z"
+        },
+        {
+            "id": "2H881m3JRA8lpuuwaQL6zy",
+            "name": "No Fear",
+            "artists": [
+                {
+                    "id": "7kFfY4UjNdNyaeUgLIEbIF",
+                    "name": "DeJ Loaf"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27391631f7b7399d5ab21cd5704",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0291631f7b7399d5ab21cd5704",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485191631f7b7399d5ab21cd5704",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-29T07:49:55Z"
+        },
+        {
+            "id": "1VJwtWR6z7SpZRwipI12be",
+            "name": "Candy",
+            "artists": [
+                {
+                    "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                    "name": "Doja Cat"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2730f4f19f09818756f25916e45",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e020f4f19f09818756f25916e45",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048510f4f19f09818756f25916e45",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-29T08:17:13Z"
+        },
+        {
+            "id": "33oyHkoS7H92RWsecOKn6u",
+            "name": "Set My Heart On Fire (I'm Alive x And The Beat Goes On)",
+            "artists": [
+                {
+                    "id": "6QMABvTzixnxzsLYyhqRxI",
+                    "name": "Majestic"
+                },
+                {
+                    "id": "5lYLjuNcfxE03jj9QWxA7X",
+                    "name": "The Jammin Kid"
+                },
+                {
+                    "id": "4S9EykWXhStSc15wEx8QFK",
+                    "name": "Céline Dion"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273893b2394c303ca7c834b2f99",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02893b2394c303ca7c834b2f99",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851893b2394c303ca7c834b2f99",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-29T12:18:15Z"
+        },
+        {
+            "id": "0K6iKgHPPhAb4Acmg9aD77",
+            "name": "On My Love",
+            "artists": [
+                {
+                    "id": "1Xylc3o4UrD53lo9CvFvVg",
+                    "name": "Zara Larsson"
+                },
+                {
+                    "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+                    "name": "David Guetta"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27320e6d104acd0787e0d9d0de7",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0220e6d104acd0787e0d9d0de7",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485120e6d104acd0787e0d9d0de7",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-29T14:23:03Z"
+        },
+        {
+            "id": "31MNHKE86sEXzIglbGQ6mu",
+            "name": "Got Me Started",
+            "artists": [
+                {
+                    "id": "3WGpXCj9YhhfX11TToZcXP",
+                    "name": "Troye Sivan"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27367103283a4eb57578a428252",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0267103283a4eb57578a428252",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485167103283a4eb57578a428252",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-30T08:10:28Z"
+        },
+        {
+            "id": "2oWpe2L8ypC080BxpDVuTY",
+            "name": "Anti-Hero - Kungs Remix",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                },
+                {
+                    "id": "7keGfmQR4X5w0two1xKZ7d",
+                    "name": "Kungs"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2739954fa9f0ba8534c3897b59d",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e029954fa9f0ba8534c3897b59d",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048519954fa9f0ba8534c3897b59d",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-30T08:47:40Z"
+        },
+        {
+            "id": "1Iq8oo9XkmmvCQiGOfORiz",
+            "name": "Is It Over Now? (Taylor's Version) (From The Vault)",
+            "artists": [
+                {
+                    "id": "06HL4z0CvFAxyc27GXpf02",
+                    "name": "Taylor Swift"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273904445d70d04eb24d6bb79ac",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02904445d70d04eb24d6bb79ac",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851904445d70d04eb24d6bb79ac",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-30T10:10:23Z"
+        },
+        {
+            "id": "6m3DkpGqoeQJxfekL3ZLHJ",
+            "name": "Cure My Desire (feat. Clementine Douglas)",
+            "artists": [
+                {
+                    "id": "7sK4hnuUOXw6VStDw0q8NI",
+                    "name": "Hannah Wants"
+                },
+                {
+                    "id": "4DWuml4Jf6K81b5rAPwMb6",
+                    "name": "Clementine Douglas"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273aff139b62ec011e70cad346f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02aff139b62ec011e70cad346f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851aff139b62ec011e70cad346f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-30T12:19:27Z"
+        },
+        {
+            "id": "7gdAgbYxtwwXsWsItU1apk",
+            "name": "Lucky",
+            "artists": [
+                {
+                    "id": "26VFTg2z8YR0cCuwLzESi2",
+                    "name": "Halsey"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273457848864ebbb09f88fe155a",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02457848864ebbb09f88fe155a",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851457848864ebbb09f88fe155a",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-07-31T15:25:03Z"
+        },
+        {
+            "id": "4I95FgYJkKw8HKrEli1WY2",
+            "name": "Drive",
+            "artists": [
+                {
+                    "id": "2kLa7JZu4Ijdz1Gle2khZh",
+                    "name": "TSHA"
+                },
+                {
+                    "id": "5fAZGONvu0rIhfhz7oqLSf",
+                    "name": "Ingrid Witt"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273fcc19db144ddc017163eae9c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02fcc19db144ddc017163eae9c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851fcc19db144ddc017163eae9c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-05T13:18:45Z"
+        },
+        {
+            "id": "69zgu5rlAie3IPZOEXLxyS",
+            "name": "Think I'm In Love With You (With Dua Lipa) (Live From The 59th ACM Awards)",
+            "artists": [
+                {
+                    "id": "4YLtscXsxbVgi031ovDDdh",
+                    "name": "Chris Stapleton"
+                },
+                {
+                    "id": "6M2wZ9GZgrQXHCFfjv46we",
+                    "name": "Dua Lipa"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27386f028311a5a746aa46b412f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0286f028311a5a746aa46b412f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485186f028311a5a746aa46b412f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-09T13:32:07Z"
+        },
+        {
+            "id": "3WOhcATHxK2SLNeP5W3v1v",
+            "name": "Guess featuring Billie Eilish",
+            "artists": [
+                {
+                    "id": "25uiPmTg16RbhZWAqwLBy5",
+                    "name": "Charli xcx"
+                },
+                {
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738b8d8be49f9c4a44b0574144",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028b8d8be49f9c4a44b0574144",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518b8d8be49f9c4a44b0574144",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-11T13:50:14Z"
+        },
+        {
+            "id": "1TcF5F10EN17vraisG1gQv",
+            "name": "Happier (feat. Clementine Douglas)",
+            "artists": [
+                {
+                    "id": "4TvhRzxIL1le2PWCeUqxQw",
+                    "name": "The Blessed Madonna"
+                },
+                {
+                    "id": "4DWuml4Jf6K81b5rAPwMb6",
+                    "name": "Clementine Douglas"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273ea89cbe5ddcd5bbefd0e48aa",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02ea89cbe5ddcd5bbefd0e48aa",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851ea89cbe5ddcd5bbefd0e48aa",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-12T18:21:10Z"
+        },
+        {
+            "id": "53jbdPQBaH6WaQvW0zmGBs",
+            "name": "Talia",
+            "artists": [
+                {
+                    "id": "6beUvFUlKliUYJdLOXNj9C",
+                    "name": "King Princess"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2738ac5ffb7e48b5a49453b4a4e",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e028ac5ffb7e48b5a49453b4a4e",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048518ac5ffb7e48b5a49453b4a4e",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-17T18:40:01Z"
+        },
+        {
+            "id": "1avlmOsNBhIaHDxpEOPQYz",
+            "name": "Whirlwind",
+            "artists": [
+                {
+                    "id": "6tPHARSq45lQ8BSALCfkFC",
+                    "name": "Lainey Wilson"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734234cc93f111f2f3cd9f3a2f",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024234cc93f111f2f3cd9f3a2f",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514234cc93f111f2f3cd9f3a2f",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-25T13:49:43Z"
+        },
+        {
+            "id": "6MzofobZt2dm0Kf1hTThFz",
+            "name": "Diet Pepsi",
+            "artists": [
+                {
+                    "id": "4gvjmrtzydbMpyJaXUtwvP",
+                    "name": "Addison Rae"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2734e5a5862355a5e953549292b",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e024e5a5862355a5e953549292b",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048514e5a5862355a5e953549292b",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-30T09:11:22Z"
+        },
+        {
+            "id": "4APakyNxphnhzMWutMzLWX",
+            "name": "push me over",
+            "artists": [
+                {
+                    "id": "6WY7D3jk8zTrHtmkqqo5GI",
+                    "name": "Maren Morris"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2736481155b3d9c0fec6f781c7c",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e026481155b3d9c0fec6f781c7c",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048516481155b3d9c0fec6f781c7c",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-30T10:01:21Z"
+        },
+        {
+            "id": "5u2EjRHBYRLFvfMXpBAewy",
+            "name": "Mi Amor (with JVKE & Anitta)",
+            "artists": [
+                {
+                    "id": "20gsENnposVs2I4rQ5kvrf",
+                    "name": "Sam Feldt"
+                },
+                {
+                    "id": "164Uj4eKjl6zTBKfJLFKKK",
+                    "name": "JVKE"
+                },
+                {
+                    "id": "7FNnA9vBm6EKceENgCGRMb",
+                    "name": "Anitta"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273aedf7b6823ee62714f425990",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02aedf7b6823ee62714f425990",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00004851aedf7b6823ee62714f425990",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-30T10:14:52Z"
+        },
+        {
+            "id": "6NX2uPsnjyEVaHo3x3GSSR",
+            "name": "Everytime - Spotify Singles",
+            "artists": [
+                {
+                    "id": "0avMDS4HyoCEP6RqZJWpY2",
+                    "name": "Ethel Cain"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b2737d956d4360fc375563d654e1",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e027d956d4360fc375563d654e1",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d000048517d956d4360fc375563d654e1",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-30T10:27:50Z"
+        },
+        {
+            "id": "1HrMWH5GUdK6Yi94rbANJA",
+            "name": "Cola",
+            "artists": [
+                {
+                    "id": "240wlM8vDrf6S4zCyzGj2W",
+                    "name": "CamelPhat"
+                },
+                {
+                    "id": "2vf4pRsEY6LpL5tKmqWb64",
+                    "name": "Elderbrook"
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27327f7da61c7d322ad30c42176",
+                    "width": 640
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0227f7da61c7d322ad30c42176",
+                    "width": 300
+                },
+                {
+                    "url": "https://i.scdn.co/image/ab67616d0000485127f7da61c7d322ad30c42176",
+                    "width": 64
+                }
+            ],
+            "addedAt": "2024-08-30T18:32:24Z"
+        }
+    ]
+}
