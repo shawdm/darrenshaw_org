@@ -13,15 +13,27 @@
 
     <article class="music">
       <section class="title">
-        <h2>Popular Artists</h2>
+        <h2>What I'm Listening To On Spotify</h2>
+        <nav>
+          <a id="music-nav-albums" class="selected" onclick="return showAlbums()" title="...that I've saved because I play over and over again.">Albums</a>
+          <a id="music-nav-playlist" onclick="return showPlaylists()" title="...so far.">{{ site.time | date: '%Y' }} Playlist</a>
+          <a id="music-nav-popular" onclick="return showPopular()" title="...for me according to Spotify's algorithm.">Popular Artists</a>
+          </nav>
       </section>
+    </article>
+
+    <article id="article-playlist" class="music hidden">
+      <section id="music-list-playlist" class="music-masonry"></section>
+      <section class="title"><p id="music-list-playlist-updated"></p></section>
+    </article>
+
+    <article id="article-popular" class="music hidden">
       <section id="music-list-popular-artists" class="music-masonry"></section>
       <section class="title"><p id="music-list-popular-artists-updated"></p></section>
     </article>
 
-    <article class="music">
+    <article id="article-albums" class="music">
       <section class="title albums-title">
-        <h2>Albums</h2>
         <div id="music-list-albums-characters"></div>
       </section>
       <section id="music-list-albums" class="music-alphabetic"></section>
@@ -46,9 +58,14 @@
   
     {% include footer.html %}
 
+    <script>
+      const RECENT_PLAYLIST_URL = "data/music-library-api/playlist/{{ site.time | date: '%Y' }}.json"
+      const POPULAR_URL = "data/music-library-api/popular/artist.json";
+      const ALBUMS_URL = "data/music-library-api/album/current.json";
+    </script> 
     <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
     <script src='{{"/interactive/music/js/handlebars.js" | prepend:site.baseurl}}'></script>
-    <script src='{{"/interactive/music/js/site-1.0.2.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/interactive/music/js/site-1.0.4.js" | prepend:site.baseurl}}'></script>
     
   </body>
 
