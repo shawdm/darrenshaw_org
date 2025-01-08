@@ -48,6 +48,10 @@ The setting JEKYLL_ENV to dev means relative image URLs will be generated. For p
 make
 ```
 
+# Configuration
+## Playlists
+To update the current year the site just needs rebuilding. The year is taken from the `{{site.time}}`.
+
 # Todo
 * Add a favicon.
 * Merge `blog-photo-post` with `blog-photo-portait` layouts and css.
