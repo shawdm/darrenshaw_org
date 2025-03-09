@@ -1,0 +1,149 @@
+a.title{
+    background-color: #222;
+}
+
+article.tearsheets {
+    font-weight: 400;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    position: relative;
+    background-color: #222;
+    color: #ccc;
+}
+
+article.tearsheets h2{
+    text-align: center;
+}
+
+article.tearsheets section h2, article.tearsheets section h3, article.tearsheets section p{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article.tearsheets section h2{
+    font-weight: 300;
+}
+
+article.tearsheets section h3{
+    font-weight: 400;
+}
+
+article.tearsheets section p{
+    font-weight: 300;
+}
+
+article.tearsheets a{
+    background: none;
+}
+
+article.tearsheets a:hover{
+    text-decoration: underline;
+}
+
+
+article.tearsheets section.title{
+    text-align: center;
+}
+
+article.tearsheets section.title img{
+    width: 50px;
+    display: inline;
+    padding-top: 3rem;
+}
+
+article.tearsheets .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+article.tearsheets .thumbnail{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+
+
+article.tearsheets .thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+}
+
+article.tearsheets .thumbnail .palette {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 10px;
+}
+
+article.tearsheets .palette{
+    position: relative;
+    width: 50px;
+    height: 10px;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+article.tearsheets .palette .colour{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+article.tearsheets a.model:hover{
+    cursor: pointer;
+}
+
+article.tearsheets p span.next-top-models li{
+    display: inline;
+}
+
+article.tearsheets p span.next-top-models li:after{
+    content: ",";
+}
+
+article.tearsheets p span.next-top-models li:last-child::after {
+    content: "";
+}
+
+article.tearsheets .blank {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    /* background-color: rgba(0,0,0,0.8); */
+    visibility: hidden;
+}
+
+article.tearsheets .popover {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+    z-index: 200;
+    /* background-color: rgba(255,0,0,0.3); */
+    visibility: hidden;
+}
+
+@media (max-width: 800px) {
+    article.tearsheets h2{
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+}
