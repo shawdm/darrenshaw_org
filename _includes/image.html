@@ -1,12 +1,8 @@
-{% if include.class contains 'thumbnail' %}
-  {% assign resolution=300 -%}
-{% else %}
-  {% assign resolution=2720 -%}
-{% endif %}
-
-<img
-  class='responsive {{include.class}}'
-  src='/images/{{resolution}}/{{include.path}}'
-  alt='{{include.alt}}'
-  title='{{include.title}}'
-/>
+<div class="image-frame">
+  <img 
+    class="{{include.class}}" 
+    src='/{{include.path}}' 
+    {% if include.alt != null %} alt='{{include.alt}}' {% endif %} 
+    {% if include.title != null %} title='{{include.title}}' {% endif %} 
+  />
+</div>

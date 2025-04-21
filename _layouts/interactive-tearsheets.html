@@ -1,0 +1,88 @@
+<html>
+<!-- layout interactive-tearsheets -->
+{% include version.html %}
+
+<head>
+  {% include head-core.html %}
+  {% include favicon-projects.html %}
+  <link rel='stylesheet' href='{{"/interactive/tearsheets/css/style-1.0.0.css" | prepend:site.baseurl}}' />
+</head>
+
+<body>
+
+  {% include header.html class='black' %}
+
+  <article class='tearsheets'>
+    <div class="blank"></div>
+    <div class="popover"></div>
+    <section>
+      <h2>I Love Muted Tones</h2>
+      <p>
+        I've collected fashion and portrait images for years. Sometimes for ideas, inspiration or just because I
+        love the pictures but never with the intention of sharing. They're not mine to share and I'm not sure I
+        want to reckon with what my taste in pictures says about me, or what, or who I find beautiful (hello <a
+          class="model" data-tag="df2d8786-9cd4-3d54-bc72-2ce3381eafac">Doutzen</a>). As of <span
+          class="metadata-date">today</span> I've collected <span class="metadata-count">thousands of</span> images and
+        they've become too tempting not to organise.
+      </p>
+      <p>
+        I love a restricted colour palette and I save a lot of muted creams, browns and greys. If there is a pop of
+        colour it also tends to be a soft baby blue or pink. It also appears that I have a thing about a white shirt.
+      </p>
+      <div id="content-skin"></div>
+    </section>
+    <section>
+      <h2>I REALLY Love Peter Lindergh's Blacks</h2>
+      <p>
+        Peter Lindbergh is my favourite photographer. The majority of his pictures are black and white, but it's more
+        specfic than that. His pictures are very dark (there's a lot more black than white). If I order my saved
+        pictures by colour palette closest to one of his images (I used the first Robin Wright one) I get lots of other
+        Lindbergh pictures, but also images by other photographers that have the same look. These are the pictures
+        I'll spend the rest of my life trying to replicate.
+      </p>
+      <div id="content-lindbergh"></div>
+      <p class="no-title">
+        But I also like a lot of brighter, whiter, black and white pictures. Not all black and whites are the same.
+      </p>
+      <div id="content-bw-light"></div>
+    </section>
+    <section>
+      <h2>But Not Always</h2>
+      <p>
+        Occassionally I do collect a picture with a bit more colour and saturation. They're often sea blue or hot pink.
+      </p>
+      <div id="content-blue"></div>
+      <div id="content-pink"></div>
+    </section>
+    <section>
+      <h2>Mostly about <span class="top-model"></span></h2>
+      <p>
+        <span class="top-model"></span> is in more of my saved pictures (<span class="top-model-count"></span>) than
+        anyone else. This might be because she's been working through the whole period that I've been collecting and
+        she tends to do the type of shoots I like. But also... she is beautiful.
+      </p>
+      <p>
+        I probably prefer pictures of musicians and actresses over models (this is the Lindbergh influence
+        again) but they tend to do fewer shoots. My next one hundred top subjects are: <span
+          class="next-top-models"></span>.
+      </p>
+      <div id="content-top-model"></div>
+    </section>
+  </article>
+
+  {% include archive.html %}
+
+  {% include about.html %}
+
+  {% include footer.html %}
+
+  <script>
+    const DATA_PATH = "/data/tearsheets/1.0.0";
+  </script>
+  <script src='{{"/interactive/tearsheets/js/lib/handlebars-v4.7.8.js"}}'></script>
+  <script type="module" src='{{"/interactive/tearsheets/js/main.1.0.0.js"}}'></script>
+  <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+
+</body>
+
+</html>

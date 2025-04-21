@@ -4,12 +4,13 @@
   {% include version.html %}
   <head>
     {% include head-core.html %}
+    {% include favicon-projects.html %}
     <link rel='stylesheet' href='{{"/interactive/federer-sweat/css/style.css" | prepend:site.baseurl}}'/>
   </head>
 
   <body>
 
-    {% include header.html %}
+    {% include header.html class='black'%}
 
     <section class="federer-perspired">
       <article class='federer-perspired'>
@@ -190,6 +191,7 @@
     <script src='{{"/interactive/federer-sweat/js/papaparse.min.js" | prepend:site.baseurl}}'></script>
     <script src='{{"/interactive/federer-sweat/js/d3.min.js" | prepend:site.baseurl}}'></script>
     <script src='{{"/interactive/federer-sweat/js/site.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
   </body>
 
 </html>

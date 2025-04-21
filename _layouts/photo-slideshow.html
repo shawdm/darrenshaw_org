@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- layout photo-slideshow -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+    {% include favicon-photography.html %}
+    <link rel='stylesheet' href='{{"/interactive/photo-slideshow/css/site-1.0.0.css" | prepend:site.baseurl}}' />
+  </head>
+
+  <body>
+
+    {% include header.html class='black' %}
+   
+    <article class="photo-slideshow background-black padding-large">
+      <div class="photo-slideshow-container noselect">
+        {{ page.content | remove: '<p>' | remove: '</p>' }}
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+     
+    </article>
+
+    <article class="photo-slideshow-caption small-font">
+      <div>
+        {{ page.excerpt }}
+      </div>
+    </article>
+
+    {% include archive.html %}
+
+    {% include about-shoot-with-me.html %}
+
+    {% include footer.html %}
+
+    <script src='{{"/interactive/photo-slideshow/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+
+  </body>
+
+</html>

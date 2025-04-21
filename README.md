@@ -9,13 +9,22 @@ The `design` directory contains
 ** photoshop processors for image resizing
 
 # Images
-Original images are stored in `images/original`. Original images are not published to site.
+## Gallery 
+** w800px
 
-Resized images need to be added to the `300` and `2720` subdirectories which are published to site. Photoshop processors to do this are in the `design` directory.
+## Full Width
+** w2400px
 
-The `sized` directory which is published to site stores images that should not be resized.
+## Slidshow
+** Long edge 2000px
+
+## Article
+** w1400px
 
 Filenames cannot start with `_`.
+
+# Favicons
+* https://favicon.io
 
 # Development
 ## OSX Prereqs
@@ -26,7 +35,7 @@ Filenames cannot start with `_`.
 ## Startup
 ```
 bundle install
-JEKYLL_ENV=dev  bundle exec jekyll serve --drafts
+JEKYLL_ENV=dev  bundle exec jekyll serve
 ```
 
 Will start the site on: ``http://localhost:4000``
@@ -38,6 +47,10 @@ The setting JEKYLL_ENV to dev means relative image URLs will be generated. For p
 ```
 make
 ```
+
+# Configuration
+## Playlists
+To update the current year the site just needs rebuilding. The year is taken from the `{{site.time}}`.
 
 # Todo
 * Add a favicon.

@@ -4,12 +4,13 @@
 
 <head>
   {% include head-core.html %}
+  {% include favicon-projects.html %}
   <link rel='stylesheet' href='{{"/interactive/fashion-palette/css/site/fashion-palette.css" | prepend:site.baseurl}}' />
 </head>
 
 <body>
 
-  {% include header.html %}
+  {% include header.html class='black' %}
 
   <article class='fashion-palette'>
     <section class='text-content-colourblock black'>
@@ -54,7 +55,7 @@
       </p>
     </section>
     <section class='full-width-content'>
-        {% include image.html path='blog/colour-of-net-a-porter/go-for-bold-campaign.jpg' class='full-spaced full-width' %}
+        {% include image.html path='images/blog/colour-of-net-a-porter/go-for-bold-campaign.jpg' class='full-spaced full-width' %}
     </section>
     <section class='text-content'>
       <p>
@@ -101,6 +102,7 @@
   <script src='{{"/interactive/fashion-palette/js/handlebars.js" | prepend:site.baseurl}}'></script>
   <script src='{{"/interactive/fashion-palette/js/common.js" | prepend:site.baseurl}}'></script>
   <script src='{{"/interactive/fashion-palette/js/site/fashion-palette-offline.js" | prepend:site.baseurl}}'></script>
+  <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
   
 </body>
 

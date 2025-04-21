@@ -1,0 +1,41 @@
+---
+layout: photo-slideshow
+title: "Emily Anderson - June 2024"
+seo_title: "Emily Anderson, Model Portfolio Update by Darren Shaw | Winchester, UK"
+date_written: 2024-06-29 13:00:00 +0000
+location: Winchester, UK
+categories: photo
+tags: [photo]
+excerpt: Model portfolio update with Emily Anderson, Winchester, UK, June 2024.
+---
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7014.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS6965.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7047.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7059.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7074.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7125.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7172.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7173.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7205.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7238.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7252.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7276.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7277.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7339.avif' alt='Natural light model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7378.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-june-emily/2406-_DMS7381.avif' alt='Studio model portfolio photograph of Emily Anderson by Darren Shaw, Winchester, UK' %}
