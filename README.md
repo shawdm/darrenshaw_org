@@ -52,6 +52,14 @@ make
 ## Playlists
 To update the current year the site just needs rebuilding. The year is taken from the `{{site.time}}`.
 
+## Photography
+All images should be in avif format. Images for the homepage `images/gallery` should be 800px wide. Images for an individual gallery (e.g. `images/photo/2024-june-emily`) should have their long edge as 2400px.
+
+Images can be converted to avif format using ImageMagick. The following commands will convert all `.tif` files in the current directory to `.avif`.
+```
+magick mogrify -format avif *.tif
+```
+
 # Todo
 * Add a favicon.
 * Merge `blog-photo-post` with `blog-photo-portait` layouts and css.
