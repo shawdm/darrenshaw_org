@@ -3,30 +3,26 @@ Jekyll based site for darrenshaw.org
 
 # Design
 The `design` directory contains
-** inprogress site visual designs
-** artwork for posts
-** fonts
-** photoshop processors for image resizing
+* inprogress site visual designs
+* artwork for posts
+* fonts
+* photoshop processors for image resizing
 
 # Images
-## Gallery 
-** w800px
-
-## Full Width
-** w2400px
-
-## Slidshow
-** Long edge 2000px
-
-## Article
-** w1400px
+All images should be in avif format. Images for the photography homepage `images/gallery` should be 800px wide. Images for an individual photography gallery (e.g. `images/photo/2024-june-emily`) should have their long edge as 2400px. Images for an article should be 1400px wide
 
 Filenames cannot start with `_`.
 
+Images can be converted to avif format using ImageMagick. The following commands will convert all `.tif` files in the current directory to `.avif`. 
+```
+magick mogrify -format avif *.tif
+```
+
 # Favicons
-* https://favicon.io
+Created at https://favicon.io
 
 # Development
+
 ## OSX Prereqs
 1. Ruby
 2. Bundler
@@ -51,14 +47,6 @@ make
 # Configuration
 ## Playlists
 To update the current year the site just needs rebuilding. The year is taken from the `{{site.time}}`.
-
-## Photography
-All images should be in avif format. Images for the homepage `images/gallery` should be 800px wide. Images for an individual gallery (e.g. `images/photo/2024-june-emily`) should have their long edge as 2400px.
-
-Images can be converted to avif format using ImageMagick. The following commands will convert all `.tif` files in the current directory to `.avif`.
-```
-magick mogrify -format avif *.tif
-```
 
 # Todo
 * Add a favicon.
