@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- layout notes -->
+<html>
+  {% include version.html %}
+  <head>
+    {% include head-core.html %}
+    {% include favicon-projects.html %}
+  </head>
+
+  <body>
+
+    {% include header.html class='black'%}
+
+    <article class="blog">
+        <section class="title notes">
+            <h2 title='{{page.date_written | date: "%d %B %Y"}}'>{{page.title}} <span class="date">{{page.date_written | date: "%B" | slice: 0, 3}} {{page.date_written | date: "%Y" }}</span></h2>
+        </section>
+        <section class="content">
+            {{ page.content }}
+        </section>
+
+        <section class="notes">
+            <h2>Notes*</h2>
+            {% assign all_notes = site.posts | where_exp: "item", "item.categories contains 'notes'" %}
+            {% for note in all_notes -%}
+            <div class="note">
+                <a href='{{ note.url }}' title='{{note.date_written | date: "%d %B %Y"}}'>{{ note.title }}</a>
+                <span class="date">{{note.date_written | date: "%d %B %Y"}}</span>
+                <p>{{ note.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+            </div>
+            {% endfor -%}
+            <p>*Things I'm reading, watching, listening to or thinking about and don't want to lose.</p>
+        </section>
+    </article>
+
+    {% include archive.html %}
+    
+    {% include about.html %}
+  
+    {% include footer.html %}
+
+    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+    
+  </body>
+
+</html>
