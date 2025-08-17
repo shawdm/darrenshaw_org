@@ -273,6 +273,21 @@ p.no-title {
 
 
 /**
+* Notes
+ */
+.notes {
+  max-width: $max-article-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-unit-small;
+  padding-right: $spacing-unit-small;
+
+  font-size: $font-size-small;
+  line-height: 1rem;
+}
+
+
+/**
 * Archive
 */
 .archive {
