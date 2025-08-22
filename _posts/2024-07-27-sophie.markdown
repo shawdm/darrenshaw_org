@@ -5,22 +5,30 @@ seo_title: "Sophie Lawrence, Model Portfolio Update by Darren Shaw | Winchester,
 date_written: 2024-07-27 13:00:00 +0000
 location: Winchester, UK
 categories: photo
-tags: [photo]
+tags: [ photo ]
 excerpt: Studio and natural light portraits with Sophie Lawrence, Winchester, UK, June 2024.
 ---
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7731.avif' alt='Studio model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7721.avif' alt='Studio model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7731.avif' alt='Studio model portrait of
+Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7757.avif' alt='Natural light model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7721.avif' alt='Studio model portrait of
+Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7747.avif' alt='Natural light model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7757.avif' alt='Natural light model
+portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7470.avif' alt='Black and white studio model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7747.avif' alt='Natural light model
+portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7474.avif' alt='Black and white studio model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7470.avif' alt='Black and white studio
+model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7534.avif' alt='Natural light model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7474.avif' alt='Black and white studio
+model portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-july-sophie/2407-_DMS7534.avif' alt='Natural light model
+portrait of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
 
 
 

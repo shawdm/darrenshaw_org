@@ -3,29 +3,30 @@
 {% include version.html %}
 
 <head>
-  {% include head-core.html %}
-  {% include favicon-projects.html %}
-  <link rel='stylesheet' href='{{"/interactive/colour-styling/css/colour-styling-0.0.1.css" | prepend:site.baseurl}}' />
+    {% include head-core.html %}
+    {% include favicon-projects.html %}
+    <link rel="stylesheet"
+          href="{{'/interactive/colour-styling/css/colour-styling-0.0.1.css' | prepend:site.baseurl}}" />
 </head>
 
 <body>
 
-    <article class='fashion-palette'>
-        <section class='full-width-content'>
-          <div class='products small' id='nap-products'></div>
-        </section>    
-    </article>
+<article class="fashion-palette">
+    <section class="full-width-content">
+        <div class="products small" id="nap-products"></div>
+    </section>
+</article>
 
-    {% include archive.html %}
+{% include archive.html %}
 
-    {% include about.html %}
-  
-    {% include footer.html %}
+{% include about.html %}
 
-    <script src='{{"/interactive/colour-styling/js/handlebars.js" | prepend:site.baseurl}}'></script>
-    <script src='{{"/interactive/colour-styling/js/colour-styling-0.0.1.js" | prepend:site.baseurl}}'></script>
-    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
-    
+{% include footer.html %}
+
+<script src="{{'/interactive/colour-styling/js/handlebars.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/colour-styling/js/colour-styling-0.0.1.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+
 </body>
 </html>
 

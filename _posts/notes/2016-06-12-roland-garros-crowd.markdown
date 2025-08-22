@@ -1,11 +1,10 @@
 ---
-layout: blog-post
+layout: notes
 title:  "Roland Garros"
+seo_title: "Roland Garros | Darren Shaw, UK Software Developer"
 date:   2016-06-12 09:00:00 +0000
-date_written:   2016-06-12 09:00:00 +0000
-location: Paris, France
-categories: blog
-tags: [photo]
+categories: notes
+tags: [photo, feed]
 excerpt: Crowds at Roland Garros for the 2016 French Open.
 ---
 <p class='embed'>
