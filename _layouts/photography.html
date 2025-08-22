@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <!-- layout photography -->
 <html>
-  {% include version.html %}
-  <head>
+{% include version.html %}
+<head>
     {% include head-core.html %}
     {% include favicon-photography.html %}
-  </head>
+</head>
 
-  <body>
-    
-    {% include header.html %}
+<body>
 
-    <article class="photography">
-      <section class="gallery-header">
+{% include header.html %}
+
+<article class="photography">
+    <section class="gallery-header">
         {% include image.html path='images/gallery/header/DMS5962-Edit-Edit.avif' %}
-      </section>
-      <section class="gallery-masonry">
-        {% include image.html path='images/gallery/DMS8090.avif' alt='Model portfolio photograph of Eric by Darren Shaw, Southampton, UK' %}
-        {% include image.html path='images/gallery/DMS8097.avif' alt='Model portfolio photograph of Eric by Darren Shaw, Southampton, UK' %}
-        {% include image.html path='images/gallery/DMS7474-Edit-Edit.avif' alt='Model portfolio photograph of Sophie Lawrence by Darren Shaw, Winchester, UK' %}
+    </section>
+    <section class="gallery-masonry">
+        {% include image.html path='images/gallery/DMS8090.avif' alt='Model portfolio photograph of Eric by Darren Shaw,
+        Southampton, UK' %}
+        {% include image.html path='images/gallery/DMS8097.avif' alt='Model portfolio photograph of Eric by Darren Shaw,
+        Southampton, UK' %}
+        {% include image.html path='images/gallery/DMS7474-Edit-Edit.avif' alt='Model portfolio photograph of Sophie
+        Lawrence by Darren Shaw, Winchester, UK' %}
         {% include image.html path='images/gallery/21428-0009.avif' %}
         {% include image.html path='images/gallery/DMS2405-Edit-Edit.avif' %}
         {% include image.html path='images/gallery/DMS2709-Edit-Edit.avif' %}
@@ -64,19 +67,19 @@
         {% include image.html path='images/gallery/DSC9748-Edit-2.avif' %}
         {% include image.html path='images/gallery/DSC9806_74330.avif' %}
         {% include image.html path='images/gallery/IMG_0014_44062.avif' %}
-        {% include image.html path='images/gallery/IMG_0028.avif' %} 
-      </section>
-    </article>
+        {% include image.html path='images/gallery/IMG_0028.avif' %}
+    </section>
+</article>
 
-    {% include archive.html %}
+{% include archive.html %}
 
-    {% include about-shoot-with-me.html %}
-  
-    {% include footer.html %}
+{% include about-shoot-with-me.html %}
 
-    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
-    
-  </body>
+{% include footer.html %}
+
+<script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+
+</body>
 
 </html>
 

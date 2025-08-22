@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <!-- layout blog-post -->
 <html>
-  {% include version.html %}
-  <head>
+{% include version.html %}
+<head>
     {% include head-core.html %}
     {% include favicon-projects.html %}
-  </head>
+</head>
 
-  <body>
+<body>
 
-    {% include header.html class='black'%}
+{% include header.html class='black'%}
 
-    <article class="blog">
-      <section class="title">
-        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B" | slice: 0, 3}} {{page.date_written | date: "%Y" }}</span></h2>
-      </section>
-      <section class="content">
+<article class="blog">
+    <section class="title">
+        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B" | slice: 0, 3}} {{page.date_written | date: "%Y" }}</span>
+        </h2>
+    </section>
+    <section class="content">
         {{ page.content }}
-      </section>
-    </article>
+    </section>
+</article>
 
-    {% include archive.html %}
-    
-    {% include about.html %}
-  
-    {% include footer.html %}
+{% include archive.html %}
 
-    <script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
-    
-  </body>
+{% include about.html %}
+
+{% include footer.html %}
+
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+
+</body>
 
 </html>

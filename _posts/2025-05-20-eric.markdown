@@ -5,42 +5,59 @@ seo_title: "Eric Liyah Kane, Lifestyle Shoot by Darren Shaw | Southampton, UK"
 date_written: 2025-05-20 13:00:00 +0000
 location: Southampton, UK
 categories: photo
-tags: [photo]
+tags: [ photo ]
 excerpt: More portraits with Eric Liyah Kane, Southampton, UK, May 2025.
 ---
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7787.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7787.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7797.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7797.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7895.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7895.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7900.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7900.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7918.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7918.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7939.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' orientation='landscape' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7939.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' orientation='landscape' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7979.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7979.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7989.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7989.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7999.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS7999.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8047.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8047.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8054.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8054.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8090.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8090.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8097.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8097.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8115.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8115.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8135.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8135.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8149.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8149.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 
-{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8163.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' %}
+{% include image_slideshow.html path='images/photo/2025-may-eric/DMS8163.avif' alt='Portrait of model Eric Liyah Kane by
+Darren Shaw, Southampton, UK' %}
 <!-- 
 {% include image_slideshow.html path='images/photo/2025-may-eric/DMS7787.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Southampton, UK' orientation='landscape' %} -->

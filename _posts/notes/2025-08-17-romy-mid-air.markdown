@@ -3,10 +3,8 @@ layout: notes
 title: "Romy's Mid Air Album"
 seo_title: "Romy's Mid Air Album | Darren Shaw, UK Software Developer"
 date: 2025-08-17 12:00:00 +0000
-date_written: 2025-08-17 12:00:00 +0000
-location: Manchester, UK
 categories: notes
-tags: [ music ]
+tags: [ music, feed ]
 excerpt: My most listened to album over the past two years. Still perfect. I won't skip any, but Loveher is my standout track.
 ---
 

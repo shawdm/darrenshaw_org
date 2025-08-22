@@ -5,29 +5,42 @@ seo_title: "Eric Liyah Kane, Portrait Shoot by Darren Shaw, Winchester, UK"
 date_written: 2024-02-03 13:00:00 +0000
 location: Winchester, UK
 categories: photo
-tags: [photo]
+tags: [ photo ]
 excerpt: Portraits with Eric Liyah Kane, Winchester, UK, January 2024.
 ---
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5872.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5995.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5872.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5883.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5995.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5862.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5883.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5888.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5862.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5981.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5888.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5962.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5981.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5978.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5962.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5998.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5978.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS6113.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5998.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5923.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS6113.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
 
-{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS6059.avif' alt='Portrait of model Eric Liyah Kane by Darren Shaw, Winchester, UK' %}
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS5923.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2024-january-eric/2401-_DMS6059.avif' alt='Portrait of model Eric
+Liyah Kane by Darren Shaw, Winchester, UK' %}

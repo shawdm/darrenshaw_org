@@ -1,8 +1,8 @@
 {% assign sorted_posts = site.categories['pictures'] | sort: 'date' | reverse -%}
-<ul class='gallery'>
+<ul class="gallery">
     {% for post in sorted_posts offset:include.offset limit:include.limit -%}
-      <li class='frame'>
+    <li class="frame">
         {{post.content}}
-      </li>
+    </li>
     {% endfor -%}
 </ul>
