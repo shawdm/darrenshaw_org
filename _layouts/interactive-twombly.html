@@ -5,7 +5,7 @@
 <head>
     {% include head-core.html %}
     {% include favicon-projects.html %}
-    <link rel='stylesheet' href='{{"/interactive/twombly/css/site-1.0.0.css" | prepend:site.baseurl}}'/>
+    <link rel="stylesheet" href="{{'/interactive/twombly/css/site-1.0.0.css' | prepend:site.baseurl}}"/>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
 <!-- only need to add when this is no longer the home page -->
 {% include header.html class='black' %}
 
-<article class='twombly'>
+<article class="twombly">
 
     <section class="grid title">
         <div>
@@ -44,7 +44,7 @@
                 <div class="graphic" id="twombly-p5"></div>
             </a>
         </div>
-        <div id='twombly-p5-controls' class="controls">
+        <div id="twombly-p5-controls" class="controls">
         <span class="control">
           <label for="control_backgrounddetail">Background Detail:</label>
           <input type="range" min="0" max="300" value="35" step="1" class="slider" id="control_backgrounddetail">
@@ -145,9 +145,9 @@
 
 {% include footer.html %}
 
-<script src='{{"/interactive/twombly/js/p5.min.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/twombly/js/p5.svg.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/twombly/js/sketch-twombly-v1.js" | prepend:site.baseurl}}'></script>
+<script src="{{'/interactive/twombly/js/p5.min.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/twombly/js/p5.svg.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/twombly/js/sketch-twombly-v1.js' | prepend:site.baseurl}}"></script>
 <script>
     window.onresize = function () {
         document.querySelector('#twombly-p5').querySelector('#p5').remove();
@@ -190,7 +190,7 @@
     }
 
 </script>
-<script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
 
 </body>
 

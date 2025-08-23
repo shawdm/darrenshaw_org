@@ -43,18 +43,6 @@
     <section class="title"><p id="music-list-albums-updated"></p></section>
 </article>
 
-
-{% assign music_posts = site.posts | where_exp: "item", "item.categories contains 'music'" %}
-{% for post in music_posts limit:100 -%}
-<!-- <article>
-  <h2>{{ post.title }}</h2>
-
-  <section>
-    {{ page.content }}
-  </section>
-</article> -->
-{% endfor -%}
-
 {% include archive.html %}
 
 {% include about.html %}
@@ -66,9 +54,9 @@
     const POPULAR_URL = "data/music-library-api/popular/artist.json";
     const ALBUMS_URL = "data/music-library-api/album/current.json";
 </script>
-<script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/music/js/handlebars.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/music/js/site-1.0.4.js" | prepend:site.baseurl}}'></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/music/js/handlebars.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/music/js/site-1.0.4.js' | prepend:site.baseurl}}"></script>
 
 </body>
 
