@@ -13,7 +13,7 @@
 
 <article class="blog notes">
     <section class="title">
-        <h2 title='{{page.date | date: "%d %B %Y"}}'>{{page.title}} <span class="date">{{page.date | date: "%B" | slice: 0, 3}} {{page.date | date: "%Y" }}</span>
+        <h2 title="{{page.date | date: '%d %B %Y'}}">{{page.title}} <span class="date">{{page.date | date: "%B" | slice: 0, 3}} {{page.date | date: "%Y" }}</span>
         </h2>
     </section>
     <section class="content">
@@ -24,13 +24,15 @@
         {% assign all_notes = site.posts | where_exp: "item", "item.categories contains 'notes'" %}
         {% assign notesByYear = all_notes | group_by_exp:"post", "post.date | date: '%Y'" %}
         {% for year in notesByYear %}
-        <h2 title="Things from {{ year.name }} I'm reading, watching, listening to or thinking about and don't want to lose.">Notes from {{ year.name }}</h2>
+        <h2 title="Things from {{ year.name }} I'm reading, watching, listening to or thinking about and don't want to lose.">
+            Notes from {{ year.name }}</h2>
         <ul>
             {% for note in year.items %}
             <li class="note">
-                <a href='{{ note.url }}' title='{{note.date | date: "%d %B %Y"}}'><h3>{{ note.title }}</h3></a>
+                <a href="{{ note.url }}" title="{{note.date | date: '%d %B %Y'}}"><h3>{{ note.title }}</h3></a>
                 <span class="date">{{note.date | date: "%d %B %Y"}}</span>
-                <p>{{ note.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+                <p>{{ note.excerpt | remove: '
+                <p>' | remove: '</p>' -}}</p>
             </li>
             {% endfor %}
         </ul>
@@ -44,7 +46,7 @@
 
 {% include footer.html %}
 
-<script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
 
 </body>
 

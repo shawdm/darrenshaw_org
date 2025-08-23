@@ -5,16 +5,16 @@
 <head>
     {% include head-core.html %}
     {% include favicon-projects.html %}
-    <link rel='stylesheet' href='{{"/interactive/spotify/css/site-1.0.0.css" | prepend:site.baseurl}}'/>
+    <link rel="stylesheet" href="{{'/interactive/spotify/css/site-1.0.0.css' | prepend:site.baseurl}}"/>
 </head>
 
 <body>
 
 {% include header.html class='black' %}
 
-<article class='spotify'>
+<article class="spotify">
     <section class="title">
-        <img src='{{"/interactive/spotify/images/phoebe-ghost.png" | prepend:site.baseurl}}'
+        <img src="{{'/interactive/spotify/images/phoebe-ghost.png' | prepend:site.baseurl}}"
              title="That ghost is just a kid in a sheet" alt="That ghost is just a kid in a sheet"/>
         <h2>Should Have Been Listening to Phoebe Bridgers</h2>
     </section>
@@ -25,20 +25,20 @@
             anyone. What if Wrapped took a longer term view? What if it considered the full thirteen years I've been
             with Spotify?
         </p>
-        <div id='vis-spotify-joy' class='graph'></div>
+        <div id="vis-spotify-joy" class="graph"></div>
         <p>
             Wrapped could have told me that I lost 570 days when I should have been listening to Phoebe Bridgers. While
             quick to listen to new music I'm slow to get hooked. The artists that I return to again and again are often
             those whose music I didn't initially enjoy. Phoebe Bridgers was one, but so were Radiohead and Oasis.
         </p>
         <p>
-            I'd listened to <a href='https://www.nytimes.com/by/jon-pareles'>Jon Pareles</a> discussing Phoebe Bridgers
-            on <a href='https://www.nytimes.com/column/popcast-pop-music-podcast'>Popcast</a> for years. Friends had
+            I'd listened to <a href="https://www.nytimes.com/by/jon-pareles">Jon Pareles</a> discussing Phoebe Bridgers
+            on <a href="https://www.nytimes.com/column/popcast-pop-music-podcast">Popcast</a> for years. Friends had
             recommended her. I'd even played Stranger in the Alps several times. The potential to be a fan existed, but
             I failed. It was finally coming across three live performances (<a
-                href='https://www.youtube.com/watch?v=JKPaA3p3bJU'>Fake Plastic Trees</a>, <a
-                href='https://www.youtube.com/watch?v=opLWHUo6R64'>Georgia</a> and <a
-                href='https://www.youtube.com/watch?v=EgQQkQrPJ2I'>Motion Sickness</a>) that changed everything. I've
+                href="https://www.youtube.com/watch?v=JKPaA3p3bJU">Fake Plastic Trees</a>, <a
+                href="https://www.youtube.com/watch?v=opLWHUo6R64">Georgia</a> and <a
+                href="https://www.youtube.com/watch?v=EgQQkQrPJ2I">Motion Sickness</a>) that changed everything. I've
             had Phoebe Bridgers on repeat ever since.
         </p>
         <p>
@@ -47,7 +47,7 @@
             me 3,651 days to appreciate Daniel Avery and 3,567 to fall for Justin Bieber. Other artists are immediate
             hits. I only lost a day's potential listening for HAIM and two for London Grammar.
         </p>
-        <div id='vis-spotify-missed' class='graph'></div>
+        <div id="vis-spotify-missed" class="graph"></div>
     </section>
     <section>
         <h2>How We Spend Our Minutes Is How We Spend Our Lives</h2>
@@ -59,14 +59,14 @@
         <p>
             Averaging listening times across 13 years flattened out any detail and just showed when I sleep.
         </p>
-        <div id='vis-spotify-time' class='graph'></div>
+        <div id="vis-spotify-time" class="graph"></div>
         <p>
             Broken down by year and with weekends filtered out shows how my listening changed through jobs, roles, and
             lockdown. From 2010 to 2017 I worked in an IBM office where I'd start early, leave for the gym in the late
             afternoon and work in the evening. I was foucssed on individual projects. Most of my time in the office
             would be spent with headphones on.
         </p>
-        <div id='vis-spotify-time-years' class='graph'></div>
+        <div id="vis-spotify-time-years" class="graph"></div>
         <p>
             In 2018 and 2019 I worked at Net-A-Porter as part of a development team sat around a shared desk. We were
             all working on the same projects and I rarely had headphones on. The only time I was listening to music was
@@ -88,40 +88,40 @@
     <section class="how-did-i-make-this">
         <h2>Sleeve Notes</h2>
         <p>
-            Spotify's Wrapped <a href='https://newsroom.spotify.com/2022-wrapped/'>press site</a> has more general
+            Spotify's Wrapped <a href="https://newsroom.spotify.com/2022-wrapped/">press site</a> has more general
             trends. Everything on this page is based on my own streaming history. Spotify allow you to download the last
             year's history. If you want to go back further, you need to make a specific GDPR request via email.
         <p>
             With 13 years of streaming history, I needed to do some data manipulation but little beyond putting tracks
             into buckets and counting. For the missed opportunities I filtered out any artists who I'd listened to
-            before Spotify existed. The charts were all hacked together using <a href='https://d3js.org/'>D3.js</a> and
-            the <a href='https://observablehq.com/@d3/gallery'>examples</a> they provide.
+            before Spotify existed. The charts were all hacked together using <a href="https://d3js.org/">D3.js</a> and
+            the <a href="https://observablehq.com/@d3/gallery">examples</a> they provide.
         </p>
         <p>
             There are many great album covers, but Joy Division's <a
-                href='https://en.wikipedia.org/wiki/Unknown_Pleasures#Artwork_and_packaging'>Unknown Pleasures</a> is
+                href="https://en.wikipedia.org/wiki/Unknown_Pleasures#Artwork_and_packaging">Unknown Pleasures</a> is
             probably the best known.
         </p>
         <p>
             Annie Dillard's original <a
-                href='https://www.goodreads.com/quotes/530337-how-we-spend-our-days-is-of-course-how-we'>quote</a> was
+                href="https://www.goodreads.com/quotes/530337-how-we-spend-our-days-is-of-course-how-we">quote</a> was
             “How we spend our days is, of course, how we spend our lives.”
         </p>
         <p>
             Loving an artist isn't just about their music. Personality, politics, style, and appearance all come into
             it. Everything I like about Phoebe Bridges outside of music is in her <a
-                href='https://www.youtube.com/watch?v=qns6-3tLMK8'>Chicken Shop Date</a>. It's also about how and where
+                href="https://www.youtube.com/watch?v=qns6-3tLMK8">Chicken Shop Date</a>. It's also about how and where
             you first came across the music. It's easier to remember lyrics from songs that soundtracked your school
             days than those you listened to last week. It might be why there are many good personalised music
             recommendation systems, but no great ones.
         </p>
         <p>
-            NYT's <a href='https://www.nytimes.com/column/popcast-pop-music-podcast'>Popcast</a> is best podcast I
+            NYT's <a href="https://www.nytimes.com/column/popcast-pop-music-podcast">Popcast</a> is best podcast I
             listen to. It treats pop music criticism with the seriousness it deserves.
         </p>
         <p>
             Everyone has time for Taylor Swift's 10-minute rework of <a
-                href='https://www.youtube.com/watch?v=sRxrwjOtIag'>All Too Well</a>.
+                href="https://www.youtube.com/watch?v=sRxrwjOtIag">All Too Well</a>.
         </p>
     </section>
 </article>
@@ -132,12 +132,12 @@
 
 {% include footer.html %}
 
-<script src='{{"/interactive/spotify/js/papaparse.min.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/spotify/js/moment.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/spotify/js/d3.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/spotify/js/d3-spotify.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/interactive/spotify/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
-<script src='{{"/js/site-1.0.0.js" | prepend:site.baseurl}}'></script>
+<script src="{{'/interactive/spotify/js/papaparse.min.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/spotify/js/moment.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/spotify/js/d3.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/spotify/js/d3-spotify.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/spotify/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
 
 </body>
 
