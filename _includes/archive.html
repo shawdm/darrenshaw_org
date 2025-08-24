@@ -14,7 +14,7 @@
     {% assign all_posts = site.posts | where_exp: "item", "item.categories contains 'blog'" %}
         {% for post in all_posts limit:100 -%}
         <div class="grid-item">
-            <a href="{{ post.url }}" title="{{post.date_written | date: '%d %B %Y'}}">
+            <a href="{{post.url}}" title="{{post.date_written | date: '%d %B %Y'}}">
                 <h3>{{ post.title }}</h3>
             </a>
             <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
@@ -25,10 +25,10 @@
     {% assign all_posts = site.posts | where_exp: 'item', "item.categories contains 'photo'" %}
         {% for post in all_posts limit:100 -%}
         <div class="grid-item">
-            <a href="{{ post.url }}" title="{{post.date_written | date: '%d %B %Y'}}">
+            <a href="{{post.url}}" title="{{post.date_written | date: '%d %B %Y'}}">
                 <h3>{{ post.title }}</h3>
             </a>
-            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
+            <p>{{post.excerpt | remove: '<p>' | remove: '</p>' -}}</p>
         </div>
         {% endfor -%}
     </div>    

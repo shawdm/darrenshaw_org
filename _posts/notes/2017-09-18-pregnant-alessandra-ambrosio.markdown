@@ -1,7 +1,6 @@
 ---
 layout: notes
-title: "Pregnant Alessandra Ambrosio"
-seo_title: "Pregnant Alessandra Ambrosio | Darren Shaw, UK Software Developer"
+title: "Boo George's Pregnant Alessandra Ambrosio"
 date: 2017-09-18 08:00:00 +0000
 categories: notes
 tags: [ photo, feed ]
@@ -11,13 +10,12 @@ excerpt: Alessandra Ambrosio has done everything. Without noticing, you likely c
 Alessandra Ambrosio has done everything. Without noticing, you likely come across a picture of her every day, but this
 Boo George one of her pregnant is different.
 
-{% include image.html path='images/blog/why-i-love-this-picture/ambrosia-george-1.jpg' class='wide' title='Photographer:
-Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}
+![Alessandra Ambrosio](/images/blog/why-i-love-this-picture/ambrosia-george-1.jpg)
 
-They found a very photogenic apple.
+They also found a very photogenic apple.
 
-{% include image.html path='images/blog/why-i-love-this-picture/ambrosia-george-2.jpg' class='wide' title='Photographer:
-Boo George, Model: Alessandra Ambrosio.' alt='Photographer: Boo George, Model: Alessandra Ambrosio.' %}
+![Alessandra Ambrosio](/images/blog/why-i-love-this-picture/ambrosia-george-2.jpg)
+
 Only a fashion magazine would have the space and thought to include this.
 
 

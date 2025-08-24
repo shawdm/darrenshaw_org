@@ -13,11 +13,11 @@
 
 <article class="blog">
     <section class="title">
-        <h2>{{page.title}} <span class="date">{{page.date_written | date: "%B" | slice: 0, 3}} {{page.date_written | date: "%Y" }}</span>
+        <h2>{{page.title}} <span class="date">{{page.date_written | date: '%B' | slice: 0, 3}} {{page.date_written | date: '%Y' }}</span>
         </h2>
     </section>
     <section class="content">
-        {{ page.content }}
+        {{page.content}}
     </section>
 </article>
 
