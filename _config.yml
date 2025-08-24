@@ -25,3 +25,4 @@ exclude:
   - Makefile
   - README.md
   - images/original
+  - .idea/

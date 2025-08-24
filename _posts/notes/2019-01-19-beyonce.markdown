@@ -1,0 +1,13 @@
+---
+layout: notes
+title: "Alasdair McLellan's Beyoncé"
+date: 2019-01-19 18:00:00 +0000
+categories: notes
+tags: [ photo, feed ]
+excerpt: I love this Beyoncé picture by Alasdair McLellan. I love it almost as much as [Drake]
+---
+
+I love this Beyoncé picture by Alasdair McLellan. I love it almost as much
+as [Drake](https://www.elle.com/culture/music/a12186209/drake-has-a-huge-portrait-of-beyonce-on-his-wall/) does.
+
+![Beyoncé](/images/blog/why-i-love-this-picture/beyonce-1.jpg)
