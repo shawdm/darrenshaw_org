@@ -1,0 +1,12 @@
+---
+layout: interactive-strudel
+title: "Strudel"
+seo_title: "Strudel | Darren Shaw, UK Software Developer"
+date: 2025-08-25 11:00:00 +0000
+date_written: 2025-08-25 11:00:00 +0000
+location: Manchester, UK
+categories: blog
+tags: [ tech, feed ]
+excerpt: Studel
+version: 1.0.0
+---
