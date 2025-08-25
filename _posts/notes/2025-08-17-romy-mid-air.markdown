@@ -1,7 +1,6 @@
 ---
 layout: notes
 title: "Romy's Mid Air Album"
-seo_title: "Romy's Mid Air Album | Darren Shaw, UK Software Developer"
 date: 2025-08-17 12:00:00 +0000
 categories: notes
 tags: [ music, feed ]

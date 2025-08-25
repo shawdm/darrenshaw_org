@@ -1,7 +1,6 @@
 ---
 layout: notes
 title: "Four Great Live Performances on YouTube"
-seo_title: "Four Great Live Performances on YouTube | Darren Shaw, UK Software Developer"
 date: 2025-08-18 12:00:00 +0000
 categories: notes
 tags: [ music, feed ]
