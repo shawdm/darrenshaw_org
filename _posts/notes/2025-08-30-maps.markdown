@@ -1,0 +1,12 @@
+---
+layout: notes
+title: "Reading Things About Maps"
+date: 2025-08-30 09:00:00 +0000
+categories: notes
+tags: [ web, feed ]
+excerpt: Things I've been reading about maps.
+---
+
+1. [How would maps look if we didn't have a convention?](https://escapethealgorithm.substack.com/p/should-this-be-a-map-or-500-maps)
+2. [somethingaboutmaps](https://somethingaboutmaps.wordpress.com/)
+3. [Mapping out plant root structures](https://images.wur.nl/digital/collection/coll13/search)

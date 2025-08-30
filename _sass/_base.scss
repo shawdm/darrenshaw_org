@@ -299,7 +299,7 @@ p.no-title {
   line-height: 1rem;
 }
 
-.notes .contents ul{
+.notes .contents ul {
   list-style: none;
 }
 
@@ -316,6 +316,19 @@ p.no-title {
 
 .notes .contents a:hover {
   text-decoration: underline;
+}
+
+.notes blockquote {
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: $black-color;
+  padding-left: $spacing-unit-small;
+  margin-bottom: 1rem;
+
+}
+
+.notes blockquote p {
+  padding-bottom: 0;
 }
 
 /**
