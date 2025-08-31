@@ -20,9 +20,52 @@
 
         <strudel-editor id="strudel-repl">
 <!--
-setcpm(110/4)
-sound("bd [hh hh hh] sd [hh bd] bd - [hh sd] [bd bd]")
-    .sound("bd hh bd - bd hh bd hh")
+// setcpm(110/4)
+// sound("bd [hh hh hh] sd [hh bd] bd - [hh sd] [bd bd]")
+//     .sound("bd hh bd - bd hh bd hh")
+//     .bank("RolandTR909")
+
+// sound("bd bd bd bd").bank("RolandTR909").punchcard()
+
+// sound("bd:1*4 bd:2 bd:1*2 bd:1").bank("RolandTR909")
+
+// note("c a f e").color("black").punchcard()
+
+
+// Set the tempo to 140 BPM
+setCps(140/60/4)
+
+const mainBeat = sound(`
+[-  -  oh - ] [-  -  -  - ] [-  -  -  - ] [-  -  -  - ],
+[hh hh -  - ] [hh -  hh - ] [hh -  hh - ] [hh -  hh - ],
+[-  -  -  - ] [cp -  -  - ] [-  -  -  - ] [cp cp -  - ],
+[-  -  -  - ] [-  -  -  - ] [-  -  -  - ] [cp -  -  - ],
+[bd -  -  - ] [-  -  -  bd] [-  -  bd - ] [-  -  -  bd],
+[sd -  -  - ] [sd -  -  - ] [-  -  -  - ] [-  -  -  - ]
+`)
+  .bank("RolandTR909");
+
+
+const fill = sound("bd*8 bd*2")
+  .bank("RolandTR909");
+
+
+const piano = note("c2 g2, c e g b").sound("piano, gm_acoustic_bass");
+
+const pianoEffected = piano
+ .lpf(6000) // A Low-Pass Filter removes high frequencies, making it sound deep.
+  .lpq(3) // Adds a slight resonance to the filter for character.
+  .delay(0.3) // Adds a stereo delay effect.
+  .delaytime("0.25 0.5") // Sets different delay times for the left and right channels.
+
+
+// stack(mainBeat, piano);
+// mainBeat
+const drums = every(8, () => fill, mainBeat);
+// drums;
+stack(drums, piano);
+
+
 -->
         </strudel-editor>
     </section>
