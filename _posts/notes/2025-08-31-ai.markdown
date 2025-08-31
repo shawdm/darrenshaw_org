@@ -1,0 +1,14 @@
+---
+layout: notes
+title: "Cutting Through The AI Swamp"
+date: 2025-08-31 08:00:00 +0000
+categories: notes
+tags: [ software, web, feed ]
+excerpt: It's hard to read about AI because there's so much noise and hype. Here are some things I've read that I think are worthwhile.
+---
+
+It's hard to read about AI because there's so much noise and hype. Here are some things I've read that I think are
+worthwhile.
+
+1. Tech CEOs don't seem to realise just how anti-human their AI fanaticism is
+   from [PC Gamer](https://www.pcgamer.com/software/ai/tech-ceos-dont-seem-to-realise-just-how-anti-human-their-ai-fanaticism-is-and-i-think-its-all-because-of-the-enlightenment).
