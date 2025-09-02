@@ -12,3 +12,5 @@ worthwhile.
 
 1. Tech CEOs don't seem to realise just how anti-human their AI fanaticism is
    from [PC Gamer](https://www.pcgamer.com/software/ai/tech-ceos-dont-seem-to-realise-just-how-anti-human-their-ai-fanaticism-is-and-i-think-its-all-because-of-the-enlightenment).
+2. What the computerisation of Wall Street can teach us about
+   AI [O'Reilly](https://www.oreilly.com/radar/taming-the-delightful-chaos/).
