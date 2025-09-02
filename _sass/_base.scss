@@ -294,6 +294,10 @@ p.no-title {
   text-decoration: underline;
 }
 
+.notes .content ol li {
+  padding-bottom: 1rem;
+}
+
 .notes .contents {
   font-size: $font-size-small;
   line-height: 1rem;
