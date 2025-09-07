@@ -14,17 +14,16 @@ playlist [Alice](https://alicebartlett.co.uk) made a hundred years ago.
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0YsnPci4c5mnsAA6Q8W0NP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-There was a point in early 2010's pop where you were required to shout out the 808. Especially if your songs sound as
-good as these two.
+There was a point in early 2010's pop where you were required to shout-out the 808.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eQFIKP9rGhQ?si=laVM_xTuc3GlvADa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Break The Ice from Britney's best album.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcDWh0YOtJQ?si=RHvM1zbTKSN609OX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-Boom! What in the 2011 is going on in this video?
+Boom! What is going on in this video?
 
-An 808 is one of the instruments I've playing with in [Strudel](https://strudel.cc/) which is a Javascript version
-of [Tide Cycles](https://tidalcycles.org). Both of which can be used to live code music. I came across these after
+An 808 is one of the instruments I've been playing with in [Strudel](https://strudel.cc/) (Javascript version
+of [Tide Cycles](https://tidalcycles.org)) which can be used to live code music. I came across Strudel after
 seeing
 [DJ_Dave](https://www.youtube.com/watch?v=ZCcpWzhekEY) and working out how it was done
 via [this tutorial](https://mirakl.tech/beats-bytes-and-basslines-an-introduction-to-live-coding-with-strudel-cc-4d378e86d5b7).
