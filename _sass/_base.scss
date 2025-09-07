@@ -291,7 +291,12 @@ p.no-title {
 }
 
 .notes .content a {
-  text-decoration: underline;
+  text-decoration-color: $grey-color;
+  text-decoration-line: underline;
+}
+
+.notes .content a:HOVER {
+  text-decoration-color: $black-color;
 }
 
 .notes .content ol li {
