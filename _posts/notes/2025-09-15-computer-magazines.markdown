@@ -15,8 +15,7 @@ available via [Internet Archive](https://archive.org/).
 
 [![Amiga Format March 1991](/images/notes/computer-magazines/amiga-format-1991-03.avif){: .centre}](https://archive.org/details/AmigaFormatMagazine_201902/Amiga_Format_Issue_020_1991_03_Future_Publishing_GB/)
 
-[![Edge](/images/notes/computer-magazines/edge-1999-10.avif){: .centre}](https://archive.org/details/edge-issue-76-october-1999
-)
+[![Edge](/images/notes/computer-magazines/edge-1999-10.avif){: .centre}](https://archive.org/details/edge-issue-76-october-1999)
 [![Wired](/images/notes/computer-magazines/wired-2010-09.avif){: .centre}](https://archive.org/details/wired-2010_09/page/n35/mode/2up)
 
 Magazines are a quiet luxury we've lost.
