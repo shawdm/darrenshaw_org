@@ -4,7 +4,7 @@ title: "RIP Computer Magazines 1990-2010"
 date: 2025-09-15 12:00:00 +0000
 categories: notes
 tags: [ feed ]
-excerpt: When computer computer-magazines were inspiring, beautiful and ads were ads.
+excerpt: When computer magazines were inspiring, beautiful and ads were ads.
 ---
 
 There's a magazine on sale (September 2025) called "How to improve your life with ChatGPT". There was a period when
