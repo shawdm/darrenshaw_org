@@ -291,12 +291,21 @@ p.no-title {
 }
 
 .notes .content a {
-  text-decoration-color: $grey-color;
   text-decoration-line: underline;
+  text-decoration-thickness: 1.4px;
+  text-underline-offset: 2px;
 }
 
 .notes .content a:HOVER {
-  text-decoration-color: $black-color;
+  text-decoration-thickness: 2px;
+}
+
+.notes .content img.centre{
+  width: 100%;
+  max-width: $thumbnail-large-width;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .notes .content ol li {
