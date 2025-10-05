@@ -13,9 +13,11 @@ Lipa. They also did something similar with her
 in [February 2021](https://www.vogue.co.uk/news/article/dua-lipa-british-vogue-february-2021).
 
 ![Dua Lipa](/images/notes/2025/dua-cover-25.avif)
+
 ![Dua Lipa](/images/notes/2025/dua-cover-21.avif)
 
 Much harder, but also pleasingly monotone are Charli XCX and Troye
 Sivan's [i-D covers](https://i-d.co/article/charli-xcx-troye-sivan-sweat-brat-tour-interview).
 ![Charli XCX](/images/notes/2025/charli-xcx-pink.avif)
+
 ![Charli XCX](/images/notes/2025/charli-xcx-black.avif)
