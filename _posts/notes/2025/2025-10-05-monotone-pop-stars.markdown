@@ -4,7 +4,7 @@ title: "Monotone Pop Stars"
 date: 2025-10-05 12:00:00 +0000
 categories: notes
 tags: [ photo, feed ]
-excerpt: Monotone magazine covers from Dua Lipa, Charlie XCX and Troye Sivan. 
+excerpt: Monotone magazine covers from Dua Lipa, Charli XCX and Troye Sivan. 
 ---
 
 Monotone pop star magazine covers? I loved the soft
@@ -15,7 +15,7 @@ in [February 2021](https://www.vogue.co.uk/news/article/dua-lipa-british-vogue-f
 ![Dua Lipa](/images/notes/2025/dua-cover-25.avif)
 ![Dua Lipa](/images/notes/2025/dua-cover-21.avif)
 
-Much harder, but also pleasingly monotone are Charlie XCX and Troye
+Much harder, but also pleasingly monotone are Charli XCX and Troye
 Sivan's [i-D covers](https://i-d.co/article/charli-xcx-troye-sivan-sweat-brat-tour-interview).
-![Charli XCX](/images/notes/2025/charlie-xcx-pink.avif)
-![Charli XCX](/images/notes/2025/charlie-xcx-black.avif)
+![Charli XCX](/images/notes/2025/charli-xcx-pink.avif)
+![Charli XCX](/images/notes/2025/charli-xcx-black.avif)
