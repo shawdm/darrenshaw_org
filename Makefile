@@ -13,5 +13,5 @@ deploy:
 	then\
 		aws s3 sync _site s3://www.darrenshaw.org/ --profile shawdm-darrenshaw-org; \
 	else \
-		echo "Cannot depoloy from branch: $(BRANCH)"; \
+		echo "Cannot deploy from branch: $(BRANCH)"; \
 	fi
