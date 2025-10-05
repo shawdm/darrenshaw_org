@@ -17,5 +17,5 @@ in [February 2021](https://www.vogue.co.uk/news/article/dua-lipa-british-vogue-f
 
 Much harder, but also pleasingly monotone are Charlie XCX and Troye
 Sivan's [i-D covers](https://i-d.co/article/charli-xcx-troye-sivan-sweat-brat-tour-interview).
-![Charlie XCX](/images/notes/2025/charlie-xcx-pink.avif)
-![Charlie XCX](/images/notes/2025/charlie-xcx-black.avif)
+![Charli XCX](/images/notes/2025/charlie-xcx-pink.avif)
+![Charli XCX](/images/notes/2025/charlie-xcx-black.avif)
