@@ -42,4 +42,4 @@ Firework, Katy Perry
 > Waking up diagonal like an animal
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pAOHXSpE-v0?si=DNd0cAXGMaJJBc3e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-I Don't Care, Chery Cole. I can overlook this lyric as this is a bop with a fun video.
+I Don't Care, Cheryl Cole. I can overlook this lyric as this is a bop with a fun video.
