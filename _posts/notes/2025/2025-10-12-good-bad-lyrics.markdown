@@ -27,7 +27,7 @@ Diamonds From Sierra Leone (Remix), Kanye West and Jay Z
 South of the Border, Ed Sheeran, Camila Cabello and Cardi B
 
 
-> My blood types the 90s.
+> My blood type's the 90s.
 
 Someone sang this, which I think is a reference to Eminem and Royce Da 5'9", but Google is not helping me. I'll add this
 in when I eventually remember who it was.
