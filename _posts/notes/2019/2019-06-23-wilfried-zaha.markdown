@@ -7,7 +7,7 @@ tags: [ photo, feed ]
 excerpt: Charlie Gray's portraits of Wilfried Zaha.
 ---
 
-![Wilfried Zaha](/images/notes/2019/Wilfred_Zaha_The_Jackal_209_FINAL_RGB.avif)
+![Wilfried Zaha](/images/notes/2019/Wilfried_Zaha_The_Jackal_209_FINAL_RGB.avif)
 
 ![Wilfried Zaha](/images/notes/2019/Wilfred_Zaha_The_Jackal_195_FINAL_RGB.avif)
 
