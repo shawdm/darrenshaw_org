@@ -4,7 +4,7 @@ title: "The Cranberries 1990s Album Covers"
 date: 2019-04-13 08:00:00 +0000
 categories: notes
 tags: [ photo, feed ]
-excerpt: 
+excerpt: The real Black Album and the real White Album.
 ---
 
 [Everybody Else Is Doing It, So Why Can't We?](https://en.wikipedia.org/wiki/Everybody_Else_Is_Doing_It,_So_Why_Can%27t_We%3F)
