@@ -15,7 +15,7 @@ All Saints were always cooler than everyone else, "splish splash I was taking a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v470OTkI5rs?si=ndLssxwwwV7H8wKK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Pure Shores is one of the best pop songs of the 90s. It's got the same tingly William Orbit sound used in his remix of
-Dice by Finley Quaye (which will always sounds like [The OC](https://en.wikipedia.org/wiki/The_O.C.)).
+Dice by Finley Quaye (which will always sound like [The OC](https://en.wikipedia.org/wiki/The_O.C.)).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xDHszQll5Tc?si=U35skAf0L0Cr5A6D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Mel Blatt's Twentyfourseven with lots of Spanish guitar is a 90s lullaby.
