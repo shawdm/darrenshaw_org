@@ -7,9 +7,8 @@ tags: [ feed ]
 excerpt: Happy to stumble across Norah Jones' perfect, perfect podcast.
 ---
 
-[Norah Jones Is Playing Along](https://www.norahjonesisplayingalong.com) is an unexpected favourite podcast. Norah
-humbly interviews musicians with a warmth that doesn't feel like the Internet of 2026 but the highlight is always when she
-plays and sings with the guest. It's glorious.
+[Norah Jones Is Playing Along](https://www.norahjonesisplayingalong.com) is an unexpected favourite podcast. Her
+interviews are warm and humble but the highlight is always when she plays and sings along with the guest. It's glorious.
 
 Her duet with with Logic on 1-800-273-8255 is so good. Who can relate? Woooo!
 
