@@ -4,7 +4,7 @@ title: "Norah Jones Isn't Playing"
 date: 2026-01-18 13:00:00 +0000
 categories: notes
 tags: [ feed ]
-excerpt: Happy to stumble across Norah Jones' perfect perfect podcast.
+excerpt: Happy to stumble across Norah Jones' perfect, perfect podcast.
 ---
 
 [Norah Jones Is Playing Along](https://www.norahjonesisplayingalong.com) is an unexpected favourite podcast. Norah
