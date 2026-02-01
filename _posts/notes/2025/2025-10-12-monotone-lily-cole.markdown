@@ -2,7 +2,7 @@
 layout: notes
 title: "Monotone Lily Cole"
 date: 2025-10-12 13:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Lily Cole and the city in perfect monotone by Koray Birand. 
 ---

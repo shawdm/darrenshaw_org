@@ -2,7 +2,7 @@
 layout: notes
 title: "Gracie Abrams for Vogue España"
 date: 2025-10-26 13:00:00 +0000
-categories: notes
+categories: [ notes ]
 tags: [ photo, feed ]
 excerpt: Gracie Abrams by Dan Jackson for November 2025's Vogue España.
 ---

@@ -4,7 +4,7 @@ title: "YNAP Hackday Poster"
 seo_title: "YNAP Hackday Poster | Darren Shaw, UK Software Developer"
 date_written: 2023-03-12 13:00:00 +0000
 location: Winchester, UK
-categories: blog
+categories: [blog]
 tags: [ graphic, feed ]
 excerpt: The most significant colours sampled from the product images of the top 1024 clothing products on Net-A-Porter, organised by hue.
 ---

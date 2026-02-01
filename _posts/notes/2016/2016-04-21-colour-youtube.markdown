@@ -3,7 +3,7 @@ layout: notes
 title: "Colour of YouTube"
 seo_title: "Colour of YouTube | Darren Shaw, UK Software Developer"
 date: 2016-04-21 17:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ tech, feed ]
 excerpt: Predominant colours of most popular user generated Bobbi Brown videos on YouTube.
 ---

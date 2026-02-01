@@ -2,7 +2,7 @@
 layout: notes
 title: "Rankin's Heidi Klum"
 date: 2017-09-17 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Why I love this Rankin series of Heidi Klum pictures that made me want to learn to take portraits.
 ---

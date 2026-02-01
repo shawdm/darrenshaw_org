@@ -2,7 +2,7 @@
 layout: notes
 title: "Jake Michaels' Palm Tree"
 date: 2017-11-27 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Jake Michaels is a serious photographer with high profile clients and a beautiful portfolio. As a sideline he also goes under the name Joke Michaels, sharing many of his clever street pictures.
 ---

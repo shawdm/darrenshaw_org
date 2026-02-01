@@ -2,7 +2,7 @@
 layout: notes
 title: "Reading Things About Maps"
 date: 2025-08-30 09:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ web, feed ]
 excerpt: Things I've been reading about maps.
 ---

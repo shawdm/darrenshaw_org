@@ -5,7 +5,7 @@ seo_title: "Should Have Been Listening to Phoebe Bridgers, Spotify Data Visualis
 date: 2023-01-05 06:00:00 +0000
 date_written: 2023-01-05 06:00:00 +0000
 location: Winchester, UK
-categories: blog
+categories: [blog]
 tags: [ front, tech, feed ]
 excerpt: Spotify's Wrapped is very shareable but what if it took a longer term view? What if it considered the full thirteen years I've been with Spotify?
 ---

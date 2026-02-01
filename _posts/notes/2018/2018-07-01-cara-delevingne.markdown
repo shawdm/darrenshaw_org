@@ -2,7 +2,7 @@
 layout: notes
 title: "Peter Lindbergh's Cara Delevingne"
 date: 2018-07-01 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: I get butterflies looking at Peter Lindbergh's portrait of Cara Delevingne.
 ---

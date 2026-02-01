@@ -2,7 +2,7 @@
 layout: notes
 title: "Lyrics"
 date: 2025-10-12 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ feed ]
 excerpt: Lyrics that take me up or bring me down.
 ---

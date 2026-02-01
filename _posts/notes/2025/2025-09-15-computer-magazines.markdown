@@ -2,7 +2,7 @@
 layout: notes
 title: "RIP Computer Magazines 1990-2010"
 date: 2025-09-15 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ feed ]
 excerpt: When computer magazines were inspiring, beautiful and ads were ads.
 ---

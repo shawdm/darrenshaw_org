@@ -2,7 +2,7 @@
 layout: notes
 title: "Ethel Cain - Fuck Me Eyes"
 date: 2025-08-30 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ music, feed ]
 excerpt: She's no good at raising children, but she's good at raising Hell. What a line.
 ---

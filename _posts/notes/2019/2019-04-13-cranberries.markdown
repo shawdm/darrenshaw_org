@@ -2,7 +2,7 @@
 layout: notes
 title: "The Cranberries 1990s Album Covers"
 date: 2019-04-13 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: The real Black Album and the real White Album.
 ---

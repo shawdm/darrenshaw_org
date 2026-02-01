@@ -2,7 +2,7 @@
 layout: notes
 title: "Interactive Portraits"
 date: 2025-08-30 10:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ art, photo, feed ]
 excerpt: Jeremy Cowart's dynamic and interactive portraits. Why is there not more stuff like this? 
 ---

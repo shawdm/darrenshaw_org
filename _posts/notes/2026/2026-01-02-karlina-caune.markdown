@@ -2,7 +2,7 @@
 layout: notes
 title: "Karlina Caune for Harper’s Bazaar UK"
 date: 2026-01-02 13:00:00 +0000
-categories: notes
+categories: [ notes ]
 tags: [ photo, feed ]
 excerpt: Karlina Caune by Boo George for Harper's Bazaar UK.
 ---

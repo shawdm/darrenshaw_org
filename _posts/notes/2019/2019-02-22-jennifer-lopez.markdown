@@ -2,7 +2,7 @@
 layout: notes
 title: "Camilla Akrans' Jennifer Lopez"
 date: 2019-02-22 18:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Anyone could take a beautiful picture of Jennifer Lopez. I love that Camilla Akrans and Harper's Bazaar didn't settle for that.
 ---

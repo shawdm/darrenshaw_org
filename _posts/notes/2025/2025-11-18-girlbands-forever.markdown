@@ -2,7 +2,7 @@
 layout: notes
 title: "All Saints Forever"
 date: 2025-11-18 13:00:00 +0000
-categories: notes
+categories: [ notes ]
 tags: [ feed ]
 excerpt: All Saints and Mis-Teeq were my favourite groups in Girlbands Forever. Great late 90s music.
 ---

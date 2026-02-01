@@ -2,7 +2,7 @@
 layout: notes
 title: "Books I Enjoyed - Summer 2025"
 date: 2025-09-02 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ books, feed ]
 excerpt: Books I enjoyed reading during the Summer of 2025.
 ---

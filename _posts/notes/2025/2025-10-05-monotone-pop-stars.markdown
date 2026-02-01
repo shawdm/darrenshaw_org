@@ -2,7 +2,7 @@
 layout: notes
 title: "Monotone Pop Stars"
 date: 2025-10-05 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Monotone magazine covers from Dua Lipa, Charli XCX and Troye Sivan. 
 ---

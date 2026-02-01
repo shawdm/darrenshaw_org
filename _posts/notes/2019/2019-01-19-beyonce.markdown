@@ -2,7 +2,7 @@
 layout: notes
 title: "Alasdair McLellan's Beyoncé"
 date: 2019-01-19 18:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: I love this Beyoncé picture by Alasdair McLellan. I love it almost as much as [Drake]
 ---

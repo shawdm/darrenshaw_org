@@ -2,7 +2,7 @@
 layout: notes
 title: "Norah Jones Isn't Playing"
 date: 2026-01-18 13:00:00 +0000
-categories: notes
+categories: [ notes ]
 tags: [ feed ]
 excerpt: Happy to stumble across Norah Jones' perfect, perfect podcast.
 ---

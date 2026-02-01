@@ -3,7 +3,7 @@ layout: notes
 title:  "Roland Garros"
 seo_title: "Roland Garros | Darren Shaw, UK Software Developer"
 date:   2016-06-12 09:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [photo, feed]
 excerpt: Crowds at Roland Garros for the 2016 French Open.
 ---
