@@ -2,7 +2,7 @@
 layout: notes
 title: "More Heidi Klum by Rankin"
 date: 2018-10-19 21:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: More pictures of Heidi Klum by Rankin that I love. Always so much attitude.
 ---

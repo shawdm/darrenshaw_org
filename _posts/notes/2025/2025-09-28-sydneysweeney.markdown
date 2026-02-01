@@ -2,7 +2,7 @@
 layout: notes
 title: "Jess Wasson's Sydney Sweeney"
 date: 2025-09-28 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: The campaign behind this Sydney Sweeney shoot was somewhat controversial. But Jess Wasson's pictures are beautiful.
 ---

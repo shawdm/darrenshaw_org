@@ -4,7 +4,7 @@ title: "Flow-vis for Net-A-Porter"
 seo_title: "Flow-vis for Net-A-Porter - Data Visualisation For Online Fashion Retail | Darren Shaw, UK Software Developer"
 date_written: 2023-04-09 13:00:00 +0000
 location: Winchester, UK
-categories: blog
+categories: [blog]
 tags: [ graphic, tech, feed ]
 excerpt: What does a day's trading at Net-A-Porter look like? Taking inspiration from Formula 1's use of flow-vis paint, I came up with a visualisation for a YNAP hackday.
 ---

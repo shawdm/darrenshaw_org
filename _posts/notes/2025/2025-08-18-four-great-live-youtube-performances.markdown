@@ -2,7 +2,7 @@
 layout: notes
 title: "Four Great Live Performances on YouTube"
 date: 2025-08-18 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ music, feed ]
 excerpt: Beyoncé with Irreplaceable, Phoebe Bridgers and Arlo Parks with Fake Plastic Trees, Little Simz with Venom and Anne-Marie and Aitch with Psycho are four great live performances on YouTube.
 ---

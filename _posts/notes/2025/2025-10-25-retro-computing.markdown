@@ -2,7 +2,7 @@
 layout: notes
 title: "Retro Computing"
 date: 2025-10-26 13:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ feed ]
 excerpt: The Commodore 64C and Amiga 500 have a lot to answer for. 
 ---

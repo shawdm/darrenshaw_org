@@ -5,7 +5,7 @@ seo_title: "My Favourite Net-A-Porter Colour is Black - Colour Palettes Data Vis
 date: 2022-07-10 12:00:00 +0000
 date_written: 2022-07-10 12:00:00 +0000
 location: Winchester, UK
-categories: blog
+categories: [blog]
 tags: [ tech, feed ]
 excerpt: Net-A-Porter's Spring Summer 2022 marketing campaign, "Go for Bold", centred around a collection of colourful products. Marketing wanted to add a technology element and one idea was to use palettes as a route to finding products. Ultimately this was binned, but I built it anyway.
 ---

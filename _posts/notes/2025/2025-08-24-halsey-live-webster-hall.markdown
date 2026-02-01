@@ -2,7 +2,7 @@
 layout: notes
 title: "Halsey's Badlands (Live From Webster Hall)"
 date: 2025-08-24 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ music, feed ]
 excerpt: I quite like Halsey's Badlands album, but the Live From Webster Hall version is on another level. So much intensity in the crowd participation.
 ---

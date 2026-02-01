@@ -2,7 +2,7 @@
 layout: notes
 title: "Best Hair Ever"
 date: 2017-09-26 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Linda Evangelista in 1989. Best hair ever.
 ---

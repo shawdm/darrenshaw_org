@@ -2,7 +2,7 @@
 layout: notes
 title: "Romy's Mid Air Album"
 date: 2025-08-17 12:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ music, feed ]
 excerpt: My most listened to album over the past two years. Still perfect. I won't skip any, but Loveher is my standout track.
 ---

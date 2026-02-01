@@ -4,7 +4,7 @@ title: "Eric Liyah Kane - May 2025"
 seo_title: "Eric Liyah Kane, Lifestyle Shoot by Darren Shaw | Southampton, UK"
 date_written: 2025-05-20 13:00:00 +0000
 location: Southampton, UK
-categories: photo
+categories: [photo]
 tags: [ photo ]
 excerpt: More portraits with Eric Liyah Kane, Southampton, UK, May 2025.
 ---

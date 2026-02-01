@@ -2,7 +2,7 @@
 layout: notes
 title: "Boo George's Nautical Alessandra Ambrosio"
 date: 2017-10-29 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: This is the second Boo George shoot with Alessandra Ambrosio that I’ve made a note of. If I had to pick the perfect fashion picture, this would be it.
 ---

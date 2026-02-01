@@ -2,7 +2,7 @@
 layout: notes
 title: "Wilfried Zaha"
 date: 2019-06-23 13:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: Charlie Gray's portraits of Wilfried Zaha.
 ---

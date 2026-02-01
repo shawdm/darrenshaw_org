@@ -2,7 +2,7 @@
 layout: notes
 title: "Four More Great Live Performances on YouTube"
 date: 2025-08-30 09:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ music, feed ]
 excerpt: Lainey Wilson with Heart Like A Truck, Alicia Keys and Jay-Z with Empire State of Mind, Phoebe Bridgers with Georgia and Dizzee Rascal and Florence Welch with You've Got The Dirtee Love are four more great live performances on YouTube.
 ---

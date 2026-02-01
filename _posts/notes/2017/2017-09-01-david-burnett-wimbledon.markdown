@@ -2,7 +2,7 @@
 layout: notes
 title: "David Burnett at Wimbledon"
 date: 2017-09-01 08:00:00 +0000
-categories: notes
+categories: [notes]
 tags: [ photo, feed ]
 excerpt: A different angle on Wimbledon by David Burnett.
 ---

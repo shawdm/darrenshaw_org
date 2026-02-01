@@ -5,7 +5,7 @@ seo_title: "Physical Web and Physical Meetings | Darren Shaw, UK Software Develo
 date: 2016-01-27 08:00:00 +0000
 date_written: 2011-01-27 08:00:00 +0000
 location: Winchester, UK
-categories: blog
+categories: [blog]
 tags: [ tech, feed ]
 excerpt: As an experiment in using the Physical Web I wanted to create a voting system for physical meetings.  A meeting would have a current question and attendees could vote with one click.  There would be no entering URLs, downloading apps, or scanning QR codes.
 ---

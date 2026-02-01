@@ -4,7 +4,7 @@ title: "Sophie Lawrence - July 2024"
 seo_title: "Sophie Lawrence, Model Portfolio Update by Darren Shaw | Winchester, UK"
 date_written: 2024-07-27 13:00:00 +0000
 location: Winchester, UK
-categories: photo
+categories: [photo]
 tags: [ photo ]
 excerpt: Studio and natural light portraits with Sophie Lawrence, Winchester, UK, June 2024.
 ---
