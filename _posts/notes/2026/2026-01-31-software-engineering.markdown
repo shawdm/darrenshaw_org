@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "Software Engineering Reading"
-date: 2026-02-01 11:00:00 +0000
+title: "Software Engineering Reading - January"
+date: 2026-01-31 11:00:00 +0000
 categories: [notes]
 tags: [ software, web, feed ]
 excerpt: Things I've been reading on technology, development and AI.
