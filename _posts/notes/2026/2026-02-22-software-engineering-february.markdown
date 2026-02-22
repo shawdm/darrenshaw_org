@@ -41,4 +41,4 @@ excerpt: Things I've been reading in February 2026 on technology, development an
    another "this time it's different" article. I remember
    reading [this](https://www.wired.com/2017/05/robot-us-self-driving-trucks-coming-save-lives-kill-jobs/) Wired article
    about autonomous vehicles about to bring in the end of trucking as an accessible middle class job in the US. That
-   was ten years ago, and it's as far away now as it was then. Maybe this will be different. Maybe it wont.
+   was ten years ago, and it's as far away now as it was then. Maybe this will be different. Maybe it won't.
