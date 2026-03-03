@@ -1,0 +1,33 @@
+---
+layout: photo-slideshow
+title: "Olivia - February 2026"
+seo_title: "Olivia, Portrait Shoot by Darren Shaw | Manchester, UK"
+date_written: 2026-02-28 13:00:00 +0000
+location: Manchester, UK
+categories: [photo]
+tags: [ photo ]
+excerpt: Studio portraits with Olivia, The Photocove, Manchester, UK
+---
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8495.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8501.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8365.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8310.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8425.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8466.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8480.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
+
+{% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8549.avif' alt='Portrait of model Olivia by
+Darren Shaw, Manchester, UK' %}
