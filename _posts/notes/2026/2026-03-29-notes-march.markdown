@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "Reading and Watching - March"
-date: 2026-02-22 11:00:00 +0000
+date: 2026-03-29 11:00:00 +0000
 categories: [ notes ]
 tags: [ software, web, feed ]
 excerpt: Things I've been reading and watching in March 2026.
