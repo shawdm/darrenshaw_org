@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "A Catalogue of Failures"
-date: 2026-04-08 11:00:00 +0000
+date: 2026-04-19 11:00:00 +0000
 categories: [ notes ]
 tags: [ software, web, feed ]
 excerpt: Things I've been reading and watching in April 2026.
