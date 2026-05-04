@@ -1,0 +1,33 @@
+---
+layout: photo-slideshow
+title: "Eric - May 2026"
+seo_title: "Eric, Portrait Shoot by Darren Shaw | Andover, UK"
+date_written: 2026-02-28 13:00:00 +0000
+location: Andover, UK
+categories: [photo]
+tags: [ photo ]
+excerpt: Natural light studio shoot with Eric, The Andover Studio, Andover, UK
+---
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8631.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8630.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8636.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8645.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8655.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8657.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8658.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8673.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8690.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8705.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8714.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8725.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8798.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8818.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8809.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8831.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8836.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8840.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8847.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8852.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8857.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8931.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
+{% include image_slideshow.html path='images/photo/2026-may-eric/DMS8967.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
