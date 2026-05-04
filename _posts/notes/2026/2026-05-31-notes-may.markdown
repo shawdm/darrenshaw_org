@@ -1,0 +1,65 @@
+---
+layout: notes
+title: "Snails and Ponds"
+date: 2026-05-31 3:00:00 +0000
+categories: [ notes ]
+tags: [ software, web, feed ]
+excerpt: Things I've been reading, listening to and watching in May 2026.
+---
+
+## AI
+
+1. I work at [Autotrader](https://careers.autotrader.co.uk), where we have a great delivery platform and a set
+   of [AI tools](https://karlstoney.com/building-atai-for-copilot/) both driven by Karl. The team I work in is getting
+   a lot from Copilot and ATAI, but we've been
+   struggling to figure out how to help junior developers with them. Nobody has the answer,
+   but [Rethinking Growing Engineers in the Age of AI](https://leaddev.com/leadership/rethinking-growing-engineers-in-the-age-of-ai)
+   has some good advice.
+2. [AI and Jobs](https://jobsdata.ai) was interesting, but I then
+   read [Benedict Evans](https://www.ben-evans.com/benedictevans/2026/5/24/ai-job-exposure). Nobody has the answer.
+3. Tech CEOs don't seem to realise just how anti-human their AI fanaticism is
+   from [PC Gamer](https://www.pcgamer.com/software/ai/tech-ceos-dont-seem-to-realise-just-how-anti-human-their-ai-fanaticism-is-and-i-think-its-all-because-of-the-enlightenment) -
+   again!
+4. What the computerisation of Wall Street can teach us about
+   AI, from [O'Reilly](https://www.oreilly.com/radar/taming-the-delightful-chaos/).
+
+## Other
+
+1. [A Map of Us](https://amapof.us/map) is the sort of thing I can get lost in. This is what the pre-algorithm Internet
+   was like. It reminded me of (the now archived) [Hey From The Future](https://heyfromthefuture.com/age/14/).
+2. [Line scan photography](https://daniel.lawrence.lu/blog/2025-09-21-line-scan-camera-image-processing/) is a future
+   project I have ideas for.
+3. Talking about what makes a good development team at work, I referenced
+   the [Valve employee handbook](https://www.valvesoftware.com/en/publications) as an example of actually doing things differently.
+4. I will always read articles about
+   colour. [The color of the Future](https://www.hopefulmons.com/p/the-color-of-the-future) maps out the different
+   versions of blue and why we have them.
+5. Most are not, but UK service stations can be excellent (see [Tebay](https://www.tebayservices.com)
+   and [Gloucester](https://gloucesterservices.com)). [The Beauty of Transport](https://thebeautyoftransport.com) wrote
+   about [226 Garages and Service Stations by Philip Butler](https://thebeautyoftransport.com/2025/08/25/the-other-stations-226-garages-and-service-stations-by-philip-butler/).
+
+## Reading
+
+I read a lot this month, mainly because I listened to audiobooks while I was decorating.
+
+1. [Replay](https://www.goodreads.com/en/book/show/341735.Replay) is a more interesting [Groundhog Day](https://www.imdb.com/title/tt0107048/).
+2. [I Who Have Never Known Men](https://www.goodreads.com/en/book/show/60811826-i-who-have-never-known-men) is a more compelling [The Handmaid's Tale](https://www.goodreads.com/book/show/34454589-the-handmaid-s-tale).
+3. [Careless People](https://www.goodreads.com/book/show/223436601-careless-people) made me really appreciate how un-cool the super wealthy tech nerds are.
+4. [Unnatural Causes](https://www.goodreads.com/book/show/27833843-unnatural-causes) is a glimpse into a world I know nothing about.
+5. [The Governor](https://www.goodreads.com/book/show/57637674-the-governor) was too.
+6. [How to Build Impossible Things](https://www.goodreads.com/en/book/show/62016597-how-to-build-impossible-things). A bit random, but an easy listen. Worth it for the rooftop pond and snail story.
+7. [The Lives of Lee Miller](https://www.goodreads.com/book/show/57392612-the-lives-of-lee-miller). One person can do so much stuff.
+
+## Listening To
+
+1. Shakira. Saving the World Cup with Dai Dai. More appearances than Gerard Piqué. I'm also here for her 2010 Waka
+   Waka at Glastonbury.
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/lFQdcPTTzSg?si=U_x3IKrJv9cp9lMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/3zy0Rij52oI?si=x9vmxlh6Glu9Nx8x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+2. Romy's Mid Air is one of the few albums from the 2020s I'll be listening to for the rest of my life. I love her
+   own songs (the new one with Planningtorock is soaring), but also her taste in late 90s/early 2000s music. Her Boiler Room
+   set is how the world should sound.
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/eh1doC8AlHE?si=R1hR0FPp-aK3t0IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/-thQ8NNWtFE?si=OG-9DC7vN8zxl5mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+3. The new Kacey Musgraves album is her best since Golden Hour. Upbeat tearjerkers.
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/03p_t8D3FxA?si=2UWHa-Pebu7F0d1K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
