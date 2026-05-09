@@ -1,12 +1,12 @@
 ---
 layout: photo-slideshow
-title: "Eric - May 2026"
-seo_title: "Eric, Portrait Shoot by Darren Shaw | Andover, UK"
+title: "Eric Liyah Kane - May 2026"
+seo_title: "Eric Liyah Kane, Portrait Shoot by Darren Shaw | Andover, UK"
 date_written: 2026-02-28 13:00:00 +0000
 location: Andover, UK
 categories: [photo]
 tags: [ photo ]
-excerpt: Natural light studio shoot with Eric, The Andover Studio, Andover, UK
+excerpt: Natural light studio shoot with Eric Liyah Kane, The Andover Studio, Andover, UK
 ---
 {% include image_slideshow.html path='images/photo/2026-may-eric/DMS8631.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
 {% include image_slideshow.html path='images/photo/2026-may-eric/DMS8630.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
