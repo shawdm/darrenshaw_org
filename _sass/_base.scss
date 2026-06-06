@@ -567,20 +567,6 @@ article.music a {
   border-radius: 0;
 }
 
-article.music nav a.selected {
-  background-color: $black-color;
-}
-
-article.music nav a {
-  text-decoration: none;
-  color: $white-color;
-  background-color: $grey-color;
-  padding-left: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-  border-radius: $spacing-unit-blockout;
-  cursor: pointer;
-}
-
 article.music section.title {
   margin-left: $spacing-unit-tiny;
   padding-left: $spacing-unit-tiny;
@@ -594,21 +580,6 @@ article.music section.title p {
   text-align: right;
 }
 
-
-article.music section.title.albums-title h2 {
-  display: inline;
-}
-
-article.music section.title.albums-title div {
-  display: inline;
-}
-
-article.music section.title.albums-title div a {
-  text-decoration: underline;
-  padding-left: $spacing-unit-tiny;
-  font-size: $font-size-small;
-  line-height: $line-height-small;
-}
 
 article.music section.music-masonry {
   columns: 8 150px;
@@ -632,36 +603,6 @@ article.music section.music-masonry .image-frame .description {
   padding-right: $spacing-unit-tiny;
   z-index: 100;
   background-color: $white-color;
-}
-
-article.music section.music-alphabetic h2 {
-  margin-left: $spacing-unit-tiny;
-  padding-left: $spacing-unit-tiny;
-  margin-right: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-  padding-top: 0;
-}
-
-article.music section.music-alphabetic .album {
-  margin-left: $spacing-unit-tiny;
-  padding-left: $spacing-unit-tiny;
-  margin-right: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-  margin-bottom: $spacing-unit-tiny;
-  padding-bottom: $spacing-unit-tiny;
-  margin-top: $spacing-unit-tiny;
-  padding-top: $spacing-unit-tiny;;
-  display: flex;
-}
-
-article.music section.music-alphabetic .image-frame {
-  width: 150px;
-  min-width: 150px;
-  margin-right: $spacing-unit-tiny;
-}
-
-article.music section.music-alphabetic .description {
-  margin-left: $spacing-unit-tiny;
 }
 
 
