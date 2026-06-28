@@ -4,7 +4,7 @@ title: "Gillian Anderson for Hollywood Authentic"
 date: 2026-06-28 13:00:00 +0000
 categories: [ notes ]
 tags: [ photo, feed ]
-excerpt: Gillian Anderson by Greg Williams for Hollywood Authentic
+excerpt: Gillian Anderson by Greg Williams for Hollywood Authentic.
 ---
 
 ![Gillian Anderson by Greg Williams](/images/notes/2026/gillian-anderson-cover-1.avif)
