@@ -33,7 +33,7 @@ excerpt: Things I've been listening to, looking at and reading during July 2026.
    art. In this case satellite data.
 2. I've come across [Train Jazz](https://www.trainjazz.com) before. I lost just as much time playing with it the second
    time.
-2. I'm a fan of Chris Guests's [Oil Paintings](https://www.chrisguest.co.uk/oilpaintings), they're modern pinups that
+2. I'm a fan of Chris Guest's [Oil Paintings](https://www.chrisguest.co.uk/oilpaintings), they're modern pinups that
    are as fun as they are glamorous. I love the consistency in the models he works with. And, although I'm biased, I do have
    a [favourite](https://www.instagram.com/p/DF53evqIlbb).
 3. Keith Tyson is another artist I follow and is always inspiring. His [Generative Universe](https://www.hauserwirth.com/hauser-wirth-exhibitions/keith-tyson-the-generative-universe/) obviously looks awesome.
