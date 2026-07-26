@@ -549,62 +549,6 @@ article.photography section.gallery-masonry .image-frame {
 }
 
 
-/**
- * music article
- */
-article.music {
-  max-width: 100%;
-}
-
-article.music p {
-  padding-bottom: 0;
-}
-
-article.music a {
-  color: inherit;
-  background-color: inherit;
-  padding: 0;
-  border-radius: 0;
-}
-
-article.music section.title {
-  margin-left: $spacing-unit-tiny;
-  padding-left: $spacing-unit-tiny;
-  margin-right: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-}
-
-article.music section.title p {
-  font-size: $font-size-small;
-  line-height: $line-height-small;
-  text-align: right;
-}
-
-
-article.music section.music-masonry {
-  columns: 8 150px;
-  column-gap: 0;
-  grid-auto-flow: column;
-  margin: $spacing-unit-tiny;
-}
-
-article.music section.music-masonry .image-frame {
-  width: 100%;
-  display: block;
-  padding: 0;
-  padding: $spacing-unit-tiny;
-  position: relative;
-}
-
-article.music section.music-masonry .image-frame .description {
-  position: absolute;
-  bottom: 0;
-  left: $spacing-unit-tiny;
-  padding-right: $spacing-unit-tiny;
-  z-index: 100;
-  background-color: $white-color;
-}
-
 
 /**
  * Gallery
