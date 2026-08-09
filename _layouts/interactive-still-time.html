@@ -1,0 +1,77 @@
+<html>
+<!-- layout interactive-still-time -->
+{% include version.html %}
+
+<head>
+    {% include head-core.html %}
+    {% include favicon-projects.html %}
+    <link rel="stylesheet" href="{{'/interactive/still-time/css/style-1.0.0.css' | prepend:site.baseurl}}"/>
+</head>
+
+<body>
+
+{% include header.html class='black' %}
+
+<article class="time-of-my-life">
+
+    <section class="clock-section" aria-label="Time clock visualization">
+        <h2 aria-label="There's Still Time">There's Still Ti<span class="still-time-colon" aria-hidden="true">:</span>me</h2>
+        <p>I've been reading about clocks. Chirstopher Butler wrote about his <a
+                href="https://www.chrbutler.com/fifteen-clocks">Fifteen Clocks</a> which got me thinking about non-12
+            hour clocks and what else they could show. I
+            subscribe to the Rest Is Science podcast and there's an issue where Michael Stevens talks about his <a
+                    href="https://www.youtube.com/watch?v=ujR6PWvQemM">unusual clocks</a>. I also read <a
+                    href="https://www.goodreads.com/en/book/show/222955929-craftland">Craftland</a> which had a chapter
+            on <a href="https://en.wikipedia.org/wiki/Roger_W._Smith>">Roger W. Smith</a>. Who makes <a
+                    href="https://rwsmithwatches.com">handmade watches from scratch</a>. Not from components from raw
+            metal. His factory produces just fifteen to twenty watches every year. Some of the watches take years to
+            make.
+        </p>
+        <p>
+            All this was coincidental, but I'm at the point of seeing there's a lot more behind me than there's likely
+            to be in front of me. I like the idea of showing the passage of time in different periods. This is my place
+            to play
+            with clocks that show different aspects of time.
+
+        </p>
+        <div id="clock-time-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Hungry clock visualization">
+        <h2>When's tea?</h2>
+        <p>Why do we have three meals a day? Why not two, or four? Meals are a default marker of time.</p>
+        <div id="clock-hungry-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Life clock visualization">
+        <h2>Life</h2>
+        <p>What this is about</p>
+        <div id="clock-life-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Days clock visualization">
+        <h2>Days</h2>
+        <p>What this is about</p>
+        <div id="clock-days-canvas" class="clock-section-canvas"></div>
+    </section>
+</article>
+
+{% include archive.html %}
+
+{% include about.html %}
+
+{% include footer.html %}
+
+
+<script src="{{'/interactive/still-time/js/lib/p5.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/significant-day-events.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-common.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-time.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-hungry.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-life.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-days.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+
+</body>
+
+</html>
