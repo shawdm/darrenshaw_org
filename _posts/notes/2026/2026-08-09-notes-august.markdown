@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "Protect Your Shed"
-date: 2026-08-01 12:00:00 +0000
+date: 2026-08-09 12:00:00 +0000
 categories: [ notes ]
 tags: [ software, web, feed ]
 excerpt: Things I've been listening to, watching and reading through the first part of August 2026.
