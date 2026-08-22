@@ -24,8 +24,8 @@ Created at https://favicon.io
 # Development
 
 ## OSX Prereqs
-1. Ruby
-2. Bundler
+1. Ruby 3.2 or newer
+2. Bundler 2.4 or newer
 3. AWS CLI
 
 ## Startup
@@ -33,6 +33,10 @@ Created at https://favicon.io
 bundle install
 JEKYLL_ENV=dev  bundle exec jekyll serve
 ```
+
+`Gemfile.lock` includes native gems for the development platform. If Ruby or the
+macOS architecture changes, regenerate the lockfile with `bundle lock` before
+running `bundle install`.
 
 Will start the site on: ``http://localhost:4000``
 
