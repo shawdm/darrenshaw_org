@@ -102,6 +102,10 @@ a {
   padding-left: $spacing-unit-blockout;
   padding-right: $spacing-unit-blockout;
   border-radius: $spacing-unit-blockout;
+
+  // handle the padding even when the a element is the first element on line
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 p {
