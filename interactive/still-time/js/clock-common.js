@@ -7,7 +7,7 @@
     const ELAPSED_FILL_VALUE = 100;
     const SECOND_FILL_ALPHA = 40;
     const CLOCK_HAND_STROKE_WEIGHT = 1.5;
-    const HUNGRY_MARKER_STROKE_WEIGHT = 2;
+    const MARKER_STROKE_WEIGHT = 2;
 
     const LIFE_START_YEAR = 1979;
     const LIFE_CLOCK_COUNT = 85;
@@ -22,6 +22,10 @@
             - LIFE_START_UTC_MS
         ) / DAY_DURATION_MS
     );
+    const LIFE_YEAR_RANGES = Array.from({ length: LIFE_CLOCK_COUNT }, (_, index) => ({
+        startMs: Date.UTC(LIFE_START_YEAR + index, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0),
+        endMs: Date.UTC(LIFE_START_YEAR + index + 1, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0)
+    }));
 
     const LIFE_CLOCK_CELL_FILL_ALPHA = 95;
     const LIFE_CLOCK_COMPLETE_FILL_ALPHA = 95;
@@ -32,7 +36,8 @@
         ELAPSED_FILL_VALUE,
         SECOND_FILL_ALPHA,
         CLOCK_HAND_STROKE_WEIGHT,
-        HUNGRY_MARKER_STROKE_WEIGHT,
+        MARKER_STROKE_WEIGHT,
+        HUNGRY_MARKER_STROKE_WEIGHT: MARKER_STROKE_WEIGHT,
         LIFE_CLOCK_CELL_FILL_ALPHA,
         LIFE_CLOCK_COMPLETE_FILL_ALPHA,
         SECTION_TITLE_Y: 14
@@ -42,9 +47,9 @@
     const SIGNIFICANT_DAY_CATEGORY_WORLD = 'world';
     const SIGNIFICANT_PERIOD_CATEGORY_PERSONAL = 'period-personal';
     const SIGNIFICANT_DAY_COLORS = {
-        [SIGNIFICANT_DAY_CATEGORY_PERSONAL]: [196, 86, 70],
-        [SIGNIFICANT_DAY_CATEGORY_WORLD]: [38, 114, 136],
-        [SIGNIFICANT_PERIOD_CATEGORY_PERSONAL]: [196, 86, 70]
+        [SIGNIFICANT_DAY_CATEGORY_PERSONAL]: [230, 86, 70],
+        [SIGNIFICANT_DAY_CATEGORY_WORLD]: [38, 114, 160],
+        [SIGNIFICANT_PERIOD_CATEGORY_PERSONAL]: [230, 86, 70]
     };
 
     // Top-level const from another script is not always attached to window, so support both access paths.
@@ -74,6 +79,7 @@
     });
     let cachedUkNowSecond = null;
     let cachedUkNowParts = null;
+    const labelMetricsCaches = new WeakMap();
 
     const DAY_TOOLTIP_DATE_FORMATTER = new Intl.DateTimeFormat('en-GB', {
         timeZone: 'UTC',
@@ -147,10 +153,15 @@
         return dayFraction * Math.PI * 2 - Math.PI / 2;
     }
 
-    function getLifeYearProgress(year, ukNow, milliseconds) {
-        const startMs = Date.UTC(year, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0);
-        const endMs = Date.UTC(year + 1, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0);
-        const nowMs = getUkNowUtcMs(ukNow, milliseconds);
+    function getLifeYearProgress(year, ukNow, milliseconds, nowUtcMs) {
+        const cachedRange = LIFE_YEAR_RANGES[year - LIFE_START_YEAR];
+        const startMs = cachedRange
+            ? cachedRange.startMs
+            : Date.UTC(year, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0);
+        const endMs = cachedRange
+            ? cachedRange.endMs
+            : Date.UTC(year + 1, LIFE_YEAR_START_MONTH_INDEX, LIFE_YEAR_START_DAY, 0, 0, 0, 0);
+        const nowMs = Number.isFinite(nowUtcMs) ? nowUtcMs : getUkNowUtcMs(ukNow, milliseconds);
         return clamp((nowMs - startMs) / (endMs - startMs), 0, 1);
     }
 
@@ -273,6 +284,37 @@
         return (Math.round(completedPercentage * 10) / 10).toFixed(1);
     }
 
+    function getCanvasSize(p, elementId) {
+        const container = global.document.getElementById(elementId);
+        const width = Math.max(320, container ? container.clientWidth : p.windowWidth);
+        return {
+            width,
+            height: Math.min(p.windowHeight, Math.max(400, width * 1.5))
+        };
+    }
+
+    function scheduleCanvasResize(p, elementId, onResize) {
+        if (p.__clockResizeFrame !== undefined && p.__clockResizeFrame !== null) {
+            return;
+        }
+
+        const requestFrame = typeof global.requestAnimationFrame === 'function'
+            ? global.requestAnimationFrame.bind(global)
+            : (callback) => global.setTimeout(callback, 0);
+        p.__clockResizeFrame = requestFrame(() => {
+            p.__clockResizeFrame = null;
+            const size = getCanvasSize(p, elementId);
+
+            if (size.width === p.width && size.height === p.height) {
+                return;
+            }
+
+            p.resizeCanvas(size.width, size.height);
+            onResize(size);
+            p.redraw();
+        });
+    }
+
     function calculateCircleLayout(width, height, borderMargin) {
         const diameter = Math.max(0, Math.min(width, height) - borderMargin * 2);
         return {
@@ -293,6 +335,123 @@
         }
 
         return faceLayer;
+    }
+
+    function removeGraphicsLayer(layer) {
+        if (layer && typeof layer.remove === 'function') {
+            layer.remove();
+        }
+    }
+
+    function createClockFace(p, previousFaceLayer) {
+        const layout = calculateCircleLayout(p.width, p.height, STYLE.BORDER_MARGIN);
+        removeGraphicsLayer(previousFaceLayer);
+        return {
+            layout,
+            faceLayer: createFaceLayer(p, p.width, p.height, layout, true)
+        };
+    }
+
+    function calculateGridLayout(width, height, itemCount, gridMargin, titleOffsetY) {
+        const columns = Math.max(1, Math.ceil(Math.sqrt((itemCount * width) / Math.max(1, height))));
+        const rows = Math.ceil(itemCount / columns);
+        const contentWidth = Math.max(1, width - gridMargin * 2);
+        const contentTop = gridMargin + titleOffsetY;
+        const contentHeight = Math.max(1, height - contentTop - gridMargin);
+
+        return {
+            columns,
+            rows,
+            cellWidth: contentWidth / columns,
+            cellHeight: contentHeight / rows,
+            gridLeft: gridMargin,
+            gridTop: contentTop
+        };
+    }
+
+    function drawClockHand(p, layout, angle) {
+        p.stroke(255);
+        p.strokeWeight(STYLE.CLOCK_HAND_STROKE_WEIGHT);
+        p.line(
+            layout.centerX,
+            layout.centerY,
+            layout.centerX + p.cos(angle) * layout.radius,
+            layout.centerY + p.sin(angle) * layout.radius
+        );
+    }
+
+    function drawClockArc(p, layout, startAngle, endAngle) {
+        p.blendMode(p.ADD);
+        p.noStroke();
+        p.fill(
+            STYLE.ELAPSED_FILL_VALUE,
+            STYLE.ELAPSED_FILL_VALUE,
+            STYLE.ELAPSED_FILL_VALUE,
+            STYLE.SECOND_FILL_ALPHA
+        );
+        p.arc(
+            layout.centerX,
+            layout.centerY,
+            layout.radius * 2,
+            layout.radius * 2,
+            startAngle,
+            endAngle,
+            p.PIE
+        );
+        p.blendMode(p.BLEND);
+    }
+
+    function drawRadialMarker(p, layout, angle, innerRatio, outerRatio) {
+        const innerRadius = layout.radius * innerRatio;
+        const outerRadius = layout.radius * outerRatio;
+
+        p.stroke(255);
+        p.strokeWeight(STYLE.MARKER_STROKE_WEIGHT);
+        p.line(
+            layout.centerX + p.cos(angle) * innerRadius,
+            layout.centerY + p.sin(angle) * innerRadius,
+            layout.centerX + p.cos(angle) * outerRadius,
+            layout.centerY + p.sin(angle) * outerRadius
+        );
+    }
+
+    function getLabelMetrics(p, labelText, textSize) {
+        let metricsCache = labelMetricsCaches.get(p);
+        if (!metricsCache) {
+            metricsCache = new Map();
+            labelMetricsCaches.set(p, metricsCache);
+        }
+
+        const cacheKey = `${textSize}:${labelText}`;
+        if (metricsCache.has(cacheKey)) {
+            return metricsCache.get(cacheKey);
+        }
+
+        p.push();
+        p.textSize(textSize);
+        const metrics = {
+            width: p.textWidth(labelText),
+            height: p.textAscent() + p.textDescent()
+        };
+        p.pop();
+        metricsCache.set(cacheKey, metrics);
+        return metrics;
+    }
+
+    function drawRotatedLabel(p, layout, angle, labelX, labelText, textSize) {
+        const { width, height } = getLabelMetrics(p, labelText, textSize);
+
+        p.push();
+        p.translate(layout.centerX, layout.centerY);
+        p.rotate(angle);
+        p.noStroke();
+        p.textAlign(p.RIGHT, p.CENTER);
+        p.textSize(textSize);
+        p.fill(0, 255);
+        p.rect(labelX - width - 4, -height / 2 - 2, width + 8, height + 4, 2);
+        p.fill(255);
+        p.text(labelText, labelX, 0);
+        p.pop();
     }
 
     function drawProgressClock(p, x, y, diameter, config) {
@@ -336,14 +495,6 @@
         p.arc(x, y, diameter, diameter, arcEnd, -p.HALF_PI + p.TWO_PI, p.PIE);
     }
 
-    function drawSectionTitle(p, title) {
-        p.noStroke();
-        p.fill(0);
-        p.textAlign(p.CENTER, p.TOP);
-        p.textSize(24);
-        p.text(title, p.width / 2, STYLE.SECTION_TITLE_Y);
-    }
-
     function formatDayTooltipDate(date) {
         return DAY_TOOLTIP_DATE_FORMATTER.format(date);
     }
@@ -353,24 +504,51 @@
     }
 
     function setupVisibilityPause(p, elementId) {
-        if (!('IntersectionObserver' in global)) {
-            return;
-        }
-
-        const element = document.getElementById(elementId);
+        const element = global.document.getElementById(elementId);
         if (!element) {
             return;
         }
 
-        const observer = new IntersectionObserver((entries) => {
-            if (entries[0].isIntersecting) {
-                p.loop();
-            } else {
+        let isIntersecting = false;
+        const updateLoopState = () => {
+            p.__clockIsVisible = global.document.visibilityState !== 'hidden' && isIntersecting;
+            if (!p.__clockIsVisible) {
                 p.noLoop();
+            } else {
+                p.loop();
             }
-        }, { threshold: 0 });
+        };
 
-        observer.observe(element);
+        p.noLoop();
+
+        if ('IntersectionObserver' in global) {
+            const observer = new global.IntersectionObserver((entries) => {
+                isIntersecting = entries[0].isIntersecting;
+                updateLoopState();
+            }, { threshold: 0 });
+
+            observer.observe(element);
+        } else {
+            const updateIntersectionFallback = () => {
+                const bounds = element.getBoundingClientRect();
+                isIntersecting = bounds.bottom > 0
+                    && bounds.right > 0
+                    && bounds.top < global.innerHeight
+                    && bounds.left < global.innerWidth;
+                updateLoopState();
+            };
+
+            global.addEventListener('scroll', updateIntersectionFallback, { passive: true });
+            global.addEventListener('resize', updateIntersectionFallback, { passive: true });
+            updateIntersectionFallback();
+        }
+
+        global.document.addEventListener('visibilitychange', updateLoopState);
+        updateLoopState();
+    }
+
+    function isCanvasVisible(p) {
+        return p.__clockIsVisible === true;
     }
 
     global.ClockCommon = {
@@ -394,11 +572,19 @@
         isDateWithinEventPeriod,
         getPeriodDurationDays,
         getDaysCompletionPercentText,
-        calculateCircleLayout,
-        createFaceLayer,
+        getCanvasSize,
+        scheduleCanvasResize,
+        isCanvasVisible,
+        createClockFace,
+        removeGraphicsLayer,
+        calculateGridLayout,
+        drawClockHand,
+        drawClockArc,
+        drawRadialMarker,
+        getLabelMetrics,
+        drawRotatedLabel,
         drawProgressClock,
         drawEventClock,
-        drawSectionTitle,
         formatDayTooltipDate,
         formatNumber,
         setupVisibilityPause

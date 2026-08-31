@@ -20,18 +20,10 @@ new p5((p) => {
     let faceLayer;
     let layout;
 
-    function getCanvasSize() {
-        const container = document.getElementById('clock-hungry-canvas');
-        const width = Math.max(320, container ? container.clientWidth : p.windowWidth);
-        return {
-            width,
-            height: Math.min(p.windowHeight, Math.max(400, width * 1.5))
-        };
-    }
-
     function rebuildFace() {
-        layout = ClockCommon.calculateCircleLayout(p.width, p.height, ClockCommon.STYLE.BORDER_MARGIN);
-        faceLayer = ClockCommon.createFaceLayer(p, p.width, p.height, layout, true);
+        const clockFace = ClockCommon.createClockFace(p, faceLayer);
+        layout = clockFace.layout;
+        faceLayer = clockFace.faceLayer;
     }
 
     function getMealLabelWithCountdown(meal, ukNow) {
@@ -44,76 +36,38 @@ new p5((p) => {
         return `${Math.ceil(secondsUntil / 60)} minutes until ${meal.label}`;
     }
 
-    function drawDayHand(dayHandEnd) {
-        p.stroke(255);
-        p.strokeWeight(ClockCommon.STYLE.CLOCK_HAND_STROKE_WEIGHT);
-        p.line(
-            layout.centerX,
-            layout.centerY,
-            layout.centerX + p.cos(dayHandEnd) * layout.radius,
-            layout.centerY + p.sin(dayHandEnd) * layout.radius
-        );
-    }
-
     function drawHungryMarkers(meals, ukNow) {
-        p.stroke(255);
-        p.strokeWeight(ClockCommon.STYLE.HUNGRY_MARKER_STROKE_WEIGHT);
-        p.fill(255);
-        p.textAlign(p.RIGHT, p.CENTER);
-        p.textSize(12);
-
         meals.forEach((meal) => {
             const markerAngle = ClockCommon.getAngleForClockTime(meal.hour, meal.minute, 0);
-            const innerRadius = layout.radius * HUNGRY_CONFIG.markerInnerRatio;
-            const outerRadius = layout.radius * HUNGRY_CONFIG.markerOuterRatio;
-
-            p.line(
-                layout.centerX + p.cos(markerAngle) * innerRadius,
-                layout.centerY + p.sin(markerAngle) * innerRadius,
-                layout.centerX + p.cos(markerAngle) * outerRadius,
-                layout.centerY + p.sin(markerAngle) * outerRadius
+            ClockCommon.drawRadialMarker(
+                p,
+                layout,
+                markerAngle,
+                HUNGRY_CONFIG.markerInnerRatio,
+                HUNGRY_CONFIG.markerOuterRatio
             );
-
-            p.push();
-            p.translate(layout.centerX, layout.centerY);
-            p.rotate(markerAngle);
-            p.noStroke();
 
             const labelText = getMealLabelWithCountdown(meal, ukNow);
-            const labelX = innerRadius - HUNGRY_CONFIG.labelTickGap;
-            const labelWidth = p.textWidth(labelText);
-            const labelHeight = p.textAscent() + p.textDescent();
-
-            p.fill(0, 255);
-            p.rect(
-                labelX - labelWidth - 4,
-                -labelHeight / 2 - 2,
-                labelWidth + 8,
-                labelHeight + 4,
-                2
-            );
-
-            p.fill(255);
-            p.text(labelText, labelX, 0);
-            p.pop();
-
-            p.stroke(255);
+            const labelX = layout.radius * HUNGRY_CONFIG.markerInnerRatio - HUNGRY_CONFIG.labelTickGap;
+            ClockCommon.drawRotatedLabel(p, layout, markerAngle, labelX, labelText, 12);
         });
     }
 
     p.setup = () => {
-        const size = getCanvasSize();
+        const size = ClockCommon.getCanvasSize(p, 'clock-hungry-canvas');
         p.createCanvas(size.width, size.height).parent('clock-hungry-canvas');
         rebuildFace();
     };
 
     p.windowResized = () => {
-        const size = getCanvasSize();
-        p.resizeCanvas(size.width, size.height);
-        rebuildFace();
+        ClockCommon.scheduleCanvasResize(p, 'clock-hungry-canvas', rebuildFace);
     };
 
     p.draw = () => {
+        if (!ClockCommon.isCanvasVisible(p)) {
+            return;
+        }
+
         p.image(faceLayer, 0, 0);
 
         const now = Date.now();
@@ -125,13 +79,13 @@ new p5((p) => {
             ? HUNGRY_CONFIG.mealsByDayType.weekend
             : HUNGRY_CONFIG.mealsByDayType.weekday;
 
-        drawDayHand(dayHandEnd);
+        ClockCommon.drawClockHand(p, layout, dayHandEnd);
         drawHungryMarkers(meals, ukNow);
     };
 
     p.setup = ((setup) => () => {
         setup();
-        p.frameRate(10);
+        p.frameRate(1);
         ClockCommon.setupVisibilityPause(p, 'clock-hungry-canvas');
     })(p.setup);
 }, 'clock-hungry-canvas');

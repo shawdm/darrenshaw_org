@@ -1,5 +1,10 @@
 const SIGNIFICANT_DAY_EVENTS = [
     {
+        date: '1979-10-07',
+        description: 'Hello world!',
+        category: 'personal'
+    },
+    {
         date: '1986-01-28',
         description: 'Space Shuttle Challenger disaster',
         category: 'world'
@@ -7,6 +12,11 @@ const SIGNIFICANT_DAY_EVENTS = [
     {
         date: '1989-11-09',
         description: 'Fall of the Berlin Wall',
+        category: 'world'
+    },
+    {
+        date: '1995-05-14',
+        description: 'Blackburn in the Premier League',
         category: 'world'
     },
     {
@@ -29,6 +39,11 @@ const SIGNIFICANT_DAY_EVENTS = [
         date: '2013-08-16',
         description: 'Bought my first house',
         category: 'personal'
+    },
+    {
+        date: '2014-05-07',
+        description: 'Wait But Why article showing your life in weeks',
+        category: 'world'
     },
     {
         date: '2018-02-12',

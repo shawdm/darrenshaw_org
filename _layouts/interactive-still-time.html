@@ -15,7 +15,8 @@
 <article class="time-of-my-life">
 
     <section class="clock-section" aria-label="Time clock visualization">
-        <h2 aria-label="There's Still Time">There's Still Ti<span class="still-time-colon" aria-hidden="true">:</span>me</h2>
+        <h2 aria-label="There's Still Time">There's Still Ti<span class="still-time-colon" aria-hidden="true">:</span>me
+        </h2>
         <p>I've been reading about clocks. Chirstopher Butler wrote about his <a
                 href="https://www.chrbutler.com/fifteen-clocks">Fifteen Clocks</a> which got me thinking about non-12
             hour clocks and what else they could show. I
@@ -32,26 +33,39 @@
             to be in front of me. I like the idea of showing the passage of time in different periods. This is my place
             to play
             with clocks that show different aspects of time.
-
+        </p>
+        <p>
+            The quality/price of a watch is often seen as how smoothly the second hand rotates. It used to be how you
+            could distinguish a quartz from a mechanical mechanism. This is no longer case. For a long time the only
+            place I would see a smooth second hand was the pace clock at a public swimming pool. They're still
+            incredibly soothing. Not like the incessenct tick-tick of an exam clock.
         </p>
         <div id="clock-time-canvas" class="clock-section-canvas"></div>
     </section>
 
+    <section class="clock-section" aria-label="Daylight visualization">
+        <h2>Is it always darkest just before dawn?</h2>
+        <p>At the crack of dawn, a false dawn, dawn on someone, the twilight of your life. There's so much meaning given
+            to dusk and dawn. They still feel special even if we get two of them each day.</p>
+        <div id="clock-daylight-canvas" class="clock-section-canvas"></div>
+    </section>
+
     <section class="clock-section" aria-label="Hungry clock visualization">
-        <h2>When's tea?</h2>
-        <p>Why do we have three meals a day? Why not two, or four? Meals are a default marker of time.</p>
+        <h2>Is it tea time yet?</h2>
+        <p>Meal times are an artificial marker of time, a human made dusk and dawn.</p>
         <div id="clock-hungry-canvas" class="clock-section-canvas"></div>
     </section>
 
     <section class="clock-section" aria-label="Life clock visualization">
-        <h2>Life</h2>
-        <p>What this is about</p>
+        <h2>Do I Still Have Time?</h2>
+        <p>Life expectancy (for me) is 85. Less time ahead than behind, but still plenty of circles to complete.</p>
         <div id="clock-life-canvas" class="clock-section-canvas"></div>
     </section>
 
     <section class="clock-section" aria-label="Days clock visualization">
         <h2>Days</h2>
-        <p>What this is about</p>
+        <p><a href="https://waitbutwhy.com/2014/05/life-weeks.html">Wait But Why</a> did this for an average person. It
+            gets more interesting if you do it individually.</p>
         <div id="clock-days-canvas" class="clock-section-canvas"></div>
     </section>
 </article>
@@ -67,6 +81,7 @@
 <script src="{{'/interactive/still-time/js/significant-day-events.js' | prepend:site.baseurl}}"></script>
 <script src="{{'/interactive/still-time/js/clock-common.js' | prepend:site.baseurl}}"></script>
 <script src="{{'/interactive/still-time/js/clock-time.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-daylight.js' | prepend:site.baseurl}}"></script>
 <script src="{{'/interactive/still-time/js/clock-hungry.js' | prepend:site.baseurl}}"></script>
 <script src="{{'/interactive/still-time/js/clock-life.js' | prepend:site.baseurl}}"></script>
 <script src="{{'/interactive/still-time/js/clock-days.js' | prepend:site.baseurl}}"></script>
