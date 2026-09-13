@@ -1,0 +1,93 @@
+:root {
+    --primary_color: #EB8271;
+    --primary_light_color: #FFAEA1;
+    --secondary_color: #498292;
+    --secondary_light_color: #AACCD6
+}
+
+article.time-of-my-life {
+    font-weight: 400;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 0;
+    position: relative;
+    line-height: 2rem;
+}
+
+article.time-of-my-life h2 {
+    color: var(--primary_color);
+    text-align: left;
+}
+
+article.time-of-my-life .clock-section:first-child h2 .still-time-colon {
+    animation: still-time-blink 1s steps(1, end) infinite;
+}
+
+@keyframes still-time-blink {
+    0%, 49% {
+        opacity: 1;
+    }
+
+    50%, 100% {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    article.time-of-my-life .clock-section:first-child h2 .still-time-colon {
+        animation: none;
+    }
+}
+
+article.time-of-my-life section h2, article.time-of-my-life section h3, article.time-of-my-life section p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article.time-of-my-life section h2 {
+    font-weight: 300;
+}
+
+article.time-of-my-life section h3 {
+    font-weight: 400;
+}
+
+article.time-of-my-life section p {
+    font-weight: 300;
+}
+
+article.time-of-my-life a {
+    background-color: var(--primary_color);
+}
+
+article.time-of-my-life a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.1em;
+}
+
+article.time-of-my-life section.title {
+    text-align: center;
+}
+
+article.time-of-my-life .clock-section {
+    min-height: 0;
+}
+
+article.time-of-my-life .clock-section-canvas {
+    width: 100%;
+    min-height: 0;
+}
+
+article.time-of-my-life canvas {
+    display: block;
+}
+
+@media (max-width: 620px) {
+    article.time-of-my-life .clock-section-canvas {
+        height: min(100vh, 150vw);
+    }
+}

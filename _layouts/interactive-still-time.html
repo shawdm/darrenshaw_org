@@ -1,0 +1,106 @@
+<html>
+<!-- layout interactive-still-time -->
+{% include version.html %}
+
+<head>
+    {% include head-core.html %}
+    {% include favicon-projects.html %}
+    <link rel="stylesheet" href="{{'/interactive/still-time/css/style-1.0.0.css' | prepend:site.baseurl}}"/>
+</head>
+
+<body>
+
+{% include header.html class='black' %}
+
+<article class="time-of-my-life">
+
+    <section class="clock-section" aria-label="Time clock visualisation">
+        <h2 aria-label="There's Still Time">There's still ti<span class="still-time-colon" aria-hidden="true">:</span>me
+        </h2>
+        <p>I've been reading about time. Christopher Butler wrote about his <a
+                href="https://www.chrbutler.com/fifteen-clocks">Fifteen Clocks</a>. There's an episode of <a
+                href="https://therestis.com/science">The Rest Is Science</a> in which Michael Stevens talks about his <a
+                href="https://www.youtube.com/watch?v=ujR6PWvQemM">unusual clocks</a>. I read <a
+                href="https://www.goodreads.com/en/book/show/222955929-craftland">Craftland</a>, which has a chapter
+            on <a href="https://en.wikipedia.org/wiki/Roger_W._Smith">Roger W. Smith</a>, who makes <a
+                    href="https://rwsmithwatches.com">handmade watches from scratch</a>. Not from components, but from
+            raw metal. Some of his watches take years to make.
+        </p>
+        <p>
+            I like the idea of showing the passage of time differently. This is my place to play.
+        </p>
+        <p>
+            Some people judge the quality of a watch by how smoothly the hands rotate. This is how you
+            can distinguish a quartz from a mechanical movement. The only place I saw a smoothly rotating hand was on
+            the pace clock at a public swimming pool.
+        </p>
+        <div id="clock-time-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Daylight visualisation">
+        <h2>Is it always darkest just before dawn?</h2>
+        <p>There's the crack of dawn, a false dawn, and the moment it dawns on someone. There are
+            many sayings involving dawn or sunset. Every day has one sunrise and one sunset. They feel consistent, but
+            of
+            course they're not. Even on the equator the length of the day changes through the year. In the north of the
+            UK the change is tangible.</p>
+        <div id="clock-daylight-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Hungry clock visualisation">
+        <h2>Is it teatime yet?</h2>
+        <p>Sunset and sunrise may change throughout the year, but mealtimes don't have to.</p>
+        <div id="clock-hungry-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Life clock visualisation">
+        <h2>Do I still have time?</h2>
+        <p>I'm not squeamish about how much time I've got left. <a
+                href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/articles/lifeexpectancycalculator/2019-06-07">Statistics</a>
+            say I'll live until I'm 85. They also say that I have less time ahead than behind me.
+        </p>
+        <div id="clock-life-canvas" class="clock-section-canvas"></div>
+    </section>
+
+    <section class="clock-section" aria-label="Days clock visualisation">
+        <h2>Days</h2>
+        <p>In 2014 <a href="https://waitbutwhy.com/2014/05/life-weeks.html">Wait But Why</a> wrote a post about
+            measuring your life in weeks and visualising it. Everyone (everyone who is a nerd) was
+            talking about it. The article was based on the life of a typical American. I wanted to make it more personal
+            and use days, not weeks.
+        </p>
+        <p>
+            Trying to add significant events, both personal and global, was surprising. How events and time relate to
+            each other in my mind is not what they look like in reality. There are some events I'd like to place but I
+            don't know their specific dates.
+        </p>
+        <div id="clock-days-canvas" class="clock-section-canvas"></div>
+        <p>
+            This is a work in progress. Playing with how to represent time is more interesting than I anticipated.
+            Regular 12-hour clocks (e.g., ones that represent half a day) are an odd idea. It would have been more
+            logical for a 360-degree rotation of the hour hand to map onto the Earth’s 360-degree rotation. Did
+            12-hour clocks come from sundials? There is a rabbit hole here.
+        </p>
+    </section>
+</article>
+
+{% include archive.html %}
+
+{% include about.html %}
+
+{% include footer.html %}
+
+
+<script src="{{'/interactive/still-time/js/lib/p5.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/significant-day-events.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-common.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-time.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-daylight.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-hungry.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-life.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/interactive/still-time/js/clock-days.js' | prepend:site.baseurl}}"></script>
+<script src="{{'/js/site-1.0.0.js' | prepend:site.baseurl}}"></script>
+
+</body>
+
+</html>
