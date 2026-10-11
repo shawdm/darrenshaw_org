@@ -6,7 +6,7 @@ date_written: 2026-02-28 13:00:00 +0000
 location: Andover, UK
 categories: [photo]
 tags: [ photo ]
-excerpt: Natural light studio shoot with Eric Liyah Kane, The Andover Studio, Andover, UK
+excerpt: Natural light studio shoot with Eric Liyah Kane, The Andover Studio, Andover, UK.
 ---
 {% include image_slideshow.html path='images/photo/2026-may-eric/DMS8631.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}
 {% include image_slideshow.html path='images/photo/2026-may-eric/DMS8630.avif' alt='Portrait of Eric by Darren Shaw, Andover, UK' %}

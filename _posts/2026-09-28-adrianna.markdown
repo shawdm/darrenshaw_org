@@ -1,0 +1,34 @@
+---
+layout: photo-slideshow
+title: "Adrianna Floss - September 2026"
+seo_title: "Adrianna Floss, Portrait Shoot by Darren Shaw"
+date_written: 2026-09-28 13:00:00 +0000
+categories: [photo]
+tags: [ photo ]
+excerpt: First time shooting with Adrianna. So pretty - loved that she is happy pulling faces. The Andover Studio, Andover, UK.
+---
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9510.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9527.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9520.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9480.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9646.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9632.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9671.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9736.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9713.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9674.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9773.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9753.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9777.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9789.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9836.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9826.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9794.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9819.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9822.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9866.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9858.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9872.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9886.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9897.avif' alt='Portrait of Adrianna by Darren Shaw' %}
+{% include image_slideshow.html path='images/photo/2026-september-adrianna/DMS9892.avif' alt='Portrait of Adrianna by Darren Shaw' %}

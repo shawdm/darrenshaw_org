@@ -6,7 +6,7 @@ date_written: 2026-02-28 13:00:00 +0000
 location: Manchester, UK
 categories: [photo]
 tags: [ photo ]
-excerpt: Studio portraits with Olivia, The Photocove, Manchester, UK
+excerpt: Studio portraits with Olivia, The Photocove, Manchester, UK.
 ---
 {% include image_slideshow.html path='images/photo/2026-february-olivia/DMS8495.avif' alt='Portrait of model Olivia by
 Darren Shaw, Manchester, UK' %}
