@@ -15,7 +15,14 @@ Filenames cannot start with `_`.
 
 Images can be converted to avif format using ImageMagick. The following commands will convert all `.tif` files in the current directory to `.avif`. 
 ```
-magick mogrify -format avif *.tif
+magick mogrify -delete 1--1 -format avif *.tif
+```
+
+For avif files to make sure just a single frame is used.
+```
+for f in *.tif; do
+  magick "${f}[0]" "${f%.tif}.avif"
+done
 ```
 
 # Favicons

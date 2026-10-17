@@ -1,0 +1,29 @@
+---
+layout: photo-slideshow
+title: "Eric Liyah Kane - September 2026"
+seo_title: "Eric Liyah Kane, Portrait Shoot by Darren Shaw | Romsey, UK"
+date_written: 2026-09-28 14:00:00 +0000
+categories: [photo]
+tags: [ photo ]
+excerpt: Will always want to shoot with Eric Liyah Kane. This time in a hotel near Romsey, UK.
+---
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9012.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9031.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9033.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9039.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9066.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9075.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9079.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9137.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9148.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9149.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9154.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9164.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9246.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9277.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9308.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9436.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9443.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9451.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+{% include image_slideshow.html path='images/photo/2026-september-eric/DMS9386.avif' alt='Portrait of Eric by Darren Shaw, Romsey, UK' %}
+
