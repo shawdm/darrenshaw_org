@@ -5,7 +5,6 @@ Jekyll based site for darrenshaw.org
 The `design` directory contains
 * inprogress site visual designs
 * artwork for posts
-* fonts
 * photoshop processors for image resizing
 
 # Images
@@ -27,6 +26,9 @@ done
 
 # Favicons
 Created at https://favicon.io
+
+# Font
+* [Inter](https://github.com/rsms/inter)
 
 # Development
 
